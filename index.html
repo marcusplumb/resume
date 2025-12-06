@@ -2,134 +2,487 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Your Name – Resume</title>
+  <title>Your Name – Online Resume</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+    :root {
+      --bg: #f5f5f5;
+      --card-bg: #ffffff;
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
+      margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 16px;
+      background: radial-gradient(circle at top, #e5f2ff 0, #f5f5f5 40%);
+      color: var(--text);
       line-height: 1.6;
-      background: #f5f5f5;
     }
+
+    .page {
+      max-width: 1000px;
+      margin: 32px auto 40px;
+      padding: 0 16px;
+    }
+
     .card {
-      background: #fff;
-      padding: 24px;
-      border-radius: 12px;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+      background: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+      padding: 24px 24px 32px;
+      border: 1px solid rgba(148, 163, 184, 0.25);
     }
-    h1, h2, h3 {
-      margin-top: 0;
+
+    @media (min-width: 768px) {
+      .card {
+        padding: 32px 36px 36px;
+      }
     }
+
+    /* Header */
+
     .header {
       display: flex;
       flex-wrap: wrap;
+      gap: 16px;
       justify-content: space-between;
-      gap: 8px;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 12px;
-      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 20px;
     }
-    .name-title {
-      font-size: 1.8rem;
-      font-weight: 700;
+
+    .name-block {
+      min-width: 220px;
     }
+
+    .name {
+      font-size: 1.9rem;
+      font-weight: 750;
+      letter-spacing: 0.02em;
+    }
+
+    .title {
+      font-size: 1rem;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .contact {
+      font-size: 0.9rem;
+      text-align: left;
+    }
+
+    @media (min-width: 640px) {
+      .contact {
+        text-align: right;
+      }
+    }
+
     .contact a {
+      color: var(--accent);
       text-decoration: none;
     }
-    .section {
-      margin-top: 20px;
+
+    .contact a:hover {
+      text-decoration: underline;
     }
+
+    .tagline {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    /* Tabs */
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4px;
+    }
+
+    .tab-button {
+      border: none;
+      background: transparent;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      color: var(--muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      position: relative;
+    }
+
+    .tab-button span.dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--border);
+    }
+
+    .tab-button.active {
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .tab-button.active span.dot {
+      background: var(--accent);
+    }
+
+    .tab-button:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* Tab content */
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.18s ease-out;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      margin: 0 0 8px;
+    }
+
+    .section-intro {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .item {
+      margin-bottom: 16px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: #f9fafb;
+    }
+
     .item-header {
       display: flex;
       justify-content: space-between;
       gap: 8px;
       font-weight: 600;
+      font-size: 0.95rem;
     }
+
     .item-sub {
-      font-size: 0.9rem;
-      color: #555;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 2px;
     }
+
     ul {
-      margin-top: 6px;
-      padding-left: 20px;
+      margin: 6px 0 0;
+      padding-left: 18px;
+      font-size: 0.9rem;
+    }
+
+    li + li {
+      margin-top: 3px;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .pill {
+      font-size: 0.8rem;
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #f9fafb;
+      color: var(--muted);
+    }
+
+    .note {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 10px;
+    }
+
+    .download-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+
+    .download-link a {
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .download-link a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <header class="header">
-      <div>
-        <div class="name-title">Your Name</div>
-        <div>Job Title | Location</div>
-      </div>
-      <div class="contact">
-        <div><a href="mailto:you@email.com">you@email.com</a></div>
-        <div><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></div>
-        <div><a href="https://github.com/yourusername" target="_blank">GitHub</a></div>
-      </div>
-    </header>
-
-    <section class="section">
-      <h2>Summary</h2>
-      <p>
-        2–3 sentences summarizing who you are, what you do, and what you’re looking for.
-      </p>
-    </section>
-
-    <section class="section">
-      <h2>Experience</h2>
-
-      <div class="item">
-        <div class="item-header">
-          <span>Role Title – Company</span>
-          <span>2023 – Present</span>
+  <main class="page">
+    <section class="card">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="name-block">
+          <div class="name">Your Name</div>
+          <div class="title">Your Current Role or Target Role</div>
+          <p class="tagline">
+            Short one-liner about what you do and what you’re best at
+            (e.g., “Real estate & credit analyst focusing on data-driven investment decisions.”).
+          </p>
         </div>
-        <div class="item-sub">City, Country</div>
-        <ul>
-          <li>Achievement or responsibility with numbers/results.</li>
-          <li>Another bullet focused on impact.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          <span>Previous Role – Company</span>
-          <span>2020 – 2023</span>
+        <div class="contact">
+          <div><a href="mailto:you@email.com">you@email.com</a></div>
+          <div><a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></div>
+          <div><a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></div>
+          <!-- Optional: PDF resume in the repo -->
+          <!-- <div class="download-link">
+            <span>📄</span>
+            <a href="Your_Resume.pdf" target="_blank">Download PDF resume</a>
+          </div> -->
         </div>
-        <div class="item-sub">City, Country</div>
-        <ul>
-          <li>Relevant bullet #1.</li>
-          <li>Relevant bullet #2.</li>
-        </ul>
-      </div>
-    </section>
+      </header>
 
-    <section class="section">
-      <h2>Projects</h2>
-      <div class="item">
-        <div class="item-header">
-          <span>Project Name</span>
-          <span>Tech / Tools</span>
+      <!-- TABS -->
+      <nav class="tabs" aria-label="Resume sections">
+        <button class="tab-button active" data-tab="about">
+          <span class="dot"></span>
+          About
+        </button>
+        <button class="tab-button" data-tab="experience">
+          <span class="dot"></span>
+          Experience
+        </button>
+        <button class="tab-button" data-tab="projects">
+          <span class="dot"></span>
+          Projects
+        </button>
+        <button class="tab-button" data-tab="education">
+          <span class="dot"></span>
+          Education & Certs
+        </button>
+        <button class="tab-button" data-tab="skills">
+          <span class="dot"></span>
+          Skills
+        </button>
+      </nav>
+
+      <!-- TAB: ABOUT -->
+      <section class="tab-content active" id="about" tabindex="0">
+        <h2>About</h2>
+        <p class="section-intro">
+          A short professional summary. 3–4 sentences that answer:
+          who you are, what you’ve done, and what you’re looking for.
+        </p>
+        <p>
+          Example: “I’m a finance professional with experience across fund accounting,
+          development finance, and real estate investments. I enjoy building clean
+          models and automation that make teams faster and more accurate. Right now
+          I’m focused on roles in asset management, acquisitions, and investment analysis.”
+        </p>
+      </section>
+
+      <!-- TAB: EXPERIENCE -->
+      <section class="tab-content" id="experience" tabindex="0">
+        <h2>Experience</h2>
+        <p class="section-intro">
+          Highlight 2–4 most relevant roles. Focus on measurable impact, not job duties.
+        </p>
+
+        <article class="item">
+          <div class="item-header">
+            <span>Your Title – Company</span>
+            <span>2023 – Present</span>
+          </div>
+          <div class="item-sub">City, Country · Full-time</div>
+          <ul>
+            <li>Led X process resulting in Y% improvement / $ impact.</li>
+            <li>Built [tool/report/model] to automate [task], saving N hours per month.</li>
+            <li>Partnered with [team] to [result].</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <div class="item-header">
+            <span>Previous Title – Company</span>
+            <span>2020 – 2023</span>
+          </div>
+          <div class="item-sub">City, Country</div>
+          <ul>
+            <li>Managed [portfolio / process] of $XM+, ensuring [quality / timeliness].</li>
+            <li>Implemented [change] that reduced errors by Y% or accelerated close by N days.</li>
+          </ul>
+        </article>
+
+        <p class="note">
+          Tip: keep bullets tight & outcome-focused (“improved X by Y% by doing Z”).
+        </p>
+      </section>
+
+      <!-- TAB: PROJECTS -->
+      <section class="tab-content" id="projects" tabindex="0">
+        <h2>Personal & Portfolio Projects</h2>
+        <p class="section-intro">
+          Use this to show work that isn’t obvious from your job titles:
+          coding, dashboards, investment memos, case studies, etc.
+        </p>
+
+        <article class="item">
+          <div class="item-header">
+            <span>Project Name – Short Description</span>
+            <span>Tech / Tools</span>
+          </div>
+          <ul>
+            <li>
+              One sentence on what it does and who it’s for.
+              (Optional: link to GitHub repo, PDF, or live demo.)
+            </li>
+            <li>
+              One sentence on results or what you learned.
+            </li>
+          </ul>
+          <div class="pill-row">
+            <span class="pill">Excel / VBA</span>
+            <span class="pill">Python</span>
+            <span class="pill">Financial Modeling</span>
+          </div>
+        </article>
+
+        <article class="item">
+          <div class="item-header">
+            <span>Another Project</span>
+            <span>e.g., Power BI, SQL</span>
+          </div>
+          <ul>
+            <li>Explain the problem, your approach, and outcome in 1–2 bullets.</li>
+          </ul>
+        </article>
+
+        <p class="note">
+          You can link directly to GitHub repos, Google Drive case studies,
+          or slide decks here.
+        </p>
+      </section>
+
+      <!-- TAB: EDUCATION -->
+      <section class="tab-content" id="education" tabindex="0">
+        <h2>Education & Certifications</h2>
+        <p class="section-intro">
+          Keep this neat and factual. Move certs here too.
+        </p>
+
+        <article class="item">
+          <div class="item-header">
+            <span>Degree / Program – School</span>
+            <span>Year – Year</span>
+          </div>
+          <div class="item-sub">Location (optional)</div>
+          <ul>
+            <li>Major / concentration, key achievements, GPA (if strong and recent).</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <div class="item-header">
+            <span>Certification Name – Organization</span>
+            <span>Year</span>
+          </div>
+          <ul>
+            <li>Short note if relevant (e.g., level passed, area of focus).</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- TAB: SKILLS -->
+      <section class="tab-content" id="skills" tabindex="0">
+        <h2>Skills</h2>
+        <p class="section-intro">
+          Group skills in a way that matches the roles you’re targeting.
+        </p>
+        <div class="item">
+          <strong>Technical</strong>
+          <div class="pill-row">
+            <span class="pill">Excel / Google Sheets</span>
+            <span class="pill">VBA / Macros</span>
+            <span class="pill">Python</span>
+            <span class="pill">SQL</span>
+            <span class="pill">Power BI / Tableau</span>
+          </div>
         </div>
-        <ul>
-          <li>One sentence about what it does and why it’s impressive.</li>
-        </ul>
-      </div>
+        <div class="item">
+          <strong>Finance / Domain</strong>
+          <div class="pill-row">
+            <span class="pill">Financial Modeling</span>
+            <span class="pill">Valuation (DCF / Comps)</span>
+            <span class="pill">Real Estate Finance</span>
+            <span class="pill">Fund Accounting</span>
+          </div>
+        </div>
+        <div class="item">
+          <strong>Other</strong>
+          <div class="pill-row">
+            <span class="pill">Stakeholder Communication</span>
+            <span class="pill">Process Improvement</span>
+            <span class="pill">Documentation / SOPs</span>
+          </div>
+        </div>
+      </section>
     </section>
+  </main>
 
-    <section class="section">
-      <h2>Education & Certifications</h2>
-      <p><strong>Degree / Program</strong> – School (Year)</p>
-      <p><strong>Certification</strong> – Organization (Year)</p>
-    </section>
+  <script>
+    const tabButtons = document.querySelectorAll(".tab-button");
+    const tabContents = document.querySelectorAll(".tab-content");
 
-    <section class="section">
-      <h2>Skills</h2>
-      <p><strong>Technical:</strong> Skill A, Skill B, Skill C</p>
-      <p><strong>Other:</strong> Communication, leadership, etc.</p>
-    </section>
-  </div>
+    tabButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const target = button.getAttribute("data-tab");
+
+        // Switch active button
+        tabButtons.forEach((btn) => btn.classList.remove("active"));
+        button.classList.add("active");
+
+        // Switch active tab content
+        tabContents.forEach((tab) => {
+          if (tab.id === target) {
+            tab.classList.add("active");
+            tab.focus();
+          } else {
+            tab.classList.remove("active");
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
