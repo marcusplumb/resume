@@ -246,6 +246,45 @@
     .download-link a:hover {
       text-decoration: underline;
     }
+      .project-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .project-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #111827;
+      color: #f9fafb;
+      font-size: 0.9rem;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.08s ease-out, box-shadow 0.08s ease-out, background 0.08s ease-out;
+    }
+
+    .project-button:hover {
+      background: #1f2937;
+      box-shadow: 0 6px 14px rgba(15, 23, 42, 0.25);
+      transform: translateY(-1px);
+    }
+
+    .project-button span.label {
+      font-weight: 500;
+    }
+
+    .project-button span.sub {
+      font-size: 0.8rem;
+      opacity: 0.9;
+      margin-left: 6px;
+    }
+
+    
   </style>
 </head>
 <body>
@@ -353,46 +392,42 @@
       <section class="tab-content" id="projects" tabindex="0">
         <h2>Personal & Portfolio Projects</h2>
         <p class="section-intro">
-          Use this to show work that isn’t obvious from your job titles:
-          coding, dashboards, investment memos, case studies, etc.
+          Click a project below to open a PDF case study or deck in a new tab.
         </p>
-
-        <article class="item">
-          <div class="item-header">
-            <span>Project Name – Short Description</span>
-            <span>Tech / Tools</span>
+      
+        <div class="item">
+          <p style="margin: 0 0 8px;">
+            These are examples – update the names and PDF file paths to match your actual projects.
+          </p>
+      
+          <div class="project-buttons">
+            <!-- Button 1 -->
+            <a href="Build-A-Bear Workshop Equity Research Project June 2025.pdf" class="project-button" target="_blank" rel="noopener">
+              <span class="label">Project 1</span>
+              <span class="sub">Excel / Financial Model</span>
+            </a>
+      
+            <!-- Button 2 -->
+            <a href="Project_2.pdf" class="project-button" target="_blank" rel="noopener">
+              <span class="label">Project 2</span>
+              <span class="sub">Automation / Python</span>
+            </a>
+      
+            <!-- Button 3 -->
+            <a href="Project_3.pdf" class="project-button" target="_blank" rel="noopener">
+              <span class="label">Project 3</span>
+              <span class="sub">Dashboard / Reporting</span>
+            </a>
           </div>
-          <ul>
-            <li>
-              One sentence on what it does and who it’s for.
-              (Optional: link to GitHub repo, PDF, or live demo.)
-            </li>
-            <li>
-              One sentence on results or what you learned.
-            </li>
-          </ul>
-          <div class="pill-row">
-            <span class="pill">Excel / VBA</span>
-            <span class="pill">Python</span>
-            <span class="pill">Financial Modeling</span>
-          </div>
-        </article>
-
-        <article class="item">
-          <div class="item-header">
-            <span>Another Project</span>
-            <span>e.g., Power BI, SQL</span>
-          </div>
-          <ul>
-            <li>Explain the problem, your approach, and outcome in 1–2 bullets.</li>
-          </ul>
-        </article>
-
+        </div>
+      
         <p class="note">
-          You can link directly to GitHub repos, Google Drive case studies,
-          or slide decks here.
+          To add more projects, just duplicate one of the
+          <code>&lt;a href="..." class="project-button"&gt;...&lt;/a&gt;</code>
+          blocks and update the file name and labels.
         </p>
       </section>
+
 
       <!-- TAB: EDUCATION -->
       <section class="tab-content" id="education" tabindex="0">
