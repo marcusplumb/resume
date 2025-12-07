@@ -283,6 +283,33 @@
       opacity: 0.9;
       margin-left: 6px;
     }
+        .item-main {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .edu-logo {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      object-fit: contain;
+      flex-shrink: 0;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      padding: 2px;
+    }
+
+    .item ul a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .item ul a:hover {
+      text-decoration: underline;
+    }
+
 
     
   </style>
@@ -322,10 +349,6 @@
           <span class="dot"></span>
           Projects
         </button>
-        <button class="tab-button" data-tab="education">
-          <span class="dot"></span>
-          Education & Certs
-        </button>
         <button class="tab-button" data-tab="skills">
           <span class="dot"></span>
           Skills
@@ -342,32 +365,53 @@
         <p>
           I work across the intersection of real estate, credit, and fund finance. Building models, analyzing cash flows, and supporting valuation work for investment vehicles. 
           I also have strong IFRS financial reporting experience and a genuine interest in investment research, particularly in public equities and real estate (see the Projects tab for examples).
-        </p>
+        </p><h2>Education & Certifications</h2>
 
-
-        <h2>Education & Certifications</h2>
         <article class="item">
           <div class="item-header">
-            <span>Honours Bachelor of Accounting and Financial Management – University of Waterloo</span>
+            <div class="item-main">
+              <img
+                src="University_of_Waterloo_seal.jpg"
+                alt="University of Waterloo logo"
+                class="edu-logo"
+              />
+              <span>Honours Bachelor of Accounting and Financial Management – University of Waterloo</span>
+            </div>
             <span>2019 – 2024</span>
           </div>
           <div class="item-sub">Financial Markets Specialization - Co-operative Program</div>
           <ul>
-            <li>Built a strong foundation in capital markets and corporate finance through coursework in Equities, Fixed Income, Derivatives, Mergers & Acquisitions, Business Strategy, 
-              Corporate Governance & Risk Management, Management of Financial Institutions, Financial Statement Analysis, and Computer Science.</li>
+            <li>
+              Built a strong foundation in capital markets and corporate finance through coursework in Equities, Fixed Income,
+              Derivatives, Mergers &amp; Acquisitions, Business Strategy, Corporate Governance &amp; Risk Management,
+              Management of Financial Institutions, Financial Statement Analysis, and Computer Science.
+            </li>
           </ul>
         </article>
-
+        
         <article class="item">
           <div class="item-header">
-            <span>CFA Institute Program</span>
+            <div class="item-main">
+              <img
+                src="cfa_level_i.png"
+                alt="CFA Program logo"
+                class="edu-logo"
+              />
+              <span>CFA Institute Program</span>
+            </div>
             <span>2025</span>
           </div>
           <ul>
-            <li>Passed Level I of the CFA Program</li>
+            <li>
+              <a href="https://credentials.cfainstitute.org/64c19fe7-b6bc-46b3-8629-a7382288e2e5#acc.1kRBauln"
+                 target="_blank" rel="noopener">
+                Passed Level I of the CFA Program
+              </a>
+            </li>
             <li>Level II candidate in the CFA Program (Nov 2025 exam completed; results pending Jan 2026)</li>
           </ul>
         </article>
+
         
       </section>
 
