@@ -290,8 +290,8 @@
     }
 
     .edu-logo {
-      width: 56px;
-      height: 56px;
+      width: 40px;
+      height: 40px;
       border-radius: 6px;
       object-fit: contain;
       flex-shrink: 0;
@@ -310,6 +310,76 @@
       text-decoration: underline;
     }
 
+    .project-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .ticker-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 8px;
+      margin-left: 4px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.7);
+      background: rgba(15, 23, 42, 0.9);
+      font-size: 0.8rem;
+      color: #e5e7eb;
+      white-space: nowrap;
+    }
+
+    .project-button img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 6px;   /* optional */
+  object-fit: contain;  /* keep the logo from getting squished */
+  flex-shrink: 0;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 999px;   /* circular */
+  object-fit: cover;      /* nicely cropped */
+  flex-shrink: 0;
+  border: 2px solid rgba(148, 163, 184, 0.5);
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.18);
+}
+
+@media (max-width: 640px) {
+  .profile-photo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.metrics {
+  font-size: 0.8rem;        /* Rating + Target */
+  color: white;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.metrics-main {
+  /* Rating + Target line stays 0.8rem via .metrics */
+}
+
+.metrics-published {
+  margin-top: 2px;
+  font-size: 0.6rem;        /* Smaller Published line */
+}
+
+
+
+
 
     
   </style>
@@ -319,21 +389,20 @@
     <section class="card">
       <!-- HEADER -->
       <header class="header">
-        <div class="name-block">
-          <div class="name">Marcus Plumb</div>
-          <div class="title">Investment focused Analyst </div>
+        <div class="header-left">
+          <img src="profile_photo.jfif" alt="Photo of Marcus Plumb" class="profile-photo">
+          <div class="name-block">
+            <div class="name">Marcus Plumb</div>
+            <div class="title">Investment focused Analyst</div>
+          </div>
         </div>
         <div class="contact">
           <div><a href="mailto:marcusmplumb@gmail.com">marcusmplumb@gmail.com</a></div>
           <div><a href="https://www.linkedin.com/in/marcusplumb/" target="_blank">linkedin.com/in/marcusplumb</a></div>
           <div><a href="https://marcusplumb.github.io/resume/" target="_blank">Toronto, ON</a></div>
-          <!-- Optional: PDF resume in the repo -->
-          <!-- <div class="download-link">
-            <span>📄</span>
-            <a href="Your_Resume.pdf" target="_blank">Download PDF resume</a>
-          </div> -->
         </div>
       </header>
+      
 
       <!-- TABS -->
       <nav class="tabs" aria-label="Resume sections">
@@ -371,13 +440,13 @@
           <div class="item-header">
             <div class="item-main">
               <img
-                src="University_of_Waterloo_seal.svg.png"
+                src="University_of_Waterloo_seal.svg (1).png"
                 alt="University of Waterloo logo"
                 class="edu-logo"
               />
               <span>Honours Bachelor of Accounting and Financial Management – University of Waterloo</span>
             </div>
-            <span>2019 – 2024</span>
+            <span>2019 – 2023</span>
           </div>
           <div class="item-sub">Financial Markets Specialization - Co-operative Program</div>
           <ul>
@@ -393,7 +462,7 @@
           <div class="item-header">
             <div class="item-main">
               <img
-                src="cfa_level_i.png"
+                src="179615231.png"
                 alt="CFA Program logo"
                 class="edu-logo"
               />
@@ -418,37 +487,38 @@
       <!-- TAB: EXPERIENCE -->
       <section class="tab-content" id="experience" tabindex="0">
         <h2>Experience</h2>
-        <p class="section-intro">
-          Highlight 2–4 most relevant roles. Focus on measurable impact, not job duties.
-        </p>
 
         <article class="item">
           <div class="item-header">
-            <span>Your Title – Company</span>
+            <span>Associate (Analyst) - Hazelview Investments Inc.</span>
             <span>2023 – Present</span>
           </div>
-          <div class="item-sub">City, Country · Full-time</div>
+          <div class="item-sub">Toronto, Ontario</div>
           <ul>
-            <li>Led X process resulting in Y% improvement / $ impact.</li>
-            <li>Built [tool/report/model] to automate [task], saving N hours per month.</li>
-            <li>Partnered with [team] to [result].</li>
-          </ul>
+            <li>Manage cash flow planning for multiple real estate debt and development funds by determining the timing and quantum of capital calls and facility draws, collaborating with investment teams to forecast project costs and loan fundings.</li>
+            <li>Support the calculation and review of IRRs and performance fees for fund- and asset-level promote structures, including multi-tier waterfalls and high watermark provisions used to allocate carried interest to GPs.</li>
+            <li>Assist in preparing monthly valuation committee decks for senior leadership, reviewing third-party appraisals and distilling changes in valuation assumptions into clear analysis of fair value and NAV impacts for investors.</li>
+            <li>Prepare IFRS financial statements and audit support packages for multiple real estate funds, leveraging IFRS 9 expected credit loss frameworks and IFRS 13 / IAS 40 valuation guidance to ensure accurate measurement of credit exposures and investment properties.</li>
+            <li>Perform covenant testing for a portfolio of loans, and prepare annual and quarterly compliance certificates and reporting packages for lenders.</li>
+        </ul>
         </article>
 
         <article class="item">
           <div class="item-header">
-            <span>Previous Title – Company</span>
-            <span>2020 – 2023</span>
+            <span>Co-op – Hazelview Investments Inc.</span>
+            <span>September 2022 – April 2023</span>
           </div>
-          <div class="item-sub">City, Country</div>
+          <div class="item-sub">Toronto, Ontario</div>
           <ul>
-            <li>Managed [portfolio / process] of $XM+, ensuring [quality / timeliness].</li>
-            <li>Implemented [change] that reduced errors by Y% or accelerated close by N days.</li>
+            <li>Support of NAV processes, investor reporting and budgeting across public, private debt and equity funds.</li>
+            <li>Assist with fund financial audits and preperation of executive summaries for senior management.</li>
+            <li>Coordinate with various third party stakeholders for property performance investigation and commentary.</li>
+            <li>Built automation tools using Excel, VBA and Python to improve efficiency of processing, reporting and accuracy.</li>
           </ul>
         </article>
 
         <p class="note">
-          Tip: keep bullets tight & outcome-focused (“improved X by Y% by doing Z”).
+          Previous co-op experience at St. Joseph Communications available upon request.
         </p>
       </section>
 
@@ -460,52 +530,107 @@
         </p>
       
         <div class="item">
-          <p style="margin: 0 0 8px;">
-            These are examples – update the names and PDF file paths to match your actual projects.
-          </p>
-      
+            <h2>Public Equities Projects</h2>
           <div class="project-buttons">
             <!-- Button 1 -->
             <a href="Build-A-Bear Workshop Equity Research Project June 2025.pdf" class="project-button" target="_blank" rel="noopener">
-              <span class="label">Project 1</span>
-              <span class="sub">Build-a-Bear Research Project</span>
-            </a>
-      
+                <img src="Build-A-Bear_Workshop_2013_logo.png" alt="Build-A-Bear logo">
+                <div class="project-text">
+                  <span class="label">Stock Research – Build-a-Bear</span>
+                  <span class="sub">
+                    Live price:
+                    <span class="ticker-badge" data-ticker-symbol="BBW">
+                      loading…
+                    </span>
+                  </span>
+                  <span class="metrics">
+                    <span class="metrics-main">
+                      <strong>Rating:</strong> Buy
+                      <strong>Target:</strong> $63.00
+                    </span>
+                    <span class="metrics-published">
+                      <strong>Published:</strong> June 15, 2025
+                    </span>
+                  </span>
+                </div>
+              </a>
             <!-- Button 2 -->
-            <a href="Project_2.pdf" class="project-button" target="_blank" rel="noopener">
-              <span class="label">Project 2</span>
-              <span class="sub">Project 2</span>
-            </a>
-      
-            <!-- Button 3 -->
-            <a href="Project_3.pdf" class="project-button" target="_blank" rel="noopener">
-              <span class="label">Project 3</span>
-              <span class="sub">Project 2</span>
-            </a>
+            <a href="Gamestop Corporation Equity Research Project December 2025.pdf" class="project-button" target="_blank" rel="noopener">
+                <img src="cropped_circle_image (2).png" alt="Gamestop logo">
+                <div class="project-text">
+                  <span class="label">Stock Research – Gamestop</span>
+                  <span class="sub">
+                    Live price:
+                    <span class="ticker-badge" data-ticker-symbol="GME">
+                      loading…
+                    </span>
+                  </span>
+                  <span class="metrics">
+                    <span class="metrics-main">
+                      <strong>Rating:</strong> Hold (Speculative Buy)
+                      <strong>Target:</strong> $25.00
+                    </span>
+                    <span class="metrics-published">
+                      <strong>Published:</strong> December 7, 2025
+                    </span>
+                </div>
+              </a>
+              <!-- Button 3 -->
+              <a href=".pdf" class="project-button" target="_blank" rel="noopener">
+                  <img src="cropped_circle_image (1).png" alt="Minto logo">
+                  <div class="project-text">
+                    <span class="label">Stock Research – Minto REIT</span>
+                    <span class="sub">
+                      Live price:
+                      <span class="ticker-badge" data-ticker-symbol="MI-UN.TO">
+                        loading…
+                      </span>
+                    </span>
+                  </div>
+                </a>
           </div>
         </div>
-      
-        <p class="note">
-          To add more projects, just duplicate one of the
-          <code>&lt;a href="..." class="project-button"&gt;...&lt;/a&gt;</code>
-          blocks and update the file name and labels.
-        </p>
+        <div class="item">
+            <h2>Other Projects</h2>
+          <div class="project-buttons">
+            <!-- Button 1 -->
+            <a href=".pdf" class="project-button" target="_blank" rel="noopener">
+                <img src="cashflow.png" alt="Build-A-Bear logo">
+                <div class="project-text">
+                  <span class="label">Debt Cash Flow Tracking Tool</span>
+                  <span class="metrics">
+                    <span class="metrics-main">
+                      <strong>Excel</strong> (Click to download)
+                    </span>
+                  </span>
+                </div>
+              </a>
+            <!-- Button 2 -->
+            <a href=".xlsx" class="project-button" target="_blank" rel="noopener">
+                <img src="waterfall.png" alt="Build-A-Bear logo">
+                <div class="project-text">
+                  <span class="label">Waterfall Calculation Tool</span>
+                  <span class="metrics">
+                    <span class="metrics-main">
+                      <strong>Excel</strong> (Click to download)
+                    </span>
+                  </span>
+                </div>
+              </a>
+          </div>
+        </div>
       </section>
 
       <!-- TAB: SKILLS -->
       <section class="tab-content" id="skills" tabindex="0">
         <h2>Skills</h2>
-        <p class="section-intro">
-          Group skills in a way that matches the roles you’re targeting.
-        </p>
         <div class="item">
           <strong>Technical</strong>
           <div class="pill-row">
             <span class="pill">Excel / Google Sheets</span>
             <span class="pill">VBA / Macros</span>
             <span class="pill">Python</span>
-            <span class="pill">SQL</span>
-            <span class="pill">Power BI / Tableau</span>
+            <span class="pill">HTML</span>
           </div>
         </div>
         <div class="item">
@@ -515,6 +640,8 @@
             <span class="pill">Valuation (DCF / Comps)</span>
             <span class="pill">Real Estate Finance</span>
             <span class="pill">Fund Accounting</span>
+            <span class="pill">Expected Credit Loss</span>
+            <span class="pill">Cash Flow Modeling</span>
           </div>
         </div>
         <div class="item">
@@ -553,5 +680,49 @@
       });
     });
   </script>
+
+<script>
+    // 1) Put your own API key here
+    const STOCK_API_KEY = "Y0X9MB5C8T3VW67R";
+  
+    async function fetchStockPrice(symbol) {
+      const url =
+        "https://www.alphavantage.co/query" +
+        "?function=GLOBAL_QUOTE" +
+        "&symbol=" + encodeURIComponent(symbol) +
+        "&apikey=" + STOCK_API_KEY;
+  
+      const response = await fetch(url);
+      const data = await response.json();
+  
+      // Alpha Vantage returns price under "Global Quote" -> "05. price"
+      const quote = data["Global Quote"];
+      if (!quote || !quote["05. price"]) {
+        throw new Error("Price not found for " + symbol);
+      }
+  
+      const price = parseFloat(quote["05. price"]);
+      return price.toFixed(2); // 2 decimal places
+    }
+  
+    document.addEventListener("DOMContentLoaded", () => {
+      const tickerSpans = document.querySelectorAll(".ticker-badge[data-ticker-symbol]");
+  
+      tickerSpans.forEach(async (el) => {
+        const symbol = el.getAttribute("data-ticker-symbol");
+        try {
+          el.textContent = symbol + ": loading…";
+  
+          const price = await fetchStockPrice(symbol);
+          el.textContent = symbol + ": $" + price;
+        } catch (err) {
+          console.error(err);
+          el.textContent = symbol + ": N/A";
+        }
+      });
+    });
+  </script>
+  
+
 </body>
 </html>
