@@ -256,7 +256,7 @@
     .project-button {
       display: inline-flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       padding: 8px 16px;
       border-radius: 999px;
       border: 1px solid var(--border);
@@ -266,7 +266,12 @@
       text-decoration: none;
       cursor: pointer;
       transition: transform 0.08s ease-out, box-shadow 0.08s ease-out, background 0.08s ease-out;
+
+      /* NEW: make all pills the same width per row */
+      flex: 1 1 320px;   /* base width ~320px, all share row space equally */
+      box-sizing: border-box;
     }
+
 
     .project-button:hover {
       background: #1f2937;
@@ -576,7 +581,7 @@
                 </div>
               </a>
               <!-- Button 3 -->
-              <a href=".pdf" class="project-button" target="_blank" rel="noopener">
+              <!-- <a href=".pdf" class="project-button" target="_blank" rel="noopener">
                   <img src="cropped_circle_image (1).png" alt="Minto logo">
                   <div class="project-text">
                     <span class="label">Stock Research – Minto REIT</span>
@@ -587,7 +592,7 @@
                       </span>
                     </span>
                   </div>
-                </a>
+                </a> -->
           </div>
         </div>
         <div class="item">
