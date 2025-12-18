@@ -760,46 +760,13 @@
   </script>
 
 
-  <script>
-  // --- CONFIG ----------------------------------------------------
-
+<script>
   const STOCK_API_KEY = "Y0X9MB5C8T3VW67R";
 
-  const MODEL_PORTFOLIO = [
-    {
-      ticker: "BBW",
-      name: "Build-A-Bear Workshop",
-      rating: "Buy",
-      published: "2025-06-15",
-      shares: 2335,
-      entryPriceCents: 5000,   // $50.00 entry
-      targetPriceCents: 6300   // $63.00 target
-    },
-    {
-      ticker: "GME",
-      name: "GameStop Corp.",
-      rating: "Hold",
-      published: "2025-12-07",
-      shares: 5000,
-      entryPriceCents: 2335,   // $23.35 entry
-      targetPriceCents: 2500   // $25.00 target
-    }
-  ];
+  const PRICE_CACHE = {}; // { symbol: "18.37", ... }
 
-  // --- HELPERS ---------------------------------------------------
-
-  const PRICE_CACHE = {}; // { "BBW": "xx.xx", ... }
-
-  function formatDollars(cents) {
-    return "$" + (cents / 100).toFixed(2);
-  }
-
-  function formatPercent(x) {
-    return x.toFixed(1) + "%";
-  }
-
-  // Fetch stock price (string like "18.37") with caching + logging
   async function fetchStockPrice(symbol) {
+    // Use cache if we already fetched this ticker
     if (PRICE_CACHE[symbol]) {
       return PRICE_CACHE[symbol];
     }
@@ -819,11 +786,14 @@
     const data = await response.json();
     console.log("Alpha Vantage response for", symbol, data);
 
-    // Alpha Vantage rate-limit / error handling
+    // Handle common Alpha Vantage messages
     if (data["Note"]) {
+      // Hit rate limit / quota
       throw new Error(`Rate limit / note for ${symbol}: ${data["Note"]}`);
     }
+
     if (data["Error Message"]) {
+      // Invalid symbol / key / function, etc.
       throw new Error(`API error for ${symbol}: ${data["Error Message"]}`);
     }
 
@@ -835,132 +805,31 @@
     }
 
     const price = parseFloat(priceStr);
-    const fixed = price.toFixed(2); // "18.37"
+    const fixed = price.toFixed(2); // e.g. "18.37"
 
     PRICE_CACHE[symbol] = fixed;
     return fixed;
   }
 
-  // --- TICKER BADGES ---------------------------------------------
+  // Update the little ticker pills in your project buttons
+  document.addEventListener("DOMContentLoaded", () => {
+    const tickerSpans = document.querySelectorAll(".ticker-badge[data-ticker-symbol]");
 
-  async function updateTickerBadges() {
-    const tickerSpans = document.querySelectorAll(
-      ".ticker-badge[data-ticker-symbol]"
-    );
-
-    for (const el of tickerSpans) {
+    tickerSpans.forEach(async (el) => {
       const symbol = el.getAttribute("data-ticker-symbol");
       try {
         el.textContent = symbol + ": loading…";
+
         const price = await fetchStockPrice(symbol);
         el.textContent = symbol + ": $" + price;
       } catch (err) {
         console.error("Ticker error:", err);
         el.textContent = symbol + ": N/A";
       }
-    }
-  }
-
-  // --- MODEL PORTFOLIO TABLE ------------------------------------
-
-  async function renderModelPortfolio() {
-    const tableBody = document.querySelector("#portfolio-table tbody");
-    if (!tableBody) return;
-    tableBody.innerHTML = "";
-
-    // 1) Fetch live prices for all tickers (will use cache if already fetched)
-    const livePricesCents = {}; // { ticker: cents | null }
-
-    await Promise.all(
-      MODEL_PORTFOLIO.map(async (idea) => {
-        try {
-          const livePriceStr = await fetchStockPrice(idea.ticker);
-          livePricesCents[idea.ticker] = Math.round(
-            parseFloat(livePriceStr) * 100
-          );
-        } catch (err) {
-          console.error("Error fetching price for", idea.ticker, err);
-          livePricesCents[idea.ticker] = null;
-        }
-      })
-    );
-
-    // 2) Compute total current portfolio value
-    let totalMarketValueCents = 0;
-    MODEL_PORTFOLIO.forEach((idea) => {
-      const live = livePricesCents[idea.ticker];
-      if (live != null) {
-        totalMarketValueCents += live * idea.shares;
-      }
     });
-
-    // 3) Build rows
-    MODEL_PORTFOLIO.forEach((idea) => {
-      const row = document.createElement("tr");
-
-      const entry = idea.entryPriceCents;
-      const target = idea.targetPriceCents;
-      const shares = idea.shares;
-      const live = livePricesCents[idea.ticker];
-
-      let returnPct = null;
-      let upsidePct = null;
-      let weightPct = null;
-      let liveText = "N/A";
-      let weightText = "N/A";
-
-      if (live != null) {
-        liveText = formatDollars(live);
-
-        // Return since entry (per share)
-        returnPct = ((live - entry) / entry) * 100;
-
-        // Upside/downside to target
-        upsidePct = ((target - live) / live) * 100;
-
-        // Position value & portfolio weight using current price
-        const positionValueCents = live * shares;
-
-        if (totalMarketValueCents > 0) {
-          weightPct = (positionValueCents / totalMarketValueCents) * 100;
-          weightText = formatPercent(weightPct);
-        }
-      }
-
-      const pnlClass =
-        returnPct == null
-          ? ""
-          : returnPct >= 0
-          ? "pnl-positive"
-          : "pnl-negative";
-
-      row.innerHTML = `
-        <td>${idea.ticker}</td>
-        <td>${idea.name}</td>
-        <td>${idea.rating}</td>
-        <td>${shares}</td>
-        <td>${idea.published}</td>
-        <td>${formatDollars(entry)}</td>
-        <td>${liveText}</td>
-        <td class="${pnlClass}">
-          ${returnPct != null ? formatPercent(returnPct) : "N/A"}
-        </td>
-        <td>${weightText}</td>
-        <td>${formatDollars(target)}</td>
-        <td>${upsidePct != null ? formatPercent(upsidePct) : "N/A"}</td>
-      `;
-
-      tableBody.appendChild(row);
-    });
-  }
-
-  // --- INITIALIZE -----------------------------------------------
-
-  document.addEventListener("DOMContentLoaded", () => {
-    updateTickerBadges();
-    renderModelPortfolio();
   });
 </script>
+
 
 </body>
 </html>
