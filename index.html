@@ -829,6 +829,136 @@
     });
   });
 </script>
+<script>
+  // --- Model portfolio config -----------------------------------
+  const MODEL_PORTFOLIO = [
+    {
+      ticker: "BBW",
+      name: "Build-A-Bear Workshop",
+      rating: "Buy",
+      published: "2025-06-15",
+      shares: 2335,            // number of shares
+      entryPriceCents: 5000,   // $50.00 entry
+      targetPriceCents: 6300   // $63.00 target
+    },
+    {
+      ticker: "GME",
+      name: "GameStop Corp.",
+      rating: "Hold",
+      published: "2025-12-07",
+      shares: 5000,
+      entryPriceCents: 2335,   // $23.35 entry
+      targetPriceCents: 2500   // $25.00 target
+    }
+  ];
+
+  // --- Helpers ---------------------------------------------------
+  function formatDollars(cents) {
+    return "$" + (cents / 100).toFixed(2);
+  }
+
+  function formatPercent(x) {
+    return x.toFixed(1) + "%";
+  }
+
+  // --- Render the Model Portfolio table -------------------------
+  async function renderModelPortfolio() {
+    const tableBody = document.querySelector("#portfolio-table tbody");
+    if (!tableBody) return;
+
+    tableBody.innerHTML = "";
+
+    // 1) Fetch live prices for all tickers (uses existing fetchStockPrice)
+    const livePricesCents = {}; // { ticker: cents | null }
+
+    await Promise.all(
+      MODEL_PORTFOLIO.map(async (idea) => {
+        try {
+          const livePriceStr = await fetchStockPrice(idea.ticker);
+          livePricesCents[idea.ticker] = Math.round(
+            parseFloat(livePriceStr) * 100
+          );
+        } catch (err) {
+          console.error("Error fetching price for", idea.ticker, err);
+          livePricesCents[idea.ticker] = null;
+        }
+      })
+    );
+
+    // 2) Compute total current portfolio value
+    let totalMarketValueCents = 0;
+    MODEL_PORTFOLIO.forEach((idea) => {
+      const live = livePricesCents[idea.ticker];
+      if (live != null) {
+        totalMarketValueCents += live * idea.shares;
+      }
+    });
+
+    // 3) Build rows
+    MODEL_PORTFOLIO.forEach((idea) => {
+      const row = document.createElement("tr");
+
+      const entry = idea.entryPriceCents;
+      const target = idea.targetPriceCents;
+      const shares = idea.shares;
+      const live = livePricesCents[idea.ticker];
+
+      let returnPct = null;
+      let upsidePct = null;
+      let weightPct = null;
+      let liveText = "N/A";
+      let weightText = "N/A";
+
+      if (live != null) {
+        liveText = formatDollars(live);
+
+        // Return since entry (per share)
+        returnPct = ((live - entry) / entry) * 100;
+
+        // Upside/downside to target
+        upsidePct = ((target - live) / live) * 100;
+
+        // Position value & portfolio weight
+        const positionValueCents = live * shares;
+
+        if (totalMarketValueCents > 0) {
+          weightPct = (positionValueCents / totalMarketValueCents) * 100;
+          weightText = formatPercent(weightPct);
+        }
+      }
+
+      const pnlClass =
+        returnPct == null
+          ? ""
+          : returnPct >= 0
+          ? "pnl-positive"
+          : "pnl-negative";
+
+      row.innerHTML = `
+        <td>${idea.ticker}</td>
+        <td>${idea.name}</td>
+        <td>${idea.rating}</td>
+        <td>${shares}</td>
+        <td>${idea.published}</td>
+        <td>${formatDollars(entry)}</td>
+        <td>${liveText}</td>
+        <td class="${pnlClass}">
+          ${returnPct != null ? formatPercent(returnPct) : "N/A"}
+        </td>
+        <td>${weightText}</td>
+        <td>${formatDollars(target)}</td>
+        <td>${upsidePct != null ? formatPercent(upsidePct) : "N/A"}</td>
+      `;
+
+      tableBody.appendChild(row);
+    });
+  }
+
+  // --- Initialize on page load ----------------------------------
+  document.addEventListener("DOMContentLoaded", () => {
+    renderModelPortfolio();
+  });
+</script>
 
 
 </body>
