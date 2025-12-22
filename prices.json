@@ -1,0 +1,41 @@
+{
+  "updatedAt": "2025-12-21T21:08:53Z",
+  "symbols": {
+    "AMH": {
+      "priceCents": 3112,
+      "currency": "USD"
+    },
+    "BB": {
+      "priceCents": 377,
+      "currency": "USD"
+    },
+    "BBW": {
+      "priceCents": 5425,
+      "currency": "USD"
+    },
+    "GME": {
+      "priceCents": 2251,
+      "currency": "USD"
+    },
+    "HUT": {
+      "priceCents": 4412,
+      "currency": "USD"
+    },
+    "LNG": {
+      "priceCents": 18976,
+      "currency": "USD"
+    },
+    "NFLX": {
+      "priceCents": 9439,
+      "currency": "USD"
+    },
+    "SOFI": {
+      "priceCents": 2724,
+      "currency": "USD"
+    },
+    "SPY": {
+      "priceCents": 68059,
+      "currency": "USD"
+    }
+  }
+}

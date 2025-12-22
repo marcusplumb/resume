@@ -1,0 +1,143 @@
+{
+  "startingCashCents": 100000000,
+  "positions": [
+    {
+      "ticker": "BBW",
+      "name": "Build-A-Bear Workshop",
+      "rating": "Buy",
+      "published": "2025-06-15",
+      "targetPriceCents": 6300,
+      "nextEarnings": "2026-03-12",
+      "currency": "USD"
+    },
+    {
+      "ticker": "GME",
+      "name": "GameStop Corp.",
+      "rating": "Hold (Speculative Buy)",
+      "published": "2025-12-07",
+      "targetPriceCents": 2500,
+      "nextEarnings": "2026-03-24",
+      "currency": "USD"
+    },
+    {
+      "ticker": "BB",
+      "name": "Blackberry Ltd.",
+      "rating": "Buy/Sell",
+      "published": "TBD",
+      "targetPriceCents": 300,
+      "nextEarnings": "2026-04-09",
+      "currency": "USD"
+    },
+    {
+      "ticker": "SOFI",
+      "name": "SoFi Technologies, Inc.",
+      "rating": "Buy/Sell",
+      "published": "TBD",
+      "targetPriceCents": 2400,
+      "nextEarnings": "2026-01-26",
+      "currency": "USD"
+    },
+    {
+      "ticker": "HUT",
+      "name": "Hut 8 Corp",
+      "rating": "Buy/Sell",
+      "published": "TBD",
+      "targetPriceCents": 3000,
+      "nextEarnings": "2026-03-25",
+      "currency": "USD"
+    },
+    {
+      "ticker": "AMH",
+      "name": "American Homes 4 Rent",
+      "rating": "Buy/Sell",
+      "published": "TBD",
+      "targetPriceCents": 0,
+      "nextEarnings": "2026-02-19",
+      "currency": "USD"
+    },
+    {
+      "ticker": "LNG",
+      "name": "Cheniere Energy Inc.",
+      "rating": "Buy/Sell",
+      "published": "TBD",
+      "targetPriceCents": 0,
+      "nextEarnings": "2026-02-19",
+      "currency": "USD"
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix Inc.",
+      "rating": "Buy/Sell",
+      "published": "TBD",
+      "targetPriceCents": 0,
+      "nextEarnings": "2026-01-20",
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2025-06-15",
+      "ticker": "BBW",
+      "type": "BUY",
+      "shares": 2335,
+      "priceCents": 5000,
+      "note": "Initiated position"
+    },
+    {
+      "date": "2025-08-20",
+      "ticker": "BBW",
+      "type": "SELL",
+      "shares": 450,
+      "priceCents": 5388,
+      "note": "Trimmed position"
+    },
+    {
+      "date": "2025-08-28",
+      "ticker": "BBW",
+      "type": "SELL",
+      "shares": 1200,
+      "priceCents": 6300,
+      "note": "Target reached, trimmed position"
+    },
+    {
+      "date": "2025-10-29",
+      "ticker": "SOFI",
+      "type": "SELL",
+      "shares": 2100,
+      "priceCents": 3050,
+      "note": "Initiated position"
+    },
+    {
+      "date": "2025-12-04",
+      "ticker": "BBW",
+      "type": "BUY",
+      "shares": 2000,
+      "priceCents": 4900,
+      "note": "Topped up position"
+    },
+    {
+      "date": "2025-12-07",
+      "ticker": "GME",
+      "type": "BUY",
+      "shares": 5000,
+      "priceCents": 2335,
+      "note": "Speculative allocation"
+    },
+    {
+      "date": "2025-12-19",
+      "ticker": "BB",
+      "type": "SELL",
+      "shares": 10000,
+      "priceCents": 375,
+      "note": "Initiated position"
+    },
+    {
+      "date": "2025-11-05",
+      "ticker": "HUT",
+      "type": "SELL",
+      "shares": 1000,
+      "priceCents": 4700,
+      "note": "Initiated position"
+    }
+  ]
+}
