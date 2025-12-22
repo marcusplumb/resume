@@ -28,7 +28,7 @@
     }
 
     .page {
-      max-width: 1000px;
+      max-width: 1200px;
       margin: 32px auto 40px;
       padding: 0 16px;
     }
@@ -45,6 +45,15 @@
       .card {
         padding: 32px 36px 36px;
       }
+    }
+
+    /* Sticky header + tabs wrapper */
+    .top-shell {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: var(--card-bg);
+      padding-top: 4px;
     }
 
     /* Header */
@@ -148,15 +157,12 @@
       outline-offset: 2px;
     }
 
-    /* Tab content */
+    /* Sections (no longer hidden, we scroll between them) */
 
     .tab-content {
-      display: none;
       animation: fadeIn 0.18s ease-out;
-    }
-
-    .tab-content.active {
-      display: block;
+      margin-top: 16px;
+      scroll-margin-top: 140px; /* leaves space for sticky header+tabs */
     }
 
     @keyframes fadeIn {
@@ -246,7 +252,8 @@
     .download-link a:hover {
       text-decoration: underline;
     }
-      .project-buttons {
+
+    .project-buttons {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
@@ -266,12 +273,9 @@
       text-decoration: none;
       cursor: pointer;
       transition: transform 0.08s ease-out, box-shadow 0.08s ease-out, background 0.08s ease-out;
-
-      /* NEW: make all pills the same width per row */
-      flex: 1 1 320px;   /* base width ~320px, all share row space equally */
+      flex: 1 1 320px;
       box-sizing: border-box;
     }
-
 
     .project-button:hover {
       background: #1f2937;
@@ -288,7 +292,8 @@
       opacity: 0.9;
       margin-left: 6px;
     }
-        .item-main {
+
+    .item-main {
       display: flex;
       align-items: center;
       gap: 8px;
@@ -335,152 +340,188 @@
     }
 
     .project-button img {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-  border-radius: 6px;   /* optional */
-  object-fit: contain;  /* keep the logo from getting squished */
-  flex-shrink: 0;
-}
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      border-radius: 6px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
 
-.profile-photo {
-  width: 90px;
-  height: 90px;
-  border-radius: 999px;   /* circular */
-  object-fit: cover;      /* nicely cropped */
-  flex-shrink: 0;
-  border: 2px solid rgba(148, 163, 184, 0.5);
-  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.18);
-}
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
 
-@media (max-width: 640px) {
-  .profile-photo {
-    width: 60px;
-    height: 60px;
-  }
-}
+    .profile-photo {
+      width: 90px;
+      height: 90px;
+      border-radius: 999px;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 2px solid rgba(148, 163, 184, 0.5);
+      box-shadow: 0 4px 10px rgba(15, 23, 42, 0.18);
+    }
 
-.metrics {
-  font-size: 0.8rem;        /* Rating + Target */
-  color: white;
-  margin-top: 3px;
-  display: flex;
-  flex-direction: column;
-}
+    @media (max-width: 640px) {
+      .profile-photo {
+        width: 60px;
+        height: 60px;
+      }
+    }
 
-.metrics-published {
-  margin-top: 2px;
-  font-size: 0.6rem;        /* Smaller Published line */
-}
-.portfolio-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.85rem;
-}
+    .metrics {
+      font-size: 0.8rem;
+      color: white;
+      margin-top: 3px;
+      display: flex;
+      flex-direction: column;
+    }
 
-.portfolio-table th,
-.portfolio-table td {
-  padding: 6px 8px;
-  border-bottom: 1px solid var(--border);
-  text-align: right;
-}
+    .metrics-published {
+      margin-top: 2px;
+      font-size: 0.6rem;
+    }
 
-.portfolio-table th:first-child,
-.portfolio-table td:first-child,
-.portfolio-table th:nth-child(2),
-.portfolio-table td:nth-child(2) {
-  text-align: left;
-}
+    .portfolio-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
 
-.portfolio-table th {
-  font-weight: 600;
-  color: var(--muted);
-}
+    .portfolio-table th,
+    .portfolio-table td {
+      padding: 6px 8px;
+      border-bottom: 1px solid var(--border);
+      text-align: right;
+    }
 
-.pnl-positive {
-  color: #16a34a;
-  font-weight: 500;
-}
+    .portfolio-table th:first-child,
+    .portfolio-table td:first-child,
+    .portfolio-table th:nth-child(2),
+    .portfolio-table td:nth-child(2) {
+      text-align: left;
+    }
 
-.pnl-negative {
-  color: #dc2626;
-  font-weight: 500;
-}
+    .portfolio-table th {
+      font-weight: 600;
+      color: var(--muted);
+    }
 
+    .pnl-positive {
+      color: #16a34a;
+      font-weight: 500;
+    }
 
+    .pnl-negative {
+      color: #dc2626;
+      font-weight: 500;
+    }
 
+    .tx-type-buy {
+      color: #16a34a;
+      font-weight: 600;
+    }
 
+    .tx-type-sell {
+      color: #dc2626;
+      font-weight: 600;
+    }
 
-    
+    .fund-facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 10px 0 16px;
+    }
+
+    .fund-fact {
+      flex: 1 1 180px;
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: #f9fafb;
+    }
+
+    .fund-fact-label {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 2px;
+    }
+
+    .fund-fact-value {
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   <main class="page">
     <section class="card">
-      <!-- HEADER -->
-      <header class="header">
-        <div class="header-left">
-          <img src="profile_photo.jfif" alt="Photo of Marcus Plumb" class="profile-photo">
-          <div class="name-block">
-            <div class="name">Marcus Plumb</div>
-            <div class="title">Investment focused Analyst</div>
+      <div class="top-shell">
+        <!-- HEADER -->
+        <header class="header">
+          <div class="header-left">
+            <img src="images/profile_photo.jfif" alt="Photo of Marcus Plumb" class="profile-photo">
+            <div class="name-block">
+              <div class="name">Marcus Plumb</div>
+              <div class="title">Investment focused Analyst</div>
+            </div>
           </div>
-        </div>
-        <div class="contact">
-          <div><a href="mailto:marcusmplumb@gmail.com">marcusmplumb@gmail.com</a></div>
-          <div><a href="https://www.linkedin.com/in/marcusplumb/" target="_blank">linkedin.com/in/marcusplumb</a></div>
-          <div><a href="https://marcusplumb.github.io/resume/" target="_blank">Toronto, ON</a></div>
-        </div>
-      </header>
-      
+          <div class="contact">
+            <div><a href="mailto:marcusmplumb@gmail.com">marcusmplumb@gmail.com</a></div>
+            <div><a href="https://www.linkedin.com/in/marcusplumb/" target="_blank">linkedin.com/in/marcusplumb</a></div>
+            <div><a href="https://marcusplumb.github.io/resume/" target="_blank">Toronto, ON</a></div>
+          </div>
+        </header>
 
-      <!-- TABS -->
-      <nav class="tabs" aria-label="Resume sections">
-        <button class="tab-button active" data-tab="about">
-          <span class="dot"></span>
-          About
-        </button>
-        <button class="tab-button" data-tab="experience">
-          <span class="dot"></span>
-          Experience
-        </button>
-        <button class="tab-button" data-tab="projects">
-          <span class="dot"></span>
-          Projects
-        </button>
-        <button class="tab-button" data-tab="skills">
-          <span class="dot"></span>
-          Skills
-        </button>
-        <button class="tab-button" data-tab="portfolio">
-  <span class="dot"></span>
-  Model Portfolio
-</button>
-
-      </nav>
+        <!-- TABS -->
+        <nav class="tabs" aria-label="Resume sections">
+          <button class="tab-button active" data-tab="about">
+            <span class="dot"></span>
+            About
+          </button>
+          <button class="tab-button" data-tab="experience">
+            <span class="dot"></span>
+            Experience
+          </button>
+          <button class="tab-button" data-tab="projects">
+            <span class="dot"></span>
+            Projects
+          </button>
+          <button class="tab-button" data-tab="portfolio">
+            <span class="dot"></span>
+            Model Portfolio
+          </button>
+          <button class="tab-button" data-tab="skills">
+            <span class="dot"></span>
+            Skills
+          </button>
+        </nav>
+      </div>
 
       <!-- TAB: ABOUT -->
-      <section class="tab-content active" id="about" tabindex="0">
+      <section class="tab-content" id="about" tabindex="0">
         <h2>About</h2>
-        <p class="section-intro">
-          Analytically driven problem solver with a growing passion for investment decision-making, grounded in research, modeling, and structured thinking.
-          Actively seeking an opportunity to learn from an experienced platform and support the process of turning complex opportunities into clear investment views.
-        </p>
         <p>
-          I work across the intersection of real estate, credit, and fund finance. Building models, analyzing cash flows, and supporting valuation work for investment vehicles. 
-          I also have strong IFRS financial reporting experience and a genuine interest in investment research, particularly in public equities and real estate (see the Projects tab for examples).
-        </p><h2>Education & Certifications</h2>
+        I am an analytically driven aspiring investor with experience in real estate funds, credit, and IFRS reporting, and a growing focus on public markets. 
+        I spend a lot of my time tracking and keeping up to date with my personal investments. I built this site myself to push myself to share 
+        investment ideas more publicly and to track a hypothetical portfolio for fun and learning, and it serves as a place to showcase how I think 
+        through research, valuation, and portfolio construction.
+        </p>
+
+        <h2>Education & Certifications</h2>
 
         <article class="item">
           <div class="item-header">
             <div class="item-main">
               <img
-                src="University_of_Waterloo_seal.svg (1).png"
+                src="images/University_of_Waterloo_seal.svg (1).png"
                 alt="University of Waterloo logo"
                 class="edu-logo"
               />
@@ -502,7 +543,7 @@
           <div class="item-header">
             <div class="item-main">
               <img
-                src="179615231.png"
+                src="images/179615231.png"
                 alt="CFA Program logo"
                 class="edu-logo"
               />
@@ -520,8 +561,6 @@
             <li>Level II candidate in the CFA Program (Nov 2025 exam completed; results pending Jan 2026)</li>
           </ul>
         </article>
-
-        
       </section>
 
       <!-- TAB: EXPERIENCE -->
@@ -535,12 +574,15 @@
           </div>
           <div class="item-sub">Toronto, Ontario</div>
           <ul>
-            <li>Manage cash flow planning for multiple real estate debt and development funds by determining the timing and quantum of capital calls and facility draws, collaborating with investment teams to forecast project costs and loan fundings.</li>
-            <li>Support the calculation and review of IRRs and performance fees for fund- and asset-level promote structures, including multi-tier waterfalls and high watermark provisions used to allocate carried interest to GPs.</li>
-            <li>Assist in preparing monthly valuation committee decks for senior leadership, reviewing third-party appraisals and distilling changes in valuation assumptions into clear analysis of fair value and NAV impacts for investors.</li>
-            <li>Prepare IFRS financial statements and audit support packages for multiple real estate funds, leveraging IFRS 9 expected credit loss frameworks and IFRS 13 / IAS 40 valuation guidance to ensure accurate measurement of credit exposures and investment properties.</li>
-            <li>Perform covenant testing for a portfolio of loans, and prepare annual and quarterly compliance certificates and reporting packages for lenders.</li>
-        </ul>
+            <li>Manage fund-level liquidity for three private real estate vehicles ($1.5B+ AUM) by forecasting cash needs, sizing and timing equity calls, and coordinating credit facility draws to fund investments and meet upcoming obligations </li>
+            <li>Oversee cash flow and lender reporting for 8 active development projects ($1.3B+ budget), including job costing, cost consultant reporting, and scheduling draws to ensure timely vendor payments and compliance with loan requirements</li>
+            <li>Support the calculation and review of IRRs and performance fees for fund- and asset-level promote structures, including multi-tier waterfalls and high watermark provisions used to allocate carried interest to GPs</li>
+            <li>Produce investment valuation commentary decks for monthly valuation committee: summarized third-party appraisals, key assumption moves (cap rates, NOI, lease-up timing, discount rates) & translated them into fair value impacts for leadership</li>
+            <li>Prepare IFRS financial statements and audit support packages for funds, leveraging IFRS 9 expected credit loss frameworks and IFRS 13 / IAS 40 valuation guidance to ensure accurate measurement of credit exposures and investment properties</li>
+          
+            <li>Monitor credit agreements & covenants (DSCR, LTV, debt yield, reporting requirements) across a portfolio of 30+ loans/ $400M+ exposure; prepared compliance certificates and lender reporting packs (borrower & lender perspective)</li>
+            <li>Independently developed Excel/VBA/Python tools to streamline reporting, reflecting a genuine interest in automation and process improvement </li>
+          </ul>
         </article>
 
         <article class="item">
@@ -570,396 +612,912 @@
         </p>
       
         <div class="item">
-            <h2>Public Equities Projects</h2>
+          <h2>Public Equities Projects</h2>
           <div class="project-buttons">
             <!-- Button 1 -->
             <a href="Build-A-Bear Workshop Equity Research Project June 2025.pdf" class="project-button" target="_blank" rel="noopener">
-                <img src="Build-A-Bear_Workshop_2013_logo.png" alt="Build-A-Bear logo">
-                <div class="project-text">
-                  <span class="label">Stock Research – Build-a-Bear</span>
-                  <span class="sub">
-                    Live price:
-                    <span class="ticker-badge" data-ticker-symbol="BBW">
-                      loading…
-                    </span>
+              <img src="images/Build-A-Bear_Workshop_2013_logo.png" alt="Build-A-Bear logo">
+              <div class="project-text">
+                <span class="label">Stock Research – Build-a-Bear</span>
+                <span class="sub">
+                  Live price:
+                  <span class="ticker-badge" data-ticker-symbol="BBW">
+                    loading…
                   </span>
-                  <span class="metrics">
-                    <span class="metrics-main">
-                      <strong>Rating:</strong> Buy
-                      <strong>Target:</strong> $63.00
-                    </span>
-                    <span class="metrics-published">
-                      <strong>Published:</strong> June 15, 2025
-                    </span>
+                </span>
+                <span class="metrics">
+                  <span class="metrics-main">
+                    <strong>Rating:</strong> Buy
+                    <strong>Target:</strong> $63.00
                   </span>
-                </div>
-              </a>
+                  <span class="metrics-published">
+                    <strong>Published:</strong> June 15, 2025
+                  </span>
+                </span>
+              </div>
+            </a>
             <!-- Button 2 -->
             <a href="Gamestop Corporation Equity Research Project December 2025.pdf" class="project-button" target="_blank" rel="noopener">
-                <img src="cropped_circle_image (2).png" alt="Gamestop logo">
-                <div class="project-text">
-                  <span class="label">Stock Research – Gamestop</span>
-                  <span class="sub">
-                    Live price:
-                    <span class="ticker-badge" data-ticker-symbol="GME">
-                      loading…
-                    </span>
+              <img src="images/cropped_circle_image (2).png" alt="Gamestop logo">
+              <div class="project-text">
+                <span class="label">Stock Research – Gamestop</span>
+                <span class="sub">
+                  Live price:
+                  <span class="ticker-badge" data-ticker-symbol="GME">
+                    loading…
                   </span>
-                  <span class="metrics">
-                    <span class="metrics-main">
-                      <strong>Rating:</strong> Hold (Speculative Buy)
-                      <strong>Target:</strong> $25.00
-                    </span>
-                    <span class="metrics-published">
-                      <strong>Published:</strong> December 7, 2025
-                    </span>
+                </span>
+                <span class="metrics">
+                  <span class="metrics-main">
+                    <strong>Rating:</strong> Hold (Speculative Buy)
+                    <strong>Target:</strong> $25.00
                   </span>
-                  </div>
-              </a>
-              <!-- Button 3 -->
-              <!-- <a href=".pdf" class="project-button" target="_blank" rel="noopener">
-                  <img src="cropped_circle_image (1).png" alt="Minto logo">
-                  <div class="project-text">
-                    <span class="label">Stock Research – Minto REIT</span>
-                    <span class="sub">
-                      Live price:
-                      <span class="ticker-badge" data-ticker-symbol="MI-UN.TO">
-                        loading…
-                      </span>
-                    </span>
-                  </div>
-                </a> -->
-          </div>
-        </div>
-        <div class="item">
-            <h2>Other Projects</h2>
-          <div class="project-buttons">
-            <!-- Button 1 -->
-            <a href=".pdf" class="project-button" target="_blank" rel="noopener">
-                <img src="cashflow.png" alt="Build-A-Bear logo">
-                <div class="project-text">
-                  <span class="label">Debt Cash Flow Tracking Tool</span>
-                  <span class="metrics">
-                    <span class="metrics-main">
-                      <strong>Excel</strong> (Click to download)
-                    </span>
+                  <span class="metrics-published">
+                    <strong>Published:</strong> December 7, 2025
                   </span>
-                </div>
-              </a>
-            <!-- Button 2 -->
-            <a href=".xlsx" class="project-button" target="_blank" rel="noopener">
-                <img src="waterfall.png" alt="Build-A-Bear logo">
-                <div class="project-text">
-                  <span class="label">Waterfall Calculation Tool</span>
-                  <span class="metrics">
-                    <span class="metrics-main">
-                      <strong>Excel</strong> (Click to download)
-                    </span>
-                  </span>
-                </div>
-              </a>
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
 
+      <!-- TAB: PORTFOLIO -->
       <section class="tab-content" id="portfolio" tabindex="0">
-  <h2>Model Portfolio</h2>
-  <p class="section-intro">
-    High-conviction ideas with live pricing. Returns are shown from the initial
-    “publish” price to the latest market price.
-  </p>
-<!-- TAB: PORTFOLIO -->
-  <table class="portfolio-table" id="portfolio-table">
-    <thead>
-      <tr>
-        <th>Ticker</th>
-        <th>Name</th>
-        <th>Rating</th>
-        <th>Shares</th>
-        <th>Published</th>
-        <th>Entry</th>
-        <th>Live</th>
-        <th>Return</th>
-        <th>Weight</th>
-        <th>Target</th>
-        <th>Upside</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- filled by JS -->
-    </tbody>
-  </table>
+        <h2>Model Portfolio</h2>
+        <p class="section-intro">
+          Below is a model portfolio based on personal equity research projects <em>(see Projects tab)</em><br>
+          Target return for this portfolio is 10%-12%, weighted by expected return relative to risk and maximum weight of 15% for each stock<br>
+          This project is currently a work in progress - I plan to write clear investment thesis for each individual stock allocation and then maintain stock coverage for each earnings report
+        </p>
 
+        <!-- Fund Facts -->
+        <div class="fund-facts">
+          <div class="fund-fact">
+            <span class="fund-fact-label">Total Return</span>
+            <span class="fund-fact-value" id="fund-total-return">—</span>
+          </div>
+          <div class="fund-fact">
+            <span class="fund-fact-label">IRR (Annualized)</span>
+            <span class="fund-fact-value" id="fund-irr">—</span>
+          </div>
+          <div class="fund-fact">
+            <span class="fund-fact-label">Current NAV</span>
+            <span class="fund-fact-value" id="fund-nav">—</span>
+          </div>
+          <div class="fund-fact">
+            <span class="fund-fact-label">Fund Beta</span>
+            <span class="fund-fact-value" id="fund-beta">—</span>
+          </div>
+        </div>
 
-  <p class="note">
-    Prices update when the page loads. This is a research portfolio for demonstration only.
-  </p>
-</section>
+        <canvas id="portfolio-chart" height="140"></canvas>
 
+        <!-- Current holdings table -->
+        <table class="portfolio-table" id="portfolio-table">
+          <thead>
+            <tr>
+              <th>Ticker</th>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Shares</th>
+              <th>Cost</th>
+              <th>Live</th>
+              <th>Return</th>
+              <th>Weight</th>
+              <th>Target</th>
+              <th>Upside</th>
+              <th>Next Earnings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- filled by JS -->
+          </tbody>
+        </table>
+
+        <!-- Transactions table -->
+        <h3>Transactions</h3>
+        <table class="portfolio-table" id="transactions-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Ticker</th>
+              <th>Type</th>
+              <th>Shares</th>
+              <th>Price</th>
+              <th>Value</th>
+              <th>Note</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- filled by JS -->
+          </tbody>
+        </table>
+
+        <p class="note">
+          Prices update when the page loads. This is a research portfolio for demonstration only.
+        </p>
+      </section>
 
       <!-- TAB: SKILLS -->
-      <section class="tab-content" id="skills" tabindex="0">
-        <h2>Skills</h2>
-        <div class="item">
-          <strong>Technical</strong>
-          <div class="pill-row">
-            <span class="pill">Excel / Google Sheets</span>
-            <span class="pill">VBA / Macros</span>
-            <span class="pill">Python</span>
-            <span class="pill">HTML</span>
-          </div>
-        </div>
-        <div class="item">
-          <strong>Finance / Domain</strong>
-          <div class="pill-row">
-            <span class="pill">Financial Modeling</span>
-            <span class="pill">Valuation (DCF / Comps)</span>
-            <span class="pill">Real Estate Finance</span>
-            <span class="pill">Fund Accounting</span>
-            <span class="pill">Expected Credit Loss</span>
-            <span class="pill">Cash Flow Modeling</span>
-          </div>
-        </div>
-        <div class="item">
-          <strong>Other</strong>
-          <div class="pill-row">
-            <span class="pill">Stakeholder Communication</span>
-            <span class="pill">Process Improvement</span>
-            <span class="pill">Documentation / SOPs</span>
-          </div>
-        </div>
-      </section>
-    </section>
-    
-  </main>
-  
+<section class="tab-content" id="skills" tabindex="0">
+  <h2>Skills</h2>
 
+  <div class="item">
+    <strong>Technical</strong>
+      <p class="section-intro">
+        I use Excel and Google Sheets as modeling environments rather than just spreadsheets—building linked
+        financial models, dashboards, and reconciliations that are designed to be audited and reused. I regularly
+        automate workflows with VBA/macros and Python to cut down manual work (e.g., pulling data, transforming it,
+        and generating reports). On the web side, I’m comfortable with basic HTML and front-end structure, which
+        I’ve used to build this resume site, integrate live data, and present research projects more interactively.
+      </p>
+      <div class="pill-row">
+        <span class="pill">Excel / Google Sheets</span>
+        <span class="pill">Advanced Formulas & Modeling</span>
+        <span class="pill">VBA / Macros</span>
+        <span class="pill">Python (Automation / Scripts)</span>
+        <span class="pill">Power Query / Data Cleaning</span>
+        <span class="pill">APIs / Data Fetching</span>
+        <span class="pill">HTML / Front-end Basics</span>
+        <span class="pill">Version Control (Git / GitHub)</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <strong>Finance / Domain</strong>
+      <p class="section-intro">
+        My core experience is in real estate and fund finance: working with NAVs, cash flow forecasting, promote
+        structures, waterfall calculations, and debt/loan covenants (LTV, DSCR, and other coverage tests). I’ve
+        prepared and reviewed IFRS-based financial statements and support expected credit loss modeling under IFRS 9,
+        as well as fair value work under IFRS 13 / IAS 40. On the public markets side, I build valuation models
+        (DCF and comparables), write equity research-style reports, and track performance through a model portfolio
+        framework that links thesis, pricing, and ongoing monitoring.
+      </p>
+      <div class="pill-row">
+        <span class="pill">Financial Modeling</span>
+        <span class="pill">Valuation (DCF / Comps)</span>
+        <span class="pill">Public Equities Research</span>
+        <span class="pill">Real Estate Finance</span>
+        <span class="pill">Real Estate Development / PUD</span>
+        <span class="pill">Fund Accounting & NAV</span>
+        <span class="pill">Expected Credit Loss (IFRS 9)</span>
+        <span class="pill">Fair Value / IFRS 13 / IAS 40</span>
+        <span class="pill">Loan Covenants (LTV, DSCR)</span>
+        <span class="pill">Cash Flow Modeling</span>
+        <span class="pill">Portfolio Construction / Monitoring</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <strong>Other</strong>
+      <p class="section-intro">
+        I’m used to working with multiple stakeholder groups—investment teams, finance, external appraisers, auditors,
+        and lenders—and translating technical analysis into clear, decision-useful summaries. I’m very process-focused:
+        I like turning ad hoc tasks into repeatable workflows by building checklists, SOPs, templates, and documentation
+        so that others can follow the same process. Overall, I try to combine that structure with clear communication so
+        that models, memos, and tools are intuitive for the next person who touches them.
+      </p>
+      <div class="pill-row">
+        <span class="pill">Stakeholder Communication</span>
+        <span class="pill">Cross-functional Collaboration</span>
+        <span class="pill">Process Improvement</span>
+        <span class="pill">Documentation / SOPs</span>
+        <span class="pill">Audit & Controls Mindset</span>
+        <span class="pill">Working with Appraisers / Auditors</span>
+        <span class="pill">Training / Knowledge Transfer</span>
+        <span class="pill">Attention to Detail</span>
+      </div>
+    </div>
+  </section>
+
+    </section>
+  </main>
+
+  <!-- Tabs: now scroll + scrollspy instead of show/hide -->
   <script>
     const tabButtons = document.querySelectorAll(".tab-button");
-    const tabContents = document.querySelectorAll(".tab-content");
+    const tabSections = document.querySelectorAll(".tab-content");
+    const topShell = document.querySelector(".top-shell");
 
+    function setActiveTabById(id) {
+      tabButtons.forEach((btn) => {
+        const target = btn.getAttribute("data-tab");
+        if (target === id) {
+          btn.classList.add("active");
+        } else {
+          btn.classList.remove("active");
+        }
+      });
+    }
+
+    // Click => smooth scroll to section
     tabButtons.forEach((button) => {
-      button.addEventListener("click", () => {
-        const target = button.getAttribute("data-tab");
+      const targetId = button.getAttribute("data-tab");
+      const targetEl = document.getElementById(targetId);
+      if (!targetEl) return;
 
-        // Switch active button
-        tabButtons.forEach((btn) => btn.classList.remove("active"));
-        button.classList.add("active");
-
-        // Switch active tab content
-        tabContents.forEach((tab) => {
-          if (tab.id === target) {
-            tab.classList.add("active");
-            tab.focus();
-          } else {
-            tab.classList.remove("active");
-          }
-        });
+      button.addEventListener("click", (e) => {
+        e.preventDefault();
+        targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+        setActiveTabById(targetId);
       });
     });
+
+    // --- Smooth, non-glitchy scrollspy based on scroll position -----
+
+    let scrollRafId = null;
+
+    function handleScroll() {
+      const headerOffset = (topShell?.offsetHeight || 0) + 16; // a bit of padding
+      const scrollPos = window.scrollY + headerOffset;
+
+      let activeId = tabSections[0]?.id;
+
+      // Find the last section whose top is above the adjusted scroll position
+      for (const section of tabSections) {
+        if (section.offsetTop <= scrollPos) {
+          activeId = section.id;
+        } else {
+          break;
+        }
+      }
+
+      if (activeId) {
+        setActiveTabById(activeId);
+      }
+    }
+
+    window.addEventListener("scroll", () => {
+      if (scrollRafId !== null) {
+        cancelAnimationFrame(scrollRafId);
+      }
+      scrollRafId = requestAnimationFrame(() => {
+        handleScroll();
+        scrollRafId = null;
+      });
+    });
+
+    // Run once on load in case the page opens scrolled
+    document.addEventListener("DOMContentLoaded", handleScroll);
   </script>
 
 
-<script>
-  const STOCK_API_KEY = "Y0X9MB5C8T3VW67R";
+  <!-- Prices, portfolio table, NAV chart & fund facts (unchanged logic) -->
+  <script>
+    // --- Shared loaders / globals ------------------------------------
+    let PRICE_DB = null;
+    let PORTFOLIO_CONFIG = null;
+    let NAV_HISTORY = null; // cached NAV timeseries
 
-  const PRICE_CACHE = {}; // { symbol: "18.37", ... }
-
-  async function fetchStockPrice(symbol) {
-    // Use cache if we already fetched this ticker
-    if (PRICE_CACHE[symbol]) {
-      return PRICE_CACHE[symbol];
+    function formatBeta(beta) {
+      return beta.toFixed(2);
     }
 
-    const url =
-      "https://www.alphavantage.co/query" +
-      "?function=GLOBAL_QUOTE" +
-      "&symbol=" + encodeURIComponent(symbol) +
-      "&apikey=" + STOCK_API_KEY;
+    async function loadPriceDb() {
+      if (PRICE_DB) return PRICE_DB;
 
-    const response = await fetch(url);
-
-    if (!response.ok) {
-      throw new Error(`HTTP error ${response.status} for ${symbol}`);
-    }
-
-    const data = await response.json();
-    console.log("Alpha Vantage response for", symbol, data);
-
-    // Handle common Alpha Vantage messages
-    if (data["Note"]) {
-      // Hit rate limit / quota
-      throw new Error(`Rate limit / note for ${symbol}: ${data["Note"]}`);
-    }
-
-    if (data["Error Message"]) {
-      // Invalid symbol / key / function, etc.
-      throw new Error(`API error for ${symbol}: ${data["Error Message"]}`);
-    }
-
-    const quote = data["Global Quote"];
-    const priceStr = quote && quote["05. price"];
-
-    if (!priceStr) {
-      throw new Error("Price not found in response for " + symbol);
-    }
-
-    const price = parseFloat(priceStr);
-    const fixed = price.toFixed(2); // e.g. "18.37"
-
-    PRICE_CACHE[symbol] = fixed;
-    return fixed;
-  }
-
-  // Update the little ticker pills in your project buttons
-  document.addEventListener("DOMContentLoaded", () => {
-    const tickerSpans = document.querySelectorAll(".ticker-badge[data-ticker-symbol]");
-
-    tickerSpans.forEach(async (el) => {
-      const symbol = el.getAttribute("data-ticker-symbol");
-      try {
-        el.textContent = symbol + ": loading…";
-
-        const price = await fetchStockPrice(symbol);
-        el.textContent = symbol + ": $" + price;
-      } catch (err) {
-        console.error("Ticker error:", err);
-        el.textContent = symbol + ": N/A";
+      const res = await fetch("prices.json", { cache: "no-cache" });
+      if (!res.ok) {
+        throw new Error("Failed to load prices.json: " + res.status);
       }
-    });
-  });
-</script>
-<script>
-  // --- Model portfolio config -----------------------------------
-  const MODEL_PORTFOLIO = [
-    {
-      ticker: "BBW",
-      name: "Build-A-Bear Workshop",
-      rating: "Buy",
-      published: "2025-06-15",
-      shares: 2335,            // number of shares
-      entryPriceCents: 5000,   // $50.00 entry
-      targetPriceCents: 6300   // $63.00 target
-    },
-    {
-      ticker: "GME",
-      name: "GameStop Corp.",
-      rating: "Hold",
-      published: "2025-12-07",
-      shares: 5000,
-      entryPriceCents: 2335,   // $23.35 entry
-      targetPriceCents: 2500   // $25.00 target
+      PRICE_DB = await res.json();
+      return PRICE_DB;
     }
-  ];
 
-  // --- Helpers ---------------------------------------------------
-  function formatDollars(cents) {
-    return "$" + (cents / 100).toFixed(2);
-  }
+    async function loadPortfolioConfig() {
+      if (PORTFOLIO_CONFIG) return PORTFOLIO_CONFIG;
 
-  function formatPercent(x) {
-    return x.toFixed(1) + "%";
-  }
+      const res = await fetch("portfolio_config.json", { cache: "no-cache" });
+      if (!res.ok) {
+        throw new Error("Failed to load portfolio_config.json: " + res.status);
+      }
+      PORTFOLIO_CONFIG = await res.json();
+      return PORTFOLIO_CONFIG;
+    }
 
-  // --- Render the Model Portfolio table -------------------------
-  async function renderModelPortfolio() {
-    const tableBody = document.querySelector("#portfolio-table tbody");
-    if (!tableBody) return;
+    // --- Formatters ---------------------------------------------------
+    function formatPrice(cents) {
+      const value = cents / 100;
+      return (
+        "$" +
+        value.toLocaleString("en-CA", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2
+        })
+      );
+    }
 
-    tableBody.innerHTML = "";
+    function formatMoney0(cents) {
+      const value = cents / 100;
+      return (
+        "$" +
+        value.toLocaleString("en-CA", {
+          minimumFractionDigits: 0,
+          maximumFractionDigits: 0
+        })
+      );
+    }
 
-    // 1) Fetch live prices for all tickers (uses existing fetchStockPrice)
-    const livePricesCents = {}; // { ticker: cents | null }
+    function formatShares(n) {
+      return Number(n).toLocaleString("en-CA", {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0
+      });
+    }
 
-    await Promise.all(
-      MODEL_PORTFOLIO.map(async (idea) => {
+    function formatPercent(x) {
+      return x.toFixed(1) + "%";
+    }
+
+    // --- Latest price for badges -------------------------------------
+    async function getPriceForSymbol(symbol) {
+      const db = await loadPriceDb();
+      const symbolData = db.symbols && db.symbols[symbol];
+
+      if (!symbolData || typeof symbolData.priceCents !== "number") {
+        throw new Error("No price in prices.json for symbol " + symbol);
+      }
+
+      const priceCents = symbolData.priceCents;
+      const price = priceCents / 100;
+      return price.toFixed(2);
+    }
+
+    async function updateTickerBadges() {
+      const tickerSpans = document.querySelectorAll(
+        ".ticker-badge[data-ticker-symbol]"
+      );
+
+      for (const el of tickerSpans) {
+        const symbol = el.getAttribute("data-ticker-symbol");
         try {
-          const livePriceStr = await fetchStockPrice(idea.ticker);
-          livePricesCents[idea.ticker] = Math.round(
-            parseFloat(livePriceStr) * 100
-          );
+          el.textContent = symbol + ": loading…";
+          const price = await getPriceForSymbol(symbol);
+          el.textContent = symbol + ": $" + price;
         } catch (err) {
-          console.error("Error fetching price for", idea.ticker, err);
-          livePricesCents[idea.ticker] = null;
-        }
-      })
-    );
-
-    // 2) Compute total current portfolio value
-    let totalMarketValueCents = 0;
-    MODEL_PORTFOLIO.forEach((idea) => {
-      const live = livePricesCents[idea.ticker];
-      if (live != null) {
-        totalMarketValueCents += live * idea.shares;
-      }
-    });
-
-    // 3) Build rows
-    MODEL_PORTFOLIO.forEach((idea) => {
-      const row = document.createElement("tr");
-
-      const entry = idea.entryPriceCents;
-      const target = idea.targetPriceCents;
-      const shares = idea.shares;
-      const live = livePricesCents[idea.ticker];
-
-      let returnPct = null;
-      let upsidePct = null;
-      let weightPct = null;
-      let liveText = "N/A";
-      let weightText = "N/A";
-
-      if (live != null) {
-        liveText = formatDollars(live);
-
-        // Return since entry (per share)
-        returnPct = ((live - entry) / entry) * 100;
-
-        // Upside/downside to target
-        upsidePct = ((target - live) / live) * 100;
-
-        // Position value & portfolio weight
-        const positionValueCents = live * shares;
-
-        if (totalMarketValueCents > 0) {
-          weightPct = (positionValueCents / totalMarketValueCents) * 100;
-          weightText = formatPercent(weightPct);
+          console.error("Ticker error:", err);
+          el.textContent = symbol + ": N/A";
         }
       }
+    }
 
-      const pnlClass =
-        returnPct == null
-          ? ""
-          : returnPct >= 0
-          ? "pnl-positive"
-          : "pnl-negative";
+    // --- Holdings & cash from transactions (supports shorts) ---------
+    function computeHoldingsAndCashAtDate(cfg, date) {
+      const startingCashCents = cfg.startingCashCents ?? 0;
+      const txs = (cfg.transactions || []).slice().sort((a, b) =>
+        (a.date || "").localeCompare(b.date || "")
+      );
 
-      row.innerHTML = `
-        <td>${idea.ticker}</td>
-        <td>${idea.name}</td>
-        <td>${idea.rating}</td>
-        <td>${shares}</td>
-        <td>${idea.published}</td>
-        <td>${formatDollars(entry)}</td>
-        <td>${liveText}</td>
-        <td class="${pnlClass}">
-          ${returnPct != null ? formatPercent(returnPct) : "N/A"}
-        </td>
-        <td>${weightText}</td>
-        <td>${formatDollars(target)}</td>
-        <td>${upsidePct != null ? formatPercent(upsidePct) : "N/A"}</td>
-      `;
+      let cashCents = startingCashCents;
+      const stateBySymbol = {};
 
-      tableBody.appendChild(row);
+      txs.forEach((tx) => {
+        if (!tx.date || tx.date > date) return;
+
+        const type = (tx.type || "").toUpperCase();
+        const symbol = tx.ticker;
+        const shares = tx.shares ?? 0;
+        const priceCents = tx.priceCents ?? 0;
+
+        if (!symbol || !shares) return;
+
+        const hasPrice = priceCents && typeof priceCents === "number";
+
+        let st = stateBySymbol[symbol] || { netShares: 0, avgPriceCents: 0 };
+
+        if (type === "BUY") {
+          if (hasPrice) {
+            cashCents -= shares * priceCents;
+          }
+
+          if (st.netShares >= 0) {
+            const totalShares = st.netShares + shares;
+            if (hasPrice && totalShares !== 0) {
+              const newAvg =
+                (st.netShares * st.avgPriceCents + shares * priceCents) /
+                totalShares;
+              st.avgPriceCents = Math.round(newAvg);
+            }
+            st.netShares = totalShares;
+          } else {
+            const shortAbs = -st.netShares;
+            if (shares <= shortAbs) {
+              st.netShares = st.netShares + shares;
+              if (st.netShares === 0) {
+                st.avgPriceCents = 0;
+              }
+            } else {
+              const remaining = shares - shortAbs;
+              st.netShares = remaining;
+              if (hasPrice) {
+                st.avgPriceCents = priceCents;
+              }
+            }
+          }
+        } else if (type === "SELL") {
+          if (hasPrice) {
+            cashCents += shares * priceCents;
+          }
+
+          if (st.netShares > 0) {
+            const longShares = st.netShares;
+            if (shares <= longShares) {
+              st.netShares = longShares - shares;
+              if (st.netShares === 0) {
+                st.avgPriceCents = 0;
+              }
+            } else {
+              const extraShort = shares - longShares;
+              st.netShares = -extraShort;
+              if (hasPrice) {
+                st.avgPriceCents = priceCents;
+              }
+            }
+          } else {
+            const absBefore = Math.abs(st.netShares);
+            const newAbs = absBefore + shares;
+            if (hasPrice && newAbs !== 0) {
+              const newAvg =
+                (absBefore * st.avgPriceCents + shares * priceCents) /
+                newAbs;
+              st.avgPriceCents = Math.round(newAvg);
+            }
+            st.netShares = -newAbs;
+          }
+        }
+
+        stateBySymbol[symbol] = st;
+      });
+
+      const holdings = {};
+      const avgCostCentsBySymbol = {};
+      Object.entries(stateBySymbol).forEach(([symbol, st]) => {
+        if (st.netShares !== 0) {
+          holdings[symbol] = st.netShares;
+          if (st.avgPriceCents > 0) {
+            avgCostCentsBySymbol[symbol] = st.avgPriceCents;
+          }
+        }
+      });
+
+      return { holdings, cashCents, avgCostCentsBySymbol };
+    }
+
+    // --- Model portfolio table (long/short aware) --------------------
+    async function renderModelPortfolio() {
+      const tableBody = document.querySelector("#portfolio-table tbody");
+      if (!tableBody) return;
+
+      tableBody.innerHTML = "";
+
+      const [cfg, db] = await Promise.all([
+        loadPortfolioConfig(),
+        loadPriceDb()
+      ]);
+
+      const positions = cfg.positions || [];
+      const symbols = db.symbols || {};
+
+      const updatedAtStr = db.updatedAt || "";
+      const priceDate = updatedAtStr.slice(0, 10);
+      const todayIso = new Date().toISOString().slice(0, 10);
+      const asOfDate = priceDate || todayIso;
+
+      const {
+        holdings,
+        cashCents,
+        avgCostCentsBySymbol
+      } = computeHoldingsAndCashAtDate(cfg, asOfDate);
+
+      const livePricesCents = {};
+      let navPositionsCents = 0;
+
+      positions.forEach((idea) => {
+        const symbol = idea.ticker;
+        const symData = symbols[symbol];
+        const live =
+          symData && typeof symData.priceCents === "number"
+            ? symData.priceCents
+            : null;
+
+        livePricesCents[symbol] = live;
+
+        const netShares = holdings[symbol] ?? 0;
+        if (live != null && netShares !== 0) {
+          navPositionsCents += live * netShares;
+        }
+      });
+
+      const totalNavCents = navPositionsCents + (cashCents ?? 0);
+
+      positions.forEach((idea) => {
+        const row = document.createElement("tr");
+
+        const symbol = idea.ticker;
+        const target = idea.targetPriceCents ?? 0;
+        const netShares = holdings[symbol] ?? 0;
+        const live = livePricesCents[symbol];
+        const costCents = avgCostCentsBySymbol[symbol] ?? 0;
+
+        const absShares = Math.abs(netShares);
+        const positionLabel =
+          netShares > 0 ? "LONG" : netShares < 0 ? "SHORT" : "—";
+        const sharesDisplay =
+          absShares > 0 ? formatShares(absShares) : "-";
+
+        let liveText = "N/A";
+        let returnPct = null;
+        let upsidePct = null;
+        let weightText = "N/A";
+
+        if (live != null && absShares > 0) {
+          liveText = formatPrice(live);
+
+          if (costCents > 0) {
+            const pnlCents = (live - costCents) * netShares;
+            const investedCents = absShares * costCents;
+            returnPct = (pnlCents / investedCents) * 100;
+          }
+
+          if (live > 0 && target > 0) {
+            if (netShares > 0) {
+              upsidePct = ((target - live) / live) * 100;
+            } else if (netShares < 0) {
+              upsidePct = ((live - target) / live) * 100;
+            }
+          }
+
+          if (totalNavCents > 0) {
+            const positionNavCents = live * netShares;
+            const weightPct = (positionNavCents / totalNavCents) * 100;
+            weightText = formatPercent(weightPct);
+          }
+        }
+
+        const pnlClass =
+          returnPct == null
+            ? ""
+            : returnPct >= 0
+            ? "pnl-positive"
+            : "pnl-negative";
+
+        row.innerHTML = `
+          <td>${symbol}</td>
+          <td>${idea.name || ""}</td>
+          <td>${positionLabel}</td>
+          <td>${sharesDisplay}</td>
+          <td>${costCents ? formatPrice(costCents) : "N/A"}</td>
+          <td>${liveText}</td>
+          <td class="${pnlClass}">
+            ${returnPct != null ? formatPercent(returnPct) : "N/A"}
+          </td>
+          <td>${weightText}</td>
+          <td>${target ? formatPrice(target) : "N/A"}</td>
+          <td>${upsidePct != null ? formatPercent(upsidePct) : "N/A"}</td>
+          <td>${idea.nextEarnings || "—"}</td>
+        `;
+
+        tableBody.appendChild(row);
+      });
+
+      if (cashCents != null) {
+        const cashRow = document.createElement("tr");
+
+        let cashWeightText = "N/A";
+        if (totalNavCents > 0) {
+          const cashWeightPct = (cashCents / totalNavCents) * 100;
+          cashWeightText = formatPercent(cashWeightPct);
+        }
+
+        cashRow.innerHTML = `
+          <td>CASH</td>
+          <td>Cash</td>
+          <td>—</td>
+          <td>—</td>
+          <td>${formatMoney0(cashCents)}</td>
+          <td>—</td>
+          <td>—</td>
+          <td>${cashWeightText}</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+        `;
+
+        tableBody.appendChild(cashRow);
+      }
+    }
+
+    // --- Transactions table ------------------------------------------
+    async function renderTransactions() {
+      const tableBody = document.querySelector("#transactions-table tbody");
+      if (!tableBody) return;
+
+      tableBody.innerHTML = "";
+
+      const cfg = await loadPortfolioConfig();
+      const txs = (cfg.transactions || []).slice().sort((a, b) =>
+        (a.date || "").localeCompare(b.date || "")
+      );
+
+      txs.forEach((tx) => {
+        const row = document.createElement("tr");
+
+        const shares = tx.shares ?? 0;
+        const priceCents = tx.priceCents ?? 0;
+        const valueCents = shares * priceCents;
+        const typeRaw = tx.type || "";
+        const typeUpper = typeRaw.toUpperCase();
+
+        let typeClass = "";
+        if (typeUpper === "BUY") {
+          typeClass = "tx-type-buy";
+        } else if (typeUpper === "SELL") {
+          typeClass = "tx-type-sell";
+        }
+
+        row.innerHTML = `
+          <td>${tx.date || ""}</td>
+          <td>${tx.ticker || ""}</td>
+          <td class="${typeClass}">${typeUpper}</td>
+          <td>${formatShares(Math.abs(shares))}</td>
+          <td>${priceCents ? formatPrice(priceCents) : "N/A"}</td>
+          <td>${priceCents ? formatMoney0(valueCents) : "N/A"}</td>
+          <td>${tx.note || ""}</td>
+        `;
+
+        tableBody.appendChild(row);
+      });
+    }
+
+    // --- NAV history from prices_history.json ------------------------
+    async function computeNavHistory() {
+      if (NAV_HISTORY) return NAV_HISTORY;
+
+      const cfg = await loadPortfolioConfig();
+
+      const res = await fetch("prices_history.json", { cache: "no-cache" });
+      if (!res.ok) {
+        console.error("Failed to load prices_history.json", res.status);
+        return { dates: [], navCents: [], equityCents: [] };
+      }
+
+      const history = await res.json();
+      const symbolsHistory = history.symbols || {};
+
+      const dateSet = new Set();
+      Object.values(symbolsHistory).forEach((series) => {
+        series.forEach((p) => {
+          if (p.date) dateSet.add(p.date);
+        });
+      });
+
+      const dates = Array.from(dateSet).sort();
+      const navCents = [];
+      const equityCents = [];
+
+      dates.forEach((date) => {
+        const { holdings, cashCents } = computeHoldingsAndCashAtDate(cfg, date);
+
+        let positionsValueCents = 0;
+
+        Object.entries(holdings).forEach(([symbol, shares]) => {
+          const series = symbolsHistory[symbol] || [];
+          const point = series.find((p) => p.date === date);
+          if (!point || typeof point.priceCents !== "number") return;
+          positionsValueCents += point.priceCents * shares;
+        });
+
+        const nav = (cashCents ?? 0) + positionsValueCents;
+        navCents.push(nav);
+        equityCents.push(positionsValueCents);
+      });
+
+      NAV_HISTORY = { dates, navCents, equityCents };
+      return NAV_HISTORY;
+    }
+
+    // --- Portfolio NAV chart (NAV vs time) ---------------------------
+    async function renderPortfolioChart() {
+      const canvas = document.getElementById("portfolio-chart");
+      if (!canvas) return;
+
+      const { dates, navCents } = await computeNavHistory();
+
+      if (!dates.length) {
+        console.warn("No portfolio history to chart yet.");
+        return;
+      }
+
+      const labels = dates;
+      const navValues = navCents.map((c) => c / 100);
+
+      const ctx = canvas.getContext("2d");
+      new Chart(ctx, {
+        type: "line",
+        data: {
+          labels,
+          datasets: [
+            {
+              label: "Portfolio NAV",
+              data: navValues,
+              tension: 0.15
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            y: {
+              ticks: {
+                callback: (value) =>
+                  "$" +
+                  Number(value).toLocaleString("en-CA", {
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0
+                  })
+              }
+            }
+          }
+        }
+      });
+    }
+
+    // --- Regression beta vs SPY --------------------------------------
+    async function computeFundBetaVsSPY({ excludeCash = false } = {}) {
+      const { dates, navCents, equityCents } = await computeNavHistory();
+      if (!dates.length) return null;
+
+      const res = await fetch("prices_history.json", { cache: "no-cache" });
+      if (!res.ok) {
+        console.error("Failed to reload prices_history.json for beta", res.status);
+        return null;
+      }
+
+      const history = await res.json();
+      const symbolsHistory = history.symbols || {};
+      const spySeries = symbolsHistory["SPY"] || symbolsHistory["SPY.US"] || [];
+
+      if (!spySeries.length) {
+        console.warn("No SPY series found in prices_history.json");
+        return null;
+      }
+
+      const seriesCents = excludeCash ? equityCents : navCents;
+
+      const spyMap = new Map(
+        spySeries
+          .filter((p) => p.date && typeof p.priceCents === "number")
+          .map((p) => [p.date, p.priceCents])
+      );
+
+      const aligned = [];
+      for (let i = 0; i < dates.length; i++) {
+        const date = dates[i];
+        const portfolioVal = seriesCents[i];
+        const spyVal = spyMap.get(date);
+        if (spyVal != null && portfolioVal > 0) {
+          aligned.push({ date, portfolioCents: portfolioVal, spyCents: spyVal });
+        }
+      }
+
+      if (aligned.length < 3) {
+        console.warn("Not enough data to compute beta");
+        return null;
+      }
+
+      const portReturns = [];
+      const spyReturns = [];
+
+      for (let i = 1; i < aligned.length; i++) {
+        const prev = aligned[i - 1];
+        const curr = aligned[i];
+
+        const rP = curr.portfolioCents / prev.portfolioCents - 1;
+        const rM = curr.spyCents / prev.spyCents - 1;
+
+        portReturns.push(rP);
+        spyReturns.push(rM);
+      }
+
+      const n = spyReturns.length;
+      if (n < 2) return null;
+
+      let meanP = 0;
+      let meanM = 0;
+      for (let i = 0; i < n; i++) {
+        meanP += portReturns[i];
+        meanM += spyReturns[i];
+      }
+      meanP /= n;
+      meanM /= n;
+
+      let cov = 0;
+      let varM = 0;
+      for (let i = 0; i < n; i++) {
+        const dP = portReturns[i] - meanP;
+        const dM = spyReturns[i] - meanM;
+        cov += dP * dM;
+        varM += dM * dM;
+      }
+
+      if (n > 1) {
+        cov /= (n - 1);
+        varM /= (n - 1);
+      }
+
+      if (varM === 0) return null;
+      const beta = cov / varM;
+      return beta;
+    }
+
+    // --- Fund facts --------------------------------------------------
+    async function updateFundFacts() {
+      const navEl = document.getElementById("fund-nav");
+      const totalRetEl = document.getElementById("fund-total-return");
+      const irrEl = document.getElementById("fund-irr");
+      const betaEl = document.getElementById("fund-beta");
+
+      const { dates, navCents } = await computeNavHistory();
+
+      if (!dates.length || !navCents.length) {
+        if (navEl) navEl.textContent = "N/A";
+        if (totalRetEl) totalRetEl.textContent = "N/A";
+        if (irrEl) irrEl.textContent = "N/A";
+        if (betaEl) betaEl.textContent = "N/A";
+        return;
+      }
+
+      const nav0 = navCents[0];
+      const navN = navCents[navCents.length - 1];
+
+      let totalReturnPct = null;
+      if (nav0 > 0) {
+        totalReturnPct = ((navN - nav0) / nav0) * 100;
+      }
+
+      let irrPct = null;
+      if (nav0 > 0 && dates.length >= 2) {
+        const d0 = new Date(dates[0]);
+        const dN = new Date(dates[dates.length - 1]);
+        const msPerDay = 1000 * 60 * 60 * 24;
+        const days = (dN - d0) / msPerDay;
+        if (days > 0) {
+          const years = days / 365;
+          const irrFrac = Math.pow(navN / nav0, 1 / years) - 1;
+          irrPct = irrFrac * 100;
+        }
+      }
+
+      if (navEl) {
+        navEl.textContent = navN > 0 ? formatMoney0(navN) : "N/A";
+      }
+
+      if (totalRetEl) {
+        totalRetEl.textContent =
+          totalReturnPct != null ? formatPercent(totalReturnPct) : "N/A";
+      }
+
+      if (irrEl) {
+        irrEl.textContent =
+          irrPct != null ? formatPercent(irrPct) : "N/A";
+      }
+
+      const beta = await computeFundBetaVsSPY({ excludeCash: true });
+      if (betaEl) {
+        betaEl.textContent =
+          beta != null ? formatBeta(beta) : "N/A";
+      }
+    }
+
+    // --- Initialize ---------------------------------------------------
+    document.addEventListener("DOMContentLoaded", () => {
+      updateTickerBadges();
+      renderModelPortfolio();
+      renderTransactions();
+      renderPortfolioChart();
+      updateFundFacts();
     });
-  }
-
-  // --- Initialize on page load ----------------------------------
-  document.addEventListener("DOMContentLoaded", () => {
-    renderModelPortfolio();
-  });
-</script>
-
-
+  </script>
 </body>
 </html>
