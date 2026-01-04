@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "GME": {
     "cashFlowModel": "FCFE",
@@ -472,3 +473,479 @@
     }
   }
 }
+=======
+{
+  "GME": {
+    "cashFlowModel": "FCFE",
+    "segmentWeights": {
+      "collectibles": 0.19,
+      "hardware": 0.55,
+      "software": 0.26
+    },
+    "cases": {
+      "base": {
+        "label": "Base",
+        "terminalGrowth": 2.0,
+        "taxRate": 25.0,
+        "daPct": 3.0,
+        "capexPct": 2.0,
+        "nwcPct": 1.0,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 2.0,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "collectibles": [10.0, 9.0, 8.0, 7.0, 6.0],
+          "hardware": [-2.0, -2.0, -1.0, 0.0, 0.0],
+          "software": [-8.0, -7.0, -6.0, -5.0, -4.0]
+        },
+        "ebitMarginSchedule": [6.0, 6.2, 6.5, 6.8, 7.0]
+      },
+      "bull": {
+        "label": "Bull",
+        "terminalGrowth": 3.0,
+        "taxRate": 24.0,
+        "daPct": 3.0,
+        "capexPct": 2.0,
+        "nwcPct": 1.0,
+        "netCashMultiplier": 1.3,
+        "debtSpreadPct": 1.5,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "collectibles": [15.0, 14.0, 13.0, 12.0, 10.0],
+          "hardware": [1.0, 2.0, 3.0, 4.0, 5.0],
+          "software": [-4.0, -3.0, -2.0, -1.0, 0.0]
+        },
+        "ebitMarginSchedule": [7.0, 7.5, 8.0, 8.5, 9.0]
+      },
+      "bear": {
+        "label": "Bear",
+        "terminalGrowth": 1.0,
+        "taxRate": 26.0,
+        "daPct": 3.0,
+        "capexPct": 2.5,
+        "nwcPct": 1.2,
+        "netCashMultiplier": 0.7,
+        "debtSpreadPct": 3.5,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "collectibles": [5.0, 4.0, 3.0, 2.0, 2.0],
+          "hardware": [-5.0, -5.0, -4.0, -3.0, -3.0],
+          "software": [-10.0, -9.0, -8.0, -7.0, -6.0]
+        },
+        "ebitMarginSchedule": [5.0, 5.0, 5.2, 5.4, 5.5]
+      }
+    }
+  },
+  "BBW": {
+    "cashFlowModel": "FCFE",
+    "segmentWeights": {
+      "retail": 0.65,
+      "commercial": 0.2,
+      "international": 0.15
+    },
+    "cases": {
+      "base": {
+        "label": "Base",
+        "terminalGrowth": 1.8,
+        "taxRate": 23.0,
+        "daPct": 3.0,
+        "capexPct": 4.0,
+        "nwcPct": 1.0,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 3.0,
+        "netBorrowingPctOfSalesSchedule": [0.3, 0.2, 0.1, 0.0, 0.0],
+        "growthSchedule": {
+          "retail": [2.0, 1.8, 1.7, 1.6, 1.5],
+          "commercial": [1.8, 1.6, 1.5, 1.4, 1.3],
+          "international": [1.5, 1.5, 1.4, 1.3, 1.2]
+        },
+        "ebitMarginSchedule": [15.0, 15.3, 15.5, 15.7, 16.0]
+      },
+      "bull": {
+        "label": "Bull",
+        "terminalGrowth": 2.0,
+        "taxRate": 22.4,
+        "daPct": 3.0,
+        "capexPct": 4.3,
+        "nwcPct": 1.0,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 2.5,
+        "netBorrowingPctOfSalesSchedule": [0.5, 0.4, 0.2, 0.0, 0.0],
+        "growthSchedule": {
+          "retail": [2.8, 2.6, 2.4, 2.2, 2.0],
+          "commercial": [2.4, 2.2, 2.1, 2.0, 1.9],
+          "international": [2.2, 2.1, 2.0, 1.9, 1.8]
+        },
+        "ebitMarginSchedule": [16.0, 16.3, 16.5, 16.7, 17.0]
+      },
+      "bear": {
+        "label": "Bear",
+        "terminalGrowth": 1.5,
+        "taxRate": 24.0,
+        "daPct": 3.0,
+        "capexPct": 4.5,
+        "nwcPct": 1.2,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 4.5,
+        "netBorrowingPctOfSalesSchedule": [1.0, 0.8, 0.5, 0.2, 0.0],
+        "growthSchedule": {
+          "retail": [1.0, 1.0, 0.8, 0.8, 0.5],
+          "commercial": [0.5, 0.5, 0.3, 0.3, 0.0],
+          "international": [0.5, 0.5, 0.3, 0.3, 0.0]
+        },
+        "ebitMarginSchedule": [14.0, 14.0, 14.2, 14.4, 14.5]
+      }
+    }
+  },
+  "BB": {
+    "cashFlowModel": "FCFE",
+    "segmentWeights": {
+      "cybersecurity": 0.45,
+      "iot": 0.45,
+      "licensing": 0.1
+    },
+    "cases": {
+      "base": {
+        "label": "Base",
+        "terminalGrowth": 2.5,
+        "taxRate": 25.0,
+        "daPct": 6.0,
+        "capexPct": 3.0,
+        "nwcPct": 1.0,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 3.0,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "cybersecurity": [6.0, 5.0, 4.0, 4.0, 3.0],
+          "iot": [10.0, 9.0, 8.0, 7.0, 6.0],
+          "licensing": [-10.0, -8.0, -6.0, -4.0, -2.0]
+        },
+        "ebitMarginSchedule": [6.0, 8.0, 9.5, 10.5, 12.0]
+      },
+      "bull": {
+        "label": "Bull",
+        "terminalGrowth": 3.0,
+        "taxRate": 24.0,
+        "daPct": 6.0,
+        "capexPct": 3.0,
+        "nwcPct": 1.0,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 2.5,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "cybersecurity": [10.0, 9.0, 8.0, 7.0, 6.0],
+          "iot": [14.0, 12.0, 10.0, 8.0, 7.0],
+          "licensing": [-5.0, -4.0, -3.0, -2.0, -1.0]
+        },
+        "ebitMarginSchedule": [8.0, 10.5, 12.5, 13.5, 15.0]
+      },
+      "bear": {
+        "label": "Bear",
+        "terminalGrowth": 2.0,
+        "taxRate": 26.0,
+        "daPct": 6.0,
+        "capexPct": 3.5,
+        "nwcPct": 1.2,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 4.0,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "cybersecurity": [2.0, 1.0, 1.0, 1.0, 1.0],
+          "iot": [5.0, 4.0, 3.0, 2.0, 2.0],
+          "licensing": [-15.0, -12.0, -10.0, -8.0, -6.0]
+        },
+        "ebitMarginSchedule": [4.0, 4.5, 5.0, 5.5, 6.0]
+      }
+    }
+  },
+  "SOFI": {
+    "cashFlowModel": "FCFE",
+    "segmentWeights": {
+      "lending": 0.55,
+      "financialServices": 0.3,
+      "techPlatform": 0.15
+    },
+    "cases": {
+      "base": {
+        "label": "Base",
+        "terminalGrowth": 3.0,
+        "taxRate": 25.0,
+        "daPct": 4.0,
+        "capexPct": 2.0,
+        "nwcPct": 0.5,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 3.0,
+        "netBorrowingPctOfSalesSchedule": [6.0, 4.0, 2.0, 1.0, 0.0],
+        "growthSchedule": {
+          "lending": [12.0, 10.0, 8.0, 7.0, 6.0],
+          "financialServices": [25.0, 20.0, 18.0, 15.0, 12.0],
+          "techPlatform": [15.0, 14.0, 12.0, 10.0, 9.0]
+        },
+        "ebitMarginSchedule": [8.0, 10.0, 12.0, 14.0, 15.0]
+      },
+      "bull": {
+        "label": "Bull",
+        "terminalGrowth": 3.5,
+        "taxRate": 24.0,
+        "daPct": 4.0,
+        "capexPct": 2.0,
+        "nwcPct": 0.5,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 2.5,
+        "netBorrowingPctOfSalesSchedule": [8.0, 6.0, 3.0, 1.5, 0.0],
+        "growthSchedule": {
+          "lending": [16.0, 14.0, 12.0, 10.0, 9.0],
+          "financialServices": [35.0, 30.0, 25.0, 20.0, 18.0],
+          "techPlatform": [20.0, 18.0, 16.0, 14.0, 12.0]
+        },
+        "ebitMarginSchedule": [10.0, 13.0, 16.0, 18.0, 20.0]
+      },
+      "bear": {
+        "label": "Bear",
+        "terminalGrowth": 2.5,
+        "taxRate": 26.0,
+        "daPct": 4.0,
+        "capexPct": 2.5,
+        "nwcPct": 0.6,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 4.0,
+        "netBorrowingPctOfSalesSchedule": [4.0, 3.0, 1.5, 0.5, 0.0],
+        "growthSchedule": {
+          "lending": [8.0, 6.0, 5.0, 4.0, 4.0],
+          "financialServices": [18.0, 15.0, 12.0, 10.0, 9.0],
+          "techPlatform": [10.0, 9.0, 8.0, 7.0, 6.0]
+        },
+        "ebitMarginSchedule": [6.0, 7.0, 8.0, 9.0, 10.0]
+      }
+    }
+  },
+  "HUT": {
+    "cashFlowModel": "FCFE",
+    "segmentWeights": {
+      "bitcoinMining": 0.55,
+      "dataCentersHpc": 0.45
+    },
+    "cases": {
+      "base": {
+        "label": "Base",
+        "terminalGrowth": 3.0,
+        "taxRate": 25.0,
+        "daPct": 20.0,
+        "capexPct": 25.0,
+        "nwcPct": 1.0,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 4.0,
+        "netBorrowingPctOfSalesSchedule": [3.0, 2.0, 1.0, 0.0, 0.0],
+        "growthSchedule": {
+          "bitcoinMining": [-10.0, -8.0, -6.0, -4.0, -4.0],
+          "dataCentersHpc": [40.0, 30.0, 25.0, 20.0, 18.0]
+        },
+        "ebitMarginSchedule": [15.0, 18.0, 20.0, 22.0, 23.0]
+      },
+      "bull": {
+        "label": "Bull",
+        "terminalGrowth": 4.0,
+        "taxRate": 24.0,
+        "daPct": 20.0,
+        "capexPct": 27.0,
+        "nwcPct": 1.0,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 3.5,
+        "netBorrowingPctOfSalesSchedule": [4.0, 3.0, 2.0, 1.0, 0.0],
+        "growthSchedule": {
+          "bitcoinMining": [5.0, 4.0, 3.0, 2.0, 2.0],
+          "dataCentersHpc": [60.0, 45.0, 35.0, 28.0, 22.0]
+        },
+        "ebitMarginSchedule": [18.0, 22.0, 25.0, 27.0, 28.0]
+      },
+      "bear": {
+        "label": "Bear",
+        "terminalGrowth": 2.5,
+        "taxRate": 26.0,
+        "daPct": 20.0,
+        "capexPct": 25.0,
+        "nwcPct": 1.2,
+        "netCashMultiplier": 0.9,
+        "debtSpreadPct": 5.0,
+        "netBorrowingPctOfSalesSchedule": [2.0, 2.0, 1.0, 0.0, 0.0],
+        "growthSchedule": {
+          "bitcoinMining": [-20.0, -15.0, -12.0, -10.0, -8.0],
+          "dataCentersHpc": [25.0, 20.0, 18.0, 15.0, 12.0]
+        },
+        "ebitMarginSchedule": [10.0, 12.0, 14.0, 15.0, 16.0]
+      }
+    }
+  },
+  "AMH": {
+    "cashFlowModel": "FCFE",
+    "segmentWeights": {
+      "singleFamilyRentals": 1.0
+    },
+    "cases": {
+      "base": {
+        "label": "Base",
+        "terminalGrowth": 2.5,
+        "taxRate": 5.0,
+        "daPct": 25.0,
+        "capexPct": 12.0,
+        "nwcPct": 0.5,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 2.5,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "singleFamilyRentals": [5.0, 5.0, 4.5, 4.0, 4.0]
+        },
+        "ebitMarginSchedule": [55.0, 56.0, 57.0, 58.0, 59.0]
+      },
+      "bull": {
+        "label": "Bull",
+        "terminalGrowth": 3.0,
+        "taxRate": 5.0,
+        "daPct": 25.0,
+        "capexPct": 13.0,
+        "nwcPct": 0.5,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 2.0,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "singleFamilyRentals": [6.0, 6.0, 5.5, 5.0, 4.5]
+        },
+        "ebitMarginSchedule": [56.0, 57.0, 58.0, 59.0, 60.0]
+      },
+      "bear": {
+        "label": "Bear",
+        "terminalGrowth": 2.0,
+        "taxRate": 5.0,
+        "daPct": 25.0,
+        "capexPct": 11.0,
+        "nwcPct": 0.6,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 3.5,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "singleFamilyRentals": [3.0, 3.0, 2.5, 2.0, 2.0]
+        },
+        "ebitMarginSchedule": [53.0, 53.5, 54.0, 54.5, 55.0]
+      }
+    }
+  },
+  "LNG": {
+    "cashFlowModel": "FCFE",
+    "segmentWeights": {
+      "liquefaction": 0.85,
+      "marketing": 0.15
+    },
+    "cases": {
+      "base": {
+        "label": "Base",
+        "terminalGrowth": 2.5,
+        "taxRate": 21.0,
+        "daPct": 12.0,
+        "capexPct": 10.0,
+        "nwcPct": 1.0,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 2.5,
+        "netBorrowingPctOfSalesSchedule": [-1.0, -1.0, -0.5, 0.0, 0.0],
+        "growthSchedule": {
+          "liquefaction": [3.0, 3.0, 3.0, 2.0, 2.0],
+          "marketing": [1.0, 1.0, 1.0, 0.0, 0.0]
+        },
+        "ebitMarginSchedule": [30.0, 30.0, 30.0, 30.0, 30.0]
+      },
+      "bull": {
+        "label": "Bull",
+        "terminalGrowth": 3.0,
+        "taxRate": 21.0,
+        "daPct": 12.0,
+        "capexPct": 10.5,
+        "nwcPct": 1.0,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 2.0,
+        "netBorrowingPctOfSalesSchedule": [-0.5, -0.5, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "liquefaction": [4.0, 4.0, 3.0, 3.0, 2.0],
+          "marketing": [2.0, 2.0, 1.0, 1.0, 0.0]
+        },
+        "ebitMarginSchedule": [32.0, 32.0, 32.0, 32.0, 32.0]
+      },
+      "bear": {
+        "label": "Bear",
+        "terminalGrowth": 2.0,
+        "taxRate": 21.0,
+        "daPct": 12.0,
+        "capexPct": 9.5,
+        "nwcPct": 1.2,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 3.5,
+        "netBorrowingPctOfSalesSchedule": [-1.5, -1.0, -1.0, -0.5, 0.0],
+        "growthSchedule": {
+          "liquefaction": [1.0, 1.0, 1.0, 0.0, 0.0],
+          "marketing": [0.0, 0.0, 0.0, 0.0, 0.0]
+        },
+        "ebitMarginSchedule": [28.0, 28.0, 28.0, 28.0, 28.0]
+      }
+    }
+  },
+  "NFLX": {
+    "cashFlowModel": "FCFE",
+    "segmentWeights": {
+      "ucan": 0.42,
+      "emea": 0.33,
+      "restOfWorld": 0.25
+    },
+    "cases": {
+      "base": {
+        "label": "Base",
+        "terminalGrowth": 3.0,
+        "taxRate": 22.0,
+        "daPct": 6.0,
+        "capexPct": 7.0,
+        "nwcPct": 0.5,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 2.5,
+        "netBorrowingPctOfSalesSchedule": [-0.5, -0.5, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "ucan": [6.0, 5.0, 4.0, 4.0, 3.0],
+          "emea": [9.0, 8.0, 7.0, 6.0, 5.0],
+          "restOfWorld": [12.0, 10.0, 9.0, 8.0, 7.0]
+        },
+        "ebitMarginSchedule": [19.0, 20.0, 21.0, 22.0, 23.0]
+      },
+      "bull": {
+        "label": "Bull",
+        "terminalGrowth": 3.5,
+        "taxRate": 21.5,
+        "daPct": 6.0,
+        "capexPct": 7.5,
+        "nwcPct": 0.5,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 2.0,
+        "netBorrowingPctOfSalesSchedule": [-0.5, 0.0, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "ucan": [8.0, 7.0, 6.0, 5.0, 4.0],
+          "emea": [12.0, 11.0, 10.0, 9.0, 8.0],
+          "restOfWorld": [15.0, 13.0, 12.0, 10.0, 9.0]
+        },
+        "ebitMarginSchedule": [21.0, 23.0, 24.0, 25.0, 26.0]
+      },
+      "bear": {
+        "label": "Bear",
+        "terminalGrowth": 2.5,
+        "taxRate": 22.5,
+        "daPct": 6.0,
+        "capexPct": 6.5,
+        "nwcPct": 0.6,
+        "netCashMultiplier": 1.0,
+        "debtSpreadPct": 3.5,
+        "netBorrowingPctOfSalesSchedule": [-1.0, -0.5, 0.0, 0.0, 0.0],
+        "growthSchedule": {
+          "ucan": [3.0, 2.0, 2.0, 1.0, 1.0],
+          "emea": [5.0, 4.0, 3.0, 2.0, 2.0],
+          "restOfWorld": [7.0, 6.0, 5.0, 4.0, 3.0]
+        },
+        "ebitMarginSchedule": [17.0, 18.0, 19.0, 19.5, 20.0]
+      }
+    }
+  }
+}
+>>>>>>> eedc683f54f207075398e339bfe5f027bc8bfa38
