@@ -1,0 +1,15 @@
+{
+  "riskFree": {
+    "source": "FRED",
+    "series": "DGS5",
+    "valuePct": 3.73,
+    "updatedAt": "2026-01-04T06:38:41Z",
+    "tenor": "5Y"
+  },
+  "equityRiskPremiumPct": 5.0,
+  "companyRiskPremiumPct": 1.0,
+  "defaultDebtSpreadPct": 2.0,
+  "defaultCostOfDebtPct": null,
+  "maxTerminalGrowthPct": 4.0,
+  "fetchRiskFree": true
+}
