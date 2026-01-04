@@ -532,6 +532,26 @@
       {
         "date": "2025-12-21",
         "priceCents": 5425
+      },
+      {
+        "date": "2025-12-23",
+        "priceCents": 5679
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 5770
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 6141
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 6127
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 6100
       }
     ],
     "GME": [
@@ -582,6 +602,26 @@
       {
         "date": "2025-12-21",
         "priceCents": 2251
+      },
+      {
+        "date": "2025-12-23",
+        "priceCents": 2174
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 2138
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 2008
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 2008
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 2062
       }
     ],
     "SPY": [
@@ -1116,12 +1156,52 @@
       {
         "date": "2025-12-21",
         "priceCents": 68059
+      },
+      {
+        "date": "2025-12-23",
+        "priceCents": 68483
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 68796
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 68186
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 68192
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 68317
       }
     ],
     "AMH": [
       {
         "date": "2025-12-21",
         "priceCents": 3112
+      },
+      {
+        "date": "2025-12-23",
+        "priceCents": 3147
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 3149
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 3210
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 3210
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 3192
       }
     ],
     "BB": [
@@ -1136,55 +1216,240 @@
       {
         "date": "2025-12-21",
         "priceCents": 377
+      },
+      {
+        "date": "2025-12-23",
+        "priceCents": 395
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 400
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 378
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 379
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 380
       }
     ],
     "HUT": [
-      { "date": "2025-11-04", "priceCents": 4811 },
-      { "date": "2025-11-05", "priceCents": 4700 },
-      { "date": "2025-11-06", "priceCents": 4337 },
-      { "date": "2025-11-07", "priceCents": 4459 },
-      { "date": "2025-11-10", "priceCents": 4717 },
-      { "date": "2025-11-11", "priceCents": 4391 },
-      { "date": "2025-11-12", "priceCents": 4173 },
-      { "date": "2025-11-13", "priceCents": 3602 },
-      { "date": "2025-11-14", "priceCents": 3694 },
-      { "date": "2025-11-17", "priceCents": 3770 },
-      { "date": "2025-11-18", "priceCents": 3867 },
-      { "date": "2025-11-19", "priceCents": 3754 },
-      { "date": "2025-11-20", "priceCents": 3376 },
-      { "date": "2025-11-21", "priceCents": 3434 },
-      { "date": "2025-11-24", "priceCents": 3926 },
-      { "date": "2025-11-25", "priceCents": 3996 },
-      { "date": "2025-11-26", "priceCents": 4237 },
-      { "date": "2025-11-28", "priceCents": 4500 },
-      { "date": "2025-12-01", "priceCents": 4357 },
-      { "date": "2025-12-02", "priceCents": 3768 },
-      { "date": "2025-12-03", "priceCents": 4002 },
-      { "date": "2025-12-04", "priceCents": 4281 },
-      { "date": "2025-12-05", "priceCents": 4243 },
-      { "date": "2025-12-08", "priceCents": 4293 },
-      { "date": "2025-12-09", "priceCents": 4491 },
-      { "date": "2025-12-10", "priceCents": 4604 },
-      { "date": "2025-12-11", "priceCents": 4675 },
-      { "date": "2025-12-12", "priceCents": 4131 },
-      { "date": "2025-12-15", "priceCents": 3544 },
-      { "date": "2025-12-16", "priceCents": 3685 },
-      { "date": "2025-12-17", "priceCents": 4016 },
-      { "date": "2025-12-18", "priceCents": 3859 },
-      { "date": "2025-12-19", "priceCents": 4412 },
-      { "date": "2025-12-20", "priceCents": 4412 },
-      { "date": "2025-12-21", "priceCents": 4412 }
+      {
+        "date": "2025-11-04",
+        "priceCents": 4811
+      },
+      {
+        "date": "2025-11-05",
+        "priceCents": 4700
+      },
+      {
+        "date": "2025-11-06",
+        "priceCents": 4337
+      },
+      {
+        "date": "2025-11-07",
+        "priceCents": 4459
+      },
+      {
+        "date": "2025-11-10",
+        "priceCents": 4717
+      },
+      {
+        "date": "2025-11-11",
+        "priceCents": 4391
+      },
+      {
+        "date": "2025-11-12",
+        "priceCents": 4173
+      },
+      {
+        "date": "2025-11-13",
+        "priceCents": 3602
+      },
+      {
+        "date": "2025-11-14",
+        "priceCents": 3694
+      },
+      {
+        "date": "2025-11-17",
+        "priceCents": 3770
+      },
+      {
+        "date": "2025-11-18",
+        "priceCents": 3867
+      },
+      {
+        "date": "2025-11-19",
+        "priceCents": 3754
+      },
+      {
+        "date": "2025-11-20",
+        "priceCents": 3376
+      },
+      {
+        "date": "2025-11-21",
+        "priceCents": 3434
+      },
+      {
+        "date": "2025-11-24",
+        "priceCents": 3926
+      },
+      {
+        "date": "2025-11-25",
+        "priceCents": 3996
+      },
+      {
+        "date": "2025-11-26",
+        "priceCents": 4237
+      },
+      {
+        "date": "2025-11-28",
+        "priceCents": 4500
+      },
+      {
+        "date": "2025-12-01",
+        "priceCents": 4357
+      },
+      {
+        "date": "2025-12-02",
+        "priceCents": 3768
+      },
+      {
+        "date": "2025-12-03",
+        "priceCents": 4002
+      },
+      {
+        "date": "2025-12-04",
+        "priceCents": 4281
+      },
+      {
+        "date": "2025-12-05",
+        "priceCents": 4243
+      },
+      {
+        "date": "2025-12-08",
+        "priceCents": 4293
+      },
+      {
+        "date": "2025-12-09",
+        "priceCents": 4491
+      },
+      {
+        "date": "2025-12-10",
+        "priceCents": 4604
+      },
+      {
+        "date": "2025-12-11",
+        "priceCents": 4675
+      },
+      {
+        "date": "2025-12-12",
+        "priceCents": 4131
+      },
+      {
+        "date": "2025-12-15",
+        "priceCents": 3544
+      },
+      {
+        "date": "2025-12-16",
+        "priceCents": 3685
+      },
+      {
+        "date": "2025-12-17",
+        "priceCents": 4016
+      },
+      {
+        "date": "2025-12-18",
+        "priceCents": 3859
+      },
+      {
+        "date": "2025-12-19",
+        "priceCents": 4412
+      },
+      {
+        "date": "2025-12-20",
+        "priceCents": 4412
+      },
+      {
+        "date": "2025-12-21",
+        "priceCents": 4412
+      },
+      {
+        "date": "2025-12-23",
+        "priceCents": 5039
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 5247
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 4594
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 4594
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 5127
+      }
     ],
     "LNG": [
       {
         "date": "2025-12-21",
         "priceCents": 18976
+      },
+      {
+        "date": "2025-12-23",
+        "priceCents": 18937
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 19170
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 19439
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 19439
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 19780
       }
     ],
     "NFLX": [
       {
         "date": "2025-12-21",
         "priceCents": 9439
+      },
+      {
+        "date": "2025-12-23",
+        "priceCents": 9323
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 9350
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 9376
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 9376
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 9099
       }
     ],
     "SOFI": [
@@ -1347,6 +1612,362 @@
       {
         "date": "2025-12-21",
         "priceCents": 2724
+      },
+      {
+        "date": "2025-12-23",
+        "priceCents": 2735
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 2719
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 2618
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 2618
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 2746
+      }
+    ],
+    "BBY": [
+      {
+        "date": "2025-12-23",
+        "priceCents": 7130
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 6958
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 6694
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 6693
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 6918
+      }
+    ],
+    "CNXN": [
+      {
+        "date": "2025-12-23",
+        "priceCents": 5908
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 5898
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 5776
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 5776
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 5688
+      }
+    ],
+    "DKS": [
+      {
+        "date": "2025-12-23",
+        "priceCents": 21116
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 20793
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 19789
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 19797
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 20022
+      }
+    ],
+    "NEGG": [
+      {
+        "date": "2025-12-23",
+        "priceCents": 5577
+      },
+      {
+        "date": "2025-12-24",
+        "priceCents": 5482
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 5076
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 5076
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 5229
+      }
+    ],
+    "ZUMZ": [
+      {
+        "date": "2025-12-24",
+        "priceCents": 2770
+      },
+      {
+        "date": "2025-12-31",
+        "priceCents": 2605
+      },
+      {
+        "date": "2026-01-01",
+        "priceCents": 2605
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 2589
+      }
+    ],
+    "BBWI": [
+      {
+        "date": "2026-01-01",
+        "priceCents": 2008
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 2074
+      }
+    ],
+    "CRCT": [
+      {
+        "date": "2026-01-01",
+        "priceCents": 495
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 483
+      }
+    ],
+    "FIVE": [
+      {
+        "date": "2026-01-01",
+        "priceCents": 18836
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 19345
+      }
+    ],
+    "FNKO": [
+      {
+        "date": "2026-01-01",
+        "priceCents": 340
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 336
+      }
+    ],
+    "PLCE": [
+      {
+        "date": "2026-01-01",
+        "priceCents": 398
+      },
+      {
+        "date": "2026-01-04",
+        "priceCents": 413
+      }
+    ],
+    "AAPL": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 27101
+      }
+    ],
+    "AFRM": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 7403
+      }
+    ],
+    "AMZN": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 22650
+      }
+    ],
+    "AVB": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 18048
+      }
+    ],
+    "BITF": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 260
+      }
+    ],
+    "CIFR": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 1620
+      }
+    ],
+    "CLSK": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 1155
+      }
+    ],
+    "CMCSA": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 2954
+      }
+    ],
+    "CRWD": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 45358
+      }
+    ],
+    "CTRA": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 2660
+      }
+    ],
+    "DIS": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 11185
+      }
+    ],
+    "EQR": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 6203
+      }
+    ],
+    "ESS": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 25689
+      }
+    ],
+    "FTNT": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 7788
+      }
+    ],
+    "HOOD": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 11521
+      }
+    ],
+    "INVH": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 2772
+      }
+    ],
+    "KMI": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 2771
+      }
+    ],
+    "LC": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 1912
+      }
+    ],
+    "MAA": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 13913
+      }
+    ],
+    "MARA": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 991
+      }
+    ],
+    "OKE": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 7434
+      }
+    ],
+    "PANW": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 17937
+      }
+    ],
+    "PYPL": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 5814
+      }
+    ],
+    "RIOT": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 1416
+      }
+    ],
+    "S": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 1464
+      }
+    ],
+    "TRGP": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 18677
+      }
+    ],
+    "UPST": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 4584
+      }
+    ],
+    "WBD": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 2851
+      }
+    ],
+    "WMB": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 6085
+      }
+    ],
+    "ZS": [
+      {
+        "date": "2026-01-04",
+        "priceCents": 22057
       }
     ]
   }

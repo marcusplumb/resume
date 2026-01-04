@@ -17,7 +17,33 @@ HISTORY_FILE = ROOT / "prices_history.json"
 
 # Extra tickers to track *even if* they are not in the portfolio
 # Used here so we get an index for beta (SPY) but don't treat it as a holding.
-EXTRA_TICKERS = ["SPY"]
+import json
+from pathlib import Path
+
+def load_comps_universe():
+    here = Path(__file__).resolve().parent
+    candidates = [
+        here.parent / "comps_config.json",
+    ]
+    path = next((p for p in candidates if p.exists()), None)
+    if not path:
+        raise FileNotFoundError("comps_config.json not found in expected locations.")
+
+    with path.open("r", encoding="utf-8") as f:
+        cfg = json.load(f)
+
+    tickers = set()
+    for k, v in (cfg or {}).items():
+        if k:
+            tickers.add(str(k).upper())
+        if isinstance(v, list):
+            tickers.update(str(x).upper() for x in v if x)
+
+    return sorted(tickers)
+
+# Pull everything from comps_config.json, and keep SPY as a benchmark
+EXTRA_TICKERS = ["SPY"] + [t for t in load_comps_universe() if t != "SPY"]
+
 
 
 # -----------------------------------------

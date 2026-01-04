@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Marcus Plumb – Online Resume</title>
@@ -162,12 +163,20 @@
     .tab-content {
       animation: fadeIn 0.18s ease-out;
       margin-top: 16px;
-      scroll-margin-top: 140px; /* leaves space for sticky header+tabs */
+      scroll-margin-top: 140px;
+      /* leaves space for sticky header+tabs */
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(4px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(4px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     h2 {
@@ -209,7 +218,7 @@
       font-size: 0.9rem;
     }
 
-    li + li {
+    li+li {
       margin-top: 3px;
     }
 
@@ -457,9 +466,159 @@
       font-size: 0.95rem;
       font-weight: 600;
     }
+
+    .thesis-link {
+      border: none;
+      background: none;
+      padding: 0;
+      margin: 0;
+      font: inherit;
+      color: var(--accent);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .thesis-link:hover {
+      text-decoration: none;
+    }
+
+    /* Modal for thesis */
+    .modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+    }
+
+    .modal.open {
+      display: block;
+    }
+
+    .modal-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.55);
+    }
+
+    .modal-dialog {
+      position: relative;
+      max-width: 640px;
+      margin: 80px auto;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px 24px;
+      box-shadow: 0 20px 45px rgba(15, 23, 42, 0.35);
+    }
+
+    .modal-dialog h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+
+    .modal-dialog p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+      white-space: pre-wrap;
+      /* nicely preserves your line breaks */
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 10px;
+      right: 12px;
+      border: none;
+      background: transparent;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: var(--muted);
+    }
+
+    .modal-close:hover {
+      color: var(--text);
+    }
+
+    .thesis-link {
+      border: none;
+      background: none;
+      padding: 0;
+      margin: 0;
+      font: inherit;
+      color: var(--accent);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .thesis-link:hover {
+      text-decoration: none;
+    }
+
+    /* Modal shell */
+    .modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+    }
+
+    .modal.open {
+      display: block;
+    }
+
+    .modal-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.55);
+    }
+
+    .modal-dialog {
+      position: relative;
+      max-width: 900px;
+      width: 90%;
+      max-height: 85vh;
+      margin: 60px auto;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 16px 16px 20px;
+      box-shadow: 0 20px 45px rgba(15, 23, 42, 0.35);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-dialog h3 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+    }
+
+    .modal-body-frame {
+      flex: 1 1 auto;
+    }
+
+    #thesis-frame {
+      width: 100%;
+      height: 70vh;
+      border: none;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      border: none;
+      background: transparent;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: var(--muted);
+    }
+
+    .modal-close:hover {
+      color: var(--text);
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
   <main class="page">
     <section class="card">
@@ -470,12 +629,13 @@
             <img src="images/profile_photo.jfif" alt="Photo of Marcus Plumb" class="profile-photo">
             <div class="name-block">
               <div class="name">Marcus Plumb</div>
-              <div class="title">Investment focused Analyst</div>
+              <div class="title">Investment Focused Analyst</div>
             </div>
           </div>
           <div class="contact">
             <div><a href="mailto:marcusmplumb@gmail.com">marcusmplumb@gmail.com</a></div>
-            <div><a href="https://www.linkedin.com/in/marcusplumb/" target="_blank">linkedin.com/in/marcusplumb</a></div>
+            <div><a href="https://www.linkedin.com/in/marcusplumb/" target="_blank">linkedin.com/in/marcusplumb</a>
+            </div>
             <div><a href="https://marcusplumb.github.io/resume/" target="_blank">Toronto, ON</a></div>
           </div>
         </header>
@@ -490,10 +650,6 @@
             <span class="dot"></span>
             Experience
           </button>
-          <button class="tab-button" data-tab="projects">
-            <span class="dot"></span>
-            Projects
-          </button>
           <button class="tab-button" data-tab="portfolio">
             <span class="dot"></span>
             Model Portfolio
@@ -503,16 +659,36 @@
             Skills
           </button>
         </nav>
+
+        <div id="thesis-modal" class="modal" aria-hidden="true">
+          <div class="modal-backdrop"></div>
+
+          <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="thesis-modal-title">
+            <button type="button" class="modal-close" aria-label="Close thesis dialog">×</button>
+
+            <h3 id="thesis-modal-title">Investment thesis</h3>
+
+            <div class="modal-body-frame">
+              <iframe id="thesis-frame" title="Investment thesis"></iframe>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
 
       <!-- TAB: ABOUT -->
       <section class="tab-content" id="about" tabindex="0">
         <h2>About</h2>
         <p>
-        I am an analytically driven aspiring investor with experience in real estate funds, credit, and IFRS reporting, and a growing focus on public markets. 
-        I spend a lot of my time tracking and keeping up to date with my personal investments. I built this site myself to push myself to share 
-        investment ideas more publicly and to track a hypothetical portfolio for fun and learning, and it serves as a place to showcase how I think 
-        through research, valuation, and portfolio construction.
+          I am an analytically driven aspiring investor with experience in real estate funds, credit, and IFRS
+          reporting, and a growing focus on public markets.
+          I spend a lot of my time tracking and keeping up to date with my personal investments. I built this site
+          myself to push myself to share
+          investment ideas more publicly and to track a hypothetical portfolio for fun and learning, and it serves as a
+          place to showcase how I think
+          through research, valuation, and portfolio construction.
         </p>
 
         <h2>Education & Certifications</h2>
@@ -520,11 +696,8 @@
         <article class="item">
           <div class="item-header">
             <div class="item-main">
-              <img
-                src="images/University_of_Waterloo_seal.svg (1).png"
-                alt="University of Waterloo logo"
-                class="edu-logo"
-              />
+              <img src="images/University_of_Waterloo_seal.svg (1).png" alt="University of Waterloo logo"
+                class="edu-logo" />
               <span>Honours Bachelor of Accounting and Financial Management – University of Waterloo</span>
             </div>
             <span>2019 – 2023</span>
@@ -532,21 +705,18 @@
           <div class="item-sub">Financial Markets Specialization - Co-operative Program</div>
           <ul>
             <li>
-              Built a strong foundation in capital markets and corporate finance through coursework in Equities, Fixed Income,
+              Built a strong foundation in capital markets and corporate finance through coursework in Equities, Fixed
+              Income,
               Derivatives, Mergers &amp; Acquisitions, Business Strategy, Corporate Governance &amp; Risk Management,
               Management of Financial Institutions, Financial Statement Analysis, and Computer Science.
             </li>
           </ul>
         </article>
-        
+
         <article class="item">
           <div class="item-header">
             <div class="item-main">
-              <img
-                src="images/179615231.png"
-                alt="CFA Program logo"
-                class="edu-logo"
-              />
+              <img src="images/179615231.png" alt="CFA Program logo" class="edu-logo" />
               <span>CFA Institute Program</span>
             </div>
             <span>2025</span>
@@ -554,7 +724,7 @@
           <ul>
             <li>
               <a href="https://credentials.cfainstitute.org/64c19fe7-b6bc-46b3-8629-a7382288e2e5#acc.1kRBauln"
-                 target="_blank" rel="noopener">
+                target="_blank" rel="noopener">
                 Passed Level I of the CFA Program
               </a>
             </li>
@@ -574,14 +744,27 @@
           </div>
           <div class="item-sub">Toronto, Ontario</div>
           <ul>
-            <li>Manage fund-level liquidity for three private real estate vehicles ($1.5B+ AUM) by forecasting cash needs, sizing and timing equity calls, and coordinating credit facility draws to fund investments and meet upcoming obligations </li>
-            <li>Oversee cash flow and lender reporting for 8 active development projects ($1.3B+ budget), including job costing, cost consultant reporting, and scheduling draws to ensure timely vendor payments and compliance with loan requirements</li>
-            <li>Support the calculation and review of IRRs and performance fees for fund- and asset-level promote structures, including multi-tier waterfalls and high watermark provisions used to allocate carried interest to GPs</li>
-            <li>Produce investment valuation commentary decks for monthly valuation committee: summarized third-party appraisals, key assumption moves (cap rates, NOI, lease-up timing, discount rates) & translated them into fair value impacts for leadership</li>
-            <li>Prepare IFRS financial statements and audit support packages for funds, leveraging IFRS 9 expected credit loss frameworks and IFRS 13 / IAS 40 valuation guidance to ensure accurate measurement of credit exposures and investment properties</li>
-          
-            <li>Monitor credit agreements & covenants (DSCR, LTV, debt yield, reporting requirements) across a portfolio of 30+ loans/ $400M+ exposure; prepared compliance certificates and lender reporting packs (borrower & lender perspective)</li>
-            <li>Independently developed Excel/VBA/Python tools to streamline reporting, reflecting a genuine interest in automation and process improvement </li>
+            <li>Manage fund-level liquidity for three private real estate vehicles ($1.5B+ AUM) by forecasting cash
+              needs, sizing and timing equity calls, and coordinating credit facility draws to fund investments and meet
+              upcoming obligations </li>
+            <li>Oversee cash flow and lender reporting for 8 active development projects ($1.3B+ budget), including job
+              costing, cost consultant reporting, and scheduling draws to ensure timely vendor payments and compliance
+              with loan requirements</li>
+            <li>Support the calculation and review of IRRs and performance fees for fund- and asset-level promote
+              structures, including multi-tier waterfalls and high watermark provisions used to allocate carried
+              interest to GPs</li>
+            <li>Produce investment valuation commentary decks for monthly valuation committee: summarized third-party
+              appraisals, key assumption moves (cap rates, NOI, lease-up timing, discount rates) & translated them into
+              fair value impacts for leadership</li>
+            <li>Prepare IFRS financial statements and audit support packages for funds, leveraging IFRS 9 expected
+              credit loss frameworks and IFRS 13 / IAS 40 valuation guidance to ensure accurate measurement of credit
+              exposures and investment properties</li>
+
+            <li>Monitor credit agreements & covenants (DSCR, LTV, debt yield, reporting requirements) across a portfolio
+              of 30+ loans/ $400M+ exposure; prepared compliance certificates and lender reporting packs (borrower &
+              lender perspective)</li>
+            <li>Independently developed Excel/VBA/Python tools to streamline reporting, reflecting a genuine interest in
+              automation and process improvement </li>
           </ul>
         </article>
 
@@ -592,10 +775,13 @@
           </div>
           <div class="item-sub">Toronto, Ontario</div>
           <ul>
-            <li>Support of NAV processes, investor reporting and budgeting across public, private debt and equity funds.</li>
+            <li>Support of NAV processes, investor reporting and budgeting across public, private debt and equity funds.
+            </li>
             <li>Assist with fund financial audits and preperation of executive summaries for senior management.</li>
-            <li>Coordinate with various third party stakeholders for property performance investigation and commentary.</li>
-            <li>Built automation tools using Excel, VBA and Python to improve efficiency of processing, reporting and accuracy.</li>
+            <li>Coordinate with various third party stakeholders for property performance investigation and commentary.
+            </li>
+            <li>Built automation tools using Excel, VBA and Python to improve efficiency of processing, reporting and
+              accuracy.</li>
           </ul>
         </article>
 
@@ -604,71 +790,16 @@
         </p>
       </section>
 
-      <!-- TAB: PROJECTS -->
-      <section class="tab-content" id="projects" tabindex="0">
-        <h2>Personal & Portfolio Projects</h2>
-        <p class="section-intro">
-          Click a project below to open a PDF case study or deck in a new tab.
-        </p>
-      
-        <div class="item">
-          <h2>Public Equities Projects</h2>
-          <div class="project-buttons">
-            <!-- Button 1 -->
-            <a href="Build-A-Bear Workshop Equity Research Project June 2025.pdf" class="project-button" target="_blank" rel="noopener">
-              <img src="images/Build-A-Bear_Workshop_2013_logo.png" alt="Build-A-Bear logo">
-              <div class="project-text">
-                <span class="label">Stock Research – Build-a-Bear</span>
-                <span class="sub">
-                  Live price:
-                  <span class="ticker-badge" data-ticker-symbol="BBW">
-                    loading…
-                  </span>
-                </span>
-                <span class="metrics">
-                  <span class="metrics-main">
-                    <strong>Rating:</strong> Buy
-                    <strong>Target:</strong> $63.00
-                  </span>
-                  <span class="metrics-published">
-                    <strong>Published:</strong> June 15, 2025
-                  </span>
-                </span>
-              </div>
-            </a>
-            <!-- Button 2 -->
-            <a href="Gamestop Corporation Equity Research Project December 2025.pdf" class="project-button" target="_blank" rel="noopener">
-              <img src="images/cropped_circle_image (2).png" alt="Gamestop logo">
-              <div class="project-text">
-                <span class="label">Stock Research – Gamestop</span>
-                <span class="sub">
-                  Live price:
-                  <span class="ticker-badge" data-ticker-symbol="GME">
-                    loading…
-                  </span>
-                </span>
-                <span class="metrics">
-                  <span class="metrics-main">
-                    <strong>Rating:</strong> Hold (Speculative Buy)
-                    <strong>Target:</strong> $25.00
-                  </span>
-                  <span class="metrics-published">
-                    <strong>Published:</strong> December 7, 2025
-                  </span>
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
 
       <!-- TAB: PORTFOLIO -->
       <section class="tab-content" id="portfolio" tabindex="0">
         <h2>Model Portfolio</h2>
         <p class="section-intro">
           Below is a model portfolio based on personal equity research projects <em>(see Projects tab)</em><br>
-          Target return for this portfolio is 10%-12%, weighted by expected return relative to risk and maximum weight of 15% for each stock<br>
-          This project is currently a work in progress - I plan to write clear investment thesis for each individual stock allocation and then maintain stock coverage for each earnings report
+          Target return for this portfolio is 10%-12%, weighted by expected return relative to risk and maximum weight
+          of 15% for each stock<br>
+          This project is currently a work in progress - I plan to write clear investment thesis for each individual
+          stock allocation and then maintain stock coverage for each earnings report
         </p>
 
         <!-- Fund Facts -->
@@ -740,81 +871,120 @@
       </section>
 
       <!-- TAB: SKILLS -->
-<section class="tab-content" id="skills" tabindex="0">
-  <h2>Skills</h2>
+      <section class="tab-content" id="skills" tabindex="0">
+        <h2>Skills</h2>
 
-  <div class="item">
-    <strong>Technical</strong>
-      <p class="section-intro">
-        I use Excel and Google Sheets as modeling environments rather than just spreadsheets—building linked
-        financial models, dashboards, and reconciliations that are designed to be audited and reused. I regularly
-        automate workflows with VBA/macros and Python to cut down manual work (e.g., pulling data, transforming it,
-        and generating reports). On the web side, I’m comfortable with basic HTML and front-end structure, which
-        I’ve used to build this resume site, integrate live data, and present research projects more interactively.
-      </p>
-      <div class="pill-row">
-        <span class="pill">Excel / Google Sheets</span>
-        <span class="pill">Advanced Formulas & Modeling</span>
-        <span class="pill">VBA / Macros</span>
-        <span class="pill">Python (Automation / Scripts)</span>
-        <span class="pill">Power Query / Data Cleaning</span>
-        <span class="pill">APIs / Data Fetching</span>
-        <span class="pill">HTML / Front-end Basics</span>
-        <span class="pill">Version Control (Git / GitHub)</span>
-      </div>
-    </div>
+        <div class="item">
+          <strong>Technical</strong>
+          <p class="section-intro">
+            I use Excel and Google Sheets as modeling environments rather than just spreadsheets—building linked
+            financial models, dashboards, and reconciliations that are designed to be audited and reused. I regularly
+            automate workflows with VBA/macros and Python to cut down manual work (e.g., pulling data, transforming it,
+            and generating reports). On the web side, I’m comfortable with basic HTML and front-end structure, which
+            I’ve used to build this resume site, integrate live data, and present research projects more interactively.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Excel / Google Sheets</span>
+            <span class="pill">Advanced Formulas & Modeling</span>
+            <span class="pill">VBA / Macros</span>
+            <span class="pill">Python (Automation / Scripts)</span>
+            <span class="pill">Power Query / Data Cleaning</span>
+            <span class="pill">APIs / Data Fetching</span>
+            <span class="pill">HTML / Front-end Basics</span>
+            <span class="pill">Version Control (Git / GitHub)</span>
+          </div>
+        </div>
 
-    <div class="item">
-      <strong>Finance / Domain</strong>
-      <p class="section-intro">
-        My core experience is in real estate and fund finance: working with NAVs, cash flow forecasting, promote
-        structures, waterfall calculations, and debt/loan covenants (LTV, DSCR, and other coverage tests). I’ve
-        prepared and reviewed IFRS-based financial statements and support expected credit loss modeling under IFRS 9,
-        as well as fair value work under IFRS 13 / IAS 40. On the public markets side, I build valuation models
-        (DCF and comparables), write equity research-style reports, and track performance through a model portfolio
-        framework that links thesis, pricing, and ongoing monitoring.
-      </p>
-      <div class="pill-row">
-        <span class="pill">Financial Modeling</span>
-        <span class="pill">Valuation (DCF / Comps)</span>
-        <span class="pill">Public Equities Research</span>
-        <span class="pill">Real Estate Finance</span>
-        <span class="pill">Real Estate Development / PUD</span>
-        <span class="pill">Fund Accounting & NAV</span>
-        <span class="pill">Expected Credit Loss (IFRS 9)</span>
-        <span class="pill">Fair Value / IFRS 13 / IAS 40</span>
-        <span class="pill">Loan Covenants (LTV, DSCR)</span>
-        <span class="pill">Cash Flow Modeling</span>
-        <span class="pill">Portfolio Construction / Monitoring</span>
-      </div>
-    </div>
+        <div class="item">
+          <strong>Finance / Domain</strong>
+          <p class="section-intro">
+            My core experience is in real estate and fund finance: working with NAVs, cash flow forecasting, promote
+            structures, waterfall calculations, and debt/loan covenants (LTV, DSCR, and other coverage tests). I’ve
+            prepared and reviewed IFRS-based financial statements and support expected credit loss modeling under IFRS
+            9,
+            as well as fair value work under IFRS 13 / IAS 40. On the public markets side, I build valuation models
+            (DCF and comparables), write equity research-style reports, and track performance through a model portfolio
+            framework that links thesis, pricing, and ongoing monitoring.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Financial Modeling</span>
+            <span class="pill">Valuation (DCF / Comps)</span>
+            <span class="pill">Public Equities Research</span>
+            <span class="pill">Real Estate Finance</span>
+            <span class="pill">Real Estate Development / PUD</span>
+            <span class="pill">Fund Accounting & NAV</span>
+            <span class="pill">Expected Credit Loss (IFRS 9)</span>
+            <span class="pill">Fair Value / IFRS 13 / IAS 40</span>
+            <span class="pill">Loan Covenants (LTV, DSCR)</span>
+            <span class="pill">Cash Flow Modeling</span>
+            <span class="pill">Portfolio Construction / Monitoring</span>
+          </div>
+        </div>
 
-    <div class="item">
-      <strong>Other</strong>
-      <p class="section-intro">
-        I’m used to working with multiple stakeholder groups—investment teams, finance, external appraisers, auditors,
-        and lenders—and translating technical analysis into clear, decision-useful summaries. I’m very process-focused:
-        I like turning ad hoc tasks into repeatable workflows by building checklists, SOPs, templates, and documentation
-        so that others can follow the same process. Overall, I try to combine that structure with clear communication so
-        that models, memos, and tools are intuitive for the next person who touches them.
-      </p>
-      <div class="pill-row">
-        <span class="pill">Stakeholder Communication</span>
-        <span class="pill">Cross-functional Collaboration</span>
-        <span class="pill">Process Improvement</span>
-        <span class="pill">Documentation / SOPs</span>
-        <span class="pill">Audit & Controls Mindset</span>
-        <span class="pill">Working with Appraisers / Auditors</span>
-        <span class="pill">Training / Knowledge Transfer</span>
-        <span class="pill">Attention to Detail</span>
-      </div>
-    </div>
-  </section>
+        <div class="item">
+          <strong>Other</strong>
+          <p class="section-intro">
+            I’m used to working with multiple stakeholder groups—investment teams, finance, external appraisers,
+            auditors,
+            and lenders—and translating technical analysis into clear, decision-useful summaries. I’m very
+            process-focused:
+            I like turning ad hoc tasks into repeatable workflows by building checklists, SOPs, templates, and
+            documentation
+            so that others can follow the same process. Overall, I try to combine that structure with clear
+            communication so
+            that models, memos, and tools are intuitive for the next person who touches them.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Stakeholder Communication</span>
+            <span class="pill">Cross-functional Collaboration</span>
+            <span class="pill">Process Improvement</span>
+            <span class="pill">Documentation / SOPs</span>
+            <span class="pill">Audit & Controls Mindset</span>
+            <span class="pill">Working with Appraisers / Auditors</span>
+            <span class="pill">Training / Knowledge Transfer</span>
+            <span class="pill">Attention to Detail</span>
+          </div>
+        </div>
+      </section>
 
     </section>
+    <div id="thesis-modal" class="modal" aria-hidden="true">
+      <div class="modal-backdrop"></div>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="thesis-modal-title">
+        <button type="button" class="modal-close" aria-label="Close thesis dialog">
+          ×
+        </button>
+        <h3 id="thesis-modal-title">Investment thesis</h3>
+        <p id="thesis-modal-body">
+          <!-- filled by JS -->
+        </p>
+      </div>
+    </div>
+
   </main>
 
   <!-- Tabs: now scroll + scrollspy instead of show/hide -->
+  <script>
+    // ... existing code (PRICE_DB, PORTFOLIO_CONFIG, NAV_HISTORY, formatters, etc.) ...
+
+    function openThesisFrameModal(name, url) {
+      const modal = document.getElementById("thesis-modal");
+      if (!modal) return;
+
+      const titleEl = modal.querySelector("#thesis-modal-title");
+      const frame = modal.querySelector("#thesis-frame");
+
+      titleEl.textContent = name || "Investment thesis";
+      if (frame) {
+        frame.src = url;
+      }
+
+      modal.classList.add("open");
+      modal.setAttribute("aria-hidden", "false");
+    }
+
+  </script>
+
   <script>
     const tabButtons = document.querySelectorAll(".tab-button");
     const tabSections = document.querySelectorAll(".tab-content");
@@ -889,6 +1059,7 @@
     let PRICE_DB = null;
     let PORTFOLIO_CONFIG = null;
     let NAV_HISTORY = null; // cached NAV timeseries
+    let THESIS_TARGETS = null;
 
     function formatBeta(beta) {
       return beta.toFixed(2);
@@ -915,6 +1086,29 @@
       PORTFOLIO_CONFIG = await res.json();
       return PORTFOLIO_CONFIG;
     }
+
+    async function loadThesisTargets() {
+      try {
+        const res = await fetch("thesis_targets.json", { cache: "no-cache" });
+        if (!res.ok) {
+          console.warn(
+            "Could not load thesis_targets.json:",
+            res.status,
+            res.statusText
+          );
+          THESIS_TARGETS = {};
+          return THESIS_TARGETS;
+        }
+        const data = await res.json();
+        THESIS_TARGETS = data || {};
+        return THESIS_TARGETS;
+      } catch (err) {
+        console.error("Error loading thesis_targets.json:", err);
+        THESIS_TARGETS = {};
+        return THESIS_TARGETS;
+      }
+    }
+
 
     // --- Formatters ---------------------------------------------------
     function formatPrice(cents) {
@@ -1084,38 +1278,46 @@
       return { holdings, cashCents, avgCostCentsBySymbol };
     }
 
-    // --- Model portfolio table (long/short aware) --------------------
+
+    // --- Model portfolio table (long/short aware, pulls targets from thesis_targets.json) ---
     async function renderModelPortfolio() {
       const tableBody = document.querySelector("#portfolio-table tbody");
       if (!tableBody) return;
 
       tableBody.innerHTML = "";
 
-      const [cfg, db] = await Promise.all([
+      // Load everything we need
+      const [cfg, db, thesisTargetsRaw] = await Promise.all([
         loadPortfolioConfig(),
-        loadPriceDb()
+        loadPriceDb(),
+        loadThesisTargets() // populates THESIS_TARGETS and returns it
       ]);
 
       const positions = cfg.positions || [];
       const symbols = db.symbols || {};
+      const thesisTargets = thesisTargetsRaw || THESIS_TARGETS || {};
 
+      // Figure out which date to use for holdings (latest prices date vs today)
       const updatedAtStr = db.updatedAt || "";
-      const priceDate = updatedAtStr.slice(0, 10);
+      const priceDate = updatedAtStr.slice(0, 10); // YYYY-MM-DD
       const todayIso = new Date().toISOString().slice(0, 10);
       const asOfDate = priceDate || todayIso;
 
+      // Compute holdings & cash at that date
       const {
         holdings,
         cashCents,
         avgCostCentsBySymbol
       } = computeHoldingsAndCashAtDate(cfg, asOfDate);
 
+      // Build a map of live prices (in cents) and aggregate NAV of positions
       const livePricesCents = {};
       let navPositionsCents = 0;
 
       positions.forEach((idea) => {
         const symbol = idea.ticker;
         const symData = symbols[symbol];
+
         const live =
           symData && typeof symData.priceCents === "number"
             ? symData.priceCents
@@ -1131,11 +1333,29 @@
 
       const totalNavCents = navPositionsCents + (cashCents ?? 0);
 
+      // Build one row per position
       positions.forEach((idea) => {
         const row = document.createElement("tr");
 
         const symbol = idea.ticker;
-        const target = idea.targetPriceCents ?? 0;
+
+        // 1) Work out target from thesis_targets.json, falling back to portfolio_config
+        let targetCents = 0;
+        const thesisInfo = thesisTargets && thesisTargets[symbol];
+
+        if (
+          thesisInfo &&
+          typeof thesisInfo.centralEstimate === "number" &&
+          thesisInfo.centralEstimate > 0
+        ) {
+          // centralEstimate is in dollars -> convert to cents
+          targetCents = Math.round(thesisInfo.centralEstimate * 100);
+        } else {
+          // Fallback to any static target price in portfolio_config.json (already cents)
+          targetCents = idea.targetPriceCents ?? 0;
+        }
+
+        // 2) Position stats
         const netShares = holdings[symbol] ?? 0;
         const live = livePricesCents[symbol];
         const costCents = avgCostCentsBySymbol[symbol] ?? 0;
@@ -1154,22 +1374,27 @@
         if (live != null && absShares > 0) {
           liveText = formatPrice(live);
 
+          // Realised/Unrealised P&L % (longs and shorts)
           if (costCents > 0) {
-            const pnlCents = (live - costCents) * netShares;
+            const pnlCents = (live - costCents) * netShares; // signed P&L
             const investedCents = absShares * costCents;
             returnPct = (pnlCents / investedCents) * 100;
           }
 
-          if (live > 0 && target > 0) {
+          // Upside vs central thesis target
+          if (live > 0 && targetCents > 0) {
             if (netShares > 0) {
-              upsidePct = ((target - live) / live) * 100;
+              // long: upside if target > live
+              upsidePct = ((targetCents - live) / live) * 100;
             } else if (netShares < 0) {
-              upsidePct = ((live - target) / live) * 100;
+              // short: upside if price falls toward target
+              upsidePct = ((live - targetCents) / live) * 100;
             }
           }
 
+          // Portfolio weight (signed: shorts negative weight)
           if (totalNavCents > 0) {
-            const positionNavCents = live * netShares;
+            const positionNavCents = live * netShares; // signed contribution
             const weightPct = (positionNavCents / totalNavCents) * 100;
             weightText = formatPercent(weightPct);
           }
@@ -1179,12 +1404,13 @@
           returnPct == null
             ? ""
             : returnPct >= 0
-            ? "pnl-positive"
-            : "pnl-negative";
+              ? "pnl-positive"
+              : "pnl-negative";
 
+        // 3) Render row (Ticker, Name, Position, Shares, Cost, Live, P&L, Weight, Target, Upside, Next earnings)
         row.innerHTML = `
           <td>${symbol}</td>
-          <td>${idea.name || ""}</td>
+          <td class="name-cell"></td>
           <td>${positionLabel}</td>
           <td>${sharesDisplay}</td>
           <td>${costCents ? formatPrice(costCents) : "N/A"}</td>
@@ -1193,14 +1419,37 @@
             ${returnPct != null ? formatPercent(returnPct) : "N/A"}
           </td>
           <td>${weightText}</td>
-          <td>${target ? formatPrice(target) : "N/A"}</td>
+          <td>${targetCents > 0 ? formatPrice(targetCents) : "N/A"}</td>
           <td>${upsidePct != null ? formatPercent(upsidePct) : "N/A"}</td>
           <td>${idea.nextEarnings || "—"}</td>
         `;
 
+        // Turn the Name cell into a clickable thesis link that opens the iframe modal
+        const nameCell = row.querySelector(".name-cell");
+        if (nameCell) {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "thesis-link";
+          btn.textContent = idea.name || symbol;
+
+          const thesisUrl = idea.thesisUrl; // from portfolio_config.json
+          if (thesisUrl) {
+            btn.addEventListener("click", () => {
+              openThesisFrameModal(idea.name || symbol, thesisUrl);
+            });
+          } else {
+            btn.addEventListener("click", () => {
+              alert("Thesis page coming soon.");
+            });
+          }
+
+          nameCell.appendChild(btn);
+        }
+
         tableBody.appendChild(row);
       });
 
+      // 4) Cash row
       if (cashCents != null) {
         const cashRow = document.createElement("tr");
 
@@ -1227,6 +1476,10 @@
         tableBody.appendChild(cashRow);
       }
     }
+
+
+
+
 
     // --- Transactions table ------------------------------------------
     async function renderTransactions() {
@@ -1517,7 +1770,32 @@
       renderTransactions();
       renderPortfolioChart();
       updateFundFacts();
+
+      const modal = document.getElementById("thesis-modal");
+      if (modal) {
+        const closeBtn = modal.querySelector(".modal-close");
+        const backdrop = modal.querySelector(".modal-backdrop");
+        const frame = modal.querySelector("#thesis-frame");
+
+        const closeModal = () => {
+          modal.classList.remove("open");
+          modal.setAttribute("aria-hidden", "true");
+          if (frame) frame.src = ""; // clear to stop any embeds/media
+        };
+
+        closeBtn?.addEventListener("click", closeModal);
+        backdrop?.addEventListener("click", closeModal);
+
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape" && modal.classList.contains("open")) {
+            closeModal();
+          }
+        });
+      }
     });
+
+
   </script>
 </body>
+
 </html>
