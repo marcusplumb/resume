@@ -3,13 +3,19 @@
     "source": "FRED",
     "series": "DGS5",
     "valuePct": 3.73,
-    "updatedAt": "2026-01-04T06:38:41Z",
+    "updatedAt": "2026-01-04T21:02:06Z",
     "tenor": "5Y"
   },
   "equityRiskPremiumPct": 5.0,
   "companyRiskPremiumPct": 1.0,
   "defaultDebtSpreadPct": 2.0,
   "defaultCostOfDebtPct": null,
+  "maxCostOfDebtPct": 7.0,
+  "maxImpliedDebtPremiumOverRfPct": 6.0,
+  "ignoreImpliedCostOfDebtTickers": [
+    "SOFI"
+  ],
+  "costOfDebtOverridesPct": {},
   "maxTerminalGrowthPct": 4.0,
   "fetchRiskFree": true
 }

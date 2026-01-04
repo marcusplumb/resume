@@ -35,6 +35,12 @@ DEFAULT_MARKET_INPUTS: Dict[str, Any] = {
     # Debt defaults (only used if no company implied cost and no case override)
     "defaultDebtSpreadPct": 2.0,
     "defaultCostOfDebtPct": None,
+    
+    # NEW: guardrails / overrides
+    "maxCostOfDebtPct": 7.0,                 # hard cap (your request)
+    "maxImpliedDebtPremiumOverRfPct": 6.0,   # implied can't be > (rf + this) unless overridden
+    "ignoreImpliedCostOfDebtTickers": [],    # e.g., ["SOFI"]
+    "costOfDebtOverridesPct": {},            # e.g., {"SOFI": 6.5}
 
     # Optional: cap terminal growth to avoid ke <= g accidents (still respects config g if <= cap)
     "maxTerminalGrowthPct": 4.0,
@@ -235,39 +241,75 @@ def compute_cost_of_debt_pct(
     case_cfg: Dict[str, Any],
 ) -> Optional[float]:
     """
-    Priority:
+    Priority (with sanity checks + caps):
+      0) market_inputs.costOfDebtOverridesPct[ticker]
       1) case_cfg.costOfDebtPct
-      2) fundamentals.impliedCostOfDebtPct
+      2) fundamentals.impliedCostOfDebtPct  (only if reasonable)
       3) market_inputs.defaultCostOfDebtPct
       4) rf + case_cfg.debtSpreadPct
       5) rf + market_inputs.defaultDebtSpreadPct
+    Final: clamp to <= market_inputs.maxCostOfDebtPct
     """
-    cod_case = case_cfg.get("costOfDebtPct")
-    if isinstance(cod_case, (int, float)) and math.isfinite(cod_case) and cod_case > 0:
-        return float(cod_case)
 
-    f = fundamentals.get(ticker, {}) or {}
-    cod_impl = f.get("impliedCostOfDebtPct")
-    if isinstance(cod_impl, (int, float)) and math.isfinite(cod_impl) and cod_impl > 0:
-        return float(cod_impl)
+    def _as_pct(x) -> Optional[float]:
+        if isinstance(x, (int, float)) and math.isfinite(x) and x > 0:
+            return float(x)
+        return None
 
-    cod_default = market_inputs.get("defaultCostOfDebtPct", DEFAULT_MARKET_INPUTS["defaultCostOfDebtPct"])
-    if isinstance(cod_default, (int, float)) and math.isfinite(cod_default) and cod_default > 0:
-        return float(cod_default)
-
+    # Inputs / knobs
     rf = get_risk_free_pct(market_inputs)
     if rf is None:
         return None
 
+    max_kd = _as_pct(market_inputs.get("maxCostOfDebtPct")) or 7.0
+    max_impl_prem = _as_pct(market_inputs.get("maxImpliedDebtPremiumOverRfPct")) or 6.0
+
+    ignore_list = market_inputs.get("ignoreImpliedCostOfDebtTickers") or []
+    ignore_implied = isinstance(ignore_list, list) and ticker in ignore_list
+
+    overrides = market_inputs.get("costOfDebtOverridesPct") or {}
+    if isinstance(overrides, dict):
+        kd_override = _as_pct(overrides.get(ticker))
+        if kd_override is not None:
+            return min(kd_override, max_kd)
+
+    # 1) explicit case override (still capped)
+    kd_case = _as_pct(case_cfg.get("costOfDebtPct"))
+    if kd_case is not None:
+        return min(kd_case, max_kd)
+
+    # Compute spread-based baseline (rf + spread)
     spread_case = case_cfg.get("debtSpreadPct")
     if isinstance(spread_case, (int, float)) and math.isfinite(spread_case) and spread_case >= 0:
-        return rf + float(spread_case)
+        kd_baseline = rf + float(spread_case)
+    else:
+        try:
+            spread_default = float(market_inputs.get("defaultDebtSpreadPct", DEFAULT_MARKET_INPUTS["defaultDebtSpreadPct"]))
+        except Exception:
+            spread_default = float(DEFAULT_MARKET_INPUTS["defaultDebtSpreadPct"])
+        kd_baseline = rf + spread_default
 
-    try:
-        spread_default = float(market_inputs.get("defaultDebtSpreadPct", DEFAULT_MARKET_INPUTS["defaultDebtSpreadPct"]))
-    except Exception:
-        spread_default = float(DEFAULT_MARKET_INPUTS["defaultDebtSpreadPct"])
-    return rf + spread_default
+    # 2) implied cost of debt (only if reasonable for this name)
+    if not ignore_implied:
+        f = fundamentals.get(ticker, {}) or {}
+        kd_impl = _as_pct(f.get("impliedCostOfDebtPct"))
+        if kd_impl is not None:
+            # Reject nonsense implied values (common for banks/fintechs)
+            # - cap outright
+            # - also reject if far above risk-free (rf + max premium)
+            if kd_impl <= max_kd and kd_impl <= (rf + max_impl_prem):
+                return kd_impl
+            else:
+                print(f"[WARN] {ticker}: ignoring impliedCostOfDebtPct={kd_impl:.2f}% (rf={rf:.2f}%, baseline~{kd_baseline:.2f}%, cap={max_kd:.2f}%)")
+
+    # 3) market default explicit (capped)
+    kd_default = _as_pct(market_inputs.get("defaultCostOfDebtPct", DEFAULT_MARKET_INPUTS["defaultCostOfDebtPct"]))
+    if kd_default is not None:
+        return min(kd_default, max_kd)
+
+    # 4/5) baseline spread approach (capped)
+    return min(kd_baseline, max_kd)
+
 
 
 # ---------------- DCF config extraction ----------------

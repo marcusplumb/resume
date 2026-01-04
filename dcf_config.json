@@ -193,53 +193,53 @@
       "base": {
         "label": "Base",
         "terminalGrowth": 3.0,
-        "taxRate": 25.0,
-        "daPct": 4.0,
-        "capexPct": 2.0,
-        "nwcPct": 0.5,
+        "taxRate": 26.0,
+        "daPct": 7.5,
+        "capexPct": 2.2,
+        "nwcPct": 0.15,
         "netCashMultiplier": 1.0,
-        "debtSpreadPct": 3.0,
-        "netBorrowingPctOfSalesSchedule": [6.0, 4.0, 2.0, 1.0, 0.0],
+        "debtSpreadPct": 3.25,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
         "growthSchedule": {
-          "lending": [12.0, 10.0, 8.0, 7.0, 6.0],
-          "financialServices": [25.0, 20.0, 18.0, 15.0, 12.0],
-          "techPlatform": [15.0, 14.0, 12.0, 10.0, 9.0]
+          "lending": [12.0, 10.0, 9.0, 8.0, 7.0],
+          "financialServices": [45.0, 35.0, 25.0, 18.0, 14.0],
+          "techPlatform": [18.0, 16.0, 14.0, 12.0, 10.0]
         },
-        "ebitMarginSchedule": [8.0, 10.0, 12.0, 14.0, 15.0]
+        "ebitMarginSchedule": [14.0, 16.0, 18.0, 19.0, 20.0]
       },
       "bull": {
         "label": "Bull",
         "terminalGrowth": 3.5,
         "taxRate": 24.0,
-        "daPct": 4.0,
+        "daPct": 7.0,
         "capexPct": 2.0,
-        "nwcPct": 0.5,
+        "nwcPct": 0.10,
         "netCashMultiplier": 1.0,
-        "debtSpreadPct": 2.5,
-        "netBorrowingPctOfSalesSchedule": [8.0, 6.0, 3.0, 1.5, 0.0],
+        "debtSpreadPct": 3.0,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
         "growthSchedule": {
-          "lending": [16.0, 14.0, 12.0, 10.0, 9.0],
-          "financialServices": [35.0, 30.0, 25.0, 20.0, 18.0],
-          "techPlatform": [20.0, 18.0, 16.0, 14.0, 12.0]
+          "lending": [15.0, 13.0, 11.0, 10.0, 9.0],
+          "financialServices": [60.0, 45.0, 30.0, 22.0, 16.0],
+          "techPlatform": [22.0, 18.0, 16.0, 14.0, 12.0]
         },
-        "ebitMarginSchedule": [10.0, 13.0, 16.0, 18.0, 20.0]
+        "ebitMarginSchedule": [16.0, 18.0, 20.0, 22.0, 23.0]
       },
       "bear": {
         "label": "Bear",
-        "terminalGrowth": 2.5,
-        "taxRate": 26.0,
-        "daPct": 4.0,
-        "capexPct": 2.5,
-        "nwcPct": 0.6,
+        "terminalGrowth": 2.25,
+        "taxRate": 27.0,
+        "daPct": 8.0,
+        "capexPct": 2.6,
+        "nwcPct": 0.25,
         "netCashMultiplier": 1.0,
-        "debtSpreadPct": 4.0,
-        "netBorrowingPctOfSalesSchedule": [4.0, 3.0, 1.5, 0.5, 0.0],
+        "debtSpreadPct": 4.25,
+        "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
         "growthSchedule": {
-          "lending": [8.0, 6.0, 5.0, 4.0, 4.0],
-          "financialServices": [18.0, 15.0, 12.0, 10.0, 9.0],
+          "lending": [7.0, 6.0, 5.0, 5.0, 4.0],
+          "financialServices": [25.0, 20.0, 15.0, 12.0, 10.0],
           "techPlatform": [10.0, 9.0, 8.0, 7.0, 6.0]
         },
-        "ebitMarginSchedule": [6.0, 7.0, 8.0, 9.0, 10.0]
+        "ebitMarginSchedule": [10.0, 12.0, 14.0, 15.0, 16.0]
       }
     }
   },
@@ -362,113 +362,113 @@
     "cases": {
       "base": {
         "label": "Base",
-        "terminalGrowth": 2.5,
+        "terminalGrowth": 1.75,
         "taxRate": 21.0,
-        "daPct": 12.0,
-        "capexPct": 10.0,
-        "nwcPct": 1.0,
-        "netCashMultiplier": 1.0,
-        "debtSpreadPct": 2.5,
-        "netBorrowingPctOfSalesSchedule": [-1.0, -1.0, -0.5, 0.0, 0.0],
+        "daPct": 8.0,
+        "capexPct": 12.5,
+        "nwcPct": 1.8,
+        "netCashMultiplier": 0.90,
+        "debtSpreadPct": 3.0,
+        "netBorrowingPctOfSalesSchedule": [-2.0, -2.0, -1.5, -1.0, -0.5],
         "growthSchedule": {
-          "liquefaction": [3.0, 3.0, 3.0, 2.0, 2.0],
-          "marketing": [1.0, 1.0, 1.0, 0.0, 0.0]
+          "liquefaction": [2.0, 2.0, 1.5, 1.0, 1.0],
+          "marketing":    [0.5, 0.5, 0.0, 0.0, 0.0]
         },
-        "ebitMarginSchedule": [30.0, 30.0, 30.0, 30.0, 30.0]
+        "ebitMarginSchedule": [26.0, 25.0, 24.0, 23.0, 22.0]
       },
       "bull": {
         "label": "Bull",
-        "terminalGrowth": 3.0,
-        "taxRate": 21.0,
-        "daPct": 12.0,
-        "capexPct": 10.5,
-        "nwcPct": 1.0,
-        "netCashMultiplier": 1.0,
-        "debtSpreadPct": 2.0,
-        "netBorrowingPctOfSalesSchedule": [-0.5, -0.5, 0.0, 0.0, 0.0],
+        "terminalGrowth": 2.25,
+        "taxRate": 20.0,
+        "daPct": 8.5,
+        "capexPct": 11.5,
+        "nwcPct": 1.5,
+        "netCashMultiplier": 0.95,
+        "debtSpreadPct": 2.5,
+        "netBorrowingPctOfSalesSchedule": [-1.5, -1.5, -1.0, -0.5, 0.0],
         "growthSchedule": {
-          "liquefaction": [4.0, 4.0, 3.0, 3.0, 2.0],
-          "marketing": [2.0, 2.0, 1.0, 1.0, 0.0]
+          "liquefaction": [3.0, 3.0, 2.5, 2.0, 1.5],
+          "marketing":    [1.0, 1.0, 0.5, 0.5, 0.0]
         },
-        "ebitMarginSchedule": [32.0, 32.0, 32.0, 32.0, 32.0]
+        "ebitMarginSchedule": [28.0, 28.0, 27.0, 26.0, 25.0]
       },
       "bear": {
         "label": "Bear",
-        "terminalGrowth": 2.0,
-        "taxRate": 21.0,
-        "daPct": 12.0,
-        "capexPct": 9.5,
-        "nwcPct": 1.2,
-        "netCashMultiplier": 1.0,
-        "debtSpreadPct": 3.5,
-        "netBorrowingPctOfSalesSchedule": [-1.5, -1.0, -1.0, -0.5, 0.0],
+        "terminalGrowth": 1.0,
+        "taxRate": 23.0,
+        "daPct": 7.5,
+        "capexPct": 14.0,
+        "nwcPct": 2.5,
+        "netCashMultiplier": 0.85,
+        "debtSpreadPct": 4.0,
+        "netBorrowingPctOfSalesSchedule": [-3.0, -2.5, -2.0, -1.5, -1.0],
         "growthSchedule": {
-          "liquefaction": [1.0, 1.0, 1.0, 0.0, 0.0],
-          "marketing": [0.0, 0.0, 0.0, 0.0, 0.0]
+          "liquefaction": [0.5, 0.0, 0.0, 0.0, 0.0],
+          "marketing":    [0.0, 0.0, 0.0, -0.5, -0.5]
         },
-        "ebitMarginSchedule": [28.0, 28.0, 28.0, 28.0, 28.0]
+        "ebitMarginSchedule": [22.0, 21.0, 20.0, 19.0, 18.0]
       }
     }
   },
-  "NFLX": {
-    "cashFlowModel": "FCFE",
-    "segmentWeights": {
-      "ucan": 0.42,
-      "emea": 0.33,
-      "restOfWorld": 0.25
+"NFLX": {
+  "cashFlowModel": "FCFE",
+  "segmentWeights": {
+    "ucan": 0.42,
+    "emea": 0.33,
+    "restOfWorld": 0.25
+  },
+  "cases": {
+    "base": {
+      "label": "Base",
+      "terminalGrowth": 3.0,
+      "taxRate": 22.0,
+      "daPct": 6.0,
+      "capexPct": 6.5,
+      "nwcPct": 0.0,
+      "netCashMultiplier": 1.0,
+      "debtSpreadPct": 2.25,
+      "netBorrowingPctOfSalesSchedule": [-0.5, -0.25, 0.0, 0.0, 0.0],
+      "growthSchedule": {
+        "ucan": [9.0, 8.0, 7.0, 6.0, 5.0],
+        "emea": [13.0, 12.0, 10.0, 9.0, 8.0],
+        "restOfWorld": [17.0, 16.0, 14.0, 12.0, 10.0]
+      },
+      "ebitMarginSchedule": [27.0, 28.0, 29.0, 30.0, 30.0]
     },
-    "cases": {
-      "base": {
-        "label": "Base",
-        "terminalGrowth": 3.0,
-        "taxRate": 22.0,
-        "daPct": 6.0,
-        "capexPct": 7.0,
-        "nwcPct": 0.5,
-        "netCashMultiplier": 1.0,
-        "debtSpreadPct": 2.5,
-        "netBorrowingPctOfSalesSchedule": [-0.5, -0.5, 0.0, 0.0, 0.0],
-        "growthSchedule": {
-          "ucan": [6.0, 5.0, 4.0, 4.0, 3.0],
-          "emea": [9.0, 8.0, 7.0, 6.0, 5.0],
-          "restOfWorld": [12.0, 10.0, 9.0, 8.0, 7.0]
-        },
-        "ebitMarginSchedule": [19.0, 20.0, 21.0, 22.0, 23.0]
+    "bull": {
+      "label": "Bull",
+      "terminalGrowth": 3.5,
+      "taxRate": 21.5,
+      "daPct": 6.0,
+      "capexPct": 6.2,
+      "nwcPct": 0.0,
+      "netCashMultiplier": 1.0,
+      "debtSpreadPct": 2.0,
+      "netBorrowingPctOfSalesSchedule": [0.0, 0.0, 0.0, 0.0, 0.0],
+      "growthSchedule": {
+        "ucan": [11.0, 10.0, 9.0, 7.0, 6.0],
+        "emea": [15.0, 14.0, 12.0, 10.0, 9.0],
+        "restOfWorld": [19.0, 18.0, 16.0, 14.0, 12.0]
       },
-      "bull": {
-        "label": "Bull",
-        "terminalGrowth": 3.5,
-        "taxRate": 21.5,
-        "daPct": 6.0,
-        "capexPct": 7.5,
-        "nwcPct": 0.5,
-        "netCashMultiplier": 1.0,
-        "debtSpreadPct": 2.0,
-        "netBorrowingPctOfSalesSchedule": [-0.5, 0.0, 0.0, 0.0, 0.0],
-        "growthSchedule": {
-          "ucan": [8.0, 7.0, 6.0, 5.0, 4.0],
-          "emea": [12.0, 11.0, 10.0, 9.0, 8.0],
-          "restOfWorld": [15.0, 13.0, 12.0, 10.0, 9.0]
-        },
-        "ebitMarginSchedule": [21.0, 23.0, 24.0, 25.0, 26.0]
+      "ebitMarginSchedule": [28.0, 30.0, 31.0, 32.0, 33.0]
+    },
+    "bear": {
+      "label": "Bear",
+      "terminalGrowth": 2.5,
+      "taxRate": 22.5,
+      "daPct": 6.0,
+      "capexPct": 7.0,
+      "nwcPct": 0.2,
+      "netCashMultiplier": 1.0,
+      "debtSpreadPct": 3.25,
+      "netBorrowingPctOfSalesSchedule": [-1.0, -0.5, 0.0, 0.0, 0.0],
+      "growthSchedule": {
+        "ucan": [6.0, 5.0, 4.0, 3.0, 3.0],
+        "emea": [9.0, 8.0, 6.0, 5.0, 4.0],
+        "restOfWorld": [11.0, 10.0, 8.0, 7.0, 6.0]
       },
-      "bear": {
-        "label": "Bear",
-        "terminalGrowth": 2.5,
-        "taxRate": 22.5,
-        "daPct": 6.0,
-        "capexPct": 6.5,
-        "nwcPct": 0.6,
-        "netCashMultiplier": 1.0,
-        "debtSpreadPct": 3.5,
-        "netBorrowingPctOfSalesSchedule": [-1.0, -0.5, 0.0, 0.0, 0.0],
-        "growthSchedule": {
-          "ucan": [3.0, 2.0, 2.0, 1.0, 1.0],
-          "emea": [5.0, 4.0, 3.0, 2.0, 2.0],
-          "restOfWorld": [7.0, 6.0, 5.0, 4.0, 3.0]
-        },
-        "ebitMarginSchedule": [17.0, 18.0, 19.0, 19.5, 20.0]
-      }
+      "ebitMarginSchedule": [24.0, 25.0, 26.0, 26.5, 27.0]
     }
   }
+}
 }
