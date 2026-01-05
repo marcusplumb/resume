@@ -1061,6 +1061,9 @@
     let NAV_HISTORY = null; // cached NAV timeseries
     let THESIS_TARGETS = null;
 
+    const PORTFOLIO_START_DATE = "2025-11-03";
+
+
     function formatBeta(beta) {
       return beta.toFixed(2);
     }
@@ -1544,8 +1547,10 @@
           if (p.date) dateSet.add(p.date);
         });
       });
+      
+      const allDates = Array.from(dateSet).sort();
+      const dates = allDates.filter(d => d >= PORTFOLIO_START_DATE);
 
-      const dates = Array.from(dateSet).sort();
       const navCents = [];
       const equityCents = [];
 

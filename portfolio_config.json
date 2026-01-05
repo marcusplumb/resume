@@ -84,525 +84,428 @@
   ],
   "transactions": [
     {
-      "date": "2025-07-07",
-      "ticker": "BBW",
-      "type": "BUY",
-      "shares": 1932,
-      "priceCents": 5175,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-07",
-      "ticker": "GME",
-      "type": "BUY",
-      "shares": 4420,
-      "priceCents": 2262,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-07",
-      "ticker": "BB",
-      "type": "BUY",
-      "shares": 23201,
-      "priceCents": 431,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-07",
-      "ticker": "SOFI",
-      "type": "BUY",
-      "shares": 5197,
-      "priceCents": 1924,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-07",
-      "ticker": "HUT",
-      "type": "BUY",
-      "shares": 4716,
-      "priceCents": 2120,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-07",
-      "ticker": "AMH",
-      "type": "BUY",
-      "shares": 2824,
-      "priceCents": 3540,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-07",
-      "ticker": "LNG",
-      "type": "BUY",
-      "shares": 419,
-      "priceCents": 23856,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-07",
-      "ticker": "NFLX",
-      "type": "SELL",
-      "shares": 775,
-      "priceCents": 12896,
-      "note": "Build"
-    },
-
-    {
-      "date": "2025-07-21",
-      "ticker": "BBW",
-      "type": "BUY",
-      "shares": 416,
-      "priceCents": 5324,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-21",
-      "ticker": "GME",
-      "type": "BUY",
-      "shares": 363,
-      "priceCents": 2420,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-21",
-      "ticker": "BB",
-      "type": "BUY",
-      "shares": 8976,
-      "priceCents": 388,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-21",
-      "ticker": "SOFI",
-      "type": "BUY",
-      "shares": 713,
-      "priceCents": 2116,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-21",
-      "ticker": "HUT",
-      "type": "BUY",
-      "shares": 1140,
-      "priceCents": 2134,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-21",
-      "ticker": "AMH",
-      "type": "BUY",
-      "shares": 638,
-      "priceCents": 3610,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-21",
-      "ticker": "LNG",
-      "type": "BUY",
-      "shares": 133,
-      "priceCents": 22644,
-      "note": "Build"
-    },
-    {
-      "date": "2025-07-21",
-      "ticker": "NFLX",
-      "type": "SELL",
-      "shares": 244,
-      "priceCents": 12333,
-      "note": "Build"
-    },
-
-    {
-      "date": "2025-08-04",
-      "ticker": "BBW",
-      "type": "BUY",
-      "shares": 632,
-      "priceCents": 5092,
-      "note": "Build"
-    },
-    {
-      "date": "2025-08-04",
-      "ticker": "GME",
-      "type": "BUY",
-      "shares": 1838,
-      "priceCents": 2263,
-      "note": "Build"
-    },
-    {
-      "date": "2025-08-04",
-      "ticker": "BB",
-      "type": "BUY",
-      "shares": 11344,
-      "priceCents": 377,
-      "note": "Build"
-    },
-    {
-      "date": "2025-08-04",
-      "ticker": "SOFI",
-      "type": "BUY",
-      "shares": 1670,
-      "priceCents": 2181,
-      "note": "Build"
-    },
-    {
-      "date": "2025-08-04",
-      "ticker": "HUT",
-      "type": "BUY",
-      "shares": 1895,
-      "priceCents": 2119,
-      "note": "Build"
-    },
-    {
-      "date": "2025-08-04",
-      "ticker": "AMH",
-      "type": "BUY",
-      "shares": 1123,
-      "priceCents": 3548,
-      "note": "Build"
-    },
-    {
-      "date": "2025-08-04",
-      "ticker": "LNG",
-      "type": "BUY",
-      "shares": 70,
-      "priceCents": 24201,
-      "note": "Build"
-    },
-    {
-      "date": "2025-08-04",
-      "ticker": "NFLX",
-      "type": "SELL",
-      "shares": 58,
-      "priceCents": 11710,
-      "note": "Build"
-    },
-
-    {
-      "date": "2025-09-02",
-      "ticker": "BBW",
-      "type": "SELL",
-      "shares": 44,
-      "priceCents": 5963,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-09-02",
-      "ticker": "GME",
-      "type": "BUY",
-      "shares": 54,
-      "priceCents": 2341,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-09-02",
-      "ticker": "BB",
-      "type": "SELL",
-      "shares": 313,
-      "priceCents": 378,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-09-02",
-      "ticker": "SOFI",
-      "type": "SELL",
-      "shares": 32,
-      "priceCents": 2491,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-09-02",
-      "ticker": "HUT",
-      "type": "BUY",
-      "shares": 6,
-      "priceCents": 2740,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-09-02",
-      "ticker": "AMH",
-      "type": "SELL",
-      "shares": 11,
-      "priceCents": 3466,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-09-02",
-      "ticker": "LNG",
-      "type": "SELL",
-      "shares": 10,
-      "priceCents": 24086,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-09-02",
-      "ticker": "NFLX",
-      "type": "SELL",
-      "shares": 1,
-      "priceCents": 12141,
-      "note": "Rebalance"
-    },
-
-    {
-      "date": "2025-10-01",
-      "ticker": "BBW",
-      "type": "SELL",
-      "shares": 15,
-      "priceCents": 6319,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-10-01",
-      "ticker": "GME",
-      "type": "SELL",
-      "shares": 333,
-      "priceCents": 2769,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-10-01",
-      "ticker": "BB",
-      "type": "SELL",
-      "shares": 2561,
-      "priceCents": 479,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-10-01",
-      "ticker": "SOFI",
-      "type": "SELL",
-      "shares": 324,
-      "priceCents": 2576,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-10-01",
-      "ticker": "HUT",
-      "type": "SELL",
-      "shares": 1042,
-      "priceCents": 3653,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-10-01",
-      "ticker": "AMH",
-      "type": "BUY",
-      "shares": 96,
-      "priceCents": 3283,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-10-01",
-      "ticker": "LNG",
-      "type": "BUY",
-      "shares": 12,
-      "priceCents": 23211,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-10-01",
-      "ticker": "NFLX",
-      "type": "BUY",
-      "shares": 72,
-      "priceCents": 11709,
-      "note": "Rebalance"
-    },
-
-    {
-      "date": "2025-11-03",
-      "ticker": "BBW",
-      "type": "BUY",
-      "shares": 471,
-      "priceCents": 5286,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-11-03",
-      "ticker": "GME",
-      "type": "BUY",
-      "shares": 550,
-      "priceCents": 2211,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-11-03",
-      "ticker": "BB",
-      "type": "SELL",
-      "shares": 1195,
-      "priceCents": 480,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-11-03",
-      "ticker": "SOFI",
-      "type": "SELL",
-      "shares": 460,
-      "priceCents": 3063,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-11-03",
-      "ticker": "HUT",
-      "type": "SELL",
-      "shares": 3905,
-      "priceCents": 5500,
-      "note": "Rotate hedge (>110% tgt)"
-    },
-    {
       "date": "2025-11-03",
       "ticker": "AMH",
       "type": "BUY",
-      "shares": 172,
+      "shares": 2125,
       "priceCents": 3176,
-      "note": "Rebalance"
+      "note": "Start build"
     },
     {
       "date": "2025-11-03",
-      "ticker": "LNG",
-      "type": "BUY",
-      "shares": 99,
-      "priceCents": 20961,
-      "note": "Rebalance"
+      "ticker": "BB",
+      "type": "SELL",
+      "shares": 6250,
+      "priceCents": 480,
+      "note": "Start build"
     },
     {
       "date": "2025-11-03",
-      "ticker": "NFLX",
+      "ticker": "BBW",
       "type": "BUY",
       "shares": 1513,
-      "priceCents": 11001,
-      "note": "Rotate hedge (>110% tgt)"
+      "priceCents": 5286,
+      "note": "Start build"
     },
-
     {
-      "date": "2025-12-01",
+      "date": "2025-11-03",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 678,
+      "priceCents": 2211,
+      "note": "Start build"
+    },
+    {
+      "date": "2025-11-03",
+      "ticker": "HUT",
+      "type": "SELL",
+      "shares": 182,
+      "priceCents": 5500,
+      "note": "Start build"
+    },
+    {
+      "date": "2025-11-03",
+      "ticker": "LNG",
+      "type": "BUY",
+      "shares": 334,
+      "priceCents": 20961,
+      "note": "Start build"
+    },
+    {
+      "date": "2025-11-03",
+      "ticker": "NFLX",
+      "type": "SELL",
+      "shares": 182,
+      "priceCents": 11001,
+      "note": "Start build"
+    },
+    {
+      "date": "2025-11-03",
+      "ticker": "SOFI",
+      "type": "SELL",
+      "shares": 367,
+      "priceCents": 3063,
+      "note": "Start build"
+    },
+    {
+      "date": "2025-11-10",
+      "ticker": "AMH",
+      "type": "BUY",
+      "shares": 2157,
+      "priceCents": 3153,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-10",
+      "ticker": "BB",
+      "type": "SELL",
+      "shares": 4549,
+      "priceCents": 463,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-10",
+      "ticker": "BBW",
+      "type": "BUY",
+      "shares": 1769,
+      "priceCents": 4875,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-10",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 718,
+      "priceCents": 2149,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-10",
+      "ticker": "HUT",
+      "type": "SELL",
+      "shares": 242,
+      "priceCents": 4717,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-10",
+      "ticker": "LNG",
+      "type": "BUY",
+      "shares": 328,
+      "priceCents": 21155,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-10",
+      "ticker": "NFLX",
+      "type": "SELL",
+      "shares": 175,
+      "priceCents": 11201,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-10",
+      "ticker": "SOFI",
+      "type": "SELL",
+      "shares": 370,
+      "priceCents": 3054,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-17",
+      "ticker": "AMH",
+      "type": "BUY",
+      "shares": 2064,
+      "priceCents": 3191,
+      "note": "Build / flip"
+    },
+    {
+      "date": "2025-11-17",
+      "ticker": "BB",
+      "type": "BUY",
+      "shares": 26857,
+      "priceCents": 416,
+      "note": "Flip BB long"
+    },
+    {
+      "date": "2025-11-17",
+      "ticker": "BBW",
+      "type": "BUY",
+      "shares": 1583,
+      "priceCents": 4933,
+      "note": "Build / flip"
+    },
+    {
+      "date": "2025-11-17",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 799,
+      "priceCents": 2050,
+      "note": "Build / flip"
+    },
+    {
+      "date": "2025-11-17",
+      "ticker": "HUT",
+      "type": "SELL",
+      "shares": 372,
+      "priceCents": 3770,
+      "note": "Build / flip"
+    },
+    {
+      "date": "2025-11-17",
+      "ticker": "LNG",
+      "type": "BUY",
+      "shares": 314,
+      "priceCents": 21521,
+      "note": "Build / flip"
+    },
+    {
+      "date": "2025-11-17",
+      "ticker": "NFLX",
+      "type": "SELL",
+      "shares": 187,
+      "priceCents": 11029,
+      "note": "Build / flip"
+    },
+    {
+      "date": "2025-11-17",
+      "ticker": "SOFI",
+      "type": "SELL",
+      "shares": 511,
+      "priceCents": 2704,
+      "note": "Build / flip"
+    },
+    {
+      "date": "2025-11-24",
+      "ticker": "AMH",
+      "type": "BUY",
+      "shares": 1149,
+      "priceCents": 3242,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-24",
+      "ticker": "BB",
+      "type": "BUY",
+      "shares": 19364,
+      "priceCents": 415,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-24",
+      "ticker": "BBW",
+      "type": "BUY",
+      "shares": 1188,
+      "priceCents": 4758,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-24",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 440,
+      "priceCents": 2049,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-24",
+      "ticker": "HUT",
+      "type": "SELL",
+      "shares": 121,
+      "priceCents": 3926,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-24",
+      "ticker": "LNG",
+      "type": "BUY",
+      "shares": 256,
+      "priceCents": 20458,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-24",
+      "ticker": "NFLX",
+      "type": "SELL",
+      "shares": 129,
+      "priceCents": 10697,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-24",
+      "ticker": "SOFI",
+      "type": "SELL",
+      "shares": 266,
+      "priceCents": 2740,
+      "note": "Build"
+    },
+    {
+      "date": "2025-11-28",
+      "ticker": "AMH",
+      "type": "BUY",
+      "shares": 911,
+      "priceCents": 3212,
+      "note": "Month-end"
+    },
+    {
+      "date": "2025-11-28",
+      "ticker": "BB",
+      "type": "BUY",
+      "shares": 8303,
+      "priceCents": 408,
+      "note": "Month-end"
+    },
+    {
+      "date": "2025-11-28",
+      "ticker": "BB",
+      "type": "BUY",
+      "shares": 10000,
+      "priceCents": 408,
+      "note": "Cash trim"
+    },
+    {
+      "date": "2025-11-28",
       "ticker": "BBW",
       "type": "SELL",
       "shares": 27,
-      "priceCents": 5364,
-      "note": "Rebalance"
+      "priceCents": 5310,
+      "note": "Month-end"
     },
     {
-      "date": "2025-12-01",
+      "date": "2025-11-28",
       "ticker": "GME",
       "type": "SELL",
-      "shares": 25,
-      "priceCents": 2279,
-      "note": "Rebalance"
+      "shares": 28,
+      "priceCents": 2253,
+      "note": "Month-end"
     },
     {
-      "date": "2025-12-01",
-      "ticker": "BB",
-      "type": "BUY",
-      "shares": 976,
-      "priceCents": 398,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-12-01",
-      "ticker": "SOFI",
-      "type": "BUY",
-      "shares": 378,
-      "priceCents": 2903,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-12-01",
+      "date": "2025-11-28",
       "ticker": "HUT",
       "type": "BUY",
-      "shares": 650,
-      "priceCents": 4357,
-      "note": "Rebalance"
+      "shares": 28,
+      "priceCents": 4500,
+      "note": "Month-end"
     },
     {
-      "date": "2025-12-01",
-      "ticker": "AMH",
-      "type": "SELL",
-      "shares": 10,
-      "priceCents": 3189,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2025-12-01",
+      "date": "2025-11-28",
       "ticker": "LNG",
       "type": "BUY",
-      "shares": 5,
-      "priceCents": 21069,
-      "note": "Rebalance"
+      "shares": 111,
+      "priceCents": 20846,
+      "note": "Month-end"
     },
     {
-      "date": "2025-12-01",
+      "date": "2025-11-28",
       "ticker": "NFLX",
       "type": "SELL",
-      "shares": 23,
-      "priceCents": 10913,
-      "note": "Rebalance"
+      "shares": 71,
+      "priceCents": 10758,
+      "note": "Month-end"
     },
-
     {
-      "date": "2026-01-02",
+      "date": "2025-11-28",
+      "ticker": "SOFI",
+      "type": "SELL",
+      "shares": 36,
+      "priceCents": 2972,
+      "note": "Month-end"
+    },
+    {
+      "date": "2026-01-04",
+      "ticker": "BBW",
+      "type": "SELL",
+      "shares": 3786,
+      "priceCents": 6100,
+      "note": "Automated portfolio rebalance"
+    },
+    {
+      "date": "2026-01-04",
+      "ticker": "BB",
+      "type": "SELL",
+      "shares": 17760,
+      "priceCents": 380,
+      "note": "Automated portfolio rebalance"
+    },
+    {
+      "date": "2026-01-04",
+      "ticker": "AMH",
+      "type": "SELL",
+      "shares": 4125,
+      "priceCents": 3192,
+      "note": "Automated portfolio rebalance"
+    },
+    {
+      "date": "2026-01-04",
+      "ticker": "LNG",
+      "type": "SELL",
+      "shares": 653,
+      "priceCents": 19780,
+      "note": "Automated portfolio rebalance"
+    },
+    {
+      "date": "2026-01-04",
+      "ticker": "BB",
+      "type": "SELL",
+      "shares": 49797,
+      "priceCents": 380,
+      "note": "Rebalance (even longs, <=30% shorts)"
+    },
+    {
+      "date": "2026-01-04",
+      "ticker": "SOFI",
+      "type": "SELL",
+      "shares": 364,
+      "priceCents": 2746,
+      "note": "Rebalance (even longs, <=30% shorts)"
+    },
+    {
+      "date": "2026-01-04",
+      "ticker": "HUT",
+      "type": "SELL",
+      "shares": 136,
+      "priceCents": 5127,
+      "note": "Rebalance (even longs, <=30% shorts)"
+    },
+    {
+      "date": "2026-01-04",
+      "ticker": "AMH",
+      "type": "SELL",
+      "shares": 5927,
+      "priceCents": 3192,
+      "note": "Rebalance (even longs, <=30% shorts)"
+    },
+    {
+      "date": "2026-01-04",
+      "ticker": "LNG",
+      "type": "SELL",
+      "shares": 955,
+      "priceCents": 19780,
+      "note": "Rebalance (even longs, <=30% shorts)"
+    },
+    {
+      "date": "2026-01-04",
       "ticker": "BBW",
       "type": "BUY",
-      "shares": 90,
+      "shares": 8552,
       "priceCents": 6100,
-      "note": "Rebalance"
+      "note": "Rebalance (even longs, <=30% shorts)"
     },
     {
-      "date": "2026-01-02",
+      "date": "2026-01-04",
       "ticker": "GME",
       "type": "BUY",
-      "shares": 177,
+      "shares": 34590,
       "priceCents": 2062,
-      "note": "Rebalance"
+      "note": "Rebalance (even longs, <=30% shorts)"
     },
     {
-      "date": "2026-01-02",
-      "ticker": "BB",
-      "type": "SELL",
-      "shares": 100,
-      "priceCents": 380,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2026-01-02",
-      "ticker": "SOFI",
-      "type": "SELL",
-      "shares": 424,
-      "priceCents": 2746,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2026-01-02",
-      "ticker": "HUT",
-      "type": "BUY",
-      "shares": 367,
-      "priceCents": 5127,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2026-01-02",
-      "ticker": "AMH",
-      "type": "SELL",
-      "shares": 424,
-      "priceCents": 3192,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2026-01-02",
-      "ticker": "LNG",
-      "type": "SELL",
-      "shares": 8,
-      "priceCents": 19780,
-      "note": "Rebalance"
-    },
-    {
-      "date": "2026-01-02",
+      "date": "2026-01-04",
       "ticker": "NFLX",
       "type": "BUY",
-      "shares": 207,
+      "shares": 167,
       "priceCents": 9099,
-      "note": "Rebalance"
+      "note": "Rebalance (even longs, <=30% shorts)"
     }
   ]
-
 }
-
