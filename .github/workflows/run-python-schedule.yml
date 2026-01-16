@@ -1,5 +1,8 @@
 name: Scheduled Python jobs
 
+env:
+  ALPHAVANTAGE_API_KEY: ${{ secrets.API_KEY }}
+
 on:
   schedule:
     - cron: "*/5 * * * *"   # every 5 minutes
