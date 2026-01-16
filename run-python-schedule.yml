@@ -1,0 +1,33 @@
+name: Run Python periodically
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # at minute 0 of every hour (UTC)
+  workflow_dispatch: {}
+
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run script
+        env:
+          # put secrets in repo Settings -> Secrets and variables -> Actions
+          # EXAMPLE_API_KEY: ${{ secrets.EXAMPLE_API_KEY }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/my_job.py
