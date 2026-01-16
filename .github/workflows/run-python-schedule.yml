@@ -1,8 +1,5 @@
 name: Scheduled Python jobs
 
-env:
-  ALPHAVANTAGE_API_KEY: ${{ secrets.API_KEY }}
-
 on:
   schedule:
     - cron: "*/5 * * * *"   # every 5 minutes
@@ -26,6 +23,11 @@ jobs:
   run:
     runs-on: ubuntu-latest
 
+    # Set secrets once for all steps in this job
+    env:
+      API_KEY: ${{ secrets.API_KEY }}
+      PYTHONUNBUFFERED: "1"
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -47,6 +49,7 @@ jobs:
         run: |
           echo "event=${{ github.event_name }}"
           echo "schedule=${{ github.event.schedule }}"
+          echo "API_KEY_set=$([ -n "${API_KEY}" ] && echo yes || echo no)"
           pwd
           ls -la
           ls -la scripts || true
