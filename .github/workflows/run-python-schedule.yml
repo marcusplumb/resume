@@ -2,9 +2,15 @@ name: Scheduled Python jobs
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes
-    - cron: "7 * * * *"     # hourly
-    - cron: "17 6 * * *"    # daily
+    # Every 5 minutes (minimum supported)
+    - cron: "*/5 * * * *"
+
+    # Every hour (UTC) — minute 7 to avoid top-of-hour congestion
+    - cron: "7 * * * *"
+
+    # Every day (UTC) at 06:17
+    - cron: "17 6 * * *"
+
   workflow_dispatch:
     inputs:
       run:
@@ -12,11 +18,9 @@ on:
         required: false
         default: "all"
 
-# allow the workflow to push commits back to the repo
 permissions:
   contents: write
 
-# prevent simultaneous runs from colliding when pushing
 concurrency:
   group: repo-writer
   cancel-in-progress: false
@@ -35,6 +39,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
         run: |
@@ -42,33 +47,37 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           if [ -f scripts/requirements.txt ]; then pip install -r scripts/requirements.txt; fi
 
+      - name: Debug (trigger + files)
+        run: |
+          echo "event=${{ github.event_name }}"
+          echo "schedule=${{ github.event.schedule }}"
+          pwd
+          ls -la
+          ls -la scripts || true
+
       - name: update_prices.py (every 5 minutes)
         if: |
           (github.event_name == 'schedule' && github.event.schedule == '*/5 * * * *') ||
           (github.event_name == 'workflow_dispatch' && (inputs.run == 'prices' || inputs.run == 'all'))
-        working-directory: scripts
-        run: python update_prices.py
+        run: python scripts/update_prices.py
 
       - name: update_thesis_targets.py (hourly)
         if: |
           (github.event_name == 'schedule' && github.event.schedule == '7 * * * *') ||
           (github.event_name == 'workflow_dispatch' && (inputs.run == 'thesis' || inputs.run == 'all'))
-        working-directory: scripts
-        run: python update_thesis_targets.py
+        run: python scripts/update_thesis_targets.py
 
       - name: update_fundamentals.py (daily)
         if: |
           (github.event_name == 'schedule' && github.event.schedule == '17 6 * * *') ||
           (github.event_name == 'workflow_dispatch' && (inputs.run == 'daily' || inputs.run == 'all'))
-        working-directory: scripts
-        run: python update_fundamentals.py
+        run: python scripts/update_fundamentals.py
 
       - name: rebalance_portfolio.py (daily)
         if: |
           (github.event_name == 'schedule' && github.event.schedule == '17 6 * * *') ||
           (github.event_name == 'workflow_dispatch' && (inputs.run == 'daily' || inputs.run == 'all'))
-        working-directory: scripts
-        run: python rebalance_portfolio.py
+        run: python scripts/rebalance_portfolio.py
 
       - name: Commit & push changes (if any)
         run: |
@@ -77,6 +86,9 @@ jobs:
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add -A
             git commit -m "Automated data update ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+
+            # Rebase onto latest in case another run pushed while this one was queued
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           else
             echo "No changes to commit."
