@@ -3,12 +3,13 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import urlopen
+import os
 
 # -----------------------------------------
 # Config / paths
 # -----------------------------------------
 
-API_KEY = "Y0X9MB5C8T3VW67R"  # your Alpha Vantage key
+API_KEY = os.environ["API_KEY"]
 
 ROOT = Path(__file__).resolve().parent.parent  # repo root
 CONFIG_FILE = ROOT / "portfolio_config.json"
