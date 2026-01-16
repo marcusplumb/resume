@@ -516,6 +516,10 @@
       {
         "date": "2026-01-04",
         "priceCents": 2746
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 2644
       }
     ],
     "NFLX": [
@@ -1034,6 +1038,10 @@
       {
         "date": "2026-01-04",
         "priceCents": 9099
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 8805
       }
     ],
     "LNG": [
@@ -1552,6 +1560,10 @@
       {
         "date": "2026-01-04",
         "priceCents": 19780
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 20274
       }
     ],
     "HUT": [
@@ -2070,6 +2082,10 @@
       {
         "date": "2026-01-04",
         "priceCents": 5127
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 5728
       }
     ],
     "BB": [
@@ -3632,6 +3648,10 @@
       {
         "date": "2026-01-04",
         "priceCents": 68317
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 69224
       }
     ],
     "GME": [
@@ -4776,6 +4796,10 @@
       {
         "date": "2026-01-04",
         "priceCents": 5229
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 5456
       }
     ],
     "ZUMZ": [
@@ -4794,6 +4818,10 @@
       {
         "date": "2026-01-04",
         "priceCents": 2589
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 2586
       }
     ],
     "BBWI": [
@@ -4860,6 +4888,10 @@
       {
         "date": "2026-01-04",
         "priceCents": 413
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 453
       }
     ],
     "AAPL": [
@@ -5006,96 +5038,160 @@
       {
         "date": "2026-01-04",
         "priceCents": 11521
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 11035
       }
     ],
     "INVH": [
       {
         "date": "2026-01-04",
         "priceCents": 2772
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 2706
       }
     ],
     "KMI": [
       {
         "date": "2026-01-04",
         "priceCents": 2771
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 2741
       }
     ],
     "LC": [
       {
         "date": "2026-01-04",
         "priceCents": 1912
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 2036
       }
     ],
     "MAA": [
       {
         "date": "2026-01-04",
         "priceCents": 13913
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 13544
       }
     ],
     "MARA": [
       {
         "date": "2026-01-04",
         "priceCents": 991
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 1066
       }
     ],
     "OKE": [
       {
         "date": "2026-01-04",
         "priceCents": 7434
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 7335
       }
     ],
     "PANW": [
       {
         "date": "2026-01-04",
         "priceCents": 17937
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 18773
       }
     ],
     "PYPL": [
       {
         "date": "2026-01-04",
         "priceCents": 5814
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 5674
       }
     ],
     "RIOT": [
       {
         "date": "2026-01-04",
         "priceCents": 1416
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 1657
       }
     ],
     "S": [
       {
         "date": "2026-01-04",
         "priceCents": 1464
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 1408
       }
     ],
     "TRGP": [
       {
         "date": "2026-01-04",
         "priceCents": 18677
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 18193
       }
     ],
     "UPST": [
       {
         "date": "2026-01-04",
         "priceCents": 4584
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 4791
       }
     ],
     "WBD": [
       {
         "date": "2026-01-04",
         "priceCents": 2851
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 2849
       }
     ],
     "WMB": [
       {
         "date": "2026-01-04",
         "priceCents": 6085
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 6029
       }
     ],
     "ZS": [
       {
         "date": "2026-01-04",
         "priceCents": 22057
+      },
+      {
+        "date": "2026-01-16",
+        "priceCents": 21058
       }
     ]
   }
