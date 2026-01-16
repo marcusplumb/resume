@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.request import urlopen
 
 # Prefer env var so you don't hardcode secrets into the repo
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY") or "Y0X9MB5C8T3VW67R"
+API_KEY = os.getenv("API_KEY")
 
 ROOT = Path(__file__).resolve().parent.parent
 FUNDAMENTALS_FILE = ROOT / "fundamentals.json"
