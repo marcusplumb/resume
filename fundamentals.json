@@ -28,7 +28,7 @@
     "avgDebt2Q": 4404700000.0,
     "impliedCostOfDebtPct": 0.020432719594978093,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": [
       "missing_or_bad_beta"
     ]
@@ -62,7 +62,7 @@
     "avgDebt2Q": 4084500000.0,
     "impliedCostOfDebtPct": 1.7872444607663116,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "CNXN": {
@@ -94,7 +94,7 @@
     "avgDebt2Q": 1494000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -128,7 +128,7 @@
     "avgDebt2Q": 75454000.0,
     "impliedCostOfDebtPct": 1.261695867680971,
     "fiscalDateEndingBalanceSheet": "2025-06-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "DKS": {
@@ -160,7 +160,7 @@
     "avgDebt2Q": 6154010500.0,
     "impliedCostOfDebtPct": 0.9632417754243351,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "ZUMZ": {
@@ -192,7 +192,7 @@
     "avgDebt2Q": 208889500.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2025-11-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -226,7 +226,7 @@
     "avgDebt2Q": 112787500.0,
     "impliedCostOfDebtPct": 0.6782666518896154,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "BBWI": {
@@ -258,7 +258,7 @@
     "avgDebt2Q": 4987000000.0,
     "impliedCostOfDebtPct": 5.674754361339483,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "FNKO": {
@@ -290,7 +290,7 @@
     "avgDebt2Q": 321729500.0,
     "impliedCostOfDebtPct": 5.655061161628014,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "FIVE": {
@@ -322,7 +322,7 @@
     "avgDebt2Q": 2016409500.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -356,7 +356,7 @@
     "avgDebt2Q": 571918000.0,
     "impliedCostOfDebtPct": 5.850489056123431,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "CRCT": {
@@ -388,7 +388,7 @@
     "avgDebt2Q": 12953500.0,
     "impliedCostOfDebtPct": 3.2732466128845483,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "BB": {
@@ -420,7 +420,7 @@
     "avgDebt2Q": 127600000.0,
     "impliedCostOfDebtPct": 4.220985893416928,
     "fiscalDateEndingBalanceSheet": "2025-11-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "CRWD": {
@@ -452,18 +452,18 @@
     "avgDebt2Q": 814287000.0,
     "impliedCostOfDebtPct": 3.332117545779314,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "PANW": {
     "name": "Palo Alto Networks Inc",
     "currency": "USD",
-    "marketCap": 128356196000,
+    "marketCap": 128369869000,
     "sharesOutstanding": 683983000,
     "beta": 0.754,
     "revenueTtm": 9556500000,
     "ebitdaTtm": 1382500000,
-    "pe": 118.77,
+    "pe": 118.78,
     "cash": 3066000000,
     "shortTermDebt": 0,
     "longTermDebt": 0,
@@ -484,7 +484,7 @@
     "avgDebt2Q": 381700000.0,
     "impliedCostOfDebtPct": 0.5239717055279014,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "FTNT": {
@@ -516,7 +516,7 @@
     "avgDebt2Q": 995600000.0,
     "impliedCostOfDebtPct": 2.06910405785456,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "ZS": {
@@ -548,7 +548,7 @@
     "avgDebt2Q": 1815308500.0,
     "impliedCostOfDebtPct": 0.46554065052854654,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "S": {
@@ -580,7 +580,7 @@
     "avgDebt2Q": 10943000.0,
     "impliedCostOfDebtPct": 0.5574339760577538,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "SOFI": {
@@ -612,7 +612,7 @@
     "avgDebt2Q": 3421050000.0,
     "impliedCostOfDebtPct": 32.73465748819807,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "HOOD": {
@@ -644,7 +644,7 @@
     "avgDebt2Q": 14153000000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -678,7 +678,7 @@
     "avgDebt2Q": 7905798500.0,
     "impliedCostOfDebtPct": 5.455894176913312,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "UPST": {
@@ -710,13 +710,13 @@
     "avgDebt2Q": 1684308500.0,
     "impliedCostOfDebtPct": 2.29833192672245,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "PYPL": {
     "name": "PayPal Holdings Inc",
     "currency": "USD",
-    "marketCap": 54351479000,
+    "marketCap": 54337147000,
     "sharesOutstanding": 935652000,
     "beta": 1.427,
     "revenueTtm": 32861999000,
@@ -742,7 +742,7 @@
     "avgDebt2Q": 11286000000.0,
     "impliedCostOfDebtPct": 4.704944178628389,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "LC": {
@@ -774,7 +774,7 @@
     "avgDebt2Q": 4722329500.0,
     "impliedCostOfDebtPct": 7.337988592282686,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "HUT": {
@@ -806,7 +806,7 @@
     "avgDebt2Q": 452782470.5,
     "impliedCostOfDebtPct": 7.518842317902854,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "MARA": {
@@ -838,7 +838,7 @@
     "avgDebt2Q": 3143891000.0,
     "impliedCostOfDebtPct": 1.3857032575238772,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "RIOT": {
@@ -870,7 +870,7 @@
     "avgDebt2Q": 577437000.0,
     "impliedCostOfDebtPct": 3.1930756082481726,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "CLSK": {
@@ -902,7 +902,7 @@
     "avgDebt2Q": 500430500.0,
     "impliedCostOfDebtPct": 2.265049792128977,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "CIFR": {
@@ -934,7 +934,7 @@
     "avgDebt2Q": 616632000.0,
     "impliedCostOfDebtPct": 0.6146291467195993,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "BITF": {
@@ -966,7 +966,7 @@
     "avgDebt2Q": 74296500.0,
     "impliedCostOfDebtPct": 7.1140322895425765,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "AMH": {
@@ -998,7 +998,7 @@
     "avgDebt2Q": 5017739000.0,
     "impliedCostOfDebtPct": 3.7130069937874413,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "INVH": {
@@ -1030,7 +1030,7 @@
     "avgDebt2Q": 8202394500.0,
     "impliedCostOfDebtPct": 4.359787864385211,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "AVB": {
@@ -1062,7 +1062,7 @@
     "avgDebt2Q": 8861438000.0,
     "impliedCostOfDebtPct": 2.8105032162951433,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "EQR": {
@@ -1094,7 +1094,7 @@
     "avgDebt2Q": 8707637000.0,
     "impliedCostOfDebtPct": 3.531899641659385,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "MAA": {
@@ -1126,7 +1126,7 @@
     "avgDebt2Q": 5122751000.0,
     "impliedCostOfDebtPct": 3.528201936810905,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "ESS": {
@@ -1158,7 +1158,7 @@
     "avgDebt2Q": 6763517000.0,
     "impliedCostOfDebtPct": 3.734284988120825,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "LNG": {
@@ -1190,7 +1190,7 @@
     "avgDebt2Q": 26536000000.0,
     "impliedCostOfDebtPct": 3.549894482966536,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "KMI": {
@@ -1222,7 +1222,7 @@
     "avgDebt2Q": 32564500000.0,
     "impliedCostOfDebtPct": 5.527491593606534,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "OKE": {
@@ -1254,7 +1254,7 @@
     "avgDebt2Q": 33097000000.0,
     "impliedCostOfDebtPct": 5.372088104662054,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "TRGP": {
@@ -1286,7 +1286,7 @@
     "avgDebt2Q": 17140900000.0,
     "impliedCostOfDebtPct": 4.751792496309996,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "WMB": {
@@ -1318,7 +1318,7 @@
     "avgDebt2Q": 28279500000.0,
     "impliedCostOfDebtPct": 4.982407751197864,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "CTRA": {
@@ -1350,7 +1350,7 @@
     "avgDebt2Q": 4253000000.0,
     "impliedCostOfDebtPct": 4.349870679520339,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "NFLX": {
@@ -1382,7 +1382,7 @@
     "avgDebt2Q": 16780057500.0,
     "impliedCostOfDebtPct": 4.378518965146574,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "DIS": {
@@ -1414,7 +1414,7 @@
     "avgDebt2Q": 42144500000.0,
     "impliedCostOfDebtPct": 4.2994934095789485,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "WBD": {
@@ -1446,7 +1446,7 @@
     "avgDebt2Q": 34189000000.0,
     "impliedCostOfDebtPct": 5.823510485828775,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "CMCSA": {
@@ -1478,7 +1478,7 @@
     "avgDebt2Q": 100295500000.0,
     "impliedCostOfDebtPct": 4.339177729808416,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "AMZN": {
@@ -1510,13 +1510,13 @@
     "avgDebt2Q": 134679000000.0,
     "impliedCostOfDebtPct": 1.6075260434069156,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   },
   "AAPL": {
     "name": "Apple Inc",
     "currency": "USD",
-    "marketCap": 3775801328000,
+    "marketCap": 3775609176000,
     "sharesOutstanding": 14697926000,
     "beta": 1.093,
     "revenueTtm": 416161006000,
@@ -1542,7 +1542,7 @@
     "avgDebt2Q": 107037500000.0,
     "impliedCostOfDebtPct": 0.0009342520144809062,
     "fiscalDateEndingBalanceSheet": "2025-09-30",
-    "updatedAt": "2026-01-19T07:00:40Z",
+    "updatedAt": "2026-01-20T06:55:57Z",
     "dataQualityFlags": []
   }
 }

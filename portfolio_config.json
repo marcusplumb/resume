@@ -866,6 +866,118 @@
       "shares": 1,
       "priceCents": 2110,
       "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "BUY",
+      "shares": 13,
+      "priceCents": 2110,
+      "note": "Rebalance (even longs, <=30% shorts)"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
+    },
+    {
+      "date": "2026-01-20",
+      "ticker": "GME",
+      "type": "SELL",
+      "shares": 1,
+      "priceCents": 2110,
+      "note": "Raise cash to buffer"
     }
   ]
 }
