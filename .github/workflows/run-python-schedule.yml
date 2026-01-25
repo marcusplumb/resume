@@ -72,11 +72,11 @@ jobs:
           (github.event_name == 'workflow_dispatch' && (inputs.run == 'daily' || inputs.run == 'all'))
         run: python scripts/update_fundamentals.py
 
-      - name: rebalance_portfolio.py (daily)
-        if: |
-          (github.event_name == 'schedule' && github.event.schedule == '17 6 * * *') ||
-          (github.event_name == 'workflow_dispatch' && (inputs.run == 'daily' || inputs.run == 'all'))
-        run: python scripts/rebalance_portfolio.py
+      #- name: rebalance_portfolio.py (daily)
+      #  if: |
+      #    (github.event_name == 'schedule' && github.event.schedule == '17 6 * * *') ||
+      #    (github.event_name == 'workflow_dispatch' && (inputs.run == 'daily' || inputs.run == 'all'))
+      #  run: python scripts/rebalance_portfolio.py
 
       - name: Commit & push changes (if any)
         run: |
