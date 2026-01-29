@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-29T06:08:38Z",
+  "updatedAt": "2026-01-29T07:03:43Z",
   "symbols": {
     "AAPL": {
       "priceCents": 25644,
@@ -99,102 +99,6 @@
     },
     "GME": {
       "priceCents": 2364,
-      "currency": "USD"
-    },
-    "HOOD": {
-      "priceCents": 10340,
-      "currency": "USD"
-    },
-    "HUT": {
-      "priceCents": 6460,
-      "currency": "USD"
-    },
-    "INVH": {
-      "priceCents": 2621,
-      "currency": "USD"
-    },
-    "KMI": {
-      "priceCents": 3007,
-      "currency": "USD"
-    },
-    "LC": {
-      "priceCents": 1957,
-      "currency": "USD"
-    },
-    "LNG": {
-      "priceCents": 20804,
-      "currency": "USD"
-    },
-    "MAA": {
-      "priceCents": 13246,
-      "currency": "USD"
-    },
-    "MARA": {
-      "priceCents": 1037,
-      "currency": "USD"
-    },
-    "NEGG": {
-      "priceCents": 5454,
-      "currency": "USD"
-    },
-    "NFLX": {
-      "priceCents": 8464,
-      "currency": "USD"
-    },
-    "OKE": {
-      "priceCents": 7926,
-      "currency": "USD"
-    },
-    "PANW": {
-      "priceCents": 18374,
-      "currency": "USD"
-    },
-    "PLCE": {
-      "priceCents": 419,
-      "currency": "USD"
-    },
-    "PYPL": {
-      "priceCents": 5408,
-      "currency": "USD"
-    },
-    "RIOT": {
-      "priceCents": 1755,
-      "currency": "USD"
-    },
-    "S": {
-      "priceCents": 1493,
-      "currency": "USD"
-    },
-    "SOFI": {
-      "priceCents": 2460,
-      "currency": "USD"
-    },
-    "SPY": {
-      "priceCents": 69542,
-      "currency": "USD"
-    },
-    "TRGP": {
-      "priceCents": 20113,
-      "currency": "USD"
-    },
-    "UPST": {
-      "priceCents": 4316,
-      "currency": "USD"
-    },
-    "WBD": {
-      "priceCents": 2798,
-      "currency": "USD"
-    },
-    "WMB": {
-      "priceCents": 6692,
-      "currency": "USD"
-    },
-    "ZS": {
-      "priceCents": 21395,
-      "currency": "USD"
-    },
-    "ZUMZ": {
-      "priceCents": 2452,
       "currency": "USD"
     }
   }
