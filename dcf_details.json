@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-02-02T07:15:53Z",
+    "updatedAt": "2026-02-02T09:10:08Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -302,7 +302,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-02-02T07:15:53Z",
+    "updatedAt": "2026-02-02T09:10:08Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -645,7 +645,7 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-02-02T07:15:53Z",
+    "updatedAt": "2026-02-02T09:10:08Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -988,7 +988,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-02-02T07:15:53Z",
+    "updatedAt": "2026-02-02T09:10:08Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1376,7 +1376,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-02-02T07:15:53Z",
+    "updatedAt": "2026-02-02T09:10:08Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1593,7 +1593,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-02-02T07:15:53Z",
+    "updatedAt": "2026-02-02T09:10:08Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1936,7 +1936,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-02-02T07:15:53Z",
+    "updatedAt": "2026-02-02T09:10:08Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1949,10 +1949,10 @@
         "costOfDebtPct": 7.0,
         "terminalGrowthPct": 3.0,
         "taxRatePct": 26.0,
-        "pvFcfeMn": 9749.74835306575,
-        "netCashEffectiveMn": 4929.452,
-        "equityValueMn": 14679.20035306575,
-        "price": 11.6164,
+        "pvFcfeMn": 9778.762710771252,
+        "netCashEffectiveMn": 2901.39,
+        "equityValueMn": 12680.152710771252,
+        "price": 10.0345,
         "segmentOrder": [
           "lending",
           "financialServices",
@@ -1966,88 +1966,88 @@
         "rows": [
           {
             "year": 1,
-            "salesMn": 4040.9046920000005,
+            "salesMn": 4399.96698,
             "segmentsMn": {
-              "lending": 2027.0336240000004,
-              "financialServices": 1431.4279649999999,
-              "techPlatform": 582.443103
+              "lending": 2207.1495600000003,
+              "financialServices": 1558.620225,
+              "techPlatform": 634.197195
             },
-            "ebitMn": 565.7266568800002,
-            "nopatMn": 418.63772609120014,
-            "daMn": 303.06785190000005,
-            "capexMn": 88.89990322400001,
-            "deltaNwcMn": 1.1253985380000007,
-            "fcfeMn": 631.6802762292002,
-            "pvMn": 551.8786267946882
+            "ebitMn": 615.9953772000001,
+            "nopatMn": 455.8365791280001,
+            "daMn": 329.9975235,
+            "capexMn": 96.79927356000002,
+            "deltaNwcMn": 1.2253979700000004,
+            "fcfeMn": 582.7558194980002,
+            "pvMn": 509.1349113209856
           },
           {
             "year": 2,
-            "salesMn": 4837.798738630001,
+            "salesMn": 5267.67056595,
             "segmentsMn": {
-              "lending": 2229.7369864000007,
-              "financialServices": 1932.4277527499999,
-              "techPlatform": 675.6339994799999
+              "lending": 2427.8645160000005,
+              "financialServices": 2104.13730375,
+              "techPlatform": 735.6687461999999
             },
-            "ebitMn": 774.0477981808002,
-            "nopatMn": 572.7953706537921,
-            "daMn": 362.83490539725005,
-            "capexMn": 106.43157224986004,
-            "deltaNwcMn": 1.195341069945001,
-            "fcfeMn": 828.0033627312371,
-            "pvMn": 632.0109713080985
+            "ebitMn": 842.827290552,
+            "nopatMn": 623.69219500848,
+            "daMn": 395.07529244625,
+            "capexMn": 115.88875245090001,
+            "deltaNwcMn": 1.3015553789250003,
+            "fcfeMn": 796.523568024905,
+            "pvMn": 607.9825959120116
           },
           {
             "year": 3,
-            "salesMn": 5616.170765520701,
+            "salesMn": 6115.2063227955005,
             "segmentsMn": {
-              "lending": 2430.413315176001,
-              "financialServices": 2415.5346909375,
-              "techPlatform": 770.2227594072
+              "lending": 2646.372322440001,
+              "financialServices": 2630.1716296874997,
+              "techPlatform": 838.662370668
             },
-            "ebitMn": 1010.9107377937262,
-            "nopatMn": 748.0739459673574,
-            "daMn": 421.2128074140526,
-            "capexMn": 123.55575684145543,
-            "deltaNwcMn": 1.1675580403360497,
-            "fcfeMn": 1044.5634384996188,
-            "pvMn": 696.5841622825516
+            "ebitMn": 1100.73713810319,
+            "nopatMn": 814.5454821963607,
+            "daMn": 458.6404742096625,
+            "capexMn": 134.53453910150103,
+            "deltaNwcMn": 1.271303635268251,
+            "fcfeMn": 1032.326502069254,
+            "pvMn": 688.423761680656
           },
           {
             "year": 4,
-            "salesMn": 6337.826806232395,
+            "salesMn": 6900.986486414611,
             "segmentsMn": {
-              "lending": 2624.8463803900813,
-              "financialServices": 2850.3309353062496,
-              "techPlatform": 862.649490536064
+              "lending": 2858.0821082352013,
+              "financialServices": 3103.6025230312493,
+              "techPlatform": 939.30185514816
             },
-            "ebitMn": 1204.1870931841552,
-            "nopatMn": 891.0984489562749,
-            "daMn": 475.3370104674296,
-            "capexMn": 139.4321897371127,
-            "deltaNwcMn": 1.0824840610675412,
-            "fcfeMn": 1225.9207856255243,
-            "pvMn": 714.2453840138755
+            "ebitMn": 1311.187432418776,
+            "nopatMn": 970.2786999898943,
+            "daMn": 517.5739864810959,
+            "capexMn": 151.82170270112147,
+            "deltaNwcMn": 1.1786702454286644,
+            "fcfeMn": 1229.79870192444,
+            "pvMn": 716.5047337602617
           },
           {
             "year": 5,
-            "salesMn": 7006.877332856182,
+            "salesMn": 7629.486772730266,
             "segmentsMn": {
-              "lending": 2808.585627017387,
-              "financialServices": 3249.3772662491247,
-              "techPlatform": 948.9144395896706
+              "lending": 3058.1478558116655,
+              "financialServices": 3538.1068762556247,
+              "techPlatform": 1033.232040662976
             },
-            "ebitMn": 1401.3754665712365,
-            "nopatMn": 1037.0178452627151,
-            "daMn": 525.5157999642137,
-            "capexMn": 154.15130132283602,
-            "deltaNwcMn": 1.003575789935681,
-            "fcfeMn": 1407.3787681141573,
-            "pvMn": 716.378077331107
+            "ebitMn": 1525.8973545460533,
+            "nopatMn": 1129.1640423640795,
+            "daMn": 572.2115079547699,
+            "capexMn": 167.84870900006587,
+            "deltaNwcMn": 1.092750429473483,
+            "fcfeMn": 1427.3804792893102,
+            "pvMn": 726.5592650252969
           },
           {
             "year": "TV",
-            "fcfeMn": 12649.215804167383,
-            "pvMn": 6438.651131335429
+            "fcfeMn": 12828.986855741618,
+            "pvMn": 6530.15744307204
           }
         ]
       },
@@ -2061,10 +2061,10 @@
         "costOfDebtPct": 6.8,
         "terminalGrowthPct": 3.5000000000000004,
         "taxRatePct": 24.0,
-        "pvFcfeMn": 13233.46713385095,
-        "netCashEffectiveMn": 4929.452,
-        "equityValueMn": 18162.91913385095,
-        "price": 14.3733,
+        "pvFcfeMn": 13549.664892161905,
+        "netCashEffectiveMn": 2901.39,
+        "equityValueMn": 16451.054892161905,
+        "price": 13.0186,
         "segmentOrder": [
           "lending",
           "financialServices",
@@ -2078,88 +2078,88 @@
         "rows": [
           {
             "year": 1,
-            "salesMn": 4263.0228245,
+            "salesMn": 4641.8218425,
             "segmentsMn": {
-              "lending": 2081.3291675,
-              "financialServices": 1579.50672,
-              "techPlatform": 602.186937
+              "lending": 2266.2696375,
+              "financialServices": 1719.8568,
+              "techPlatform": 655.6954049999999
             },
-            "ebitMn": 682.08365192,
-            "nopatMn": 518.3835754592,
-            "daMn": 298.411597715,
-            "capexMn": 85.26045649,
-            "deltaNwcMn": 0.9723838245,
-            "fcfeMn": 730.5623328597001,
-            "pvMn": 638.2686815129304
+            "ebitMn": 742.6914948,
+            "nopatMn": 564.445536048,
+            "daMn": 324.927528975,
+            "capexMn": 92.83643685,
+            "deltaNwcMn": 1.0587868425,
+            "fcfeMn": 690.6675971704999,
+            "pvMn": 603.4139412637602
           },
           {
             "year": 2,
-            "salesMn": 5352.767288935,
+            "salesMn": 5828.397628274999,
             "segmentsMn": {
-              "lending": 2351.9019592749996,
-              "financialServices": 2290.284744,
-              "techPlatform": 710.5805856599999
+              "lending": 2560.884690375,
+              "financialServices": 2493.79236,
+              "techPlatform": 773.7205778999999
             },
-            "ebitMn": 963.4981120082999,
-            "nopatMn": 732.258565126308,
-            "daMn": 374.69371022545,
-            "capexMn": 107.0553457787,
-            "deltaNwcMn": 1.0897444644349994,
-            "fcfeMn": 998.8071851086231,
-            "pvMn": 762.3847047284388
+            "ebitMn": 1049.1115730894999,
+            "nopatMn": 797.3247955480199,
+            "daMn": 407.98783397924996,
+            "capexMn": 116.56795256549998,
+            "deltaNwcMn": 1.1865757857749992,
+            "fcfeMn": 982.7478570159948,
+            "pvMn": 750.1266970883515
           },
           {
             "year": 3,
-            "salesMn": 6412.25482136085,
+            "salesMn": 6982.02794468025,
             "segmentsMn": {
-              "lending": 2610.61117479525,
-              "financialServices": 2977.3701672,
-              "techPlatform": 824.2734793655998
+              "lending": 2842.58200631625,
+              "financialServices": 3241.930068,
+              "techPlatform": 897.5158703639997
             },
-            "ebitMn": 1282.45096427217,
-            "nopatMn": 974.6627328468493,
-            "daMn": 448.8578374952595,
-            "capexMn": 128.245096427217,
-            "deltaNwcMn": 1.05948753242585,
-            "fcfeMn": 1294.2159863824659,
-            "pvMn": 863.0690348322441
+            "ebitMn": 1396.40558893605,
+            "nopatMn": 1061.268247591398,
+            "daMn": 488.7419561276175,
+            "capexMn": 139.640558893605,
+            "deltaNwcMn": 1.153630316405251,
+            "fcfeMn": 1304.4057703490053,
+            "pvMn": 869.8642584314613
           },
           {
             "year": 4,
-            "salesMn": 7443.735662735559,
+            "salesMn": 8105.162982122835,
             "segmentsMn": {
-              "lending": 2871.6722922747754,
-              "financialServices": 3632.391603984,
-              "techPlatform": 939.6717664767839
+              "lending": 3126.8402069478752,
+              "financialServices": 3955.15468296,
+              "techPlatform": 1023.1680922149599
             },
-            "ebitMn": 1637.6218458018232,
-            "nopatMn": 1244.5926028093857,
-            "daMn": 521.0614963914892,
-            "capexMn": 148.8747132547112,
-            "deltaNwcMn": 1.0314808413747096,
-            "fcfeMn": 1615.747905104789,
-            "pvMn": 941.3662746262496
+            "ebitMn": 1783.1358560670237,
+            "nopatMn": 1355.183250610938,
+            "daMn": 567.3614087485985,
+            "capexMn": 162.10325964245672,
+            "deltaNwcMn": 1.1231350374425846,
+            "fcfeMn": 1654.5080205196373,
+            "pvMn": 963.9486746014443
           },
           {
             "year": 5,
-            "salesMn": 8396.129437654943,
+            "salesMn": 9142.18352108754,
             "segmentsMn": {
-              "lending": 3130.1227985795053,
-              "financialServices": 4213.57426062144,
-              "techPlatform": 1052.4323784539981
+              "lending": 3408.255825573184,
+              "financialServices": 4587.9794322336,
+              "techPlatform": 1145.948263280755
             },
-            "ebitMn": 1931.109770660637,
-            "nopatMn": 1467.6434257020842,
-            "daMn": 587.729060635846,
-            "capexMn": 167.92258875309886,
-            "deltaNwcMn": 0.9523937749193845,
-            "fcfeMn": 1886.4975038099121,
-            "pvMn": 960.2571001409743
+            "ebitMn": 2102.7022098501343,
+            "nopatMn": 1598.053679486102,
+            "daMn": 639.9528464761279,
+            "capexMn": 182.8436704217508,
+            "deltaNwcMn": 1.0370205389647058,
+            "fcfeMn": 1949.3155908415147,
+            "pvMn": 992.2325010983286
           },
           {
             "year": "TV",
-            "fcfeMn": 17815.008361708566,
-            "pvMn": 9068.121338010113
+            "fcfeMn": 18408.22661059277,
+            "pvMn": 9370.07881967856
           }
         ]
       },
@@ -2173,10 +2173,10 @@
         "costOfDebtPct": 7.0,
         "terminalGrowthPct": 2.25,
         "taxRatePct": 27.0,
-        "pvFcfeMn": 6001.01791898712,
-        "netCashEffectiveMn": 4929.452,
-        "equityValueMn": 10930.469918987119,
-        "price": 8.6499,
+        "pvFcfeMn": 5740.609751953888,
+        "netCashEffectiveMn": 2901.39,
+        "equityValueMn": 8641.999751953888,
+        "price": 6.8389,
         "segmentOrder": [
           "lending",
           "financialServices",
@@ -2190,88 +2190,88 @@
         "rows": [
           {
             "year": 1,
-            "salesMn": 3713.4861115000003,
+            "salesMn": 4043.4549975,
             "segmentsMn": {
-              "lending": 1936.5410515000003,
-              "financialServices": 1233.989625,
-              "techPlatform": 542.9554350000001
+              "lending": 2108.6160975000003,
+              "financialServices": 1343.638125,
+              "techPlatform": 591.200775
             },
-            "ebitMn": 371.34861115000007,
-            "nopatMn": 271.08448613950003,
-            "daMn": 297.07888892000005,
-            "capexMn": 96.55063889900002,
-            "deltaNwcMn": 1.0571177787500012,
-            "fcfeMn": 470.5556183817501,
-            "pvMn": 411.10922451664345
+            "ebitMn": 404.34549975000004,
+            "nopatMn": 295.17221481750005,
+            "daMn": 323.4763998,
+            "capexMn": 105.129829935,
+            "deltaNwcMn": 1.15104999375,
+            "fcfeMn": 408.73376648875,
+            "pvMn": 357.0974720328062
           },
           {
             "year": 2,
-            "salesMn": 4125.342488740001,
+            "salesMn": 4491.9076581,
             "segmentsMn": {
-              "lending": 2052.7335145900006,
-              "financialServices": 1480.7875499999998,
-              "techPlatform": 591.8214241500001
+              "lending": 2235.13306335,
+              "financialServices": 1612.36575,
+              "techPlatform": 644.4088447500001
             },
-            "ebitMn": 495.0410986488001,
-            "nopatMn": 361.38000201362405,
-            "daMn": 330.02739909920007,
-            "capexMn": 107.25890470724002,
-            "deltaNwcMn": 1.0296409431000004,
-            "fcfeMn": 583.118855462484,
-            "pvMn": 445.09180858065594
+            "ebitMn": 539.0289189719999,
+            "nopatMn": 393.49111084955996,
+            "daMn": 359.352612648,
+            "capexMn": 116.78959911060001,
+            "deltaNwcMn": 1.121131651499999,
+            "fcfeMn": 531.2990245354599,
+            "pvMn": 405.53798168654885
           },
           {
             "year": 3,
-            "salesMn": 4497.4430109015,
+            "salesMn": 4897.0718813475,
             "segmentsMn": {
-              "lending": 2155.3701903195006,
-              "financialServices": 1702.9056824999996,
-              "techPlatform": 639.1671380820002
+              "lending": 2346.8897165175003,
+              "financialServices": 1854.2206124999998,
+              "techPlatform": 695.9615523300001
             },
-            "ebitMn": 629.6420215262101,
-            "nopatMn": 459.63867571413334,
-            "daMn": 359.79544087212,
-            "capexMn": 116.93351828343901,
-            "deltaNwcMn": 0.9302513054037487,
-            "fcfeMn": 701.5703469974105,
-            "pvMn": 467.8536261497234
+            "ebitMn": 685.59006338865,
+            "nopatMn": 500.4807462737145,
+            "daMn": 391.76575050779996,
+            "capexMn": 127.323868915035,
+            "deltaNwcMn": 1.0129105581187492,
+            "fcfeMn": 660.2757491083606,
+            "pvMn": 440.3156501713031
           },
           {
             "year": 4,
-            "salesMn": 4854.301901983215,
+            "salesMn": 5285.640149336475,
             "segmentsMn": {
-              "lending": 2263.1386998354756,
-              "financialServices": 1907.2543643999998,
-              "techPlatform": 683.9088377477402
+              "lending": 2464.2342023433753,
+              "financialServices": 2076.727086,
+              "techPlatform": 744.6788609931002
             },
-            "ebitMn": 728.1452852974822,
-            "nopatMn": 531.546058267162,
-            "daMn": 388.34415215865727,
-            "capexMn": 126.21184945156361,
-            "deltaNwcMn": 0.8921472277042888,
-            "fcfeMn": 792.7862137465514,
-            "pvMn": 461.8927261188307
+            "ebitMn": 792.8460224004712,
+            "nopatMn": 578.777596352344,
+            "daMn": 422.851211946918,
+            "capexMn": 137.42664388274835,
+            "deltaNwcMn": 0.9714206699724386,
+            "fcfeMn": 759.5967755465412,
+            "pvMn": 442.55591144831715
           },
           {
             "year": 5,
-            "salesMn": 5176.587416681499,
+            "salesMn": 5636.562957689796,
             "segmentsMn": {
-              "lending": 2353.6642478288945,
-              "financialServices": 2097.97980084,
-              "techPlatform": 724.9433680126047
+              "lending": 2562.8035704371105,
+              "financialServices": 2284.3997946,
+              "techPlatform": 789.3595926526863
             },
-            "ebitMn": 828.2539866690399,
-            "nopatMn": 604.6254102683992,
-            "daMn": 414.12699333451997,
-            "capexMn": 134.591272833719,
-            "deltaNwcMn": 0.8057137867457094,
-            "fcfeMn": 883.3554169824544,
-            "pvMn": 449.6418942470354
+            "ebitMn": 901.8500732303675,
+            "nopatMn": 658.3505534581682,
+            "daMn": 450.9250366151837,
+            "capexMn": 146.55063689993472,
+            "deltaNwcMn": 0.877307020883304,
+            "fcfeMn": 858.2136779525338,
+            "pvMn": 436.8443509878394
           },
           {
             "year": "TV",
-            "fcfeMn": 7397.468582019324,
-            "pvMn": 3765.4286393742314
+            "fcfeMn": 7186.924534860488,
+            "pvMn": 3658.2583856270735
           }
         ]
       }
