@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-02T23:07:11Z",
+  "updatedAt": "2026-02-02T23:43:57Z",
   "symbols": {
     "AAPL": {
       "priceCents": 27001,
@@ -18,7 +18,7 @@
       "currency": "USD"
     },
     "AVB": {
-      "priceCents": 17537,
+      "priceCents": 17532,
       "currency": "USD"
     },
     "BB": {
@@ -26,11 +26,11 @@
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 6002,
+      "priceCents": 5996,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 2221,
+      "priceCents": 2224,
       "currency": "USD"
     },
     "BBY": {
@@ -66,23 +66,23 @@
       "currency": "USD"
     },
     "CTRA": {
-      "priceCents": 2782,
+      "priceCents": 2781,
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10456,
+      "priceCents": 10445,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 20301,
+      "priceCents": 20300,
       "currency": "USD"
     },
     "EQR": {
-      "priceCents": 6163,
+      "priceCents": 6161,
       "currency": "USD"
     },
     "ESS": {
-      "priceCents": 24848,
+      "priceCents": 24846,
       "currency": "USD"
     },
     "FIVE": {
@@ -98,7 +98,7 @@
       "currency": "USD"
     },
     "GME": {
-      "priceCents": 2583,
+      "priceCents": 2585,
       "currency": "USD"
     },
     "HOOD": {
@@ -110,11 +110,11 @@
       "currency": "USD"
     },
     "INVH": {
-      "priceCents": 2626,
+      "priceCents": 2625,
       "currency": "USD"
     },
     "KMI": {
-      "priceCents": 2962,
+      "priceCents": 2961,
       "currency": "USD"
     },
     "LC": {
@@ -122,11 +122,11 @@
       "currency": "USD"
     },
     "LNG": {
-      "priceCents": 20786,
+      "priceCents": 20776,
       "currency": "USD"
     },
     "MAA": {
-      "priceCents": 13233,
+      "priceCents": 13231,
       "currency": "USD"
     },
     "MARA": {
@@ -142,7 +142,7 @@
       "currency": "USD"
     },
     "OKE": {
-      "priceCents": 7533,
+      "priceCents": 7532,
       "currency": "USD"
     },
     "PANW": {
@@ -162,7 +162,7 @@
       "currency": "USD"
     },
     "S": {
-      "priceCents": 1440,
+      "priceCents": 1439,
       "currency": "USD"
     },
     "SOFI": {
@@ -170,11 +170,11 @@
       "currency": "USD"
     },
     "SPY": {
-      "priceCents": 69540,
+      "priceCents": 69541,
       "currency": "USD"
     },
     "TRGP": {
-      "priceCents": 19883,
+      "priceCents": 19867,
       "currency": "USD"
     },
     "UPST": {
