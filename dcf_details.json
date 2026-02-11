@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-02-11T22:47:02Z",
+    "updatedAt": "2026-02-11T23:44:29Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -302,7 +302,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-02-11T22:47:02Z",
+    "updatedAt": "2026-02-11T23:44:29Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -645,13 +645,13 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-02-11T22:47:02Z",
+    "updatedAt": "2026-02-11T23:44:29Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 50.22,
+        "spot": 52.14,
         "shares": 12945800.0,
         "discountRatePct": 9.685,
         "costOfEquityPct": 9.685,
@@ -763,7 +763,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 50.22,
+        "spot": 52.14,
         "shares": 12945800.0,
         "discountRatePct": 9.685,
         "costOfEquityPct": 9.685,
@@ -875,7 +875,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 50.22,
+        "spot": 52.14,
         "shares": 12945800.0,
         "discountRatePct": 9.685,
         "costOfEquityPct": 9.685,
@@ -988,7 +988,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-02-11T22:47:02Z",
+    "updatedAt": "2026-02-11T23:44:29Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1376,7 +1376,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-02-11T22:47:02Z",
+    "updatedAt": "2026-02-11T23:44:29Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1593,7 +1593,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-02-11T22:47:02Z",
+    "updatedAt": "2026-02-11T23:44:29Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1936,7 +1936,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-02-11T22:47:02Z",
+    "updatedAt": "2026-02-11T23:44:29Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
