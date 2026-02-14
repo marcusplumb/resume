@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-13T23:57:51Z",
+  "updatedAt": "2026-02-14T01:46:38Z",
   "symbols": {
     "AAPL": {
       "priceCents": 25578,
@@ -102,7 +102,7 @@
       "currency": "USD"
     },
     "HOOD": {
-      "priceCents": 7112,
+      "priceCents": 7597,
       "currency": "USD"
     },
     "HUT": {
@@ -110,27 +110,27 @@
       "currency": "USD"
     },
     "INVH": {
-      "priceCents": 2684,
+      "priceCents": 2699,
       "currency": "USD"
     },
     "KMI": {
-      "priceCents": 3169,
+      "priceCents": 3232,
       "currency": "USD"
     },
     "LC": {
-      "priceCents": 1520,
+      "priceCents": 1559,
       "currency": "USD"
     },
     "LNG": {
-      "priceCents": 21769,
+      "priceCents": 22079,
       "currency": "USD"
     },
     "MAA": {
-      "priceCents": 13344,
+      "priceCents": 13555,
       "currency": "USD"
     },
     "MARA": {
-      "priceCents": 725,
+      "priceCents": 792,
       "currency": "USD"
     },
     "NEGG": {
@@ -190,11 +190,11 @@
       "currency": "USD"
     },
     "ZS": {
-      "priceCents": 17090,
+      "priceCents": 17772,
       "currency": "USD"
     },
     "ZUMZ": {
-      "priceCents": 2403,
+      "priceCents": 2485,
       "currency": "USD"
     }
   }
