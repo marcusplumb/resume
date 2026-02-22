@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-02-22T05:30:36Z",
+    "updatedAt": "2026-02-22T08:47:26Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -14,10 +14,10 @@
         "costOfDebtPct": 3.85968959799294,
         "terminalGrowthPct": 2.5,
         "taxRatePct": 5.0,
-        "pvFcfeMn": 20240.361816554898,
+        "pvFcfeMn": 20469.667739312237,
         "netCashEffectiveMn": -4627.219,
-        "equityValueMn": 15613.142816554897,
-        "price": 42.144,
+        "equityValueMn": 15842.448739312236,
+        "price": 42.763,
         "segmentOrder": [
           "singleFamilyRentals"
         ],
@@ -27,78 +27,78 @@
         "rows": [
           {
             "year": 1,
-            "salesMn": 1923.4278000000002,
+            "salesMn": 1942.7457,
             "segmentsMn": {
-              "singleFamilyRentals": 1923.4278000000002
+              "singleFamilyRentals": 1942.7457
             },
-            "ebitMn": 1057.8852900000002,
-            "nopatMn": 1004.9910255000001,
-            "daMn": 480.85695000000004,
-            "capexMn": 230.811336,
-            "deltaNwcMn": 0.45795900000000067,
-            "fcfeMn": 1080.9332428756647,
-            "pvMn": 994.8306501087524
+            "ebitMn": 1068.510135,
+            "nopatMn": 1015.0846282499999,
+            "daMn": 485.686425,
+            "capexMn": 233.129484,
+            "deltaNwcMn": 0.4625585000000001,
+            "fcfeMn": 1093.5335731256646,
+            "pvMn": 1006.4272910824764
           },
           {
             "year": 2,
-            "salesMn": 2019.5991900000004,
+            "salesMn": 2039.882985,
             "segmentsMn": {
-              "singleFamilyRentals": 2019.5991900000004
+              "singleFamilyRentals": 2039.882985
             },
-            "ebitMn": 1130.9755464000002,
-            "nopatMn": 1074.4267690800002,
-            "daMn": 504.8997975000001,
-            "capexMn": 242.35190280000003,
-            "deltaNwcMn": 0.4808569499999997,
-            "fcfeMn": 1162.8483692056648,
-            "pvMn": 984.9714805892847
+            "ebitMn": 1142.3344716000001,
+            "nopatMn": 1085.21774802,
+            "daMn": 509.97074625,
+            "capexMn": 244.78595819999998,
+            "deltaNwcMn": 0.48568642499999903,
+            "fcfeMn": 1176.2714120206647,
+            "pvMn": 996.3412470228355
           },
           {
             "year": 3,
-            "salesMn": 2110.4811535500003,
+            "salesMn": 2131.677719325,
             "segmentsMn": {
-              "singleFamilyRentals": 2110.4811535500003
+              "singleFamilyRentals": 2131.677719325
             },
-            "ebitMn": 1202.9742575235,
-            "nopatMn": 1142.825544647325,
-            "daMn": 527.6202883875001,
-            "capexMn": 253.25773842600003,
-            "deltaNwcMn": 0.45440981774999933,
-            "fcfeMn": 1243.0882471667396,
-            "pvMn": 969.0647851026372
+            "ebitMn": 1215.05630001525,
+            "nopatMn": 1154.3034850144875,
+            "daMn": 532.91942983125,
+            "capexMn": 255.801326319,
+            "deltaNwcMn": 0.45897367162500124,
+            "fcfeMn": 1257.317177230777,
+            "pvMn": 980.157123145551
           },
           {
             "year": 4,
-            "salesMn": 2194.9003996920005,
+            "salesMn": 2216.944828098,
             "segmentsMn": {
-              "singleFamilyRentals": 2194.9003996920005
+              "singleFamilyRentals": 2216.944828098
             },
-            "ebitMn": 1273.0422318213602,
-            "nopatMn": 1209.3901202302923,
-            "daMn": 548.7250999230001,
-            "capexMn": 263.38804796304004,
-            "deltaNwcMn": 0.422096230710002,
-            "fcfeMn": 1320.659638335207,
-            "pvMn": 947.5279742887432
+            "ebitMn": 1285.82800029684,
+            "nopatMn": 1221.5366002819978,
+            "daMn": 554.2362070245,
+            "capexMn": 266.03337937176,
+            "deltaNwcMn": 0.42633554386499917,
+            "fcfeMn": 1335.6676547665375,
+            "pvMn": 958.2957111033525
           },
           {
             "year": 5,
-            "salesMn": 2282.6964156796807,
+            "salesMn": 2305.62262122192,
             "segmentsMn": {
-              "singleFamilyRentals": 2282.6964156796807
+              "singleFamilyRentals": 2305.62262122192
             },
-            "ebitMn": 1346.7908852510116,
-            "nopatMn": 1279.451340988461,
-            "daMn": 570.6741039199202,
-            "capexMn": 273.92356988156166,
-            "deltaNwcMn": 0.4389800799384016,
-            "fcfeMn": 1402.1174573225458,
-            "pvMn": 925.8397352390135
+            "ebitMn": 1360.3173465209327,
+            "nopatMn": 1292.301479194886,
+            "daMn": 576.40565530548,
+            "capexMn": 276.67471454663036,
+            "deltaNwcMn": 0.44338896561959906,
+            "fcfeMn": 1417.9435933637806,
+            "pvMn": 936.2899764265483
           },
           {
             "year": "TV",
-            "fcfeMn": 23349.64084087099,
-            "pvMn": 15418.127191226466
+            "fcfeMn": 23613.1955028087,
+            "pvMn": 15592.156390531472
           }
         ]
       },
@@ -112,10 +112,10 @@
         "costOfDebtPct": 3.85968959799294,
         "terminalGrowthPct": 3.0,
         "taxRatePct": 5.0,
-        "pvFcfeMn": 22647.272722454647,
+        "pvFcfeMn": 22902.54985031837,
         "netCashEffectiveMn": -4627.219,
-        "equityValueMn": 18020.053722454646,
-        "price": 48.6409,
+        "equityValueMn": 18275.330850318373,
+        "price": 49.33,
         "segmentOrder": [
           "singleFamilyRentals"
         ],
@@ -125,78 +125,78 @@
         "rows": [
           {
             "year": 1,
-            "salesMn": 1941.7461600000001,
+            "salesMn": 1961.24804,
             "segmentsMn": {
-              "singleFamilyRentals": 1941.7461600000001
+              "singleFamilyRentals": 1961.24804
             },
-            "ebitMn": 1087.3778496000002,
-            "nopatMn": 1033.00895712,
-            "daMn": 485.43654000000004,
-            "capexMn": 252.42700080000003,
-            "deltaNwcMn": 0.5495508000000005,
-            "fcfeMn": 1091.823507895665,
-            "pvMn": 1004.8534424514887
+            "ebitMn": 1098.2989024,
+            "nopatMn": 1043.38395728,
+            "daMn": 490.31201,
+            "capexMn": 254.9622452,
+            "deltaNwcMn": 0.5550701999999994,
+            "fcfeMn": 1104.5332142556645,
+            "pvMn": 1016.5507470946247
           },
           {
             "year": 2,
-            "salesMn": 2058.2509296000003,
+            "salesMn": 2078.9229224,
             "segmentsMn": {
-              "singleFamilyRentals": 2058.2509296000003
+              "singleFamilyRentals": 2078.9229224
             },
-            "ebitMn": 1173.2030298720001,
-            "nopatMn": 1114.5428783784,
-            "daMn": 514.5627324000001,
-            "capexMn": 267.57262084800004,
-            "deltaNwcMn": 0.582523848000001,
-            "fcfeMn": 1187.305028458065,
-            "pvMn": 1005.687089358259
+            "ebitMn": 1184.986065768,
+            "nopatMn": 1125.7367624795997,
+            "daMn": 519.7307306,
+            "capexMn": 270.259979912,
+            "deltaNwcMn": 0.5883744120000003,
+            "fcfeMn": 1200.9737011312645,
+            "pvMn": 1017.2649125011063
           },
           {
             "year": 3,
-            "salesMn": 2171.454730728,
+            "salesMn": 2193.263683132,
             "segmentsMn": {
-              "singleFamilyRentals": 2171.454730728
+              "singleFamilyRentals": 2193.263683132
             },
-            "ebitMn": 1259.4437438222399,
-            "nopatMn": 1196.471556631128,
-            "daMn": 542.863682682,
-            "capexMn": 282.28911499464,
-            "deltaNwcMn": 0.5660190056399976,
-            "fcfeMn": 1282.8346676885126,
-            "pvMn": 1000.0495977652289
+            "ebitMn": 1272.09293621656,
+            "nopatMn": 1208.488289405732,
+            "daMn": 548.315920783,
+            "capexMn": 285.12427880716,
+            "deltaNwcMn": 0.5717038036600002,
+            "fcfeMn": 1297.4627899535767,
+            "pvMn": 1011.4531310152283
           },
           {
             "year": 4,
-            "salesMn": 2280.0274672644,
+            "salesMn": 2302.9268672886,
             "segmentsMn": {
-              "singleFamilyRentals": 2280.0274672644
+              "singleFamilyRentals": 2302.9268672886
             },
-            "ebitMn": 1345.2162056859959,
-            "nopatMn": 1277.955395401696,
-            "daMn": 570.0068668161,
-            "capexMn": 296.403570744372,
-            "deltaNwcMn": 0.5428636826820004,
-            "fcfeMn": 1377.3703901664067,
-            "pvMn": 988.2159927934545
+            "ebitMn": 1358.726851700274,
+            "nopatMn": 1290.7905091152602,
+            "daMn": 575.73171682215,
+            "capexMn": 299.380492747518,
+            "deltaNwcMn": 0.5483159207830006,
+            "fcfeMn": 1392.947979644774,
+            "pvMn": 999.3923787253706
           },
           {
             "year": 5,
-            "salesMn": 2382.628703291298,
+            "salesMn": 2406.558576316587,
             "segmentsMn": {
-              "singleFamilyRentals": 2382.628703291298
+              "singleFamilyRentals": 2406.558576316587
             },
-            "ebitMn": 1429.5772219747787,
-            "nopatMn": 1358.0983608760398,
-            "daMn": 595.6571758228245,
-            "capexMn": 309.74173142786873,
-            "deltaNwcMn": 0.5130061801344894,
-            "fcfeMn": 1469.8553614665257,
-            "pvMn": 970.5681158113989
+            "ebitMn": 1443.935145789952,
+            "nopatMn": 1371.7383885004544,
+            "daMn": 601.6396440791467,
+            "capexMn": 312.8526149211563,
+            "deltaNwcMn": 0.5181585451399346,
+            "fcfeMn": 1486.3618214889693,
+            "pvMn": 981.4675853937086
           },
           {
             "year": "TV",
-            "fcfeMn": 26771.90136711798,
-            "pvMn": 17677.898484274818
+            "fcfeMn": 27072.54953375135,
+            "pvMn": 17876.42109558833
           }
         ]
       },
@@ -210,10 +210,10 @@
         "costOfDebtPct": 3.85968959799294,
         "terminalGrowthPct": 2.0,
         "taxRatePct": 5.0,
-        "pvFcfeMn": 16517.01762769359,
+        "pvFcfeMn": 16707.400870724712,
         "netCashEffectiveMn": -4627.219,
-        "equityValueMn": 11889.798627693588,
-        "price": 32.0937,
+        "equityValueMn": 12080.181870724713,
+        "price": 32.6076,
         "segmentOrder": [
           "singleFamilyRentals"
         ],
@@ -223,78 +223,78 @@
         "rows": [
           {
             "year": 1,
-            "salesMn": 1886.79108,
+            "salesMn": 1905.74102,
             "segmentsMn": {
-              "singleFamilyRentals": 1886.79108
+              "singleFamilyRentals": 1905.74102
             },
-            "ebitMn": 999.9992724,
-            "nopatMn": 949.99930878,
-            "daMn": 471.69777,
-            "capexMn": 207.5470188,
-            "deltaNwcMn": 0.32973048000000027,
-            "fcfeMn": 1040.1748918756648,
-            "pvMn": 957.3189378083521
+            "ebitMn": 1010.0427406,
+            "nopatMn": 959.5406035699999,
+            "daMn": 476.435255,
+            "capexMn": 209.6315122,
+            "deltaNwcMn": 0.33304212,
+            "fcfeMn": 1052.3658666256642,
+            "pvMn": 968.5388308183373
           },
           {
             "year": 2,
-            "salesMn": 1943.3948124,
+            "salesMn": 1962.9132506,
             "segmentsMn": {
-              "singleFamilyRentals": 1943.3948124
+              "singleFamilyRentals": 1962.9132506
             },
-            "ebitMn": 1039.7162246340001,
-            "nopatMn": 987.7304134023001,
-            "daMn": 485.8487031,
-            "capexMn": 213.773429364,
-            "deltaNwcMn": 0.33962239440000097,
-            "fcfeMn": 1085.8206271195645,
-            "pvMn": 919.7264054976611
+            "ebitMn": 1050.158589071,
+            "nopatMn": 997.65065961745,
+            "daMn": 490.72831265,
+            "capexMn": 215.920457566,
+            "deltaNwcMn": 0.3430333835999999,
+            "fcfeMn": 1098.4700436935145,
+            "pvMn": 930.4408846175355
           },
           {
             "year": 3,
-            "salesMn": 1991.97968271,
+            "salesMn": 2011.986081865,
             "segmentsMn": {
-              "singleFamilyRentals": 1991.97968271
+              "singleFamilyRentals": 2011.986081865
             },
-            "ebitMn": 1075.6690286634,
-            "nopatMn": 1021.88557723023,
-            "daMn": 497.9949206775,
-            "capexMn": 219.1177650981,
-            "deltaNwcMn": 0.2915092218599984,
-            "fcfeMn": 1126.8257859634346,
-            "pvMn": 878.4309485763296
+            "ebitMn": 1086.4724842071,
+            "nopatMn": 1032.148859996745,
+            "daMn": 502.99652046625,
+            "capexMn": 221.31846900515,
+            "deltaNwcMn": 0.29443698759000014,
+            "fcfeMn": 1139.8870368459197,
+            "pvMn": 888.613007901929
           },
           {
             "year": 4,
-            "salesMn": 2031.8192763642,
+            "salesMn": 2052.2258035023,
             "segmentsMn": {
-              "singleFamilyRentals": 2031.8192763642
+              "singleFamilyRentals": 2052.2258035023
             },
-            "ebitMn": 1107.341505618489,
-            "nopatMn": 1051.9744303375644,
-            "daMn": 507.95481909105,
-            "capexMn": 223.500120400062,
-            "deltaNwcMn": 0.2390375619252012,
-            "fcfeMn": 1162.5446538422916,
-            "pvMn": 834.0858983651344
+            "ebitMn": 1118.4630629087537,
+            "nopatMn": 1062.539909763316,
+            "daMn": 513.056450875575,
+            "capexMn": 225.74483838525302,
+            "deltaNwcMn": 0.24143832982380076,
+            "fcfeMn": 1175.9646462994788,
+            "pvMn": 843.7142824686707
           },
           {
             "year": 5,
-            "salesMn": 2072.455661891484,
+            "salesMn": 2093.270319572346,
             "segmentsMn": {
-              "singleFamilyRentals": 2072.455661891484
+              "singleFamilyRentals": 2093.270319572346
             },
-            "ebitMn": 1139.8506140403163,
-            "nopatMn": 1082.8580833383005,
-            "daMn": 518.113915472871,
-            "capexMn": 227.97012280806322,
-            "deltaNwcMn": 0.24381831316370217,
-            "fcfeMn": 1199.112620065609,
-            "pvMn": 791.7925170144387
+            "ebitMn": 1151.2986757647905,
+            "nopatMn": 1093.7337419765508,
+            "daMn": 523.3175798930865,
+            "capexMn": 230.2597351529581,
+            "deltaNwcMn": 0.24626709642027578,
+            "fcfeMn": 1212.8998819959238,
+            "pvMn": 800.8964582488692
           },
           {
             "year": "TV",
-            "fcfeMn": 18378.585611824517,
-            "pvMn": 12135.662920431672
+            "fcfeMn": 18589.900520448424,
+            "pvMn": 12275.197406669373
           }
         ]
       }
@@ -302,7 +302,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-02-22T05:30:36Z",
+    "updatedAt": "2026-02-22T08:47:26Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -645,7 +645,7 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-02-22T05:30:36Z",
+    "updatedAt": "2026-02-22T08:47:26Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -988,7 +988,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-02-22T05:30:36Z",
+    "updatedAt": "2026-02-22T08:47:26Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1376,7 +1376,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-02-22T05:30:36Z",
+    "updatedAt": "2026-02-22T08:47:26Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1593,7 +1593,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-02-22T05:30:36Z",
+    "updatedAt": "2026-02-22T08:47:26Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1936,7 +1936,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-02-22T05:30:36Z",
+    "updatedAt": "2026-02-22T08:47:26Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
