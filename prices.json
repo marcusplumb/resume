@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-02T14:57:26Z",
+  "updatedAt": "2026-03-02T15:36:40Z",
   "symbols": {
     "AAPL": {
       "priceCents": 26418,
@@ -135,6 +135,18 @@
     },
     "NEGG": {
       "priceCents": 4446,
+      "currency": "USD"
+    },
+    "NFLX": {
+      "priceCents": 9624,
+      "currency": "USD"
+    },
+    "OKE": {
+      "priceCents": 8277,
+      "currency": "USD"
+    },
+    "PANW": {
+      "priceCents": 14892,
       "currency": "USD"
     },
     "PLCE": {
