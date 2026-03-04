@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-04T21:38:20Z",
+  "updatedAt": "2026-03-04T22:00:18Z",
   "symbols": {
     "AAPL": {
       "priceCents": 26252,
@@ -115,10 +115,6 @@
     },
     "KMI": {
       "priceCents": 3391,
-      "currency": "USD"
-    },
-    "LC": {
-      "priceCents": 1561,
       "currency": "USD"
     },
     "LNG": {
