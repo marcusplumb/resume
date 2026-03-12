@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-03-12T06:13:28Z",
+    "updatedAt": "2026-03-12T08:58:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -302,7 +302,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-03-12T06:13:28Z",
+    "updatedAt": "2026-03-12T08:58:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -645,7 +645,7 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-03-12T06:13:28Z",
+    "updatedAt": "2026-03-12T08:58:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -988,7 +988,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-03-12T06:13:28Z",
+    "updatedAt": "2026-03-12T08:58:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1376,14 +1376,14 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-03-12T06:13:28Z",
+    "updatedAt": "2026-03-12T08:58:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
         "spot": 250.32,
-        "shares": 215235000.0,
+        "shares": 210203000.0,
         "discountRatePct": 5.9,
         "costOfEquityPct": 5.9,
         "costOfDebtPct": 3.4435161641845258,
@@ -1392,7 +1392,7 @@
         "pvFcfeMn": 41732.94835411876,
         "netCashEffectiveMn": -24322.5,
         "equityValueMn": 17410.44835411876,
-        "price": 80.8904,
+        "price": 82.8268,
         "segmentOrder": [
           "liquefaction",
           "marketing"
@@ -1488,7 +1488,7 @@
         "label": "Bull",
         "cashFlowModel": "FCFE",
         "spot": 250.32,
-        "shares": 215235000.0,
+        "shares": 210203000.0,
         "discountRatePct": 5.9,
         "costOfEquityPct": 5.9,
         "costOfDebtPct": 3.4435161641845258,
@@ -1497,7 +1497,7 @@
         "pvFcfeMn": 73512.87374469303,
         "netCashEffectiveMn": -25673.75,
         "equityValueMn": 47839.12374469304,
-        "price": 222.2646,
+        "price": 227.5854,
         "segmentOrder": [
           "liquefaction",
           "marketing"
@@ -1593,7 +1593,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-03-12T06:13:28Z",
+    "updatedAt": "2026-03-12T08:58:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1936,7 +1936,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-03-12T06:13:28Z",
+    "updatedAt": "2026-03-12T08:58:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
