@@ -1,13 +1,13 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-03-12T22:47:47Z",
+    "updatedAt": "2026-03-12T23:38:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 28.61,
+        "spot": 28.62,
         "shares": 363141000.0,
         "discountRatePct": 8.68,
         "costOfEquityPct": 8.68,
@@ -105,7 +105,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 28.61,
+        "spot": 28.62,
         "shares": 363141000.0,
         "discountRatePct": 8.68,
         "costOfEquityPct": 8.68,
@@ -203,7 +203,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 28.61,
+        "spot": 28.62,
         "shares": 363141000.0,
         "discountRatePct": 8.68,
         "costOfEquityPct": 8.68,
@@ -302,7 +302,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-03-12T22:47:47Z",
+    "updatedAt": "2026-03-12T23:38:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -645,13 +645,13 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-03-12T22:47:47Z",
+    "updatedAt": "2026-03-12T23:38:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 41.55,
+        "spot": 41.57,
         "shares": 12945800.0,
         "discountRatePct": 10.030000000000001,
         "costOfEquityPct": 10.030000000000001,
@@ -763,7 +763,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 41.55,
+        "spot": 41.57,
         "shares": 12945800.0,
         "discountRatePct": 10.030000000000001,
         "costOfEquityPct": 10.030000000000001,
@@ -875,7 +875,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 41.55,
+        "spot": 41.57,
         "shares": 12945800.0,
         "discountRatePct": 10.030000000000001,
         "costOfEquityPct": 10.030000000000001,
@@ -988,13 +988,13 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-03-12T22:47:47Z",
+    "updatedAt": "2026-03-12T23:38:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 24.39,
+        "spot": 24.43,
         "shares": 448009000.0,
         "discountRatePct": 14.14,
         "costOfEquityPct": 14.14,
@@ -1121,7 +1121,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 24.39,
+        "spot": 24.43,
         "shares": 448009000.0,
         "discountRatePct": 14.14,
         "costOfEquityPct": 14.14,
@@ -1248,7 +1248,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 24.39,
+        "spot": 24.43,
         "shares": 448009000.0,
         "discountRatePct": 14.14,
         "costOfEquityPct": 14.14,
@@ -1376,13 +1376,13 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-03-12T22:47:47Z",
+    "updatedAt": "2026-03-12T23:38:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 253.96,
+        "spot": 253.84,
         "shares": 210203000.0,
         "discountRatePct": 5.9,
         "costOfEquityPct": 5.9,
@@ -1487,7 +1487,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 253.96,
+        "spot": 253.84,
         "shares": 210203000.0,
         "discountRatePct": 5.9,
         "costOfEquityPct": 5.9,
@@ -1593,7 +1593,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-03-12T22:47:47Z",
+    "updatedAt": "2026-03-12T23:38:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1936,7 +1936,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-03-12T22:47:47Z",
+    "updatedAt": "2026-03-12T23:38:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
