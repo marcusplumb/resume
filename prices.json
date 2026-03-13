@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-13T17:43:34Z",
+  "updatedAt": "2026-03-13T18:04:28Z",
   "symbols": {
     "AAPL": {
       "priceCents": 25576,
@@ -145,20 +145,12 @@
       "priceCents": 8493,
       "currency": "USD"
     },
-    "PANW": {
-      "priceCents": 16812,
-      "currency": "USD"
-    },
     "PLCE": {
       "priceCents": 371,
       "currency": "USD"
     },
     "PYPL": {
       "priceCents": 4436,
-      "currency": "USD"
-    },
-    "RIOT": {
-      "priceCents": 1450,
       "currency": "USD"
     },
     "S": {
