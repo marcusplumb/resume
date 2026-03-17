@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-17T02:49:22Z",
+  "updatedAt": "2026-03-17T04:31:15Z",
   "symbols": {
     "AAPL": {
       "priceCents": 25282,
@@ -87,70 +87,6 @@
     },
     "FIVE": {
       "priceCents": 21167,
-      "currency": "USD"
-    },
-    "FNKO": {
-      "priceCents": 385,
-      "currency": "USD"
-    },
-    "FTNT": {
-      "priceCents": 8449,
-      "currency": "USD"
-    },
-    "GME": {
-      "priceCents": 2328,
-      "currency": "USD"
-    },
-    "HOOD": {
-      "priceCents": 7531,
-      "currency": "USD"
-    },
-    "HUT": {
-      "priceCents": 5119,
-      "currency": "USD"
-    },
-    "INVH": {
-      "priceCents": 2511,
-      "currency": "USD"
-    },
-    "KMI": {
-      "priceCents": 3331,
-      "currency": "USD"
-    },
-    "LC": {
-      "priceCents": 1387,
-      "currency": "USD"
-    },
-    "LNG": {
-      "priceCents": 25129,
-      "currency": "USD"
-    },
-    "MAA": {
-      "priceCents": 12637,
-      "currency": "USD"
-    },
-    "MARA": {
-      "priceCents": 923,
-      "currency": "USD"
-    },
-    "NEGG": {
-      "priceCents": 3729,
-      "currency": "USD"
-    },
-    "NFLX": {
-      "priceCents": 9520,
-      "currency": "USD"
-    },
-    "OKE": {
-      "priceCents": 8532,
-      "currency": "USD"
-    },
-    "PANW": {
-      "priceCents": 16745,
-      "currency": "USD"
-    },
-    "PLCE": {
-      "priceCents": 354,
       "currency": "USD"
     },
     "PYPL": {
