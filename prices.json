@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-17T14:01:20Z",
+  "updatedAt": "2026-03-17T15:02:52Z",
   "symbols": {
     "AAPL": {
       "priceCents": 25282,
@@ -73,8 +73,16 @@
       "priceCents": 9866,
       "currency": "USD"
     },
+    "DKS": {
+      "priceCents": 18778,
+      "currency": "USD"
+    },
     "EQR": {
       "priceCents": 6006,
+      "currency": "USD"
+    },
+    "ESS": {
+      "priceCents": 24910,
       "currency": "USD"
     },
     "FIVE": {
