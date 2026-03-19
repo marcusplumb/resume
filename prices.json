@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-18T23:58:54Z",
+  "updatedAt": "2026-03-19T02:08:46Z",
   "symbols": {
     "AAPL": {
       "priceCents": 24994,
@@ -175,6 +175,26 @@
     },
     "TRGP": {
       "priceCents": 23398,
+      "currency": "USD"
+    },
+    "UPST": {
+      "priceCents": 2583,
+      "currency": "USD"
+    },
+    "WBD": {
+      "priceCents": 2735,
+      "currency": "USD"
+    },
+    "WMB": {
+      "priceCents": 7280,
+      "currency": "USD"
+    },
+    "ZS": {
+      "priceCents": 15599,
+      "currency": "USD"
+    },
+    "ZUMZ": {
+      "priceCents": 2117,
       "currency": "USD"
     }
   }
