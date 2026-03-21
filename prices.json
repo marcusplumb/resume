@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-21T21:00:15Z",
+  "updatedAt": "2026-03-21T21:28:17Z",
   "symbols": {
     "AAPL": {
       "priceCents": 24799,
@@ -19,6 +19,38 @@
     },
     "AVB": {
       "priceCents": 16137,
+      "currency": "USD"
+    },
+    "BB": {
+      "priceCents": 322,
+      "currency": "USD"
+    },
+    "BBW": {
+      "priceCents": 4092,
+      "currency": "USD"
+    },
+    "BBWI": {
+      "priceCents": 1941,
+      "currency": "USD"
+    },
+    "BBY": {
+      "priceCents": 6280,
+      "currency": "USD"
+    },
+    "BITF": {
+      "priceCents": 217,
+      "currency": "USD"
+    },
+    "CIFR": {
+      "priceCents": 1401,
+      "currency": "USD"
+    },
+    "CLSK": {
+      "priceCents": 940,
+      "currency": "USD"
+    },
+    "CMCSA": {
+      "priceCents": 2902,
       "currency": "USD"
     },
     "CNXN": {
