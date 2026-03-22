@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-22T15:58:08Z",
+  "updatedAt": "2026-03-22T16:26:58Z",
   "symbols": {
     "AAPL": {
       "priceCents": 24799,
@@ -71,6 +71,10 @@
     },
     "DIS": {
       "priceCents": 9951,
+      "currency": "USD"
+    },
+    "DKS": {
+      "priceCents": 19001,
       "currency": "USD"
     },
     "EQR": {
