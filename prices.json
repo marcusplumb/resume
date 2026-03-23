@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-23T09:10:32Z",
+  "updatedAt": "2026-03-23T10:12:09Z",
   "symbols": {
     "AAPL": {
       "priceCents": 24799,
@@ -27,6 +27,10 @@
     },
     "BBW": {
       "priceCents": 4092,
+      "currency": "USD"
+    },
+    "BBWI": {
+      "priceCents": 1941,
       "currency": "USD"
     },
     "BBY": {
