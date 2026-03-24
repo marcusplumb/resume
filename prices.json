@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-23T23:58:23Z",
+  "updatedAt": "2026-03-24T01:55:17Z",
   "symbols": {
     "AAPL": {
       "priceCents": 25149,
@@ -183,6 +183,18 @@
     },
     "WBD": {
       "priceCents": 2740,
+      "currency": "USD"
+    },
+    "WMB": {
+      "priceCents": 7360,
+      "currency": "USD"
+    },
+    "ZS": {
+      "priceCents": 15180,
+      "currency": "USD"
+    },
+    "ZUMZ": {
+      "priceCents": 2157,
       "currency": "USD"
     }
   }
