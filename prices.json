@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-25T22:21:44Z",
+  "updatedAt": "2026-03-25T22:58:51Z",
   "symbols": {
     "AAPL": {
       "priceCents": 25262,
@@ -10,7 +10,7 @@
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 2755,
+      "priceCents": 2754,
       "currency": "USD"
     },
     "AMZN": {
@@ -18,15 +18,15 @@
       "currency": "USD"
     },
     "AVB": {
-      "priceCents": 16369,
+      "priceCents": 16365,
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 328,
+      "priceCents": 329,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3970,
+      "priceCents": 3964,
       "currency": "USD"
     },
     "BBWI": {
@@ -34,7 +34,7 @@
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 6038,
+      "priceCents": 6040,
       "currency": "USD"
     },
     "BITF": {
@@ -66,23 +66,23 @@
       "currency": "USD"
     },
     "CTRA": {
-      "priceCents": 3520,
+      "priceCents": 3518,
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 9597,
+      "priceCents": 9595,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 19413,
+      "priceCents": 19401,
       "currency": "USD"
     },
     "EQR": {
-      "priceCents": 5848,
+      "priceCents": 5846,
       "currency": "USD"
     },
     "ESS": {
-      "priceCents": 24221,
+      "priceCents": 24214,
       "currency": "USD"
     },
     "FIVE": {
@@ -98,7 +98,7 @@
       "currency": "USD"
     },
     "GME": {
-      "priceCents": 2310,
+      "priceCents": 2308,
       "currency": "USD"
     },
     "HOOD": {
@@ -114,7 +114,7 @@
       "currency": "USD"
     },
     "KMI": {
-      "priceCents": 3399,
+      "priceCents": 3398,
       "currency": "USD"
     },
     "LC": {
@@ -122,11 +122,11 @@
       "currency": "USD"
     },
     "LNG": {
-      "priceCents": 28460,
+      "priceCents": 28439,
       "currency": "USD"
     },
     "MAA": {
-      "priceCents": 12161,
+      "priceCents": 12164,
       "currency": "USD"
     },
     "MARA": {
@@ -142,7 +142,7 @@
       "currency": "USD"
     },
     "OKE": {
-      "priceCents": 9213,
+      "priceCents": 9212,
       "currency": "USD"
     },
     "PANW": {
@@ -170,11 +170,11 @@
       "currency": "USD"
     },
     "SPY": {
-      "priceCents": 65677,
+      "priceCents": 65682,
       "currency": "USD"
     },
     "TRGP": {
-      "priceCents": 24539,
+      "priceCents": 24546,
       "currency": "USD"
     },
     "UPST": {
