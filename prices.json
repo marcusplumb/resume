@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-01T22:02:45Z",
+  "updatedAt": "2026-04-01T22:50:18Z",
   "symbols": {
     "AAPL": {
       "priceCents": 25563,
@@ -10,7 +10,7 @@
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 2818,
+      "priceCents": 2817,
       "currency": "USD"
     },
     "AMZN": {
@@ -18,7 +18,7 @@
       "currency": "USD"
     },
     "AVB": {
-      "priceCents": 16494,
+      "priceCents": 16490,
       "currency": "USD"
     },
     "BB": {
@@ -26,7 +26,7 @@
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3717,
+      "priceCents": 3709,
       "currency": "USD"
     },
     "BBWI": {
@@ -34,7 +34,7 @@
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 6432,
+      "priceCents": 6431,
       "currency": "USD"
     },
     "BITF": {
@@ -66,23 +66,23 @@
       "currency": "USD"
     },
     "CTRA": {
-      "priceCents": 3393,
+      "priceCents": 3392,
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 9660,
+      "priceCents": 9656,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 19214,
+      "priceCents": 19213,
       "currency": "USD"
     },
     "EQR": {
-      "priceCents": 5954,
+      "priceCents": 5955,
       "currency": "USD"
     },
     "ESS": {
-      "priceCents": 24310,
+      "priceCents": 24308,
       "currency": "USD"
     },
     "FIVE": {
@@ -98,7 +98,7 @@
       "currency": "USD"
     },
     "GME": {
-      "priceCents": 2277,
+      "priceCents": 2276,
       "currency": "USD"
     },
     "HOOD": {
@@ -110,7 +110,7 @@
       "currency": "USD"
     },
     "INVH": {
-      "priceCents": 2487,
+      "priceCents": 2485,
       "currency": "USD"
     },
     "KMI": {
@@ -118,15 +118,15 @@
       "currency": "USD"
     },
     "LC": {
-      "priceCents": 1429,
+      "priceCents": 1430,
       "currency": "USD"
     },
     "LNG": {
-      "priceCents": 27567,
+      "priceCents": 27584,
       "currency": "USD"
     },
     "MAA": {
-      "priceCents": 12257,
+      "priceCents": 12255,
       "currency": "USD"
     },
     "MARA": {
@@ -170,11 +170,11 @@
       "currency": "USD"
     },
     "SPY": {
-      "priceCents": 65519,
+      "priceCents": 65524,
       "currency": "USD"
     },
     "TRGP": {
-      "priceCents": 24484,
+      "priceCents": 24479,
       "currency": "USD"
     },
     "UPST": {
