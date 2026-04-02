@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-02T19:10:36Z",
+  "updatedAt": "2026-04-02T19:54:41Z",
   "symbols": {
     "AAPL": {
       "priceCents": 25563,
@@ -43,10 +43,6 @@
     },
     "CIFR": {
       "priceCents": 1264,
-      "currency": "USD"
-    },
-    "CLSK": {
-      "priceCents": 862,
       "currency": "USD"
     },
     "CMCSA": {
