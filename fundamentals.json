@@ -28,7 +28,7 @@
     "avgDebt2Q": 4376699999.5,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -38,7 +38,7 @@
     "currency": "USD",
     "marketCap": 13515014000,
     "sharesOutstanding": 209113000,
-    "beta": 1.444,
+    "beta": 1.374,
     "revenueTtm": 41691001000,
     "ebitdaTtm": 2602000000,
     "pe": 12.8,
@@ -62,7 +62,7 @@
     "avgDebt2Q": 4113000000.0,
     "impliedCostOfDebtPct": 1.7748601993678579,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "CNXN": {
@@ -94,7 +94,7 @@
     "avgDebt2Q": 716500.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -104,7 +104,7 @@
     "currency": "USD",
     "marketCap": 797355000,
     "sharesOutstanding": 20966500,
-    "beta": 4.357,
+    "beta": 4.291,
     "revenueTtm": 1313127000,
     "ebitdaTtm": -19732000,
     "pe": 0.0,
@@ -128,7 +128,7 @@
     "avgDebt2Q": 75454000.0,
     "impliedCostOfDebtPct": 1.261695867680971,
     "fiscalDateEndingBalanceSheet": "2025-06-30",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "DKS": {
@@ -136,7 +136,7 @@
     "currency": "USD",
     "marketCap": 17251537000,
     "sharesOutstanding": 65474000,
-    "beta": 1.254,
+    "beta": 1.238,
     "revenueTtm": 17215119000,
     "ebitdaTtm": 1980056000,
     "pe": 19.23,
@@ -160,7 +160,7 @@
     "avgDebt2Q": 7722946000.0,
     "impliedCostOfDebtPct": 0.8321047434489378,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "ZUMZ": {
@@ -168,7 +168,7 @@
     "currency": "USD",
     "marketCap": 366714000,
     "sharesOutstanding": 16969600,
-    "beta": 0.897,
+    "beta": 0.949,
     "revenueTtm": 929057000,
     "ebitdaTtm": 43562000,
     "pe": 27.71,
@@ -192,7 +192,7 @@
     "avgDebt2Q": 204192500.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-02-28",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -202,7 +202,7 @@
     "currency": "USD",
     "marketCap": 499713000,
     "sharesOutstanding": 12945800,
-    "beta": 1.064,
+    "beta": 1.175,
     "revenueTtm": 529832000,
     "ebitdaTtm": 81182000,
     "pe": 9.54,
@@ -226,7 +226,7 @@
     "avgDebt2Q": 122756000.0,
     "impliedCostOfDebtPct": 0.5107693310306625,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "BBWI": {
@@ -258,7 +258,7 @@
     "avgDebt2Q": 4967000000.0,
     "impliedCostOfDebtPct": 5.556674048721563,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "FNKO": {
@@ -290,7 +290,7 @@
     "avgDebt2Q": 301942500.0,
     "impliedCostOfDebtPct": 6.352534008958659,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "FIVE": {
@@ -322,7 +322,7 @@
     "avgDebt2Q": 2023191000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -332,7 +332,7 @@
     "currency": "USD",
     "marketCap": 73597000,
     "sharesOutstanding": 22167900,
-    "beta": 1.997,
+    "beta": 2.013,
     "revenueTtm": 1288160000,
     "ebitdaTtm": 24203000,
     "pe": 0.0,
@@ -356,7 +356,7 @@
     "avgDebt2Q": 571918000.0,
     "impliedCostOfDebtPct": 5.850489056123431,
     "fiscalDateEndingBalanceSheet": "2025-10-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "CRCT": {
@@ -364,7 +364,7 @@
     "currency": "USD",
     "marketCap": 847125000,
     "sharesOutstanding": 56749000,
-    "beta": 0.089,
+    "beta": 0.148,
     "revenueTtm": 708780000,
     "ebitdaTtm": 101214000,
     "pe": 11.43,
@@ -388,7 +388,7 @@
     "avgDebt2Q": 12069000.0,
     "impliedCostOfDebtPct": 4.697986577181208,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "BB": {
@@ -396,7 +396,7 @@
     "currency": "USD",
     "marketCap": 2041910000,
     "sharesOutstanding": 590148000,
-    "beta": 1.301,
+    "beta": 1.265,
     "revenueTtm": 534800000,
     "ebitdaTtm": 70000000,
     "pe": 86.5,
@@ -420,7 +420,7 @@
     "avgDebt2Q": 231200000.0,
     "impliedCostOfDebtPct": 2.329575259515571,
     "fiscalDateEndingBalanceSheet": "2025-11-30",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "CRWD": {
@@ -428,7 +428,7 @@
     "currency": "USD",
     "marketCap": 101222457000,
     "sharesOutstanding": 253614000,
-    "beta": 1.124,
+    "beta": 1.072,
     "revenueTtm": 4812005000,
     "ebitdaTtm": -46664000,
     "pe": 0.0,
@@ -452,7 +452,7 @@
     "avgDebt2Q": 819061500.0,
     "impliedCostOfDebtPct": 3.4211106247821443,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "PANW": {
@@ -484,7 +484,7 @@
     "avgDebt2Q": 532000000.0,
     "impliedCostOfDebtPct": 0.20676691729323307,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "FTNT": {
@@ -492,7 +492,7 @@
     "currency": "USD",
     "marketCap": 61373280000,
     "sharesOutstanding": 739924000,
-    "beta": 1.04,
+    "beta": 0.998,
     "revenueTtm": 6799600000,
     "ebitdaTtm": 2226300000,
     "pe": 34.1,
@@ -516,7 +516,7 @@
     "avgDebt2Q": 996100000.0,
     "impliedCostOfDebtPct": 2.0178696917980123,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "ZS": {
@@ -524,7 +524,7 @@
     "currency": "USD",
     "marketCap": 22279160000,
     "sharesOutstanding": 160791000,
-    "beta": 1.124,
+    "beta": 1.115,
     "revenueTtm": 3001123000,
     "ebitdaTtm": -68018000,
     "pe": 0.0,
@@ -548,7 +548,7 @@
     "avgDebt2Q": 1849214500.0,
     "impliedCostOfDebtPct": 0.5619142073566912,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "S": {
@@ -556,7 +556,7 @@
     "currency": "USD",
     "marketCap": 4535885000,
     "sharesOutstanding": 333976000,
-    "beta": 0.777,
+    "beta": 0.756,
     "revenueTtm": 1001278000,
     "ebitdaTtm": -268111008,
     "pe": 0.0,
@@ -580,7 +580,7 @@
     "avgDebt2Q": null,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -590,7 +590,7 @@
     "currency": "USD",
     "marketCap": 20212933000,
     "sharesOutstanding": 1275264000,
-    "beta": 2.259,
+    "beta": 2.251,
     "revenueTtm": 3583035000,
     "ebitdaTtm": 0,
     "pe": 40.64,
@@ -614,7 +614,7 @@
     "avgDebt2Q": 2311579000.0,
     "impliedCostOfDebtPct": 50.019618624325624,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "HOOD": {
@@ -646,7 +646,7 @@
     "avgDebt2Q": 15537000000.0,
     "impliedCostOfDebtPct": 0.14159747699040998,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "AFRM": {
@@ -654,7 +654,7 @@
     "currency": "USD",
     "marketCap": 15426355000,
     "sharesOutstanding": 292410000,
-    "beta": 3.727,
+    "beta": 3.633,
     "revenueTtm": 3715908000,
     "ebitdaTtm": 527049000,
     "pe": 57.17,
@@ -678,7 +678,7 @@
     "avgDebt2Q": 8570067500.0,
     "impliedCostOfDebtPct": 5.079154860798938,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "UPST": {
@@ -710,7 +710,7 @@
     "avgDebt2Q": 1873299500.0,
     "impliedCostOfDebtPct": 2.7510817143761583,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "PYPL": {
@@ -718,7 +718,7 @@
     "currency": "USD",
     "marketCap": 42422460000,
     "sharesOutstanding": 920665000,
-    "beta": 1.459,
+    "beta": 1.411,
     "revenueTtm": 33172001000,
     "ebitdaTtm": 6649000000,
     "pe": 8.38,
@@ -742,7 +742,7 @@
     "avgDebt2Q": 10631500000.0,
     "impliedCostOfDebtPct": 4.148050604336171,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "LC": {
@@ -750,7 +750,7 @@
     "currency": "USD",
     "marketCap": 1651117000,
     "sharesOutstanding": 115181000,
-    "beta": 1.99,
+    "beta": 1.954,
     "revenueTtm": 1334719000,
     "ebitdaTtm": 239835000,
     "pe": 12.34,
@@ -774,7 +774,7 @@
     "avgDebt2Q": 42313000.0,
     "impliedCostOfDebtPct": 793.777326117269,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "HUT": {
@@ -782,7 +782,7 @@
     "currency": "USD",
     "marketCap": 5334787000,
     "sharesOutstanding": 110887000,
-    "beta": 6.17,
+    "beta": 5.71,
     "revenueTtm": 235118000,
     "ebitdaTtm": -214000000,
     "pe": 0.0,
@@ -806,7 +806,7 @@
     "avgDebt2Q": 486450470.5,
     "impliedCostOfDebtPct": 6.182129902986701,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "MARA": {
@@ -814,7 +814,7 @@
     "currency": "USD",
     "marketCap": 3311844000,
     "sharesOutstanding": 380235000,
-    "beta": 5.42,
+    "beta": 5.3,
     "revenueTtm": 907093000,
     "ebitdaTtm": -352031008,
     "pe": 0.0,
@@ -838,7 +838,7 @@
     "avgDebt2Q": 3643912500.0,
     "impliedCostOfDebtPct": 1.327721233701413,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "RIOT": {
@@ -846,7 +846,7 @@
     "currency": "USD",
     "marketCap": 4875558000,
     "sharesOutstanding": 379126000,
-    "beta": 3.549,
+    "beta": 3.571,
     "revenueTtm": 647435000,
     "ebitdaTtm": -169096000,
     "pe": 0.0,
@@ -870,7 +870,7 @@
     "avgDebt2Q": 575849500.0,
     "impliedCostOfDebtPct": 4.192762171365956,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "CLSK": {
@@ -878,7 +878,7 @@
     "currency": "USD",
     "marketCap": 2248068000,
     "sharesOutstanding": 255753000,
-    "beta": 3.563,
+    "beta": 3.539,
     "revenueTtm": 785188000,
     "ebitdaTtm": -228896000,
     "pe": 0.0,
@@ -902,7 +902,7 @@
     "avgDebt2Q": 1306864000.0,
     "impliedCostOfDebtPct": 1.0308647265515005,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "CIFR": {
@@ -934,7 +934,7 @@
     "avgDebt2Q": 1905512000.0,
     "impliedCostOfDebtPct": 1.7177010693189023,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "BITF": {
@@ -966,7 +966,7 @@
     "avgDebt2Q": 378731000.0,
     "impliedCostOfDebtPct": 2.2768138863731777,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "AMH": {
@@ -974,7 +974,7 @@
     "currency": "USD",
     "marketCap": 12073224000,
     "sharesOutstanding": 363161000,
-    "beta": 0.794,
+    "beta": 0.805,
     "revenueTtm": 1850234000,
     "ebitdaTtm": 952007000,
     "pe": 24.64,
@@ -998,7 +998,7 @@
     "avgDebt2Q": 4993281000.0,
     "impliedCostOfDebtPct": 3.708944079053432,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "INVH": {
@@ -1006,7 +1006,7 @@
     "currency": "USD",
     "marketCap": 15662676000,
     "sharesOutstanding": 609386000,
-    "beta": 0.814,
+    "beta": 0.816,
     "revenueTtm": 2717689000,
     "ebitdaTtm": 1490494000,
     "pe": 26.61,
@@ -1030,7 +1030,7 @@
     "avgDebt2Q": 8305152000.0,
     "impliedCostOfDebtPct": 4.254311058966771,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "AVB": {
@@ -1038,7 +1038,7 @@
     "currency": "USD",
     "marketCap": 23507593000,
     "sharesOutstanding": 140083000,
-    "beta": 0.745,
+    "beta": 0.763,
     "revenueTtm": 3041189000,
     "ebitdaTtm": 1846987000,
     "pe": 22.44,
@@ -1062,7 +1062,7 @@
     "avgDebt2Q": 9111007000.0,
     "impliedCostOfDebtPct": 2.8447020181194023,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "EQR": {
@@ -1094,7 +1094,7 @@
     "avgDebt2Q": 8762380500.0,
     "impliedCostOfDebtPct": 3.5317571520661533,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "MAA": {
@@ -1102,7 +1102,7 @@
     "currency": "USD",
     "marketCap": 14988545000,
     "sharesOutstanding": 116901000,
-    "beta": 0.768,
+    "beta": 0.789,
     "revenueTtm": 2209126000,
     "ebitdaTtm": 1242407000,
     "pe": 33.04,
@@ -1126,7 +1126,7 @@
     "avgDebt2Q": 5301365500.0,
     "impliedCostOfDebtPct": 3.4945147622815287,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "ESS": {
@@ -1134,7 +1134,7 @@
     "currency": "USD",
     "marketCap": 17101477000,
     "sharesOutstanding": 64477000,
-    "beta": 0.722,
+    "beta": 0.725,
     "revenueTtm": 1935443000,
     "ebitdaTtm": 1255432000,
     "pe": 23.81,
@@ -1158,7 +1158,7 @@
     "avgDebt2Q": 6808778500.0,
     "impliedCostOfDebtPct": 3.7782694796137077,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "LNG": {
@@ -1166,7 +1166,7 @@
     "currency": "USD",
     "marketCap": 60515414000,
     "sharesOutstanding": 210203000,
-    "beta": 0.238,
+    "beta": 0.134,
     "revenueTtm": 19487001000,
     "ebitdaTtm": 10487000000,
     "pe": 11.66,
@@ -1190,7 +1190,7 @@
     "avgDebt2Q": 27530000000.0,
     "impliedCostOfDebtPct": 3.4435161641845258,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "KMI": {
@@ -1198,7 +1198,7 @@
     "currency": "USD",
     "marketCap": 73351873000,
     "sharesOutstanding": 2224806000,
-    "beta": 0.648,
+    "beta": 0.63,
     "revenueTtm": 16937000000,
     "ebitdaTtm": 7115000000,
     "pe": 24.07,
@@ -1222,7 +1222,7 @@
     "avgDebt2Q": 32483000000.0,
     "impliedCostOfDebtPct": 5.541360096050242,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "OKE": {
@@ -1230,7 +1230,7 @@
     "currency": "USD",
     "marketCap": 55609897000,
     "sharesOutstanding": 629784000,
-    "beta": 0.88,
+    "beta": 0.809,
     "revenueTtm": 33629000000,
     "ebitdaTtm": 7336000000,
     "pe": 16.29,
@@ -1254,7 +1254,7 @@
     "avgDebt2Q": 33271500000.0,
     "impliedCostOfDebtPct": 5.358940835249388,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "TRGP": {
@@ -1262,7 +1262,7 @@
     "currency": "USD",
     "marketCap": 52532068000,
     "sharesOutstanding": 214802000,
-    "beta": 0.853,
+    "beta": 0.811,
     "revenueTtm": 17028300000,
     "ebitdaTtm": 4846500000,
     "pe": 28.82,
@@ -1286,7 +1286,7 @@
     "avgDebt2Q": 17488800000.0,
     "impliedCostOfDebtPct": 4.876263665889026,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "WMB": {
@@ -1294,7 +1294,7 @@
     "currency": "USD",
     "marketCap": 88045699000,
     "sharesOutstanding": 1222857000,
-    "beta": 0.649,
+    "beta": 0.653,
     "revenueTtm": 11830000000,
     "ebitdaTtm": 6777000000,
     "pe": 33.64,
@@ -1318,7 +1318,7 @@
     "avgDebt2Q": 28674000000.0,
     "impliedCostOfDebtPct": 5.02894608356002,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "CTRA": {
@@ -1350,7 +1350,7 @@
     "avgDebt2Q": 4061500000.0,
     "impliedCostOfDebtPct": 5.047396282161763,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "NFLX": {
@@ -1358,7 +1358,7 @@
     "currency": "USD",
     "marketCap": 418504835000,
     "sharesOutstanding": 4237323000,
-    "beta": 1.714,
+    "beta": 1.669,
     "revenueTtm": 45183037000,
     "ebitdaTtm": 13659992000,
     "pe": 39.0,
@@ -1382,7 +1382,7 @@
     "avgDebt2Q": 15544492000.0,
     "impliedCostOfDebtPct": 4.995402873249252,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "DIS": {
@@ -1390,7 +1390,7 @@
     "currency": "USD",
     "marketCap": 171326915000,
     "sharesOutstanding": 1771520000,
-    "beta": 1.443,
+    "beta": 1.441,
     "revenueTtm": 95716000000,
     "ebitdaTtm": 19306000000,
     "pe": 14.23,
@@ -1414,7 +1414,7 @@
     "avgDebt2Q": 44333000000.0,
     "impliedCostOfDebtPct": 3.9879999097737575,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "WBD": {
@@ -1422,7 +1422,7 @@
     "currency": "USD",
     "marketCap": 68484911000,
     "sharesOutstanding": 2506768000,
-    "beta": 1.675,
+    "beta": 1.637,
     "revenueTtm": 37296001000,
     "ebitdaTtm": 7362000000,
     "pe": 94.21,
@@ -1446,7 +1446,7 @@
     "avgDebt2Q": 33156500000.0,
     "impliedCostOfDebtPct": 6.294391748224331,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "CMCSA": {
@@ -1454,7 +1454,7 @@
     "currency": "USD",
     "marketCap": 101773976000,
     "sharesOutstanding": 3588402000,
-    "beta": 0.78,
+    "beta": 0.79,
     "revenueTtm": 123706999000,
     "ebitdaTtm": 36879999000,
     "pe": 5.18,
@@ -1478,7 +1478,7 @@
     "avgDebt2Q": 104753000000.0,
     "impliedCostOfDebtPct": 4.208948669727836,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "AMZN": {
@@ -1486,7 +1486,7 @@
     "currency": "USD",
     "marketCap": 2251864408000,
     "sharesOutstanding": 10734921000,
-    "beta": 1.42,
+    "beta": 1.383,
     "revenueTtm": 716923994000,
     "ebitdaTtm": 145730994000,
     "pe": 29.26,
@@ -1510,7 +1510,7 @@
     "avgDebt2Q": 144203000000.0,
     "impliedCostOfDebtPct": 1.5769436142105229,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   },
   "AAPL": {
@@ -1518,10 +1518,10 @@
     "currency": "USD",
     "marketCap": 3761492984000,
     "sharesOutstanding": 14681140000,
-    "beta": 1.116,
+    "beta": 1.109,
     "revenueTtm": 435617006000,
     "ebitdaTtm": 152901992000,
-    "pe": 32.39,
+    "pe": 32.35,
     "cash": 45317000000,
     "shortTermDebt": 13824000000,
     "longTermDebt": 76685000000,
@@ -1542,7 +1542,7 @@
     "avgDebt2Q": 101443000000.0,
     "impliedCostOfDebtPct": 0.0009857752629555514,
     "fiscalDateEndingBalanceSheet": "2025-12-31",
-    "updatedAt": "2026-04-04T07:26:49Z",
+    "updatedAt": "2026-04-05T07:32:38Z",
     "dataQualityFlags": []
   }
 }
