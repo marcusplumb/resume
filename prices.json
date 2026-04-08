@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-08T21:55:40Z",
+  "updatedAt": "2026-04-08T22:29:28Z",
   "symbols": {
     "AAPL": {
       "priceCents": 25890,
@@ -74,15 +74,15 @@
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 20484,
+      "priceCents": 20475,
       "currency": "USD"
     },
     "EQR": {
-      "priceCents": 6081,
+      "priceCents": 6080,
       "currency": "USD"
     },
     "ESS": {
-      "priceCents": 25197,
+      "priceCents": 25190,
       "currency": "USD"
     },
     "FIVE": {
@@ -98,7 +98,7 @@
       "currency": "USD"
     },
     "GME": {
-      "priceCents": 2294,
+      "priceCents": 2291,
       "currency": "USD"
     },
     "HOOD": {
@@ -110,7 +110,7 @@
       "currency": "USD"
     },
     "INVH": {
-      "priceCents": 2582,
+      "priceCents": 2581,
       "currency": "USD"
     },
     "KMI": {
@@ -122,11 +122,11 @@
       "currency": "USD"
     },
     "LNG": {
-      "priceCents": 27502,
+      "priceCents": 27521,
       "currency": "USD"
     },
     "MAA": {
-      "priceCents": 12611,
+      "priceCents": 12609,
       "currency": "USD"
     },
     "MARA": {
@@ -142,7 +142,7 @@
       "currency": "USD"
     },
     "OKE": {
-      "priceCents": 8678,
+      "priceCents": 8677,
       "currency": "USD"
     },
     "PANW": {
@@ -162,7 +162,7 @@
       "currency": "USD"
     },
     "S": {
-      "priceCents": 1351,
+      "priceCents": 1350,
       "currency": "USD"
     },
     "SOFI": {
@@ -170,11 +170,11 @@
       "currency": "USD"
     },
     "SPY": {
-      "priceCents": 67606,
+      "priceCents": 67601,
       "currency": "USD"
     },
     "TRGP": {
-      "priceCents": 24396,
+      "priceCents": 24400,
       "currency": "USD"
     },
     "UPST": {
@@ -186,7 +186,7 @@
       "currency": "USD"
     },
     "WMB": {
-      "priceCents": 7303,
+      "priceCents": 7301,
       "currency": "USD"
     },
     "ZS": {
