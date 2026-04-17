@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-17T10:41:15Z",
+  "updatedAt": "2026-04-17T11:33:56Z",
   "symbols": {
     "AAPL": {
       "priceCents": 26340,
@@ -13,20 +13,12 @@
       "priceCents": 2996,
       "currency": "USD"
     },
-    "AMZN": {
-      "priceCents": 24970,
-      "currency": "USD"
-    },
     "AVB": {
       "priceCents": 16963,
       "currency": "USD"
     },
     "BB": {
       "priceCents": 469,
-      "currency": "USD"
-    },
-    "BBW": {
-      "priceCents": 3743,
       "currency": "USD"
     },
     "BBWI": {
@@ -65,30 +57,6 @@
       "priceCents": 41820,
       "currency": "USD"
     },
-    "CTRA": {
-      "priceCents": 3197,
-      "currency": "USD"
-    },
-    "DIS": {
-      "priceCents": 10390,
-      "currency": "USD"
-    },
-    "DKS": {
-      "priceCents": 21786,
-      "currency": "USD"
-    },
-    "EQR": {
-      "priceCents": 6049,
-      "currency": "USD"
-    },
-    "ESS": {
-      "priceCents": 24800,
-      "currency": "USD"
-    },
-    "FIVE": {
-      "priceCents": 22506,
-      "currency": "USD"
-    },
     "FNKO": {
       "priceCents": 417,
       "currency": "USD"
@@ -111,10 +79,6 @@
     },
     "INVH": {
       "priceCents": 2627,
-      "currency": "USD"
-    },
-    "KMI": {
-      "priceCents": 3179,
       "currency": "USD"
     },
     "LC": {
