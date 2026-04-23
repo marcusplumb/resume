@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-23T18:44:09Z",
+  "updatedAt": "2026-04-23T19:53:37Z",
   "symbols": {
     "AAPL": {
       "priceCents": 27317,
@@ -191,10 +191,6 @@
     },
     "ZS": {
       "priceCents": 14266,
-      "currency": "USD"
-    },
-    "ZUMZ": {
-      "priceCents": 2511,
       "currency": "USD"
     }
   }
