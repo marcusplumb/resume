@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T21:19:13Z",
+  "updatedAt": "2026-04-29T22:12:24Z",
   "symbols": {
     "AAPL": {
       "priceCents": 27017,
@@ -114,7 +114,7 @@
       "currency": "USD"
     },
     "KMI": {
-      "priceCents": 3179,
+      "priceCents": 3182,
       "currency": "USD"
     },
     "LC": {
@@ -135,6 +135,10 @@
     },
     "NEGG": {
       "priceCents": 3683,
+      "currency": "USD"
+    },
+    "NFLX": {
+      "priceCents": 9212,
       "currency": "USD"
     },
     "OKE": {
