@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-29T20:15:36Z",
+  "updatedAt": "2026-04-29T21:19:13Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 27071,
+      "priceCents": 27017,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 6316,
+      "priceCents": 6348,
       "currency": "USD"
     },
     "AMH": {
@@ -114,7 +114,7 @@
       "currency": "USD"
     },
     "KMI": {
-      "priceCents": 3182,
+      "priceCents": 3179,
       "currency": "USD"
     },
     "LC": {
@@ -135,10 +135,6 @@
     },
     "NEGG": {
       "priceCents": 3683,
-      "currency": "USD"
-    },
-    "NFLX": {
-      "priceCents": 9212,
       "currency": "USD"
     },
     "OKE": {
