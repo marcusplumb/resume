@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-05-08T22:21:28Z",
+    "updatedAt": "2026-05-09T00:06:57Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -302,13 +302,13 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-05-08T22:21:28Z",
+    "updatedAt": "2026-05-09T00:06:57Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 6.38,
+        "spot": 6.37,
         "shares": 587882000.0,
         "discountRatePct": 12.365,
         "costOfEquityPct": 12.365,
@@ -420,7 +420,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 6.38,
+        "spot": 6.37,
         "shares": 587882000.0,
         "discountRatePct": 12.365,
         "costOfEquityPct": 12.365,
@@ -532,7 +532,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 6.38,
+        "spot": 6.37,
         "shares": 587882000.0,
         "discountRatePct": 12.365,
         "costOfEquityPct": 12.365,
@@ -645,13 +645,13 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-05-08T22:21:28Z",
+    "updatedAt": "2026-05-09T00:06:57Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 38.36,
+        "spot": 38.37,
         "shares": 12580500.0,
         "discountRatePct": 10.14,
         "costOfEquityPct": 10.14,
@@ -763,7 +763,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 38.36,
+        "spot": 38.37,
         "shares": 12580500.0,
         "discountRatePct": 10.14,
         "costOfEquityPct": 10.14,
@@ -875,7 +875,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 38.36,
+        "spot": 38.37,
         "shares": 12580500.0,
         "discountRatePct": 10.14,
         "costOfEquityPct": 10.14,
@@ -988,13 +988,13 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-05-08T22:21:28Z",
+    "updatedAt": "2026-05-09T00:06:57Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 24.27,
+        "spot": 24.28,
         "shares": 448375000.0,
         "discountRatePct": 14.204999999999998,
         "costOfEquityPct": 14.204999999999998,
@@ -1121,7 +1121,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 24.27,
+        "spot": 24.28,
         "shares": 448375000.0,
         "discountRatePct": 14.204999999999998,
         "costOfEquityPct": 14.204999999999998,
@@ -1248,7 +1248,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 24.27,
+        "spot": 24.28,
         "shares": 448375000.0,
         "discountRatePct": 14.204999999999998,
         "costOfEquityPct": 14.204999999999998,
@@ -1376,13 +1376,13 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-05-08T22:21:28Z",
+    "updatedAt": "2026-05-09T00:06:57Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 240.19,
+        "spot": 240.11,
         "shares": 210137000.0,
         "discountRatePct": 5.365,
         "costOfEquityPct": 5.365,
@@ -1487,7 +1487,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 240.19,
+        "spot": 240.11,
         "shares": 210137000.0,
         "discountRatePct": 5.365,
         "costOfEquityPct": 5.365,
@@ -1593,7 +1593,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-05-08T22:21:28Z",
+    "updatedAt": "2026-05-09T00:06:57Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1936,7 +1936,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-05-08T22:21:28Z",
+    "updatedAt": "2026-05-09T00:06:57Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
