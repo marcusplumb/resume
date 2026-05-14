@@ -28,18 +28,18 @@
     "avgDebt2Q": 4376699999.5,
     "impliedCostOfDebtPct": 0.02513309114459902,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "BBY": {
     "name": "Best Buy Co. Inc",
     "currency": "USD",
-    "marketCap": 12140256000,
+    "marketCap": 11664086000,
     "sharesOutstanding": 210695000,
     "beta": 1.247,
     "revenueTtm": 41691001000,
     "ebitdaTtm": 2602000000,
-    "pe": 11.43,
+    "pe": 10.98,
     "cash": 1738000000,
     "shortTermDebt": 634000000,
     "longTermDebt": 1165000000,
@@ -60,7 +60,7 @@
     "avgDebt2Q": 4113000000.0,
     "impliedCostOfDebtPct": 1.7748601993678579,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "CNXN": {
@@ -92,7 +92,7 @@
     "avgDebt2Q": 3711000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -100,7 +100,7 @@
   "NEGG": {
     "name": "Newegg Commerce Inc",
     "currency": "USD",
-    "marketCap": 520132000,
+    "marketCap": 510904000,
     "sharesOutstanding": 20973100,
     "beta": 3.802,
     "revenueTtm": 1444468000,
@@ -126,18 +126,18 @@
     "avgDebt2Q": 63250000.0,
     "impliedCostOfDebtPct": 1.5952569169960475,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "DKS": {
     "name": "Dick\u2019s Sporting Goods Inc",
     "currency": "USD",
-    "marketCap": 19701121000,
+    "marketCap": 19197524000,
     "sharesOutstanding": 65878000,
     "beta": 1.239,
     "revenueTtm": 17215119000,
     "ebitdaTtm": 1980056000,
-    "pe": 22.07,
+    "pe": 21.55,
     "cash": 1353226000,
     "shortTermDebt": 1004909000,
     "longTermDebt": 1905299000,
@@ -158,7 +158,7 @@
     "avgDebt2Q": 7722946000.0,
     "impliedCostOfDebtPct": 0.8321047434489378,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "ZUMZ": {
@@ -190,7 +190,7 @@
     "avgDebt2Q": 204192500.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-02-28",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -198,12 +198,12 @@
   "BBW": {
     "name": "Build-A-Bear Workshop Inc",
     "currency": "USD",
-    "marketCap": 466484000,
+    "marketCap": 449878000,
     "sharesOutstanding": 12580500,
     "beta": 1.02,
     "revenueTtm": 529832000,
     "ebitdaTtm": 79578000,
-    "pe": 9.61,
+    "pe": 8.96,
     "cash": 26755000,
     "shortTermDebt": 28651000,
     "longTermDebt": 0,
@@ -224,18 +224,18 @@
     "avgDebt2Q": 122756000.0,
     "impliedCostOfDebtPct": 0.6525139300726646,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "BBWI": {
     "name": "Bath & Body Works Inc.",
     "currency": "USD",
-    "marketCap": 3858489000,
+    "marketCap": 3844392000,
     "sharesOutstanding": 201383000,
     "beta": 1.391,
     "revenueTtm": 7291000000,
     "ebitdaTtm": 1410000000,
-    "pe": 6.16,
+    "pe": 6.14,
     "cash": 953000000,
     "shortTermDebt": 475000000,
     "longTermDebt": 3612000000,
@@ -256,7 +256,7 @@
     "avgDebt2Q": 4967000000.0,
     "impliedCostOfDebtPct": 5.556674048721563,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "FNKO": {
@@ -288,18 +288,18 @@
     "avgDebt2Q": 284740000.0,
     "impliedCostOfDebtPct": 7.09981035330477,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "FIVE": {
     "name": "Five Below Inc",
     "currency": "USD",
-    "marketCap": 11509639000,
+    "marketCap": 11657139000,
     "sharesOutstanding": 55295000,
     "beta": 1.004,
     "revenueTtm": 4764147000,
     "ebitdaTtm": 649522000,
-    "pe": 32.17,
+    "pe": 32.63,
     "cash": 723699000,
     "shortTermDebt": 301148000,
     "longTermDebt": 0,
@@ -320,7 +320,7 @@
     "avgDebt2Q": 2023191000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -354,18 +354,18 @@
     "avgDebt2Q": 545782000.0,
     "impliedCostOfDebtPct": 5.851970200556266,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "CRCT": {
     "name": "Cricut Inc",
     "currency": "USD",
-    "marketCap": 915158000,
+    "marketCap": 894168000,
     "sharesOutstanding": 55019000,
     "beta": 0.146,
     "revenueTtm": 705617000,
     "ebitdaTtm": 94267000,
-    "pe": 12.82,
+    "pe": 12.53,
     "cash": 236499000,
     "shortTermDebt": 3577000,
     "longTermDebt": 0,
@@ -386,7 +386,7 @@
     "avgDebt2Q": 11159500.0,
     "impliedCostOfDebtPct": 5.089833773914601,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "BB": {
@@ -418,13 +418,13 @@
     "avgDebt2Q": 221850000.0,
     "impliedCostOfDebtPct": 2.6629957178273607,
     "fiscalDateEndingBalanceSheet": "2026-02-28",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "CRWD": {
     "name": "Crowdstrike Holdings Inc",
     "currency": "USD",
-    "marketCap": 138024976000,
+    "marketCap": 139022762000,
     "sharesOutstanding": 254537000,
     "beta": 1.06,
     "revenueTtm": 4812005000,
@@ -450,18 +450,18 @@
     "avgDebt2Q": 819061500.0,
     "impliedCostOfDebtPct": 3.4211106247821443,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "PANW": {
     "name": "Palo Alto Networks Inc",
     "currency": "USD",
-    "marketCap": 173278265000,
+    "marketCap": 177771201000,
     "sharesOutstanding": 811000000,
     "beta": 0.77,
     "revenueTtm": 9893500000,
     "ebitdaTtm": 1536500000,
-    "pe": 119.36,
+    "pe": 122.46,
     "cash": 4158000000,
     "shortTermDebt": 0,
     "longTermDebt": 0,
@@ -482,7 +482,7 @@
     "avgDebt2Q": 532000000.0,
     "impliedCostOfDebtPct": 0.20676691729323307,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "FTNT": {
@@ -514,13 +514,13 @@
     "avgDebt2Q": 746550000.0,
     "impliedCostOfDebtPct": 2.5986203201393074,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "ZS": {
     "name": "Zscaler Inc",
     "currency": "USD",
-    "marketCap": 23936911000,
+    "marketCap": 23502776000,
     "sharesOutstanding": 160791000,
     "beta": 0.962,
     "revenueTtm": 3001123000,
@@ -546,13 +546,13 @@
     "avgDebt2Q": 1849214500.0,
     "impliedCostOfDebtPct": 0.5619142073566912,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "S": {
     "name": "SentinelOne Inc",
     "currency": "USD",
-    "marketCap": 5556715000,
+    "marketCap": 5355952000,
     "sharesOutstanding": 333976000,
     "beta": 0.785,
     "revenueTtm": 1001278000,
@@ -578,7 +578,7 @@
     "avgDebt2Q": 12672000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-01-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -586,12 +586,12 @@
   "SOFI": {
     "name": "SoFi Technologies Inc.",
     "currency": "USD",
-    "marketCap": 20857373000,
+    "marketCap": 20395586000,
     "sharesOutstanding": 1282741000,
     "beta": 2.126,
     "revenueTtm": 3908427000,
     "ebitdaTtm": 0,
-    "pe": 36.13,
+    "pe": 35.33,
     "cash": 3761251000,
     "shortTermDebt": 0,
     "longTermDebt": 1327998000,
@@ -612,18 +612,18 @@
     "avgDebt2Q": 1865193500.0,
     "impliedCostOfDebtPct": 64.29172093940923,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "HOOD": {
     "name": "Robinhood Markets Inc",
     "currency": "USD",
-    "marketCap": 72742797000,
+    "marketCap": 70482526000,
     "sharesOutstanding": 791185000,
     "beta": 2.294,
     "revenueTtm": 4613000000,
     "ebitdaTtm": 138119000,
-    "pe": 39.21,
+    "pe": 38.0,
     "cash": 5012000000,
     "shortTermDebt": 0,
     "longTermDebt": 0,
@@ -644,18 +644,18 @@
     "avgDebt2Q": null,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "AFRM": {
     "name": "Affirm Holdings Inc",
     "currency": "USD",
-    "marketCap": 22254008000,
+    "marketCap": 21912412000,
     "sharesOutstanding": 294358000,
     "beta": 3.723,
     "revenueTtm": 3971539000,
     "ebitdaTtm": 631559000,
-    "pe": 60.41,
+    "pe": 59.48,
     "cash": 2474305000,
     "shortTermDebt": 3782000,
     "longTermDebt": 9052186000,
@@ -676,18 +676,18 @@
     "avgDebt2Q": 9047159000.0,
     "impliedCostOfDebtPct": 4.879078614623662,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "UPST": {
     "name": "Upstart Holdings\u00a0Inc",
     "currency": "USD",
-    "marketCap": 2745965000,
+    "marketCap": 2664610000,
     "sharesOutstanding": 95712000,
     "beta": 2.262,
     "revenueTtm": 1173714000,
     "ebitdaTtm": 98916000,
-    "pe": 69.98,
+    "pe": 67.9,
     "cash": 931334000,
     "shortTermDebt": 7503000,
     "longTermDebt": 1738358000,
@@ -708,7 +708,7 @@
     "avgDebt2Q": 1914347500.0,
     "impliedCostOfDebtPct": 2.8670865660492675,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "PYPL": {
@@ -740,7 +740,7 @@
     "avgDebt2Q": 9698000000.0,
     "impliedCostOfDebtPct": 4.629820581563209,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "LC": {
@@ -772,13 +772,13 @@
     "avgDebt2Q": 14153500.0,
     "impliedCostOfDebtPct": 2393.344402444625,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "HUT": {
     "name": "Hut 8 Corp. Common Stock",
     "currency": "USD",
-    "marketCap": 11505993000,
+    "marketCap": 12082474000,
     "sharesOutstanding": 112594000,
     "beta": 5.72,
     "revenueTtm": 284320000,
@@ -792,8 +792,8 @@
     "cashPerShare": 1.4211769721299536,
     "debtPerShare": 3.7560704833294847,
     "netCashPerShare": -2.3348935111995313,
-    "interestExpenseTtm": 13361000,
-    "interestExpenseTtmRaw": 13361000,
+    "interestExpenseTtm": 31847000,
+    "interestExpenseTtmRaw": 31847000,
     "incomeBeforeTaxTtm": -447387000,
     "incomeTaxExpenseTtm": -113859000,
     "netIncomeTtm": -312109000,
@@ -802,9 +802,9 @@
     "effectiveTaxRateTtm": null,
     "fiscalDateEndingIncomeTtm": "2026-03-31",
     "avgDebt2Q": 426121000.0,
-    "impliedCostOfDebtPct": 3.135494378357321,
+    "impliedCostOfDebtPct": 7.473698785086865,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "MARA": {
@@ -816,27 +816,27 @@
     "revenueTtm": 907093000,
     "ebitdaTtm": -352031008,
     "pe": 0.0,
-    "cash": 513653000,
-    "shortTermDebt": 50698000,
+    "cash": 525653000,
+    "shortTermDebt": 200698000,
     "longTermDebt": 0,
-    "totalDebt": 50698000,
-    "netCash": 462955000,
-    "cashPerShare": 1.3474738783358735,
-    "debtPerShare": 0.13299684939808026,
-    "netCashPerShare": 1.2144770289377933,
+    "totalDebt": 2463960000,
+    "netCash": -1938307000,
+    "cashPerShare": 1.3789536643782612,
+    "debtPerShare": 6.463744468083432,
+    "netCashPerShare": -5.084790803705171,
     "interestExpenseTtm": 49160000,
     "interestExpenseTtmRaw": 49160000,
     "incomeBeforeTaxTtm": -2008982000,
-    "incomeTaxExpenseTtm": 29086000,
+    "incomeTaxExpenseTtm": 31864000,
     "netIncomeTtm": -2037894000,
-    "ebitTtm": -432743000,
-    "operatingIncomeTtm": 395558000,
+    "ebitTtm": 622435000,
+    "operatingIncomeTtm": 146687000,
     "effectiveTaxRateTtm": null,
     "fiscalDateEndingIncomeTtm": "2026-03-31",
-    "avgDebt2Q": 1848025500.0,
-    "impliedCostOfDebtPct": 2.6601364537448213,
+    "avgDebt2Q": 3054656500.0,
+    "impliedCostOfDebtPct": 1.6093462554627667,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "RIOT": {
@@ -868,7 +868,7 @@
     "avgDebt2Q": 284686500.0,
     "impliedCostOfDebtPct": 8.58979965681548,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "CLSK": {
@@ -900,13 +900,13 @@
     "avgDebt2Q": 895888000.0,
     "impliedCostOfDebtPct": 2.416708338542318,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "CIFR": {
     "name": "Cipher Mining Inc",
     "currency": "USD",
-    "marketCap": 8295518000,
+    "marketCap": 8573670000,
     "sharesOutstanding": 409049000,
     "beta": 3.148,
     "revenueTtm": 209821000,
@@ -932,7 +932,7 @@
     "avgDebt2Q": 2373343500.0,
     "impliedCostOfDebtPct": 5.087295623242063,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "BITF": {
@@ -996,7 +996,7 @@
     "avgDebt2Q": 5135606000.0,
     "impliedCostOfDebtPct": 3.913481680642947,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "INVH": {
@@ -1028,18 +1028,18 @@
     "avgDebt2Q": 8591195000.0,
     "impliedCostOfDebtPct": 4.241389003508825,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "AVB": {
     "name": "AvalonBay Communities Inc",
     "currency": "USD",
-    "marketCap": 26051516000,
+    "marketCap": 25938835000,
     "sharesOutstanding": 139112000,
     "beta": 0.798,
     "revenueTtm": 3060060000,
     "ebitdaTtm": 1846127000,
-    "pe": 23.21,
+    "pe": 23.13,
     "cash": 121231000,
     "shortTermDebt": 769722000,
     "longTermDebt": 0,
@@ -1060,18 +1060,18 @@
     "avgDebt2Q": 9344385000.0,
     "impliedCostOfDebtPct": 2.898061242125619,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "EQR": {
     "name": "Equity Residential",
     "currency": "USD",
-    "marketCap": 25567689000,
+    "marketCap": 25360998000,
     "sharesOutstanding": 374672000,
     "beta": 0.771,
     "revenueTtm": 3112995000,
     "ebitdaTtm": 1892308000,
-    "pe": 26.47,
+    "pe": 26.26,
     "cash": 34677000,
     "shortTermDebt": 1348945000,
     "longTermDebt": 7591089000,
@@ -1092,7 +1092,7 @@
     "avgDebt2Q": 8713739500.0,
     "impliedCostOfDebtPct": 3.6364066196837763,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "MAA": {
@@ -1124,18 +1124,18 @@
     "avgDebt2Q": 5530946000.0,
     "impliedCostOfDebtPct": 3.4624275847205883,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "ESS": {
     "name": "Essex Property Trust Inc",
     "currency": "USD",
-    "marketCap": 18525293000,
+    "marketCap": 18686579000,
     "sharesOutstanding": 64262000,
     "beta": 0.727,
     "revenueTtm": 1966022000,
     "ebitdaTtm": 1278588000,
-    "pe": 30.2,
+    "pe": 30.5,
     "cash": 47410000,
     "shortTermDebt": 549136000,
     "longTermDebt": 6801836000,
@@ -1156,7 +1156,7 @@
     "avgDebt2Q": 6880135000.0,
     "impliedCostOfDebtPct": 3.7578332401907812,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "LNG": {
@@ -1188,18 +1188,18 @@
     "avgDebt2Q": 27508000000.0,
     "impliedCostOfDebtPct": 3.540788134360913,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "KMI": {
     "name": "Kinder Morgan Inc",
     "currency": "USD",
-    "marketCap": 71750631000,
+    "marketCap": 72996536000,
     "sharesOutstanding": 2224826000,
     "beta": 0.564,
     "revenueTtm": 17524001000,
     "ebitdaTtm": 7437000000,
-    "pe": 21.64,
+    "pe": 22.02,
     "cash": 72000000,
     "shortTermDebt": 2186000000,
     "longTermDebt": 29760000000,
@@ -1220,7 +1220,7 @@
     "avgDebt2Q": 32221000000.0,
     "impliedCostOfDebtPct": 5.524347475249061,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "OKE": {
@@ -1252,7 +1252,7 @@
     "avgDebt2Q": 33234000000.0,
     "impliedCostOfDebtPct": 5.35596076307396,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "TRGP": {
@@ -1284,18 +1284,18 @@
     "avgDebt2Q": 18339050000.0,
     "impliedCostOfDebtPct": 4.8164981283109,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "WMB": {
     "name": "Williams Companies Inc",
     "currency": "USD",
-    "marketCap": 90722009000,
+    "marketCap": 92593201000,
     "sharesOutstanding": 1222998000,
     "beta": 0.633,
     "revenueTtm": 12109000000,
     "ebitdaTtm": 6821000000,
-    "pe": 32.54,
+    "pe": 33.21,
     "cash": 950000000,
     "shortTermDebt": 248000000,
     "longTermDebt": 30054000000,
@@ -1316,7 +1316,7 @@
     "avgDebt2Q": 29831500000.0,
     "impliedCostOfDebtPct": 4.924324958517004,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "CTRA": {
@@ -1380,7 +1380,7 @@
     "avgDebt2Q": 15602518000.0,
     "impliedCostOfDebtPct": 5.476135326362066,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "DIS": {
@@ -1412,13 +1412,13 @@
     "avgDebt2Q": 46999000000.0,
     "impliedCostOfDebtPct": 3.2702823464329027,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "WBD": {
     "name": "Warner Bros Discovery Inc",
     "currency": "USD",
-    "marketCap": 68294406000,
+    "marketCap": 68118905000,
     "sharesOutstanding": 2507137000,
     "beta": 1.574,
     "revenueTtm": 37210001000,
@@ -1444,7 +1444,7 @@
     "avgDebt2Q": 17030000000.0,
     "impliedCostOfDebtPct": 12.930123311802703,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "CMCSA": {
@@ -1476,7 +1476,7 @@
     "avgDebt2Q": 102527500000.0,
     "impliedCostOfDebtPct": 4.343224988417742,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "AMZN": {
@@ -1508,18 +1508,18 @@
     "avgDebt2Q": 181437500000.0,
     "impliedCostOfDebtPct": 1.39607302790217,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   },
   "AAPL": {
     "name": "Apple Inc",
     "currency": "USD",
-    "marketCap": 4298695246000,
+    "marketCap": 4389609931000,
     "sharesOutstanding": 14687356000,
     "beta": 1.065,
     "revenueTtm": 451442016000,
     "ebitdaTtm": 159975997000,
-    "pe": 35.48,
+    "pe": 36.23,
     "cash": 36328000000,
     "shortTermDebt": 10307000000,
     "longTermDebt": 74404000000,
@@ -1540,7 +1540,7 @@
     "avgDebt2Q": 87610000000.0,
     "impliedCostOfDebtPct": 0.001141422212076247,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-05-13T09:19:17Z",
+    "updatedAt": "2026-05-14T09:09:33Z",
     "dataQualityFlags": []
   }
 }
