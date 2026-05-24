@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-05-24T07:52:54Z",
+    "updatedAt": "2026-05-24T10:04:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -302,7 +302,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-05-24T07:52:54Z",
+    "updatedAt": "2026-05-24T10:04:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -645,7 +645,7 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-05-24T07:52:54Z",
+    "updatedAt": "2026-05-24T10:04:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -988,14 +988,14 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-05-24T07:52:54Z",
+    "updatedAt": "2026-05-24T10:04:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
         "spot": 21.96,
-        "shares": 448375000.0,
+        "shares": 448691000.0,
         "discountRatePct": 14.415,
         "costOfEquityPct": 14.415,
         "costOfDebtPct": 0.02513309114459902,
@@ -1004,7 +1004,7 @@
         "pvFcfeMn": 1643.5553177192733,
         "netCashEffectiveMn": 1942.800001,
         "equityValueMn": 3586.355318719274,
-        "price": 7.9986,
+        "price": 7.9929,
         "segmentOrder": [
           "hardware",
           "software",
@@ -1122,7 +1122,7 @@
         "label": "Bull",
         "cashFlowModel": "FCFE",
         "spot": 21.96,
-        "shares": 448375000.0,
+        "shares": 448691000.0,
         "discountRatePct": 14.415,
         "costOfEquityPct": 14.415,
         "costOfDebtPct": 0.02513309114459902,
@@ -1131,7 +1131,7 @@
         "pvFcfeMn": 2525.0207388318377,
         "netCashEffectiveMn": 2525.6400013,
         "equityValueMn": 5050.660740131838,
-        "price": 11.2644,
+        "price": 11.2564,
         "segmentOrder": [
           "hardware",
           "software",
@@ -1249,7 +1249,7 @@
         "label": "Bear",
         "cashFlowModel": "FCFE",
         "spot": 21.96,
-        "shares": 448375000.0,
+        "shares": 448691000.0,
         "discountRatePct": 14.415,
         "costOfEquityPct": 14.415,
         "costOfDebtPct": 0.02513309114459902,
@@ -1258,7 +1258,7 @@
         "pvFcfeMn": 1019.6780570112937,
         "netCashEffectiveMn": 1359.9600007,
         "equityValueMn": 2379.6380577112936,
-        "price": 5.3072,
+        "price": 5.3035,
         "segmentOrder": [
           "hardware",
           "software",
@@ -1376,7 +1376,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-05-24T07:52:54Z",
+    "updatedAt": "2026-05-24T10:04:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1593,7 +1593,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-05-24T07:52:54Z",
+    "updatedAt": "2026-05-24T10:04:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1936,7 +1936,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-05-24T07:52:54Z",
+    "updatedAt": "2026-05-24T10:04:34Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
