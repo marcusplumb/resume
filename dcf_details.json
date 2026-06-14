@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-06-14T09:53:41Z",
+    "updatedAt": "2026-06-14T12:10:35Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -302,7 +302,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-06-14T09:53:41Z",
+    "updatedAt": "2026-06-14T12:10:35Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -645,14 +645,14 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-06-14T09:53:41Z",
+    "updatedAt": "2026-06-14T12:10:35Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
         "spot": 32.13,
-        "shares": 12580500.0,
+        "shares": 12537400.0,
         "discountRatePct": 10.25,
         "costOfEquityPct": 10.25,
         "costOfDebtPct": 0.5810552279159485,
@@ -661,7 +661,7 @@
         "pvFcfeMn": 700.4752051524362,
         "netCashEffectiveMn": -99.443,
         "equityValueMn": 601.0322051524362,
-        "price": 47.7749,
+        "price": 47.9391,
         "segmentOrder": [
           "retail",
           "commercial",
@@ -764,7 +764,7 @@
         "label": "Bull",
         "cashFlowModel": "FCFE",
         "spot": 32.13,
-        "shares": 12580500.0,
+        "shares": 12537400.0,
         "discountRatePct": 10.25,
         "costOfEquityPct": 10.25,
         "costOfDebtPct": 0.5810552279159485,
@@ -773,7 +773,7 @@
         "pvFcfeMn": 772.8460376582294,
         "netCashEffectiveMn": -99.443,
         "equityValueMn": 673.4030376582294,
-        "price": 53.5275,
+        "price": 53.7115,
         "segmentOrder": [
           "retail",
           "commercial",
@@ -876,7 +876,7 @@
         "label": "Bear",
         "cashFlowModel": "FCFE",
         "spot": 32.13,
-        "shares": 12580500.0,
+        "shares": 12537400.0,
         "discountRatePct": 10.25,
         "costOfEquityPct": 10.25,
         "costOfDebtPct": 0.5810552279159485,
@@ -885,7 +885,7 @@
         "pvFcfeMn": 561.0199819983999,
         "netCashEffectiveMn": -99.443,
         "equityValueMn": 461.57698199839984,
-        "price": 36.6899,
+        "price": 36.816,
         "segmentOrder": [
           "retail",
           "commercial",
@@ -988,7 +988,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-06-14T09:53:41Z",
+    "updatedAt": "2026-06-14T12:10:35Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1376,7 +1376,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-06-14T09:53:41Z",
+    "updatedAt": "2026-06-14T12:10:35Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1593,7 +1593,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-06-14T09:53:41Z",
+    "updatedAt": "2026-06-14T12:10:35Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1936,7 +1936,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-06-14T09:53:41Z",
+    "updatedAt": "2026-06-14T12:10:35Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
