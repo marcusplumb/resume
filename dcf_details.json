@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-06-18T09:23:07Z",
+    "updatedAt": "2026-06-18T13:38:20Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -302,7 +302,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-06-18T09:23:07Z",
+    "updatedAt": "2026-06-18T13:38:20Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -645,7 +645,7 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-06-18T09:23:07Z",
+    "updatedAt": "2026-06-18T13:38:20Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -988,7 +988,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-06-18T09:23:07Z",
+    "updatedAt": "2026-06-18T13:38:20Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1376,7 +1376,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-06-18T09:23:07Z",
+    "updatedAt": "2026-06-18T13:38:20Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1593,7 +1593,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-06-18T09:23:07Z",
+    "updatedAt": "2026-06-18T13:38:20Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1936,7 +1936,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-06-18T09:23:07Z",
+    "updatedAt": "2026-06-18T13:38:20Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1950,9 +1950,9 @@
         "terminalGrowthPct": 3.0,
         "taxRatePct": 26.0,
         "pvFcfeMn": 9444.224306269445,
-        "netCashEffectiveMn": 1846.546,
-        "equityValueMn": 11290.770306269445,
-        "price": 8.8021,
+        "netCashEffectiveMn": 1486.315,
+        "equityValueMn": 10930.539306269446,
+        "price": 8.5212,
         "segmentOrder": [
           "lending",
           "financialServices",
@@ -2062,9 +2062,9 @@
         "terminalGrowthPct": 3.5000000000000004,
         "taxRatePct": 24.0,
         "pvFcfeMn": 12932.703970319257,
-        "netCashEffectiveMn": 1846.546,
-        "equityValueMn": 14779.249970319255,
-        "price": 11.5216,
+        "netCashEffectiveMn": 1486.315,
+        "equityValueMn": 14419.018970319255,
+        "price": 11.2408,
         "segmentOrder": [
           "lending",
           "financialServices",
@@ -2174,9 +2174,9 @@
         "terminalGrowthPct": 2.25,
         "taxRatePct": 27.0,
         "pvFcfeMn": 5634.051030200924,
-        "netCashEffectiveMn": 1846.546,
-        "equityValueMn": 7480.597030200924,
-        "price": 5.8317,
+        "netCashEffectiveMn": 1486.315,
+        "equityValueMn": 7120.366030200924,
+        "price": 5.5509,
         "segmentOrder": [
           "lending",
           "financialServices",
