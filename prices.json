@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T23:21:12Z",
+  "updatedAt": "2026-06-19T02:08:21Z",
   "symbols": {
     "AAPL": {
       "priceCents": 29801,
@@ -139,6 +139,42 @@
     },
     "NFLX": {
       "priceCents": 7738,
+      "currency": "USD"
+    },
+    "OKE": {
+      "priceCents": 8503,
+      "currency": "USD"
+    },
+    "PANW": {
+      "priceCents": 28778,
+      "currency": "USD"
+    },
+    "PLCE": {
+      "priceCents": 344,
+      "currency": "USD"
+    },
+    "PYPL": {
+      "priceCents": 4251,
+      "currency": "USD"
+    },
+    "RIOT": {
+      "priceCents": 2810,
+      "currency": "USD"
+    },
+    "S": {
+      "priceCents": 1502,
+      "currency": "USD"
+    },
+    "SOFI": {
+      "priceCents": 1791,
+      "currency": "USD"
+    },
+    "SPY": {
+      "priceCents": 74674,
+      "currency": "USD"
+    },
+    "TRGP": {
+      "priceCents": 25858,
       "currency": "USD"
     },
     "UPST": {
