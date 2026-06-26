@@ -1,23 +1,23 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-06-26T20:04:38Z",
+    "updatedAt": "2026-06-26T21:38:01Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 33.29,
+        "spot": 34.08,
         "shares": 359180000.0,
-        "discountRatePct": 9.27,
-        "costOfEquityPct": 9.27,
+        "discountRatePct": 9.25,
+        "costOfEquityPct": 9.25,
         "costOfDebtPct": 3.913481680642947,
         "terminalGrowthPct": 2.5,
         "taxRatePct": 5.0,
-        "pvFcfeMn": 18482.541455913124,
+        "pvFcfeMn": 18538.357121241075,
         "netCashEffectiveMn": -5082.137,
-        "equityValueMn": 13400.404455913123,
-        "price": 37.3083,
+        "equityValueMn": 13456.220121241073,
+        "price": 37.4637,
         "segmentOrder": [
           "singleFamilyRentals"
         ],
@@ -37,7 +37,7 @@
             "capexMn": 234.73573199999998,
             "deltaNwcMn": 0.4657455000000006,
             "fcfeMn": 1084.6123124071014,
-            "pvMn": 992.5984372719881
+            "pvMn": 992.7801486563857
           },
           {
             "year": 2,
@@ -51,7 +51,7 @@
             "capexMn": 246.4725186,
             "deltaNwcMn": 0.48903277500000186,
             "fcfeMn": 1167.9202099921015,
-            "pvMn": 978.1631268565181
+            "pvMn": 978.5212971672692
           },
           {
             "year": 3,
@@ -65,7 +65,7 @@
             "capexMn": 257.563781937,
             "deltaNwcMn": 0.46213597237499826,
             "fcfeMn": 1249.5243756071889,
-            "pvMn": 957.7273801365674
+            "pvMn": 958.25345943277
           },
           {
             "year": 4,
@@ -79,7 +79,7 @@
             "capexMn": 267.86633321448,
             "deltaNwcMn": 0.42927296989500086,
             "fcfeMn": 1328.4146831793805,
-            "pvMn": 931.8154241778682
+            "pvMn": 932.4979478073393
           },
           {
             "year": 5,
@@ -93,29 +93,29 @@
             "capexMn": 278.5809865430592,
             "deltaNwcMn": 0.4464438886908013,
             "fcfeMn": 1411.2574980015972,
-            "pvMn": 905.9444045224958
+            "pvMn": 906.7739479194222
           },
           {
             "year": "TV",
-            "fcfeMn": 21366.897126316653,
-            "pvMn": 13716.292682947686
+            "fcfeMn": 21430.206451135364,
+            "pvMn": 13769.53032025789
           }
         ]
       },
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 33.29,
+        "spot": 34.08,
         "shares": 359180000.0,
-        "discountRatePct": 9.27,
-        "costOfEquityPct": 9.27,
+        "discountRatePct": 9.25,
+        "costOfEquityPct": 9.25,
         "costOfDebtPct": 3.913481680642947,
         "terminalGrowthPct": 3.0,
         "taxRatePct": 5.0,
-        "pvFcfeMn": 20521.689826197286,
+        "pvFcfeMn": 20588.65089156348,
         "netCashEffectiveMn": -5082.137,
-        "equityValueMn": 15439.552826197285,
-        "price": 42.9856,
+        "equityValueMn": 15506.51389156348,
+        "price": 43.172,
         "segmentOrder": [
           "singleFamilyRentals"
         ],
@@ -135,7 +135,7 @@
             "capexMn": 256.71891960000005,
             "deltaNwcMn": 0.5588946000000021,
             "fcfeMn": 1095.6877403971016,
-            "pvMn": 1002.7342732653991
+            "pvMn": 1002.9178401804134
           },
           {
             "year": 2,
@@ -149,7 +149,7 @@
             "capexMn": 272.122054776,
             "deltaNwcMn": 0.5924282759999997,
             "fcfeMn": 1192.7926963759014,
-            "pvMn": 998.9944720509286
+            "pvMn": 999.3602700969487
           },
           {
             "year": 3,
@@ -163,7 +163,7 @@
             "capexMn": 287.08876778868006,
             "deltaNwcMn": 0.5756428081800014,
             "fcfeMn": 1289.9465891658774,
-            "pvMn": 988.7099375373155
+            "pvMn": 989.2530355408559
           },
           {
             "year": 4,
@@ -177,7 +177,7 @@
             "capexMn": 301.44320617811405,
             "deltaNwcMn": 0.552093784209001,
             "fcfeMn": 1386.0896660206354,
-            "pvMn": 972.2714950728766
+            "pvMn": 972.9836514210439
           },
           {
             "year": 5,
@@ -191,29 +191,29 @@
             "capexMn": 315.00815045612916,
             "deltaNwcMn": 0.521728626077504,
             "fcfeMn": 1480.1471235674016,
-            "pvMn": 950.1674969768253
+            "pvMn": 951.0375340002414
           },
           {
             "year": "TV",
-            "fcfeMn": 24315.016543451737,
-            "pvMn": 15608.812151293941
+            "fcfeMn": 24392.82459639078,
+            "pvMn": 15673.098560323977
           }
         ]
       },
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 33.29,
+        "spot": 34.08,
         "shares": 359180000.0,
-        "discountRatePct": 9.27,
-        "costOfEquityPct": 9.27,
+        "discountRatePct": 9.25,
+        "costOfEquityPct": 9.25,
         "costOfDebtPct": 3.913481680642947,
         "terminalGrowthPct": 2.0,
         "taxRatePct": 5.0,
-        "pvFcfeMn": 15177.914219478842,
+        "pvFcfeMn": 15220.105235689105,
         "netCashEffectiveMn": -5082.137,
-        "equityValueMn": 10095.777219478841,
-        "price": 28.1078,
+        "equityValueMn": 10137.968235689104,
+        "price": 28.2253,
         "segmentOrder": [
           "singleFamilyRentals"
         ],
@@ -233,7 +233,7 @@
             "capexMn": 211.0758606,
             "deltaNwcMn": 0.33533676000000057,
             "fcfeMn": 1043.1609629071015,
-            "pvMn": 954.6636431839494
+            "pvMn": 954.8384099836169
           },
           {
             "year": 2,
@@ -247,7 +247,7 @@
             "capexMn": 217.408136418,
             "deltaNwcMn": 0.3453968627999995,
             "fcfeMn": 1089.5827949576515,
-            "pvMn": 912.5535328240005
+            "pvMn": 912.8876791166326
           },
           {
             "year": 3,
@@ -261,7 +261,7 @@
             "capexMn": 222.84333982844998,
             "deltaNwcMn": 0.29646564057000013,
             "fcfeMn": 1131.2851486799664,
-            "pvMn": 867.1001404883981
+            "pvMn": 867.5764382753322
           },
           {
             "year": 4,
@@ -275,7 +275,7 @@
             "capexMn": 227.300206625019,
             "deltaNwcMn": 0.24310182526740043,
             "fcfeMn": 1167.6113306737088,
-            "pvMn": 819.0200403104781
+            "pvMn": 819.6199450942129
           },
           {
             "year": 5,
@@ -289,12 +289,12 @@
             "capexMn": 231.8462107575194,
             "deltaNwcMn": 0.24796386177274954,
             "fcfeMn": 1204.801047903116,
-            "pvMn": 773.4114925562875
+            "pvMn": 774.1196799390389
           },
           {
             "year": "TV",
-            "fcfeMn": 16903.673574431617,
-            "pvMn": 10851.165370115728
+            "fcfeMn": 16950.30439808522,
+            "pvMn": 10891.063083280273
           }
         ]
       }
@@ -302,23 +302,23 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-06-26T20:04:38Z",
+    "updatedAt": "2026-06-26T21:38:01Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 10.34,
+        "spot": 11.4,
         "shares": 586061000.0,
-        "discountRatePct": 12.925,
-        "costOfEquityPct": 12.925,
+        "discountRatePct": 12.905000000000001,
+        "costOfEquityPct": 12.905000000000001,
         "costOfDebtPct": 2.6629957178273607,
         "terminalGrowthPct": 2.5,
         "taxRatePct": 25.0,
-        "pvFcfeMn": 634.7750281546154,
+        "pvFcfeMn": 636.0988550768495,
         "netCashEffectiveMn": 59.4,
-        "equityValueMn": 694.1750281546153,
-        "price": 1.1845,
+        "equityValueMn": 695.4988550768496,
+        "price": 1.1867,
         "segmentOrder": [
           "cybersecurity",
           "iot",
@@ -344,7 +344,7 @@
             "capexMn": 17.494326,
             "deltaNwcMn": 0.34044200000000036,
             "fcfeMn": 39.095300664638266,
-            "pvMn": 34.62058947499514
+            "pvMn": 34.62672216875981
           },
           {
             "year": 2,
@@ -360,7 +360,7 @@
             "capexMn": 18.502473600000005,
             "deltaNwcMn": 0.3360492000000006,
             "fcfeMn": 50.87129926463829,
-            "pvMn": 39.89262653850624
+            "pvMn": 39.90676095587658
           },
           {
             "year": 3,
@@ -376,7 +376,7 @@
             "capexMn": 19.461696390000007,
             "deltaNwcMn": 0.3197409300000009,
             "fcfeMn": 61.0634120508883,
-            "pvMn": 42.404385113737966
+            "pvMn": 42.42692365343411
           },
           {
             "year": 4,
@@ -392,7 +392,7 @@
             "capexMn": 20.425565554380007,
             "deltaNwcMn": 0.32128972146000034,
             "fcfeMn": 69.42131307780579,
-            "pvMn": 42.69061654423497
+            "pvMn": 42.72087345842821
           },
           {
             "year": 5,
@@ -408,29 +408,29 @@
             "capexMn": 21.28491987915961,
             "deltaNwcMn": 0.2864514415932007,
             "fcfeMn": 80.5531557396835,
-            "pvMn": 43.866406900923145
+            "pvMn": 43.90527316074444
           },
           {
             "year": "TV",
-            "fcfeMn": 792.0094449225475,
-            "pvMn": 431.3004035822179
+            "fcfeMn": 793.5318081035615,
+            "pvMn": 432.51230167960637
           }
         ]
       },
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 10.34,
+        "spot": 11.4,
         "shares": 586061000.0,
-        "discountRatePct": 12.925,
-        "costOfEquityPct": 12.925,
+        "discountRatePct": 12.905000000000001,
+        "costOfEquityPct": 12.905000000000001,
         "costOfDebtPct": 2.6629957178273607,
         "terminalGrowthPct": 3.0,
         "taxRatePct": 24.0,
-        "pvFcfeMn": 909.3543439327553,
+        "pvFcfeMn": 911.3479197938291,
         "netCashEffectiveMn": 59.4,
-        "equityValueMn": 968.7543439327553,
-        "price": 1.653,
+        "equityValueMn": 970.747919793829,
+        "price": 1.6564,
         "segmentOrder": [
           "cybersecurity",
           "iot",
@@ -456,7 +456,7 @@
             "capexMn": 18.169719000000004,
             "deltaNwcMn": 0.5655730000000014,
             "fcfeMn": 50.070703206833464,
-            "pvMn": 44.339785881632466
+            "pvMn": 44.3476402345631
           },
           {
             "year": 2,
@@ -472,7 +472,7 @@
             "capexMn": 19.855071630000005,
             "deltaNwcMn": 0.5617842099999999,
             "fcfeMn": 67.75037132263347,
-            "pvMn": 53.12898038949187
+            "pvMn": 53.147804599588966
           },
           {
             "year": 3,
@@ -488,7 +488,7 @@
             "capexMn": 21.46751476200001,
             "deltaNwcMn": 0.5374810440000015,
             "fcfeMn": 84.55309049783351,
-            "pvMn": 58.7163686339521
+            "pvMn": 58.747577227160555
           },
           {
             "year": 4,
@@ -504,7 +504,7 @@
             "capexMn": 22.943198718540014,
             "deltaNwcMn": 0.49189465218000183,
             "fcfeMn": 96.55963705060032,
-            "pvMn": 59.37932107907015
+            "pvMn": 59.421406089036694
           },
           {
             "year": 5,
@@ -520,29 +520,29 @@
             "capexMn": 24.33226304840761,
             "deltaNwcMn": 0.4630214432891986,
             "fcfeMn": 111.9744345559008,
-            "pvMn": 60.977326879698396
+            "pvMn": 61.03135365775358
           },
           {
             "year": "TV",
-            "fcfeMn": 1162.052066423958,
-            "pvMn": 632.8125610689103
+            "fcfeMn": 1164.3984613082062,
+            "pvMn": 634.6521379857262
           }
         ]
       },
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 10.34,
+        "spot": 11.4,
         "shares": 586061000.0,
-        "discountRatePct": 12.925,
-        "costOfEquityPct": 12.925,
+        "discountRatePct": 12.905000000000001,
+        "costOfEquityPct": 12.905000000000001,
         "costOfDebtPct": 2.6629957178273607,
         "terminalGrowthPct": 2.0,
         "taxRatePct": 26.0,
-        "pvFcfeMn": 291.48087697984903,
+        "pvFcfeMn": 292.03703244304654,
         "netCashEffectiveMn": 59.4,
-        "equityValueMn": 350.88087697984906,
-        "price": 0.5987,
+        "equityValueMn": 351.4370324430466,
+        "price": 0.5997,
         "segmentOrder": [
           "cybersecurity",
           "iot",
@@ -568,7 +568,7 @@
             "capexMn": 19.535605250000003,
             "deltaNwcMn": 0.10872179999999965,
             "fcfeMn": 26.124084352443095,
-            "pvMn": 23.134013152484474
+            "pvMn": 23.138111113274963
           },
           {
             "year": 2,
@@ -584,7 +584,7 @@
             "capexMn": 19.791019115000005,
             "deltaNwcMn": 0.0875704680000009,
             "fcfeMn": 28.63587476314309,
-            "pvMn": 22.455889156414408
+            "pvMn": 22.463845536760846
           },
           {
             "year": 3,
@@ -600,7 +600,7 @@
             "capexMn": 20.019678906150006,
             "deltaNwcMn": 0.07839764267999971,
             "fcfeMn": 31.14229552494309,
-            "pvMn": 21.626205421750825
+            "pvMn": 21.637700060526218
           },
           {
             "year": 4,
@@ -616,7 +616,7 @@
             "capexMn": 20.200707547681503,
             "deltaNwcMn": 0.06206696281079971,
             "fcfeMn": 33.61480888199442,
-            "pvMn": 20.671417070152675
+            "pvMn": 20.686067907811484
           },
           {
             "year": 5,
@@ -632,12 +632,12 @@
             "capexMn": 20.41861294278572,
             "deltaNwcMn": 0.07471042117858939,
             "fcfeMn": 36.16974406210248,
-            "pvMn": 19.696766637645204
+            "pvMn": 19.71421825276169
           },
           {
             "year": "TV",
-            "fcfeMn": 337.6946356370209,
-            "pvMn": 183.89658554140144
+            "fcfeMn": 338.3139747211787,
+            "pvMn": 184.3970895719113
           }
         ]
       }
@@ -645,23 +645,23 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-06-26T20:04:38Z",
+    "updatedAt": "2026-06-26T21:38:01Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 32.0,
+        "spot": 31.35,
         "shares": 12537400.0,
-        "discountRatePct": 10.29,
-        "costOfEquityPct": 10.29,
+        "discountRatePct": 10.27,
+        "costOfEquityPct": 10.27,
         "costOfDebtPct": 0.5810552279159485,
         "terminalGrowthPct": 1.8000000000000003,
         "taxRatePct": 23.0,
-        "pvFcfeMn": 697.1568811202501,
+        "pvFcfeMn": 698.8121218379163,
         "netCashEffectiveMn": -99.443,
-        "equityValueMn": 597.7138811202501,
-        "price": 47.6745,
+        "equityValueMn": 599.3691218379163,
+        "price": 47.8065,
         "segmentOrder": [
           "retail",
           "commercial",
@@ -687,7 +687,7 @@
             "capexMn": 21.465417078,
             "deltaNwcMn": 0.09928426950000002,
             "fcfeMn": 57.55970529010535,
-            "pvMn": 52.189414534504806
+            "pvMn": 52.198880284851136
           },
           {
             "year": 2,
@@ -703,7 +703,7 @@
             "capexMn": 21.833592644898,
             "deltaNwcMn": 0.0920438917244999,
             "fcfeMn": 59.27462843533097,
-            "pvMn": 48.73001744182269
+            "pvMn": 48.7476956631327
           },
           {
             "year": 3,
@@ -719,7 +719,7 @@
             "capexMn": 22.186280171244057,
             "deltaNwcMn": 0.08817188158651401,
             "fcfeMn": 60.54254770132046,
-            "pvMn": 45.12864381069206
+            "pvMn": 45.15320361630887
           },
           {
             "year": 4,
@@ -735,7 +735,7 @@
             "capexMn": 22.522509619418443,
             "deltaNwcMn": 0.08405736204359648,
             "fcfeMn": 61.77704828842127,
-            "pvMn": 41.75251175333883
+            "pvMn": 41.782811107501495
           },
           {
             "year": 5,
@@ -751,29 +751,29 @@
             "capexMn": 22.841343618683158,
             "deltaNwcMn": 0.07970849981617878,
             "fcfeMn": 63.98437229908926,
-            "pvMn": 39.20967388243069
+            "pvMn": 39.24524466289157
           },
           {
             "year": "TV",
-            "fcfeMn": 767.2095524201751,
-            "pvMn": 470.14661969746106
+            "fcfeMn": 769.0211452240007,
+            "pvMn": 471.68428650323045
           }
         ]
       },
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 32.0,
+        "spot": 31.35,
         "shares": 12537400.0,
-        "discountRatePct": 10.29,
-        "costOfEquityPct": 10.29,
+        "discountRatePct": 10.27,
+        "costOfEquityPct": 10.27,
         "costOfDebtPct": 0.5810552279159485,
         "terminalGrowthPct": 2.0,
         "taxRatePct": 22.4,
-        "pvFcfeMn": 769.0988394164675,
+        "pvFcfeMn": 770.9679037824524,
         "netCashEffectiveMn": -99.443,
-        "equityValueMn": 669.6558394164675,
-        "price": 53.4127,
+        "equityValueMn": 671.5249037824524,
+        "price": 53.5617,
         "segmentOrder": [
           "retail",
           "commercial",
@@ -799,7 +799,7 @@
             "capexMn": 23.244053946300003,
             "deltaNwcMn": 0.13852394100000076,
             "fcfeMn": 62.08002706414354,
-            "pvMn": 56.28799262321475
+            "pvMn": 56.298201744938375
           },
           {
             "year": 2,
@@ -815,7 +815,7 @@
             "capexMn": 23.8124857794381,
             "deltaNwcMn": 0.13219344956699963,
             "fcfeMn": 64.34624742688456,
-            "pvMn": 52.89942496811899
+            "pvMn": 52.91861576243535
           },
           {
             "year": 3,
@@ -831,7 +831,7 @@
             "capexMn": 24.355584479181022,
             "deltaNwcMn": 0.12630202319602812,
             "fcfeMn": 65.57473696219468,
-            "pvMn": 48.879656699385365
+            "pvMn": 48.90625787251587
           },
           {
             "year": 4,
@@ -847,7 +847,7 @@
             "capexMn": 24.870879934717422,
             "deltaNwcMn": 0.11983615245032553,
             "fcfeMn": 66.7220913644108,
-            "pvMn": 45.09465863266323
+            "pvMn": 45.1273833473062
           },
           {
             "year": 5,
@@ -863,29 +863,29 @@
             "capexMn": 25.355991726344037,
             "deltaNwcMn": 0.11281669572711905,
             "fcfeMn": 69.41722483853538,
-            "pvMn": 42.53893020969875
+            "pvMn": 42.57752127148791
           },
           {
             "year": "TV",
-            "fcfeMn": 854.1081946357792,
-            "pvMn": 523.3981762833864
+            "fcfeMn": 856.1737525429999,
+            "pvMn": 525.1399237837687
           }
         ]
       },
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 32.0,
+        "spot": 31.35,
         "shares": 12537400.0,
-        "discountRatePct": 10.29,
-        "costOfEquityPct": 10.29,
+        "discountRatePct": 10.27,
+        "costOfEquityPct": 10.27,
         "costOfDebtPct": 0.5810552279159485,
         "terminalGrowthPct": 1.5,
         "taxRatePct": 24.0,
-        "pvFcfeMn": 558.5066610816182,
+        "pvFcfeMn": 559.7604626957534,
         "netCashEffectiveMn": -99.443,
-        "equityValueMn": 459.0636610816182,
-        "price": 36.6155,
+        "equityValueMn": 460.3174626957535,
+        "price": 36.7155,
         "segmentOrder": [
           "retail",
           "commercial",
@@ -911,7 +911,7 @@
             "capexMn": 23.897354973749998,
             "deltaNwcMn": 0.05214399299999961,
             "fcfeMn": 53.2297873398135,
-            "pvMn": 48.263475691190045
+            "pvMn": 48.27222938225582
           },
           {
             "year": 2,
@@ -927,7 +927,7 @@
             "capexMn": 24.09464295635625,
             "deltaNwcMn": 0.052610128695000036,
             "fcfeMn": 52.581820090631155,
-            "pvMn": 43.22782070130967
+            "pvMn": 43.24350284183055
           },
           {
             "year": 3,
@@ -943,7 +943,7 @@
             "capexMn": 24.24550610504019,
             "deltaNwcMn": 0.04023017298238418,
             "fcfeMn": 52.11462597268477,
-            "pvMn": 38.84643911008451
+            "pvMn": 38.86758002886441
           },
           {
             "year": 4,
@@ -959,7 +959,7 @@
             "capexMn": 24.397450476928704,
             "deltaNwcMn": 0.04051849917027006,
             "fcfeMn": 51.63422109057042,
-            "pvMn": 34.89740093915437
+            "pvMn": 34.922725612234125
           },
           {
             "year": 5,
@@ -975,12 +975,12 @@
             "capexMn": 24.47729199333068,
             "deltaNwcMn": 0.021291071040527854,
             "fcfeMn": 51.147678166419176,
-            "pvMn": 31.343337578969454
+            "pvMn": 31.37177206641956
           },
           {
             "year": "TV",
-            "fcfeMn": 590.6131210343057,
-            "pvMn": 361.9281870609101
+            "fcfeMn": 591.960015266995,
+            "pvMn": 363.08265276414886
           }
         ]
       }
@@ -988,23 +988,23 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-06-26T20:04:38Z",
+    "updatedAt": "2026-06-26T21:38:01Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 21.01,
+        "spot": 21.71,
         "shares": 448691000.0,
-        "discountRatePct": 14.035,
-        "costOfEquityPct": 14.035,
+        "discountRatePct": 14.015,
+        "costOfEquityPct": 14.015,
         "costOfDebtPct": 0.025284450066117053,
         "terminalGrowthPct": 2.0,
         "taxRatePct": 25.0,
-        "pvFcfeMn": 1744.3090993640747,
+        "pvFcfeMn": 1747.2455316722462,
         "netCashEffectiveMn": 3058.5,
-        "equityValueMn": 4802.809099364074,
-        "price": 10.704,
+        "equityValueMn": 4805.745531672246,
+        "price": 10.7106,
         "segmentOrder": [
           "hardware",
           "software",
@@ -1030,7 +1030,7 @@
             "capexMn": 73.70040320000003,
             "deltaNwcMn": -0.4777983999999904,
             "fcfeMn": 202.33106902038583,
-            "pvMn": 177.42892008627686,
+            "pvMn": 177.4600438717588,
             "collectiblesMn": 780.1552000000001,
             "hardwareMn": 2011.9792000000004,
             "softwareMn": 892.8857600000001
@@ -1049,7 +1049,7 @@
             "capexMn": 73.049850816,
             "deltaNwcMn": -0.3252761920000111,
             "fcfeMn": 205.8682665675859,
-            "pvMn": 158.3117223914524,
+            "pvMn": 158.36726792758628,
             "collectiblesMn": 850.3691680000002,
             "hardwareMn": 1971.7396160000003,
             "softwareMn": 830.3837568
@@ -1068,7 +1068,7 @@
             "capexMn": 73.01963305344002,
             "deltaNwcMn": -0.015108881279992659,
             "fcfeMn": 213.6874427961458,
-            "pvMn": 144.10017266148677,
+            "pvMn": 144.1760181826264,
             "collectiblesMn": 918.3987014400002,
             "hardwareMn": 1952.0222198400004,
             "softwareMn": 780.560731392
@@ -1087,7 +1087,7 @@
             "capexMn": 73.52483050406401,
             "deltaNwcMn": 0.2525987253119979,
             "fcfeMn": 223.17529613246904,
-            "pvMn": 131.97554135487607,
+            "pvMn": 132.06816795400945,
             "collectiblesMn": 982.6866105408003,
             "hardwareMn": 1952.0222198400004,
             "softwareMn": 741.5326948223999
@@ -1106,32 +1106,32 @@
             "capexMn": 74.11082828085506,
             "deltaNwcMn": 0.29299888839552324,
             "fcfeMn": 230.48050130966237,
-            "pvMn": 119.52076257675485,
+            "pvMn": 119.62562834136934,
             "collectiblesMn": 1041.6478071732483,
             "hardwareMn": 1952.0222198400004,
             "softwareMn": 711.8713870295039
           },
           {
             "year": "TV",
-            "fcfeMn": 1953.3868827241847,
-            "pvMn": 1012.9719802932277
+            "fcfeMn": 1956.6384630533137,
+            "pvMn": 1015.5484053948958
           }
         ]
       },
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 21.01,
+        "spot": 21.71,
         "shares": 448691000.0,
-        "discountRatePct": 14.035,
-        "costOfEquityPct": 14.035,
+        "discountRatePct": 14.015,
+        "costOfEquityPct": 14.015,
         "costOfDebtPct": 0.025284450066117053,
         "terminalGrowthPct": 3.0,
         "taxRatePct": 24.0,
-        "pvFcfeMn": 2690.543626796272,
+        "pvFcfeMn": 2695.6591779619566,
         "netCashEffectiveMn": 3976.05,
-        "equityValueMn": 6666.5936267962725,
-        "price": 14.8579,
+        "equityValueMn": 6671.709177961956,
+        "price": 14.8693,
         "segmentOrder": [
           "hardware",
           "software",
@@ -1157,7 +1157,7 @@
             "capexMn": 76.41788160000002,
             "deltaNwcMn": 0.8809408000000047,
             "fcfeMn": 239.76575570065773,
-            "pvMn": 210.25628596541213,
+            "pvMn": 210.29316818020237,
             "collectiblesMn": 815.6168,
             "hardwareMn": 2073.5704000000005,
             "softwareMn": 931.7068800000001
@@ -1176,7 +1176,7 @@
             "capexMn": 78.972012672,
             "deltaNwcMn": 1.277065535999995,
             "fcfeMn": 262.4453675598577,
-            "pvMn": 201.81924521338865,
+            "pvMn": 201.89005587736332,
             "collectiblesMn": 929.8031520000001,
             "hardwareMn": 2115.0418080000004,
             "softwareMn": 903.7556736
@@ -1195,7 +1195,7 @@
             "capexMn": 82.29702368256001,
             "deltaNwcMn": 1.6625055052800022,
             "fcfeMn": 288.8351489756401,
-            "pvMn": 194.77604436401958,
+            "pvMn": 194.87856256588884,
             "collectiblesMn": 1050.67756176,
             "hardwareMn": 2178.4930622400007,
             "softwareMn": 885.680560128
@@ -1214,7 +1214,7 @@
             "capexMn": 86.38430816855042,
             "deltaNwcMn": 2.0436422429952046,
             "fcfeMn": 319.3360178703555,
-            "pvMn": 188.8405417754437,
+            "pvMn": 188.9730788878783,
             "collectiblesMn": 1176.7588691711999,
             "hardwareMn": 2265.6327847296006,
             "softwareMn": 876.82375452672
@@ -1233,32 +1233,32 @@
             "capexMn": 91.00345869162241,
             "deltaNwcMn": 2.309575261535997,
             "fcfeMn": 353.59017345428146,
-            "pvMn": 183.36200646371566,
+            "pvMn": 183.52288559964583,
             "collectiblesMn": 1294.43475608832,
             "hardwareMn": 2378.914423966081,
             "softwareMn": 876.82375452672
           },
           {
             "year": "TV",
-            "fcfeMn": 3300.3885696231073,
-            "pvMn": 1711.489503014292
+            "fcfeMn": 3306.381104474897,
+            "pvMn": 1716.1014268509778
           }
         ]
       },
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 21.01,
+        "spot": 21.71,
         "shares": 448691000.0,
-        "discountRatePct": 14.035,
-        "costOfEquityPct": 14.035,
+        "discountRatePct": 14.015,
+        "costOfEquityPct": 14.015,
         "costOfDebtPct": 0.025284450066117053,
         "terminalGrowthPct": 1.0,
         "taxRatePct": 26.0,
-        "pvFcfeMn": 1078.869787520072,
+        "pvFcfeMn": 1080.503847360851,
         "netCashEffectiveMn": 2140.95,
-        "equityValueMn": 3219.819787520072,
-        "price": 7.176,
+        "equityValueMn": 3221.453847360851,
+        "price": 7.1797,
         "segmentOrder": [
           "hardware",
           "software",
@@ -1284,7 +1284,7 @@
             "capexMn": 89.21392000000003,
             "deltaNwcMn": -1.970918399999995,
             "fcfeMn": 151.03843699611406,
-            "pvMn": 132.44919278827908,
+            "pvMn": 132.47242643170992,
             "collectiblesMn": 744.6936000000002,
             "hardwareMn": 1950.3880000000004,
             "softwareMn": 873.4752000000001
@@ -1303,7 +1303,7 @@
             "capexMn": 85.55530940000003,
             "deltaNwcMn": -1.7561330879999986,
             "fcfeMn": 144.67718587611407,
-            "pvMn": 111.25607102382915,
+            "pvMn": 111.29510652934836,
             "collectiblesMn": 774.4813440000003,
             "hardwareMn": 1852.8686000000002,
             "softwareMn": 794.8624320000001
@@ -1322,7 +1322,7 @@
             "capexMn": 82.69357694400003,
             "deltaNwcMn": -1.3736315788800013,
             "fcfeMn": 144.38243359599886,
-            "pvMn": 97.3643249141093,
+            "pvMn": 97.41557154225086,
             "collectiblesMn": 797.7157843200002,
             "hardwareMn": 1778.7538560000003,
             "softwareMn": 731.2734374400002
@@ -1341,7 +1341,7 @@
             "capexMn": 80.47864092864002,
             "deltaNwcMn": -1.0631692873728014,
             "fcfeMn": 144.984090129553,
-            "pvMn": 85.7368808926523,
+            "pvMn": 85.79705504019405,
             "collectiblesMn": 813.6701000064003,
             "hardwareMn": 1725.3912403200002,
             "softwareMn": 680.0842968192002
@@ -1360,15 +1360,15 @@
             "capexMn": 78.57130610317442,
             "deltaNwcMn": -0.9155207162234902,
             "fcfeMn": 143.73200126894034,
-            "pvMn": 74.5354088555458,
+            "pvMn": 74.60080513040198,
             "collectiblesMn": 829.9435020065283,
             "hardwareMn": 1673.6295031104,
             "softwareMn": 639.2792390100482
           },
           {
             "year": "TV",
-            "fcfeMn": 1113.6886941436883,
-            "pvMn": 577.5279090456561
+            "fcfeMn": 1115.40008668175,
+            "pvMn": 578.922882686946
           }
         ]
       }
@@ -1376,23 +1376,23 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-06-26T20:04:38Z",
+    "updatedAt": "2026-06-26T21:38:01Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 235.1,
+        "spot": 241.08,
         "shares": 209552000.0,
-        "discountRatePct": 10.17,
-        "costOfEquityPct": 10.17,
+        "discountRatePct": 10.15,
+        "costOfEquityPct": 10.15,
         "costOfDebtPct": 3.540788134360913,
         "terminalGrowthPct": 1.7500000000000002,
         "taxRatePct": 21.0,
-        "pvFcfeMn": 23227.372210532998,
+        "pvFcfeMn": 23281.45896088468,
         "netCashEffectiveMn": -22175.1,
-        "equityValueMn": 1052.2722105329972,
-        "price": 5.0215,
+        "equityValueMn": 1106.3589608846817,
+        "price": 5.2796,
         "segmentOrder": [
           "liquefaction",
           "marketing"
@@ -1415,7 +1415,7 @@
             "capexMn": 2642.3335647187496,
             "deltaNwcMn": 6.636015319499961,
             "fcfeMn": 2228.4834218729006,
-            "pvMn": 2022.767924001907
+            "pvMn": 2023.1351991583304
           },
           {
             "year": 2,
@@ -1430,7 +1430,7 @@
             "capexMn": 2689.3094654179686,
             "deltaNwcMn": 6.764529700687547,
             "fcfeMn": 2123.084914957403,
-            "pvMn": 1749.2048212594705
+            "pvMn": 1749.8400872143795
           },
           {
             "year": 3,
@@ -1445,7 +1445,7 @@
             "capexMn": 2723.748982951106,
             "deltaNwcMn": 4.959290524771745,
             "fcfeMn": 2108.7945035121065,
-            "pvMn": 1577.0454605144187
+            "pvMn": 1577.904651702569
           },
           {
             "year": 4,
@@ -1460,7 +1460,7 @@
             "capexMn": 2747.0530564818623,
             "deltaNwcMn": 3.3557865884289413,
             "fcfeMn": 2078.4730469305146,
-            "pvMn": 1410.8829959016425
+            "pvMn": 1411.9079744252522
           },
           {
             "year": 5,
@@ -1475,29 +1475,29 @@
             "capexMn": 2770.590170747926,
             "deltaNwcMn": 3.389344454313175,
             "fcfeMn": 2042.6426552119633,
-            "pvMn": 1258.5649985891241
+            "pvMn": 1259.708005505464
           },
           {
             "year": "TV",
-            "fcfeMn": 24683.953701641007,
-            "pvMn": 15208.906010266435
+            "fcfeMn": 24742.725019978247,
+            "pvMn": 15258.963042878686
           }
         ]
       },
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 235.1,
+        "spot": 241.08,
         "shares": 209552000.0,
-        "discountRatePct": 10.17,
-        "costOfEquityPct": 10.17,
+        "discountRatePct": 10.15,
+        "costOfEquityPct": 10.15,
         "costOfDebtPct": 3.540788134360913,
         "terminalGrowthPct": 2.25,
         "taxRatePct": 20.0,
-        "pvFcfeMn": 37410.31330501754,
+        "pvFcfeMn": 37504.07369023959,
         "netCashEffectiveMn": -23407.05,
-        "equityValueMn": 14003.26330501754,
-        "price": 66.8248,
+        "equityValueMn": 14097.023690239586,
+        "price": 67.2722,
         "segmentOrder": [
           "liquefaction",
           "marketing"
@@ -1520,7 +1520,7 @@
             "capexMn": 2453.040968105,
             "deltaNwcMn": 8.411850404999996,
             "fcfeMn": 3066.3186740213464,
-            "pvMn": 2783.261027522326
+            "pvMn": 2783.766385856874
           },
           {
             "year": 2,
@@ -1535,7 +1535,7 @@
             "capexMn": 2519.3948902997,
             "deltaNwcMn": 8.654859416699992,
             "fcfeMn": 3178.5429048881697,
-            "pvMn": 2618.7942529477314
+            "pvMn": 2619.7453312957837
           },
           {
             "year": 3,
@@ -1550,7 +1550,7 @@
             "capexMn": 2575.0700826402576,
             "deltaNwcMn": 7.261981609637985,
             "fcfeMn": 3207.2453383194925,
-            "pvMn": 2398.5133179780923
+            "pvMn": 2399.820053617023
           },
           {
             "year": 4,
@@ -1565,7 +1565,7 @@
             "capexMn": 2621.0618130556736,
             "deltaNwcMn": 5.998921358532527,
             "fcfeMn": 3215.3056395187577,
-            "pvMn": 2182.5734329935376
+            "pvMn": 2184.1590293197514
           },
           {
             "year": 5,
@@ -1580,12 +1580,12 @@
             "capexMn": 2654.8405206579323,
             "deltaNwcMn": 4.40591838290328,
             "fcfeMn": 3200.07088027316,
-            "pvMn": 1971.7091448372582
+            "pvMn": 1973.4998169059127
           },
           {
             "year": "TV",
-            "fcfeMn": 41314.04640251649,
-            "pvMn": 25455.462128738593
+            "fcfeMn": 41418.638925054496,
+            "pvMn": 25543.083073244245
           }
         ]
       }
@@ -1593,23 +1593,23 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-06-26T20:04:38Z",
+    "updatedAt": "2026-06-26T21:38:01Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 70.9,
+        "spot": 73.81,
         "shares": 4210799000.0,
-        "discountRatePct": 12.625,
-        "costOfEquityPct": 12.625,
+        "discountRatePct": 12.605,
+        "costOfEquityPct": 12.605,
         "costOfDebtPct": 5.476135326362066,
         "terminalGrowthPct": 3.0,
         "taxRatePct": 22.0,
-        "pvFcfeMn": 143346.80318097398,
+        "pvFcfeMn": 143661.0747997801,
         "netCashEffectiveMn": -5115.796,
-        "equityValueMn": 138231.00718097397,
-        "price": 32.8277,
+        "equityValueMn": 138545.2787997801,
+        "price": 32.9024,
         "segmentOrder": [
           "ucan",
           "emea",
@@ -1635,7 +1635,7 @@
             "capexMn": 3423.344535936,
             "deltaNwcMn": 57.76847014399988,
             "fcfeMn": 9797.699533212955,
-            "pvMn": 8699.400251465444
+            "pvMn": 8700.945369400077
           },
           {
             "year": 2,
@@ -1651,7 +1651,7 @@
             "capexMn": 3813.9934994865603,
             "deltaNwcMn": 60.0998405462401,
             "fcfeMn": 11614.099142844061,
-            "pvMn": 9156.21371668697
+            "pvMn": 9159.466512510755
           },
           {
             "year": 3,
@@ -1667,7 +1667,7 @@
             "capexMn": 4191.550364638791,
             "deltaNwcMn": 58.08567156188167,
             "fcfeMn": 13508.47253606874,
-            "pvMn": 9455.877388324747
+            "pvMn": 9460.916715334264
           },
           {
             "year": 4,
@@ -1683,7 +1683,7 @@
             "capexMn": 4555.784874898457,
             "deltaNwcMn": 56.036078501487054,
             "fcfeMn": 15296.734370569844,
-            "pvMn": 9507.35059274063
+            "pvMn": 9514.106870932252
           },
           {
             "year": 5,
@@ -1699,29 +1699,29 @@
             "capexMn": 4895.380546798146,
             "deltaNwcMn": 52.2454879845676,
             "fcfeMn": 16496.946635933367,
-            "pvMn": 9103.943412702803
+            "pvMn": 9112.031133431414
           },
           {
             "year": "TV",
-            "fcfeMn": 176538.75361050773,
-            "pvMn": 97424.01781905338
+            "fcfeMn": 176906.35122343956,
+            "pvMn": 97713.60819817134
           }
         ]
       },
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 70.9,
+        "spot": 73.81,
         "shares": 4210799000.0,
-        "discountRatePct": 12.625,
-        "costOfEquityPct": 12.625,
+        "discountRatePct": 12.605,
+        "costOfEquityPct": 12.605,
         "costOfDebtPct": 5.476135326362066,
         "terminalGrowthPct": 3.5000000000000004,
         "taxRatePct": 21.5,
-        "pvFcfeMn": 179350.58806292684,
+        "pvFcfeMn": 179768.51503883424,
         "netCashEffectiveMn": -5115.796,
-        "equityValueMn": 174234.79206292686,
-        "price": 41.3781,
+        "equityValueMn": 174652.71903883427,
+        "price": 41.4773,
         "segmentOrder": [
           "ucan",
           "emea",
@@ -1747,7 +1747,7 @@
             "capexMn": 3323.4876089727995,
             "deltaNwcMn": 67.1464685439999,
             "fcfeMn": 10888.235833985322,
-            "pvMn": 9667.68997468175
+            "pvMn": 9669.407072497066
           },
           {
             "year": 2,
@@ -1763,7 +1763,7 @@
             "capexMn": 3769.1582269359997,
             "deltaNwcMn": 71.88235773600013,
             "fcfeMn": 13403.545827942999,
-            "pvMn": 10566.960782117194
+            "pvMn": 10570.714753678552
           },
           {
             "year": 3,
@@ -1779,7 +1779,7 @@
             "capexMn": 4217.55403496625,
             "deltaNwcMn": 72.32190452100804,
             "fcfeMn": 15625.819512602324,
-            "pvMn": 10938.01190391731
+            "pvMn": 10943.841105857458
           },
           {
             "year": 4,
@@ -1795,7 +1795,7 @@
             "capexMn": 4637.91255615428,
             "deltaNwcMn": 67.79976148194032,
             "fcfeMn": 17853.90847265014,
-            "pvMn": 11096.706211148246
+            "pvMn": 11104.591944764767
           },
           {
             "year": 5,
@@ -1811,29 +1811,29 @@
             "capexMn": 5043.648862057934,
             "deltaNwcMn": 65.44133966187962,
             "fcfeMn": 20125.656104120928,
-            "pvMn": 11106.469479409046
+            "pvMn": 11116.336195331836
           },
           {
             "year": "TV",
-            "fcfeMn": 228274.5651261935,
-            "pvMn": 125974.74971165328
+            "fcfeMn": 228775.99195788204,
+            "pvMn": 126363.62396670457
           }
         ]
       },
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 70.9,
+        "spot": 73.81,
         "shares": 4210799000.0,
-        "discountRatePct": 12.625,
-        "costOfEquityPct": 12.625,
+        "discountRatePct": 12.605,
+        "costOfEquityPct": 12.605,
         "costOfDebtPct": 5.476135326362066,
         "terminalGrowthPct": 2.5,
         "taxRatePct": 22.5,
-        "pvFcfeMn": 100739.80228332867,
+        "pvFcfeMn": 100947.76074165569,
         "netCashEffectiveMn": -5115.796,
-        "equityValueMn": 95624.00628332868,
-        "price": 22.7092,
+        "equityValueMn": 95831.96474165568,
+        "price": 22.7586,
         "segmentOrder": [
           "ucan",
           "emea",
@@ -1859,7 +1859,7 @@
             "capexMn": 3552.7609138560006,
             "deltaNwcMn": 7.7274706816000105,
             "fcfeMn": 7717.621436538676,
-            "pvMn": 6852.4940612996015
+            "pvMn": 6853.711146519849
           },
           {
             "year": 2,
@@ -1875,7 +1875,7 @@
             "capexMn": 3811.3601575358402,
             "deltaNwcMn": 7.388549819423986,
             "fcfeMn": 9041.96891410607,
-            "pvMn": 7128.421996311762
+            "pvMn": 7130.954407854048
           },
           {
             "year": 3,
@@ -1891,7 +1891,7 @@
             "capexMn": 4029.393331144743,
             "deltaNwcMn": 6.22951924596866,
             "fcfeMn": 10339.59338085367,
-            "pvMn": 7237.6745034223995
+            "pvMn": 7241.531682096927
           },
           {
             "year": 4,
@@ -1907,7 +1907,7 @@
             "capexMn": 4220.59016194825,
             "deltaNwcMn": 5.462766594385911,
             "fcfeMn": 11097.059847454126,
-            "pvMn": 6897.134771546728
+            "pvMn": 6902.036132949899
           },
           {
             "year": 5,
@@ -1923,12 +1923,12 @@
             "capexMn": 4396.134297798881,
             "deltaNwcMn": 5.01554673858945,
             "fcfeMn": 11830.820723678315,
-            "pvMn": 6528.91257825816
+            "pvMn": 6534.712704555166
           },
           {
             "year": "TV",
-            "fcfeMn": 119768.80238785452,
-            "pvMn": 66095.16437249
+            "fcfeMn": 120005.85098238764,
+            "pvMn": 66284.8146676798
           }
         ]
       }
@@ -1936,23 +1936,23 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-06-26T20:04:38Z",
+    "updatedAt": "2026-06-26T21:38:01Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 17.3,
+        "spot": 17.88,
         "shares": 1282741000.0,
-        "discountRatePct": 15.930000000000001,
-        "costOfEquityPct": 15.930000000000001,
+        "discountRatePct": 15.910000000000002,
+        "costOfEquityPct": 15.910000000000002,
         "costOfDebtPct": 7.0,
         "terminalGrowthPct": 3.0,
         "taxRatePct": 26.0,
-        "pvFcfeMn": 9436.077118002,
+        "pvFcfeMn": 9452.384388747796,
         "netCashEffectiveMn": 1486.315,
-        "equityValueMn": 10922.392118002,
-        "price": 8.5149,
+        "equityValueMn": 10938.699388747795,
+        "price": 8.5276,
         "segmentOrder": [
           "lending",
           "financialServices",
@@ -1978,7 +1978,7 @@
             "capexMn": 105.59006383200001,
             "deltaNwcMn": 1.3366820339999999,
             "fcfeMn": 651.0908715156,
-            "pvMn": 561.6241451872683
+            "pvMn": 561.721052122854
           },
           {
             "year": 2,
@@ -1994,7 +1994,7 @@
             "capexMn": 126.41314669698004,
             "deltaNwcMn": 1.4197556498850012,
             "fcfeMn": 884.2718591620411,
-            "pvMn": 657.9518806627646
+            "pvMn": 658.1789563748492
           },
           {
             "year": 3,
@@ -2010,7 +2010,7 @@
             "capexMn": 146.75224357475227,
             "deltaNwcMn": 1.3867566053026525,
             "fcfeMn": 1141.4891495591912,
-            "pvMn": 732.6292943834229
+            "pvMn": 733.0086002492476
           },
           {
             "year": 4,
@@ -2026,7 +2026,7 @@
             "capexMn": 165.6093345510262,
             "deltaNwcMn": 1.2857107483823125,
             "fcfeMn": 1356.8947143006478,
-            "pvMn": 751.2125023635575
+            "pvMn": 751.7311164294198
           },
           {
             "year": 5,
@@ -2042,29 +2042,29 @@
             "capexMn": 183.0918275068484,
             "deltaNwcMn": 1.1919881560787875,
             "fcfeMn": 1572.4198077928543,
-            "pvMn": 750.9124876182739
+            "pvMn": 751.5605522103971
           },
           {
             "year": "TV",
-            "fcfeMn": 12525.849977004174,
-            "pvMn": 5981.746807786713
+            "fcfeMn": 12545.254856906582,
+            "pvMn": 5996.184111361029
           }
         ]
       },
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 17.3,
+        "spot": 17.88,
         "shares": 1282741000.0,
-        "discountRatePct": 15.930000000000001,
-        "costOfEquityPct": 15.930000000000001,
+        "discountRatePct": 15.910000000000002,
+        "costOfEquityPct": 15.910000000000002,
         "costOfDebtPct": 7.0,
         "terminalGrowthPct": 3.5000000000000004,
         "taxRatePct": 24.0,
-        "pvFcfeMn": 12920.961896275661,
+        "pvFcfeMn": 12944.465406477626,
         "netCashEffectiveMn": 1486.315,
-        "equityValueMn": 14407.276896275662,
-        "price": 11.2316,
+        "equityValueMn": 14430.780406477626,
+        "price": 11.25,
         "segmentOrder": [
           "lending",
           "financialServices",
@@ -2090,7 +2090,7 @@
             "capexMn": 101.26734357,
             "deltaNwcMn": 1.1549401785,
             "fcfeMn": 765.8565616520999,
-            "pvMn": 660.6198237316484
+            "pvMn": 660.73381214054
           },
           {
             "year": 2,
@@ -2106,7 +2106,7 @@
             "capexMn": 127.15402811909999,
             "deltaNwcMn": 1.294334227454999,
             "fcfeMn": 1084.4619824049387,
-            "pvMn": 806.9054707980337
+            "pvMn": 807.183954133596
           },
           {
             "year": 3,
@@ -2122,7 +2122,7 @@
             "capexMn": 152.321964668181,
             "deltaNwcMn": 1.2583968274540513,
             "fcfeMn": 1435.3311403211742,
-            "pvMn": 921.2226335626042
+            "pvMn": 921.6995802958562
           },
           {
             "year": 4,
@@ -2138,7 +2138,7 @@
             "capexMn": 176.82460728811972,
             "deltaNwcMn": 1.2251321309969372,
             "fcfeMn": 1817.2277970179834,
-            "pvMn": 1006.0649705353801
+            "pvMn": 1006.7595269268797
           },
           {
             "year": 5,
@@ -2154,29 +2154,29 @@
             "capexMn": 199.44855081110626,
             "deltaNwcMn": 1.1311971761493247,
             "fcfeMn": 2138.8082079406854,
-            "pvMn": 1021.3924958230363
+            "pvMn": 1022.2739944292224
           },
           {
             "year": "TV",
-            "fcfeMn": 17809.062712941344,
-            "pvMn": 8504.756501824959
+            "fcfeMn": 17837.76386155205,
+            "pvMn": 8525.81453855153
           }
         ]
       },
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 17.3,
+        "spot": 17.88,
         "shares": 1282741000.0,
-        "discountRatePct": 15.930000000000001,
-        "costOfEquityPct": 15.930000000000001,
+        "discountRatePct": 15.910000000000002,
+        "costOfEquityPct": 15.910000000000002,
         "costOfDebtPct": 7.0,
         "terminalGrowthPct": 2.25,
         "taxRatePct": 27.0,
-        "pvFcfeMn": 5629.510827227943,
+        "pvFcfeMn": 5638.598015158672,
         "netCashEffectiveMn": 1486.315,
-        "equityValueMn": 7115.825827227944,
-        "price": 5.5474,
+        "equityValueMn": 7124.913015158671,
+        "price": 5.5544,
         "segmentOrder": [
           "lending",
           "financialServices",
@@ -2202,7 +2202,7 @@
             "capexMn": 114.67715660700001,
             "deltaNwcMn": 1.2555821737499997,
             "fcfeMn": 461.0567957527501,
-            "pvMn": 397.7027479968516
+            "pvMn": 397.7713706778967
           },
           {
             "year": 2,
@@ -2218,7 +2218,7 @@
             "capexMn": 127.39580341332002,
             "deltaNwcMn": 1.2229468083000015,
             "fcfeMn": 594.752772435012,
-            "pvMn": 442.5321252717836
+            "pvMn": 442.6848542181091
           },
           {
             "year": 3,
@@ -2234,7 +2234,7 @@
             "capexMn": 138.88673903882707,
             "deltaNwcMn": 1.1048976562987534,
             "fcfeMn": 735.4424706077315,
-            "pvMn": 472.02086722332353
+            "pvMn": 472.2652476829941
           },
           {
             "year": 4,
@@ -2250,7 +2250,7 @@
             "capexMn": 149.90699378340392,
             "deltaNwcMn": 1.0596398792862374,
             "fcfeMn": 843.7832993740424,
-            "pvMn": 467.14056521478085
+            "pvMn": 467.46306473002187
           },
           {
             "year": 5,
@@ -2266,12 +2266,12 @@
             "capexMn": 159.8595788561656,
             "deltaNwcMn": 0.9569793339193922,
             "fcfeMn": 951.3560593442762,
-            "pvMn": 454.32214831717476
+            "pvMn": 454.7142447366598
           },
           {
             "year": "TV",
-            "fcfeMn": 7110.830195025746,
-            "pvMn": 3395.792373204028
+            "fcfeMn": 7121.241366614365,
+            "pvMn": 3403.699233112991
           }
         ]
       }
