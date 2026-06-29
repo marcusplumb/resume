@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-06-29T11:21:38Z",
+    "updatedAt": "2026-06-29T16:05:33Z",
     "centralEstimate": 39.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 34.09,
@@ -16,7 +16,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-06-29T11:21:38Z",
+    "updatedAt": "2026-06-29T16:05:33Z",
     "centralEstimate": 11.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 11.4,
@@ -31,13 +31,13 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-06-29T11:21:38Z",
+    "updatedAt": "2026-06-29T16:05:33Z",
     "centralEstimate": 51.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 31.34,
     "dcfModel": "FCFE",
     "compsLow": 28.15,
-    "compsHigh": 70.4,
+    "compsHigh": 70.84,
     "netCashPerShare": -7.93,
     "cashPerShare": 2.09,
     "dcfBase": 47.81,
@@ -46,7 +46,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-06-29T11:21:38Z",
+    "updatedAt": "2026-06-29T16:05:33Z",
     "centralEstimate": 18.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 21.76,
@@ -61,7 +61,7 @@
   },
   "HUT": {
     "ticker": "HUT",
-    "updatedAt": "2026-06-29T11:21:38Z",
+    "updatedAt": "2026-06-29T16:05:33Z",
     "centralEstimate": 22.5,
     "source": "multiples_midpoint",
     "spot": 123.02,
@@ -73,7 +73,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-06-29T11:21:38Z",
+    "updatedAt": "2026-06-29T16:05:33Z",
     "centralEstimate": 143.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 241.64,
@@ -87,7 +87,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-06-29T11:21:38Z",
+    "updatedAt": "2026-06-29T16:05:33Z",
     "centralEstimate": 45.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 73.81,
@@ -102,15 +102,15 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-06-29T11:21:38Z",
+    "updatedAt": "2026-06-29T16:05:33Z",
     "centralEstimate": 13.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 17.88,
     "dcfModel": "FCFE",
-    "compsLow": 11.91,
-    "compsHigh": 19.96,
+    "compsLow": 12.05,
+    "compsHigh": 20.14,
     "netCashPerShare": 1.16,
-    "cashPerShare": 2.65,
+    "cashPerShare": 2.66,
     "dcfBase": 8.53,
     "dcfBull": 11.25,
     "dcfBear": 5.55
