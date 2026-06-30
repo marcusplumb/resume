@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-06-30T19:15:41Z",
+  "updatedAt": "2026-06-30T21:04:43Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 28174,
+      "priceCents": 28936,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 8179,
+      "priceCents": 8155,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3399,
+      "priceCents": 3355,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 24014,
+      "priceCents": 23834,
       "currency": "USD"
     },
     "AVB": {
-      "priceCents": 19264,
+      "priceCents": 18871,
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 1248,
+      "priceCents": 1264,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3031,
+      "priceCents": 3060,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 2350,
+      "priceCents": 2314,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 7764,
+      "priceCents": 7586,
       "currency": "USD"
     },
     "BITF": {
@@ -42,27 +42,27 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 2483,
+      "priceCents": 2450,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1537,
+      "priceCents": 1455,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2422,
+      "priceCents": 2455,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 7228,
+      "priceCents": 7299,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 444,
+      "priceCents": 439,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 74291,
+      "priceCents": 76314,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,23 +70,23 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 9863,
+      "priceCents": 9622,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 23234,
+      "priceCents": 22680,
       "currency": "USD"
     },
     "EQR": {
-      "priceCents": 6834,
+      "priceCents": 6787,
       "currency": "USD"
     },
     "ESS": {
-      "priceCents": 29593,
+      "priceCents": 29147,
       "currency": "USD"
     },
     "FIVE": {
-      "priceCents": 17823,
+      "priceCents": 17979,
       "currency": "USD"
     },
     "FNKO": {
@@ -94,27 +94,27 @@
       "currency": "USD"
     },
     "FTNT": {
-      "priceCents": 15542,
+      "priceCents": 15362,
       "currency": "USD"
     },
     "GME": {
-      "priceCents": 2203,
+      "priceCents": 2208,
       "currency": "USD"
     },
     "HOOD": {
-      "priceCents": 10183,
+      "priceCents": 10028,
       "currency": "USD"
     },
     "HUT": {
-      "priceCents": 11827,
+      "priceCents": 11544,
       "currency": "USD"
     },
     "INVH": {
-      "priceCents": 3059,
+      "priceCents": 3022,
       "currency": "USD"
     },
     "KMI": {
-      "priceCents": 3227,
+      "priceCents": 3196,
       "currency": "USD"
     },
     "LC": {
@@ -122,79 +122,79 @@
       "currency": "USD"
     },
     "LNG": {
-      "priceCents": 24397,
+      "priceCents": 23903,
       "currency": "USD"
     },
     "MAA": {
-      "priceCents": 14065,
+      "priceCents": 13889,
       "currency": "USD"
     },
     "MARA": {
-      "priceCents": 1403,
+      "priceCents": 1389,
       "currency": "USD"
     },
     "NEGG": {
-      "priceCents": 1694,
+      "priceCents": 1638,
       "currency": "USD"
     },
     "NFLX": {
-      "priceCents": 7378,
+      "priceCents": 7140,
       "currency": "USD"
     },
     "OKE": {
-      "priceCents": 8873,
+      "priceCents": 8692,
       "currency": "USD"
     },
     "PANW": {
-      "priceCents": 33200,
+      "priceCents": 34102,
       "currency": "USD"
     },
     "PLCE": {
-      "priceCents": 301,
+      "priceCents": 305,
       "currency": "USD"
     },
     "PYPL": {
-      "priceCents": 4438,
+      "priceCents": 4318,
       "currency": "USD"
     },
     "RIOT": {
-      "priceCents": 2775,
+      "priceCents": 2738,
       "currency": "USD"
     },
     "S": {
-      "priceCents": 1673,
+      "priceCents": 1697,
       "currency": "USD"
     },
     "SOFI": {
-      "priceCents": 1819,
+      "priceCents": 1793,
       "currency": "USD"
     },
     "SPY": {
-      "priceCents": 74100,
+      "priceCents": 74652,
       "currency": "USD"
     },
     "TRGP": {
-      "priceCents": 27135,
+      "priceCents": 26796,
       "currency": "USD"
     },
     "UPST": {
-      "priceCents": 3503,
+      "priceCents": 3543,
       "currency": "USD"
     },
     "WBD": {
-      "priceCents": 2713,
+      "priceCents": 2666,
       "currency": "USD"
     },
     "WMB": {
-      "priceCents": 7506,
+      "priceCents": 7432,
       "currency": "USD"
     },
     "ZS": {
-      "priceCents": 13760,
+      "priceCents": 14115,
       "currency": "USD"
     },
     "ZUMZ": {
-      "priceCents": 1773,
+      "priceCents": 1780,
       "currency": "USD"
     }
   }
