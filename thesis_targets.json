@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-06-30T18:07:41Z",
+    "updatedAt": "2026-06-30T21:02:19Z",
     "centralEstimate": 39.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 33.99,
@@ -10,13 +10,13 @@
     "compsHigh": 38.63,
     "netCashPerShare": -12.36,
     "cashPerShare": 0.15,
-    "dcfBase": 37.7,
-    "dcfBull": 43.45,
-    "dcfBear": 28.4
+    "dcfBase": 37.54,
+    "dcfBull": 43.27,
+    "dcfBear": 28.28
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-06-30T18:07:41Z",
+    "updatedAt": "2026-06-30T21:02:19Z",
     "centralEstimate": 11.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 12.48,
@@ -31,7 +31,7 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-06-30T18:07:41Z",
+    "updatedAt": "2026-06-30T21:02:19Z",
     "centralEstimate": 51.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 30.31,
@@ -40,13 +40,13 @@
     "compsHigh": 68.51,
     "netCashPerShare": -7.67,
     "cashPerShare": 2.02,
-    "dcfBase": 48.01,
-    "dcfBull": 53.79,
-    "dcfBear": 36.87
+    "dcfBase": 47.87,
+    "dcfBull": 53.64,
+    "dcfBear": 36.77
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-06-30T18:07:41Z",
+    "updatedAt": "2026-06-30T21:02:19Z",
     "centralEstimate": 18.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 22.03,
@@ -55,13 +55,13 @@
     "compsHigh": 30.83,
     "netCashPerShare": 6.85,
     "cashPerShare": 16.57,
-    "dcfBase": 10.72,
-    "dcfBull": 14.89,
-    "dcfBear": 7.19
+    "dcfBase": 10.71,
+    "dcfBull": 14.88,
+    "dcfBear": 7.18
   },
   "HUT": {
     "ticker": "HUT",
-    "updatedAt": "2026-06-30T18:07:41Z",
+    "updatedAt": "2026-06-30T21:02:19Z",
     "centralEstimate": 21.5,
     "source": "multiples_midpoint",
     "spot": 118.27,
@@ -73,7 +73,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-06-30T18:07:41Z",
+    "updatedAt": "2026-06-30T21:02:19Z",
     "centralEstimate": 126.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 243.97,
@@ -82,11 +82,11 @@
     "compsHigh": 304.45,
     "netCashPerShare": -118.71,
     "cashPerShare": 8.52,
-    "dcfBull": 32.52
+    "dcfBull": 31.92
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-06-30T18:07:41Z",
+    "updatedAt": "2026-06-30T21:02:19Z",
     "centralEstimate": 46.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 73.78,
@@ -95,13 +95,13 @@
     "compsHigh": 75.11,
     "netCashPerShare": -1.21,
     "cashPerShare": 2.76,
-    "dcfBase": 33.01,
-    "dcfBull": 41.63,
-    "dcfBear": 22.83
+    "dcfBase": 32.94,
+    "dcfBull": 41.53,
+    "dcfBear": 22.78
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-06-30T18:07:41Z",
+    "updatedAt": "2026-06-30T21:02:19Z",
     "centralEstimate": 14.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 18.19,
@@ -110,8 +110,8 @@
     "compsHigh": 20.49,
     "netCashPerShare": 1.18,
     "cashPerShare": 2.7,
-    "dcfBase": 8.55,
-    "dcfBull": 11.28,
-    "dcfBear": 5.57
+    "dcfBase": 8.53,
+    "dcfBull": 11.26,
+    "dcfBear": 5.56
   }
 }
