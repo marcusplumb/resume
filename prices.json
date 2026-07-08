@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T04:22:49Z",
+  "updatedAt": "2026-07-08T06:41:38Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31066,
@@ -7,6 +7,10 @@
     },
     "AFRM": {
       "priceCents": 8362,
+      "currency": "USD"
+    },
+    "AMH": {
+      "priceCents": 3400,
       "currency": "USD"
     },
     "AMZN": {
@@ -53,6 +57,10 @@
       "priceCents": 7430,
       "currency": "USD"
     },
+    "CRCT": {
+      "priceCents": 434,
+      "currency": "USD"
+    },
     "CRWD": {
       "priceCents": 19462,
       "currency": "USD"
@@ -87,6 +95,10 @@
     },
     "FTNT": {
       "priceCents": 15867,
+      "currency": "USD"
+    },
+    "GME": {
+      "priceCents": 2220,
       "currency": "USD"
     },
     "HOOD": {
@@ -129,6 +141,10 @@
       "priceCents": 7618,
       "currency": "USD"
     },
+    "OKE": {
+      "priceCents": 9067,
+      "currency": "USD"
+    },
     "PANW": {
       "priceCents": 33704,
       "currency": "USD"
@@ -143,6 +159,10 @@
     },
     "RIOT": {
       "priceCents": 2117,
+      "currency": "USD"
+    },
+    "S": {
+      "priceCents": 1816,
       "currency": "USD"
     },
     "SOFI": {
