@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T18:54:30Z",
+  "updatedAt": "2026-07-10T20:09:38Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31622,
@@ -106,15 +106,15 @@
       "currency": "USD"
     },
     "HUT": {
-      "priceCents": 10622,
+      "priceCents": 10222,
       "currency": "USD"
     },
     "INVH": {
-      "priceCents": 2937,
+      "priceCents": 2960,
       "currency": "USD"
     },
     "KMI": {
-      "priceCents": 3240,
+      "priceCents": 3213,
       "currency": "USD"
     },
     "LC": {
@@ -122,71 +122,71 @@
       "currency": "USD"
     },
     "LNG": {
-      "priceCents": 26129,
+      "priceCents": 25863,
       "currency": "USD"
     },
     "MAA": {
-      "priceCents": 13600,
+      "priceCents": 13523,
       "currency": "USD"
     },
     "MARA": {
-      "priceCents": 1322,
+      "priceCents": 1260,
       "currency": "USD"
     },
     "NEGG": {
-      "priceCents": 1477,
+      "priceCents": 1415,
       "currency": "USD"
     },
     "NFLX": {
-      "priceCents": 7547,
+      "priceCents": 7337,
       "currency": "USD"
     },
     "OKE": {
-      "priceCents": 8950,
+      "priceCents": 8991,
       "currency": "USD"
     },
     "PANW": {
-      "priceCents": 33831,
+      "priceCents": 32591,
       "currency": "USD"
     },
     "PLCE": {
-      "priceCents": 303,
+      "priceCents": 299,
       "currency": "USD"
     },
     "PYPL": {
-      "priceCents": 4532,
+      "priceCents": 4632,
       "currency": "USD"
     },
     "RIOT": {
-      "priceCents": 2151,
+      "priceCents": 2096,
       "currency": "USD"
     },
     "S": {
-      "priceCents": 1886,
+      "priceCents": 1787,
       "currency": "USD"
     },
     "SOFI": {
-      "priceCents": 1862,
+      "priceCents": 1878,
       "currency": "USD"
     },
     "SPY": {
-      "priceCents": 75171,
+      "priceCents": 75488,
       "currency": "USD"
     },
     "TRGP": {
-      "priceCents": 27302,
+      "priceCents": 27331,
       "currency": "USD"
     },
     "UPST": {
-      "priceCents": 3323,
+      "priceCents": 3274,
       "currency": "USD"
     },
     "WBD": {
-      "priceCents": 2663,
+      "priceCents": 2659,
       "currency": "USD"
     },
     "WMB": {
-      "priceCents": 7545,
+      "priceCents": 7501,
       "currency": "USD"
     },
     "ZS": {
@@ -194,7 +194,7 @@
       "currency": "USD"
     },
     "ZUMZ": {
-      "priceCents": 1789,
+      "priceCents": 1811,
       "currency": "USD"
     }
   }
