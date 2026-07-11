@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T00:09:15Z",
+  "updatedAt": "2026-07-11T03:36:28Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31532,
@@ -11,6 +11,22 @@
     },
     "AMH": {
       "priceCents": 3327,
+      "currency": "USD"
+    },
+    "AMZN": {
+      "priceCents": 24534,
+      "currency": "USD"
+    },
+    "AVB": {
+      "priceCents": 19184,
+      "currency": "USD"
+    },
+    "BB": {
+      "priceCents": 1097,
+      "currency": "USD"
+    },
+    "BBW": {
+      "priceCents": 3442,
       "currency": "USD"
     },
     "BBWI": {
