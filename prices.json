@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T00:02:42Z",
+  "updatedAt": "2026-07-14T03:19:48Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31731,
@@ -115,6 +115,86 @@
     },
     "KMI": {
       "priceCents": 3224,
+      "currency": "USD"
+    },
+    "LC": {
+      "priceCents": 1921,
+      "currency": "USD"
+    },
+    "LNG": {
+      "priceCents": 26329,
+      "currency": "USD"
+    },
+    "MAA": {
+      "priceCents": 13589,
+      "currency": "USD"
+    },
+    "MARA": {
+      "priceCents": 1219,
+      "currency": "USD"
+    },
+    "NEGG": {
+      "priceCents": 1387,
+      "currency": "USD"
+    },
+    "NFLX": {
+      "priceCents": 7383,
+      "currency": "USD"
+    },
+    "OKE": {
+      "priceCents": 9219,
+      "currency": "USD"
+    },
+    "PANW": {
+      "priceCents": 33030,
+      "currency": "USD"
+    },
+    "PLCE": {
+      "priceCents": 299,
+      "currency": "USD"
+    },
+    "PYPL": {
+      "priceCents": 4765,
+      "currency": "USD"
+    },
+    "RIOT": {
+      "priceCents": 2019,
+      "currency": "USD"
+    },
+    "S": {
+      "priceCents": 1855,
+      "currency": "USD"
+    },
+    "SOFI": {
+      "priceCents": 1813,
+      "currency": "USD"
+    },
+    "SPY": {
+      "priceCents": 74917,
+      "currency": "USD"
+    },
+    "TRGP": {
+      "priceCents": 27940,
+      "currency": "USD"
+    },
+    "UPST": {
+      "priceCents": 3146,
+      "currency": "USD"
+    },
+    "WBD": {
+      "priceCents": 2709,
+      "currency": "USD"
+    },
+    "WMB": {
+      "priceCents": 7446,
+      "currency": "USD"
+    },
+    "ZS": {
+      "priceCents": 14182,
+      "currency": "USD"
+    },
+    "ZUMZ": {
+      "priceCents": 1817,
       "currency": "USD"
     }
   }
