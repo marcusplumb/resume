@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T22:58:07Z",
+  "updatedAt": "2026-07-18T23:50:32Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33374,
@@ -19,86 +19,6 @@
     },
     "AVB": {
       "priceCents": 19253,
-      "currency": "USD"
-    },
-    "BB": {
-      "priceCents": 899,
-      "currency": "USD"
-    },
-    "BBW": {
-      "priceCents": 3413,
-      "currency": "USD"
-    },
-    "BBWI": {
-      "priceCents": 2087,
-      "currency": "USD"
-    },
-    "BBY": {
-      "priceCents": 8541,
-      "currency": "USD"
-    },
-    "BITF": {
-      "priceCents": 395,
-      "currency": "USD"
-    },
-    "CIFR": {
-      "priceCents": 1756,
-      "currency": "USD"
-    },
-    "CLSK": {
-      "priceCents": 1303,
-      "currency": "USD"
-    },
-    "CMCSA": {
-      "priceCents": 2379,
-      "currency": "USD"
-    },
-    "CNXN": {
-      "priceCents": 7897,
-      "currency": "USD"
-    },
-    "CRCT": {
-      "priceCents": 463,
-      "currency": "USD"
-    },
-    "CRWD": {
-      "priceCents": 20308,
-      "currency": "USD"
-    },
-    "CTRA": {
-      "priceCents": 3256,
-      "currency": "USD"
-    },
-    "DIS": {
-      "priceCents": 9767,
-      "currency": "USD"
-    },
-    "DKS": {
-      "priceCents": 21736,
-      "currency": "USD"
-    },
-    "EQR": {
-      "priceCents": 6900,
-      "currency": "USD"
-    },
-    "ESS": {
-      "priceCents": 29293,
-      "currency": "USD"
-    },
-    "FIVE": {
-      "priceCents": 20263,
-      "currency": "USD"
-    },
-    "FNKO": {
-      "priceCents": 582,
-      "currency": "USD"
-    },
-    "FTNT": {
-      "priceCents": 16161,
-      "currency": "USD"
-    },
-    "GME": {
-      "priceCents": 2189,
       "currency": "USD"
     }
   }
