@@ -28,7 +28,7 @@
     "avgDebt2Q": 4350499999.5,
     "impliedCostOfDebtPct": 0.025284450066117053,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-07-19T08:33:13Z",
+    "updatedAt": "2026-07-20T09:33:42Z",
     "dataQualityFlags": []
   },
   "BBY": {
@@ -39,7 +39,7 @@
     "beta": 1.33,
     "revenueTtm": 41860002000,
     "ebitdaTtm": 2618000000,
-    "pe": 15.79,
+    "pe": 15.82,
     "cash": 1749000000,
     "shortTermDebt": 625000000,
     "longTermDebt": 1158000000,
@@ -60,7 +60,7 @@
     "avgDebt2Q": 4129500000.0,
     "impliedCostOfDebtPct": 1.1139363119021675,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-07-19T08:33:13Z",
+    "updatedAt": "2026-07-20T09:33:42Z",
     "dataQualityFlags": []
   },
   "CNXN": {
@@ -92,7 +92,7 @@
     "avgDebt2Q": 4188000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-07-19T08:33:13Z",
+    "updatedAt": "2026-07-20T09:33:42Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -126,7 +126,7 @@
     "avgDebt2Q": 55850000.0,
     "impliedCostOfDebtPct": 1.8513876454789615,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-07-19T08:33:13Z",
+    "updatedAt": "2026-07-20T09:33:42Z",
     "dataQualityFlags": []
   },
   "DKS": {
@@ -137,7 +137,7 @@
     "beta": 1.223,
     "revenueTtm": 19204948000,
     "ebitdaTtm": 2217055000,
-    "pe": 21.1,
+    "pe": 21.19,
     "cash": 998228000,
     "shortTermDebt": 948017000,
     "longTermDebt": 1905810000,
@@ -158,7 +158,7 @@
     "avgDebt2Q": 7768034500.0,
     "impliedCostOfDebtPct": 0.896829178603674,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-07-19T08:33:13Z",
+    "updatedAt": "2026-07-20T09:33:42Z",
     "dataQualityFlags": []
   },
   "ZUMZ": {
@@ -169,7 +169,7 @@
     "beta": 1.001,
     "revenueTtm": 938062000,
     "ebitdaTtm": 47753000,
-    "pe": 25.26,
+    "pe": 24.92,
     "cash": 66918000,
     "shortTermDebt": 55824000,
     "longTermDebt": 0,
@@ -190,7 +190,7 @@
     "avgDebt2Q": 201581000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-05-31",
-    "updatedAt": "2026-07-19T08:33:13Z",
+    "updatedAt": "2026-07-20T09:33:42Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -224,18 +224,18 @@
     "avgDebt2Q": 126494000.0,
     "impliedCostOfDebtPct": 0.5810552279159485,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-07-19T08:33:13Z",
+    "updatedAt": "2026-07-20T09:33:42Z",
     "dataQualityFlags": []
   },
   "BBWI": {
     "name": "Bath & Body Works Inc.",
     "currency": "USD",
-    "marketCap": 4256986000,
+    "marketCap": 4206595000,
     "sharesOutstanding": 201562000,
     "beta": 1.353,
     "revenueTtm": 7245000000,
     "ebitdaTtm": 1349000000,
-    "pe": 6.0,
+    "pe": 5.93,
     "cash": 820000000,
     "shortTermDebt": 206000000,
     "longTermDebt": 3613000000,
@@ -256,40 +256,42 @@
     "avgDebt2Q": 4833500000.0,
     "impliedCostOfDebtPct": 5.668770042412331,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-07-18T08:09:16Z",
+    "updatedAt": "2026-07-20T09:33:42Z",
     "dataQualityFlags": []
   },
   "FNKO": {
     "name": "Funko Inc",
     "currency": "USD",
-    "marketCap": 318006000,
+    "marketCap": 324986000,
     "sharesOutstanding": 55840000,
     "beta": 0.926,
     "revenueTtm": 918389000,
     "ebitdaTtm": 26630000,
     "pe": 0.0,
-    "cash": 34295000,
-    "shortTermDebt": 37523000,
-    "longTermDebt": 196233000,
-    "totalDebt": 279330000,
-    "netCash": -245035000,
-    "cashPerShare": 0.6141654727793696,
-    "debtPerShare": 5.002328080229226,
-    "netCashPerShare": -4.388162607449857,
-    "interestExpenseTtm": 20216000,
-    "interestExpenseTtmRaw": 20216000,
-    "incomeBeforeTaxTtm": -51698000,
-    "incomeTaxExpenseTtm": 6665000,
-    "netIncomeTtm": -57847000,
-    "ebitTtm": -31482000,
-    "operatingIncomeTtm": -31979000,
+    "cash": 0,
+    "shortTermDebt": 0,
+    "longTermDebt": 0,
+    "totalDebt": 0,
+    "netCash": 0,
+    "cashPerShare": 0.0,
+    "debtPerShare": 0.0,
+    "netCashPerShare": 0.0,
+    "interestExpenseTtm": 0,
+    "interestExpenseTtmRaw": 0,
+    "incomeBeforeTaxTtm": 0,
+    "incomeTaxExpenseTtm": 0,
+    "netIncomeTtm": 0,
+    "ebitTtm": 0,
+    "operatingIncomeTtm": 0,
     "effectiveTaxRateTtm": null,
-    "fiscalDateEndingIncomeTtm": "2026-03-31",
-    "avgDebt2Q": 286052500.0,
-    "impliedCostOfDebtPct": 7.0672341615612515,
-    "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-07-16T08:41:04Z",
-    "dataQualityFlags": []
+    "fiscalDateEndingIncomeTtm": null,
+    "avgDebt2Q": null,
+    "impliedCostOfDebtPct": null,
+    "fiscalDateEndingBalanceSheet": null,
+    "updatedAt": "2026-07-20T09:33:42Z",
+    "dataQualityFlags": [
+      "missing_interest_expense_ttm"
+    ]
   },
   "FIVE": {
     "name": "Five Below Inc",
