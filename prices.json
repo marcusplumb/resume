@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T22:46:53Z",
+  "updatedAt": "2026-07-21T23:41:58Z",
   "symbols": {
     "AAPL": {
       "priceCents": 32774,
@@ -35,6 +35,70 @@
     },
     "BBY": {
       "priceCents": 8522,
+      "currency": "USD"
+    },
+    "BITF": {
+      "priceCents": 465,
+      "currency": "USD"
+    },
+    "CIFR": {
+      "priceCents": 2289,
+      "currency": "USD"
+    },
+    "CLSK": {
+      "priceCents": 1538,
+      "currency": "USD"
+    },
+    "CMCSA": {
+      "priceCents": 2381,
+      "currency": "USD"
+    },
+    "CNXN": {
+      "priceCents": 8122,
+      "currency": "USD"
+    },
+    "CRCT": {
+      "priceCents": 449,
+      "currency": "USD"
+    },
+    "CRWD": {
+      "priceCents": 19115,
+      "currency": "USD"
+    },
+    "CTRA": {
+      "priceCents": 3256,
+      "currency": "USD"
+    },
+    "DIS": {
+      "priceCents": 9614,
+      "currency": "USD"
+    },
+    "DKS": {
+      "priceCents": 20841,
+      "currency": "USD"
+    },
+    "EQR": {
+      "priceCents": 6829,
+      "currency": "USD"
+    },
+    "ESS": {
+      "priceCents": 29401,
+      "currency": "USD"
+    },
+    "FIVE": {
+      "priceCents": 20371,
+      "currency": "USD"
+    },
+    "FNKO": {
+      "priceCents": 581,
+      "currency": "USD"
+    },
+    "FTNT": {
+      "priceCents": 15810,
+      "currency": "USD"
+    },
+    "GME": {
+      "priceCents": 2179,
       "currency": "USD"
     }
   }
