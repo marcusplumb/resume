@@ -1,13 +1,13 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-07-21T20:22:39Z",
+    "updatedAt": "2026-07-21T22:09:28Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 33.7,
+        "spot": 33.32,
         "shares": 359180000.0,
         "discountRatePct": 9.375,
         "costOfEquityPct": 9.375,
@@ -105,7 +105,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 33.7,
+        "spot": 33.32,
         "shares": 359180000.0,
         "discountRatePct": 9.375,
         "costOfEquityPct": 9.375,
@@ -203,7 +203,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 33.7,
+        "spot": 33.32,
         "shares": 359180000.0,
         "discountRatePct": 9.375,
         "costOfEquityPct": 9.375,
@@ -302,13 +302,13 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-07-21T20:22:39Z",
+    "updatedAt": "2026-07-21T22:09:28Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 8.83,
+        "spot": 8.99,
         "shares": 586100000.0,
         "discountRatePct": 12.725000000000001,
         "costOfEquityPct": 12.725000000000001,
@@ -420,7 +420,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 8.83,
+        "spot": 8.99,
         "shares": 586100000.0,
         "discountRatePct": 12.725000000000001,
         "costOfEquityPct": 12.725000000000001,
@@ -532,7 +532,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 8.83,
+        "spot": 8.99,
         "shares": 586100000.0,
         "discountRatePct": 12.725000000000001,
         "costOfEquityPct": 12.725000000000001,
@@ -645,13 +645,13 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-07-21T20:22:39Z",
+    "updatedAt": "2026-07-21T22:09:28Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 34.03,
+        "spot": 34.02,
         "shares": 12537400.0,
         "discountRatePct": 10.605,
         "costOfEquityPct": 10.605,
@@ -763,7 +763,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 34.03,
+        "spot": 34.02,
         "shares": 12537400.0,
         "discountRatePct": 10.605,
         "costOfEquityPct": 10.605,
@@ -875,7 +875,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 34.03,
+        "spot": 34.02,
         "shares": 12537400.0,
         "discountRatePct": 10.605,
         "costOfEquityPct": 10.605,
@@ -988,13 +988,13 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-07-21T20:22:39Z",
+    "updatedAt": "2026-07-21T22:09:28Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 21.76,
+        "spot": 21.77,
         "shares": 448691000.0,
         "discountRatePct": 14.13,
         "costOfEquityPct": 14.13,
@@ -1121,7 +1121,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 21.76,
+        "spot": 21.77,
         "shares": 448691000.0,
         "discountRatePct": 14.13,
         "costOfEquityPct": 14.13,
@@ -1248,7 +1248,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 21.76,
+        "spot": 21.77,
         "shares": 448691000.0,
         "discountRatePct": 14.13,
         "costOfEquityPct": 14.13,
@@ -1376,7 +1376,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-07-21T20:22:39Z",
+    "updatedAt": "2026-07-21T22:09:28Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1593,7 +1593,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-07-21T20:22:39Z",
+    "updatedAt": "2026-07-21T22:09:28Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1936,7 +1936,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-07-21T20:22:39Z",
+    "updatedAt": "2026-07-21T22:09:28Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
