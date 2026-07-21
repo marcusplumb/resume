@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T21:56:48Z",
+  "updatedAt": "2026-07-21T22:46:53Z",
   "symbols": {
     "AAPL": {
       "priceCents": 32774,
@@ -18,7 +18,7 @@
       "currency": "USD"
     },
     "AVB": {
-      "priceCents": 19062,
+      "priceCents": 19065,
       "currency": "USD"
     },
     "BB": {
@@ -26,43 +26,15 @@
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3402,
+      "priceCents": 3397,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 2025,
+      "priceCents": 2027,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8518,
-      "currency": "USD"
-    },
-    "BITF": {
-      "priceCents": 434,
-      "currency": "USD"
-    },
-    "CIFR": {
-      "priceCents": 2289,
-      "currency": "USD"
-    },
-    "CLSK": {
-      "priceCents": 1538,
-      "currency": "USD"
-    },
-    "CMCSA": {
-      "priceCents": 2381,
-      "currency": "USD"
-    },
-    "CNXN": {
-      "priceCents": 8122,
-      "currency": "USD"
-    },
-    "CRCT": {
-      "priceCents": 449,
-      "currency": "USD"
-    },
-    "CRWD": {
-      "priceCents": 19115,
+      "priceCents": 8522,
       "currency": "USD"
     }
   }
