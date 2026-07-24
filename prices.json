@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T08:39:20Z",
+  "updatedAt": "2026-07-24T10:36:00Z",
   "symbols": {
     "AAPL": {
       "priceCents": 32166,
@@ -95,6 +95,10 @@
     },
     "FTNT": {
       "priceCents": 15154,
+      "currency": "USD"
+    },
+    "GME": {
+      "priceCents": 2135,
       "currency": "USD"
     }
   }
