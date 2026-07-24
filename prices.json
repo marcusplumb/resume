@@ -1,4 +1,93 @@
 {
-  "updatedAt": "2026-07-23T23:09:26Z",
-  "symbols": {}
+  "updatedAt": "2026-07-24T00:07:45Z",
+  "symbols": {
+    "AAPL": {
+      "priceCents": 32166,
+      "currency": "USD"
+    },
+    "AFRM": {
+      "priceCents": 7121,
+      "currency": "USD"
+    },
+    "AMH": {
+      "priceCents": 3311,
+      "currency": "USD"
+    },
+    "AMZN": {
+      "priceCents": 23366,
+      "currency": "USD"
+    },
+    "AVB": {
+      "priceCents": 19080,
+      "currency": "USD"
+    },
+    "BB": {
+      "priceCents": 863,
+      "currency": "USD"
+    },
+    "BBW": {
+      "priceCents": 3384,
+      "currency": "USD"
+    },
+    "BBWI": {
+      "priceCents": 1934,
+      "currency": "USD"
+    },
+    "BBY": {
+      "priceCents": 8443,
+      "currency": "USD"
+    },
+    "MARA": {
+      "priceCents": 1277,
+      "currency": "USD"
+    },
+    "NEGG": {
+      "priceCents": 1491,
+      "currency": "USD"
+    },
+    "NFLX": {
+      "priceCents": 6889,
+      "currency": "USD"
+    },
+    "OKE": {
+      "priceCents": 9323,
+      "currency": "USD"
+    },
+    "PANW": {
+      "priceCents": 32563,
+      "currency": "USD"
+    },
+    "PLCE": {
+      "priceCents": 264,
+      "currency": "USD"
+    },
+    "PYPL": {
+      "priceCents": 5600,
+      "currency": "USD"
+    },
+    "RIOT": {
+      "priceCents": 2386,
+      "currency": "USD"
+    },
+    "S": {
+      "priceCents": 1738,
+      "currency": "USD"
+    },
+    "SOFI": {
+      "priceCents": 1665,
+      "currency": "USD"
+    },
+    "SPY": {
+      "priceCents": 73818,
+      "currency": "USD"
+    },
+    "TRGP": {
+      "priceCents": 28558,
+      "currency": "USD"
+    },
+    "UPST": {
+      "priceCents": 2759,
+      "currency": "USD"
+    }
+  }
 }
