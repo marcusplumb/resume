@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T21:43:40Z",
+  "updatedAt": "2026-07-27T22:41:18Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33691,
@@ -10,7 +10,7 @@
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3346,
+      "priceCents": 3345,
       "currency": "USD"
     },
     "AMZN": {
@@ -18,27 +18,27 @@
       "currency": "USD"
     },
     "AVB": {
-      "priceCents": 18751,
+      "priceCents": 18756,
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 841,
+      "priceCents": 842,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3416,
+      "priceCents": 3412,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 2048,
+      "priceCents": 2049,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8844,
+      "priceCents": 8845,
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 426,
+      "priceCents": 405,
       "currency": "USD"
     },
     "CIFR": {
@@ -70,35 +70,15 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 9663,
+      "priceCents": 9665,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 20569,
+      "priceCents": 20560,
       "currency": "USD"
     },
     "EQR": {
-      "priceCents": 6726,
-      "currency": "USD"
-    },
-    "ESS": {
-      "priceCents": 29025,
-      "currency": "USD"
-    },
-    "FIVE": {
-      "priceCents": 20714,
-      "currency": "USD"
-    },
-    "FNKO": {
-      "priceCents": 612,
-      "currency": "USD"
-    },
-    "FTNT": {
-      "priceCents": 15238,
-      "currency": "USD"
-    },
-    "GME": {
-      "priceCents": 2152,
+      "priceCents": 6724,
       "currency": "USD"
     }
   }
