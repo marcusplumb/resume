@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-07-31T18:59:05Z",
+  "updatedAt": "2026-07-31T20:18:59Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 33343,
+      "priceCents": 30891,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7325,
+      "priceCents": 7151,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3321,
+      "priceCents": 3344,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 23550,
+      "priceCents": 27158,
       "currency": "USD"
     },
     "AVB": {
-      "priceCents": 18778,
+      "priceCents": 18544,
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 844,
+      "priceCents": 849,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3527,
+      "priceCents": 3394,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1995,
+      "priceCents": 2010,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8782,
+      "priceCents": 8624,
       "currency": "USD"
     },
     "BITF": {
@@ -42,27 +42,27 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 2266,
+      "priceCents": 2232,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1454,
+      "priceCents": 1376,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2367,
+      "priceCents": 2396,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 8249,
+      "priceCents": 8372,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 465,
+      "priceCents": 469,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 18522,
+      "priceCents": 19086,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,35 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 9616,
+      "priceCents": 9621,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 19991,
+      "priceCents": 19594,
       "currency": "USD"
     },
     "EQR": {
-      "priceCents": 6712,
+      "priceCents": 6646,
       "currency": "USD"
     },
     "ESS": {
-      "priceCents": 28186,
+      "priceCents": 28425,
       "currency": "USD"
     },
     "FIVE": {
-      "priceCents": 21917,
+      "priceCents": 21713,
       "currency": "USD"
     },
     "FNKO": {
-      "priceCents": 605,
+      "priceCents": 583,
       "currency": "USD"
     },
     "FTNT": {
-      "priceCents": 15425,
-      "currency": "USD"
-    },
-    "GME": {
-      "priceCents": 2188,
+      "priceCents": 16195,
       "currency": "USD"
     }
   }
