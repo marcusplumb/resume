@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T23:07:15Z",
+  "updatedAt": "2026-08-02T00:06:44Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30891,
@@ -53,22 +53,6 @@
       "priceCents": 2396,
       "currency": "USD"
     },
-    "CNXN": {
-      "priceCents": 8372,
-      "currency": "USD"
-    },
-    "CRCT": {
-      "priceCents": 469,
-      "currency": "USD"
-    },
-    "CRWD": {
-      "priceCents": 19086,
-      "currency": "USD"
-    },
-    "CTRA": {
-      "priceCents": 3256,
-      "currency": "USD"
-    },
     "DIS": {
       "priceCents": 9619,
       "currency": "USD"
@@ -99,6 +83,18 @@
     },
     "GME": {
       "priceCents": 2172,
+      "currency": "USD"
+    },
+    "HOOD": {
+      "priceCents": 8656,
+      "currency": "USD"
+    },
+    "HUT": {
+      "priceCents": 10763,
+      "currency": "USD"
+    },
+    "INVH": {
+      "priceCents": 2972,
       "currency": "USD"
     }
   }
