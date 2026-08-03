@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T06:47:19Z",
+  "updatedAt": "2026-08-03T10:27:24Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30891,
@@ -59,6 +59,22 @@
     },
     "CRCT": {
       "priceCents": 469,
+      "currency": "USD"
+    },
+    "CRWD": {
+      "priceCents": 19086,
+      "currency": "USD"
+    },
+    "CTRA": {
+      "priceCents": 3256,
+      "currency": "USD"
+    },
+    "DIS": {
+      "priceCents": 9619,
+      "currency": "USD"
+    },
+    "DKS": {
+      "priceCents": 19591,
       "currency": "USD"
     }
   }
