@@ -2,12 +2,12 @@
   "GME": {
     "name": "GameStop Corp.",
     "currency": "USD",
-    "marketCap": 8552055000,
+    "marketCap": 8619359000,
     "sharesOutstanding": 448691000,
     "beta": 1.738,
     "revenueTtm": 3732800000,
     "ebitdaTtm": 412300000,
-    "pe": 14.22,
+    "pe": 16.28,
     "cash": 7397600000,
     "shortTermDebt": 81400000,
     "longTermDebt": 4166100000,
@@ -28,7 +28,7 @@
     "avgDebt2Q": 4350499999.5,
     "impliedCostOfDebtPct": 0.025284450066117053,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-05T09:05:40Z",
+    "updatedAt": "2026-08-06T09:06:03Z",
     "dataQualityFlags": []
   },
   "BBY": {
@@ -39,7 +39,7 @@
     "beta": 1.317,
     "revenueTtm": 41860002000,
     "ebitdaTtm": 2618000000,
-    "pe": 15.79,
+    "pe": 15.99,
     "cash": 1749000000,
     "shortTermDebt": 625000000,
     "longTermDebt": 1158000000,
@@ -60,18 +60,18 @@
     "avgDebt2Q": 4129500000.0,
     "impliedCostOfDebtPct": 1.1139363119021675,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-05T09:05:40Z",
+    "updatedAt": "2026-08-06T09:06:03Z",
     "dataQualityFlags": []
   },
   "CNXN": {
     "name": "PC Connection Inc",
     "currency": "USD",
-    "marketCap": 2163158000,
+    "marketCap": 2190415000,
     "sharesOutstanding": 25238100,
     "beta": 0.867,
     "revenueTtm": 2987869000,
     "ebitdaTtm": 134514000,
-    "pe": 22.67,
+    "pe": 22.66,
     "cash": 123717000,
     "shortTermDebt": 0,
     "longTermDebt": 0,
@@ -92,7 +92,7 @@
     "avgDebt2Q": 7028500.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-06-30",
-    "updatedAt": "2026-08-05T09:05:40Z",
+    "updatedAt": "2026-08-06T09:06:03Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -100,12 +100,12 @@
   "NEGG": {
     "name": "Newegg Commerce Inc",
     "currency": "USD",
-    "marketCap": 283351000,
+    "marketCap": 320893000,
     "sharesOutstanding": 20973400,
     "beta": 3.542,
     "revenueTtm": 1403527000,
     "ebitdaTtm": 7959000,
-    "pe": 51.96,
+    "pe": 52.76,
     "cash": 57050000,
     "shortTermDebt": 15824000,
     "longTermDebt": 0,
@@ -126,13 +126,13 @@
     "avgDebt2Q": 55850000.0,
     "impliedCostOfDebtPct": 1.8513876454789615,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-08-05T09:05:40Z",
+    "updatedAt": "2026-08-06T09:06:03Z",
     "dataQualityFlags": []
   },
   "DKS": {
     "name": "Dick\u2019s Sporting Goods Inc",
     "currency": "USD",
-    "marketCap": 17973899000,
+    "marketCap": 17966739000,
     "sharesOutstanding": 65932000,
     "beta": 1.186,
     "revenueTtm": 19204948000,
@@ -158,18 +158,18 @@
     "avgDebt2Q": 7768034500.0,
     "impliedCostOfDebtPct": 0.896829178603674,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-05T09:05:40Z",
+    "updatedAt": "2026-08-06T09:06:03Z",
     "dataQualityFlags": []
   },
   "ZUMZ": {
     "name": "Zumiez Inc",
     "currency": "USD",
-    "marketCap": 345374000,
+    "marketCap": 336432000,
     "sharesOutstanding": 16872200,
     "beta": 1.016,
     "revenueTtm": 938062000,
     "ebitdaTtm": 47753000,
-    "pe": 27.29,
+    "pe": 27.32,
     "cash": 66918000,
     "shortTermDebt": 55824000,
     "longTermDebt": 0,
@@ -190,7 +190,7 @@
     "avgDebt2Q": 201581000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-05-31",
-    "updatedAt": "2026-08-05T09:05:40Z",
+    "updatedAt": "2026-08-06T09:06:03Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -203,7 +203,7 @@
     "beta": 1.033,
     "revenueTtm": 526707000,
     "ebitdaTtm": 84195000,
-    "pe": 7.92,
+    "pe": 8.03,
     "cash": 26247000,
     "shortTermDebt": 28276000,
     "longTermDebt": 0,
@@ -224,18 +224,18 @@
     "avgDebt2Q": 126494000.0,
     "impliedCostOfDebtPct": 0.5810552279159485,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-05T09:05:40Z",
+    "updatedAt": "2026-08-06T09:06:03Z",
     "dataQualityFlags": []
   },
   "BBWI": {
     "name": "Bath & Body Works Inc.",
     "currency": "USD",
-    "marketCap": 4226751000,
+    "marketCap": 4244892000,
     "sharesOutstanding": 201562000,
     "beta": 1.378,
     "revenueTtm": 7245000000,
     "ebitdaTtm": 1349000000,
-    "pe": 5.96,
+    "pe": 5.98,
     "cash": 820000000,
     "shortTermDebt": 206000000,
     "longTermDebt": 3613000000,
@@ -256,13 +256,13 @@
     "avgDebt2Q": 4833500000.0,
     "impliedCostOfDebtPct": 5.668770042412331,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-05T09:05:40Z",
+    "updatedAt": "2026-08-06T09:06:03Z",
     "dataQualityFlags": []
   },
   "FNKO": {
     "name": "Funko Inc",
     "currency": "USD",
-    "marketCap": 322753000,
+    "marketCap": 321636000,
     "sharesOutstanding": 55840000,
     "beta": 0.931,
     "revenueTtm": 918389000,
@@ -288,7 +288,7 @@
     "avgDebt2Q": null,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": null,
-    "updatedAt": "2026-08-05T09:05:40Z",
+    "updatedAt": "2026-08-06T09:06:03Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
