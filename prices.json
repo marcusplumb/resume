@@ -1,4 +1,9 @@
 {
-  "updatedAt": "2026-08-07T23:08:46Z",
-  "symbols": {}
+  "updatedAt": "2026-08-07T23:44:33Z",
+  "symbols": {
+    "AAPL": {
+      "priceCents": 31333,
+      "currency": "USD"
+    }
+  }
 }
