@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T09:35:42Z",
+  "updatedAt": "2026-08-07T10:28:34Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31241,
@@ -63,42 +63,6 @@
     },
     "CRWD": {
       "priceCents": 20739,
-      "currency": "USD"
-    },
-    "CTRA": {
-      "priceCents": 3256,
-      "currency": "USD"
-    },
-    "DIS": {
-      "priceCents": 10468,
-      "currency": "USD"
-    },
-    "DKS": {
-      "priceCents": 19862,
-      "currency": "USD"
-    },
-    "EQR": {
-      "priceCents": 6670,
-      "currency": "USD"
-    },
-    "ESS": {
-      "priceCents": 28512,
-      "currency": "USD"
-    },
-    "FIVE": {
-      "priceCents": 23112,
-      "currency": "USD"
-    },
-    "FNKO": {
-      "priceCents": 528,
-      "currency": "USD"
-    },
-    "FTNT": {
-      "priceCents": 16011,
-      "currency": "USD"
-    },
-    "GME": {
-      "priceCents": 1923,
       "currency": "USD"
     }
   }
