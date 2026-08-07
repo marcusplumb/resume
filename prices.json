@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T18:33:13Z",
+  "updatedAt": "2026-08-07T19:32:50Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31241,
@@ -87,14 +87,6 @@
     },
     "FIVE": {
       "priceCents": 23112,
-      "currency": "USD"
-    },
-    "FNKO": {
-      "priceCents": 528,
-      "currency": "USD"
-    },
-    "FTNT": {
-      "priceCents": 16011,
       "currency": "USD"
     }
   }
