@@ -1,8 +1,12 @@
 {
-  "updatedAt": "2026-08-07T23:44:33Z",
+  "updatedAt": "2026-08-08T00:05:11Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31333,
+      "currency": "USD"
+    },
+    "AMZN": {
+      "priceCents": 27448,
       "currency": "USD"
     }
   }
