@@ -28,7 +28,7 @@
     "avgDebt2Q": 4350499999.5,
     "impliedCostOfDebtPct": 0.025284450066117053,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-09T07:16:48Z",
+    "updatedAt": "2026-08-10T08:04:26Z",
     "dataQualityFlags": []
   },
   "BBY": {
@@ -60,7 +60,7 @@
     "avgDebt2Q": 4129500000.0,
     "impliedCostOfDebtPct": 1.1139363119021675,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-09T07:16:48Z",
+    "updatedAt": "2026-08-10T08:04:26Z",
     "dataQualityFlags": []
   },
   "CNXN": {
@@ -71,7 +71,7 @@
     "beta": 0.867,
     "revenueTtm": 2987869000,
     "ebitdaTtm": 134514000,
-    "pe": 22.99,
+    "pe": 22.26,
     "cash": 123717000,
     "shortTermDebt": 0,
     "longTermDebt": 0,
@@ -92,7 +92,7 @@
     "avgDebt2Q": 7028500.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-06-30",
-    "updatedAt": "2026-08-09T07:16:48Z",
+    "updatedAt": "2026-08-10T08:04:26Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -105,7 +105,7 @@
     "beta": 3.542,
     "revenueTtm": 1403527000,
     "ebitdaTtm": 7959000,
-    "pe": 68.48,
+    "pe": 65.85,
     "cash": 57050000,
     "shortTermDebt": 15824000,
     "longTermDebt": 0,
@@ -126,7 +126,7 @@
     "avgDebt2Q": 55850000.0,
     "impliedCostOfDebtPct": 1.8513876454789615,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-08-09T07:16:48Z",
+    "updatedAt": "2026-08-10T08:04:26Z",
     "dataQualityFlags": []
   },
   "DKS": {
@@ -158,7 +158,7 @@
     "avgDebt2Q": 7768034500.0,
     "impliedCostOfDebtPct": 0.896829178603674,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-09T07:16:48Z",
+    "updatedAt": "2026-08-10T08:04:26Z",
     "dataQualityFlags": []
   },
   "ZUMZ": {
@@ -169,7 +169,7 @@
     "beta": 1.016,
     "revenueTtm": 938062000,
     "ebitdaTtm": 47753000,
-    "pe": 26.12,
+    "pe": 26.81,
     "cash": 66918000,
     "shortTermDebt": 55824000,
     "longTermDebt": 0,
@@ -190,7 +190,7 @@
     "avgDebt2Q": 201581000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-05-31",
-    "updatedAt": "2026-08-09T07:16:48Z",
+    "updatedAt": "2026-08-10T08:04:26Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -203,7 +203,7 @@
     "beta": 1.033,
     "revenueTtm": 526707000,
     "ebitdaTtm": 84195000,
-    "pe": 8.14,
+    "pe": 8.63,
     "cash": 26247000,
     "shortTermDebt": 28276000,
     "longTermDebt": 0,
@@ -224,7 +224,7 @@
     "avgDebt2Q": 126494000.0,
     "impliedCostOfDebtPct": 0.5810552279159485,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-09T07:16:48Z",
+    "updatedAt": "2026-08-10T08:04:26Z",
     "dataQualityFlags": []
   },
   "BBWI": {
