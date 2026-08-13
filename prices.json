@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T22:08:48Z",
+  "updatedAt": "2026-08-13T22:57:36Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30526,
@@ -10,7 +10,7 @@
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3426,
+      "priceCents": 3425,
       "currency": "USD"
     },
     "AMZN": {
@@ -18,7 +18,7 @@
       "currency": "USD"
     },
     "AVB": {
-      "priceCents": 18409,
+      "priceCents": 18391,
       "currency": "USD"
     },
     "BB": {
@@ -26,79 +26,23 @@
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3783,
+      "priceCents": 3778,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1864,
+      "priceCents": 1863,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8536,
+      "priceCents": 8535,
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 354,
+      "priceCents": 331,
       "currency": "USD"
     },
     "CIFR": {
       "priceCents": 1662,
-      "currency": "USD"
-    },
-    "CLSK": {
-      "priceCents": 1152,
-      "currency": "USD"
-    },
-    "CMCSA": {
-      "priceCents": 2618,
-      "currency": "USD"
-    },
-    "CNXN": {
-      "priceCents": 8097,
-      "currency": "USD"
-    },
-    "CRCT": {
-      "priceCents": 593,
-      "currency": "USD"
-    },
-    "CRWD": {
-      "priceCents": 22553,
-      "currency": "USD"
-    },
-    "CTRA": {
-      "priceCents": 3256,
-      "currency": "USD"
-    },
-    "DIS": {
-      "priceCents": 10480,
-      "currency": "USD"
-    },
-    "DKS": {
-      "priceCents": 20227,
-      "currency": "USD"
-    },
-    "EQR": {
-      "priceCents": 6595,
-      "currency": "USD"
-    },
-    "ESS": {
-      "priceCents": 28740,
-      "currency": "USD"
-    },
-    "FIVE": {
-      "priceCents": 24171,
-      "currency": "USD"
-    },
-    "FNKO": {
-      "priceCents": 598,
-      "currency": "USD"
-    },
-    "FTNT": {
-      "priceCents": 16544,
-      "currency": "USD"
-    },
-    "GME": {
-      "priceCents": 1858,
       "currency": "USD"
     }
   }
