@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T17:02:31Z",
+  "updatedAt": "2026-08-16T17:25:54Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30593,
@@ -79,6 +79,26 @@
     },
     "EQR": {
       "priceCents": 6597,
+      "currency": "USD"
+    },
+    "ESS": {
+      "priceCents": 28752,
+      "currency": "USD"
+    },
+    "FIVE": {
+      "priceCents": 24454,
+      "currency": "USD"
+    },
+    "FNKO": {
+      "priceCents": 614,
+      "currency": "USD"
+    },
+    "FTNT": {
+      "priceCents": 16001,
+      "currency": "USD"
+    },
+    "GME": {
+      "priceCents": 1866,
       "currency": "USD"
     }
   }
