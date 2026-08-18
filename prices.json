@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T11:59:21Z",
+  "updatedAt": "2026-08-18T12:43:08Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30559,
@@ -91,6 +91,10 @@
     },
     "LNG": {
       "priceCents": 26693,
+      "currency": "USD"
+    },
+    "MAA": {
+      "priceCents": 13112,
       "currency": "USD"
     }
   }
