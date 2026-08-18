@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T22:09:32Z",
+  "updatedAt": "2026-08-18T22:37:20Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31003,
@@ -10,7 +10,7 @@
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3368,
+      "priceCents": 3367,
       "currency": "USD"
     },
     "AMZN": {
@@ -22,15 +22,15 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 859,
+      "priceCents": 858,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3745,
+      "priceCents": 3744,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 2006,
+      "priceCents": 2004,
       "currency": "USD"
     },
     "BBY": {
@@ -38,7 +38,7 @@
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 377,
+      "priceCents": 316,
       "currency": "USD"
     },
     "CIFR": {
@@ -70,11 +70,15 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10398,
+      "priceCents": 10395,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 19159,
+      "priceCents": 19152,
+      "currency": "USD"
+    },
+    "PANW": {
+      "priceCents": 37414,
       "currency": "USD"
     },
     "PLCE": {
@@ -87,14 +91,6 @@
     },
     "RIOT": {
       "priceCents": 1891,
-      "currency": "USD"
-    },
-    "S": {
-      "priceCents": 2248,
-      "currency": "USD"
-    },
-    "SOFI": {
-      "priceCents": 1766,
       "currency": "USD"
     }
   }
