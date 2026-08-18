@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T17:50:51Z",
+  "updatedAt": "2026-08-18T18:14:12Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30559,
@@ -27,6 +27,74 @@
     },
     "BBW": {
       "priceCents": 3819,
+      "currency": "USD"
+    },
+    "BBWI": {
+      "priceCents": 1881,
+      "currency": "USD"
+    },
+    "BBY": {
+      "priceCents": 8544,
+      "currency": "USD"
+    },
+    "BITF": {
+      "priceCents": 377,
+      "currency": "USD"
+    },
+    "CIFR": {
+      "priceCents": 1850,
+      "currency": "USD"
+    },
+    "CLSK": {
+      "priceCents": 1240,
+      "currency": "USD"
+    },
+    "CMCSA": {
+      "priceCents": 2557,
+      "currency": "USD"
+    },
+    "CNXN": {
+      "priceCents": 7855,
+      "currency": "USD"
+    },
+    "CRCT": {
+      "priceCents": 551,
+      "currency": "USD"
+    },
+    "CRWD": {
+      "priceCents": 21390,
+      "currency": "USD"
+    },
+    "CTRA": {
+      "priceCents": 3256,
+      "currency": "USD"
+    },
+    "DIS": {
+      "priceCents": 10350,
+      "currency": "USD"
+    },
+    "DKS": {
+      "priceCents": 19624,
+      "currency": "USD"
+    },
+    "S": {
+      "priceCents": 2182,
+      "currency": "USD"
+    },
+    "SOFI": {
+      "priceCents": 1831,
+      "currency": "USD"
+    },
+    "SPY": {
+      "priceCents": 77267,
+      "currency": "USD"
+    },
+    "TRGP": {
+      "priceCents": 27794,
+      "currency": "USD"
+    },
+    "UPST": {
+      "priceCents": 2975,
       "currency": "USD"
     }
   }
