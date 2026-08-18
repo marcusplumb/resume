@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T19:56:46Z",
+  "updatedAt": "2026-08-18T20:14:40Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30559,
@@ -26,15 +26,15 @@
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3819,
+      "priceCents": 3745,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1881,
+      "priceCents": 2006,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8544,
+      "priceCents": 8727,
       "currency": "USD"
     },
     "BITF": {
@@ -42,27 +42,27 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1850,
+      "priceCents": 1610,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1240,
+      "priceCents": 1173,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2557,
+      "priceCents": 2620,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 7855,
+      "priceCents": 7886,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 551,
+      "priceCents": 548,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 21390,
+      "priceCents": 21292,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,31 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10350,
+      "priceCents": 10398,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 19624,
+      "priceCents": 19159,
       "currency": "USD"
     },
-    "MARA": {
-      "priceCents": 972,
+    "INVH": {
+      "priceCents": 2973,
       "currency": "USD"
     },
-    "NEGG": {
-      "priceCents": 1892,
+    "KMI": {
+      "priceCents": 3288,
       "currency": "USD"
     },
-    "NFLX": {
-      "priceCents": 7602,
+    "LC": {
+      "priceCents": 1921,
       "currency": "USD"
     },
-    "OKE": {
-      "priceCents": 9532,
+    "LNG": {
+      "priceCents": 27375,
       "currency": "USD"
     },
-    "PANW": {
-      "priceCents": 37576,
+    "MAA": {
+      "priceCents": 13016,
       "currency": "USD"
     }
   }
