@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T22:02:20Z",
+  "updatedAt": "2026-08-19T22:31:51Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31683,
@@ -34,11 +34,11 @@
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8922,
+      "priceCents": 8921,
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 316,
+      "priceCents": 325,
       "currency": "USD"
     },
     "CIFR": {
@@ -70,23 +70,19 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10694,
+      "priceCents": 10693,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 19133,
+      "priceCents": 19129,
       "currency": "USD"
     },
-    "NFLX": {
-      "priceCents": 8022,
+    "MARA": {
+      "priceCents": 965,
       "currency": "USD"
     },
-    "OKE": {
-      "priceCents": 9600,
-      "currency": "USD"
-    },
-    "PANW": {
-      "priceCents": 35976,
+    "NEGG": {
+      "priceCents": 1850,
       "currency": "USD"
     }
   }
