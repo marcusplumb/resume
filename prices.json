@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T11:48:51Z",
+  "updatedAt": "2026-08-20T12:14:47Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31683,
@@ -77,24 +77,8 @@
       "priceCents": 19129,
       "currency": "USD"
     },
-    "GME": {
-      "priceCents": 1803,
-      "currency": "USD"
-    },
-    "HOOD": {
-      "priceCents": 9577,
-      "currency": "USD"
-    },
-    "HUT": {
-      "priceCents": 8208,
-      "currency": "USD"
-    },
-    "INVH": {
-      "priceCents": 3020,
-      "currency": "USD"
-    },
-    "KMI": {
-      "priceCents": 3208,
+    "SPY": {
+      "priceCents": 76906,
       "currency": "USD"
     }
   }
