@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-08-20T21:37:38Z",
+    "updatedAt": "2026-08-20T22:38:54Z",
     "centralEstimate": 39.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 34.37,
@@ -16,7 +16,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-08-20T21:37:38Z",
+    "updatedAt": "2026-08-20T22:38:54Z",
     "centralEstimate": 10.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 8.14,
@@ -31,7 +31,7 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-08-20T21:37:38Z",
+    "updatedAt": "2026-08-20T22:38:54Z",
     "centralEstimate": 46.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 37.84,
@@ -46,7 +46,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-08-20T21:37:38Z",
+    "updatedAt": "2026-08-20T22:38:54Z",
     "centralEstimate": 17.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 18.03,
@@ -61,7 +61,7 @@
   },
   "HUT": {
     "ticker": "HUT",
-    "updatedAt": "2026-08-20T21:37:38Z",
+    "updatedAt": "2026-08-20T22:38:54Z",
     "centralEstimate": 16.5,
     "source": "multiples_midpoint",
     "spot": 88.65,
@@ -73,7 +73,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-08-20T21:37:38Z",
+    "updatedAt": "2026-08-20T22:38:54Z",
     "centralEstimate": 148.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 279.17,
@@ -87,7 +87,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-08-20T21:37:38Z",
+    "updatedAt": "2026-08-20T22:38:54Z",
     "centralEstimate": 46.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 80.22,
@@ -102,15 +102,15 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-08-20T21:37:38Z",
-    "centralEstimate": 14.0,
+    "updatedAt": "2026-08-20T22:38:54Z",
+    "centralEstimate": 13.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
-    "spot": 18.42,
+    "spot": 17.92,
     "dcfModel": "FCFE",
-    "compsLow": 12.3,
-    "compsHigh": 20.69,
-    "netCashPerShare": 1.18,
-    "cashPerShare": 2.69,
+    "compsLow": 11.97,
+    "compsHigh": 20.13,
+    "netCashPerShare": 1.15,
+    "cashPerShare": 2.62,
     "dcfBase": 8.41,
     "dcfBull": 11.08,
     "dcfBear": 5.49
