@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T17:52:50Z",
+  "updatedAt": "2026-08-21T18:15:41Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31130,
@@ -75,26 +75,6 @@
     },
     "DKS": {
       "priceCents": 17934,
-      "currency": "USD"
-    },
-    "INVH": {
-      "priceCents": 3027,
-      "currency": "USD"
-    },
-    "KMI": {
-      "priceCents": 3161,
-      "currency": "USD"
-    },
-    "LC": {
-      "priceCents": 1921,
-      "currency": "USD"
-    },
-    "LNG": {
-      "priceCents": 27917,
-      "currency": "USD"
-    },
-    "MAA": {
-      "priceCents": 13206,
       "currency": "USD"
     }
   }
