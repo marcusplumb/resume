@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T03:24:27Z",
+  "updatedAt": "2026-08-22T04:00:50Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30935,
@@ -77,20 +77,24 @@
       "priceCents": 18323,
       "currency": "USD"
     },
-    "FTNT": {
-      "priceCents": 15351,
+    "TRGP": {
+      "priceCents": 29910,
       "currency": "USD"
     },
-    "GME": {
-      "priceCents": 1821,
+    "UPST": {
+      "priceCents": 3030,
       "currency": "USD"
     },
-    "HOOD": {
-      "priceCents": 10813,
+    "WBD": {
+      "priceCents": 2855,
       "currency": "USD"
     },
-    "HUT": {
-      "priceCents": 8086,
+    "WMB": {
+      "priceCents": 7049,
+      "currency": "USD"
+    },
+    "ZS": {
+      "priceCents": 18174,
       "currency": "USD"
     }
   }
