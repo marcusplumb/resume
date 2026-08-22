@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T07:57:15Z",
+  "updatedAt": "2026-08-22T08:21:02Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30935,
@@ -77,24 +77,8 @@
       "priceCents": 18323,
       "currency": "USD"
     },
-    "HOOD": {
-      "priceCents": 10813,
-      "currency": "USD"
-    },
-    "HUT": {
-      "priceCents": 8086,
-      "currency": "USD"
-    },
     "INVH": {
       "priceCents": 3011,
-      "currency": "USD"
-    },
-    "KMI": {
-      "priceCents": 3098,
-      "currency": "USD"
-    },
-    "LC": {
-      "priceCents": 1921,
       "currency": "USD"
     }
   }
