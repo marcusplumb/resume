@@ -1,8 +1,56 @@
 {
-  "updatedAt": "2026-08-22T05:55:25Z",
+  "updatedAt": "2026-08-22T06:19:38Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30935,
+      "currency": "USD"
+    },
+    "AFRM": {
+      "priceCents": 7703,
+      "currency": "USD"
+    },
+    "AMH": {
+      "priceCents": 3435,
+      "currency": "USD"
+    },
+    "AMZN": {
+      "priceCents": 25863,
+      "currency": "USD"
+    },
+    "AVB": {
+      "priceCents": 18406,
+      "currency": "USD"
+    },
+    "BB": {
+      "priceCents": 804,
+      "currency": "USD"
+    },
+    "BBW": {
+      "priceCents": 3889,
+      "currency": "USD"
+    },
+    "BBWI": {
+      "priceCents": 1945,
+      "currency": "USD"
+    },
+    "BBY": {
+      "priceCents": 8589,
+      "currency": "USD"
+    },
+    "BITF": {
+      "priceCents": 332,
+      "currency": "USD"
+    },
+    "CIFR": {
+      "priceCents": 1576,
+      "currency": "USD"
+    },
+    "CLSK": {
+      "priceCents": 1198,
+      "currency": "USD"
+    },
+    "CMCSA": {
+      "priceCents": 2685,
       "currency": "USD"
     }
   }
