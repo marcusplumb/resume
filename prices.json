@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T23:34:04Z",
+  "updatedAt": "2026-08-23T23:49:50Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30935,
@@ -75,6 +75,10 @@
     },
     "DKS": {
       "priceCents": 18323,
+      "currency": "USD"
+    },
+    "SOFI": {
+      "priceCents": 1891,
       "currency": "USD"
     },
     "SPY": {
