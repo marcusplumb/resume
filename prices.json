@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T11:48:08Z",
+  "updatedAt": "2026-08-23T11:59:55Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30935,
@@ -77,24 +77,24 @@
       "priceCents": 18323,
       "currency": "USD"
     },
-    "MARA": {
-      "priceCents": 1126,
+    "TRGP": {
+      "priceCents": 29910,
       "currency": "USD"
     },
-    "NEGG": {
-      "priceCents": 1817,
+    "UPST": {
+      "priceCents": 3030,
       "currency": "USD"
     },
-    "NFLX": {
-      "priceCents": 7959,
+    "WBD": {
+      "priceCents": 2855,
       "currency": "USD"
     },
-    "OKE": {
-      "priceCents": 9333,
+    "WMB": {
+      "priceCents": 7049,
       "currency": "USD"
     },
-    "PANW": {
-      "priceCents": 35787,
+    "ZS": {
+      "priceCents": 18174,
       "currency": "USD"
     }
   }
