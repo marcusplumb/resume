@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T12:41:13Z",
+  "updatedAt": "2026-08-23T13:18:15Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30935,
@@ -77,10 +77,6 @@
       "priceCents": 18323,
       "currency": "USD"
     },
-    "GME": {
-      "priceCents": 1821,
-      "currency": "USD"
-    },
     "HOOD": {
       "priceCents": 10813,
       "currency": "USD"
@@ -95,6 +91,10 @@
     },
     "KMI": {
       "priceCents": 3098,
+      "currency": "USD"
+    },
+    "LC": {
+      "priceCents": 1921,
       "currency": "USD"
     }
   }
