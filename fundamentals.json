@@ -28,7 +28,7 @@
     "avgDebt2Q": 4350499999.5,
     "impliedCostOfDebtPct": 0.025284450066117053,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-24T07:28:48Z",
+    "updatedAt": "2026-08-25T07:08:38Z",
     "dataQualityFlags": []
   },
   "BBY": {
@@ -60,7 +60,7 @@
     "avgDebt2Q": 4129500000.0,
     "impliedCostOfDebtPct": 1.1139363119021675,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-24T07:28:48Z",
+    "updatedAt": "2026-08-25T07:08:38Z",
     "dataQualityFlags": []
   },
   "CNXN": {
@@ -92,7 +92,7 @@
     "avgDebt2Q": 7463000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-06-30",
-    "updatedAt": "2026-08-24T07:28:48Z",
+    "updatedAt": "2026-08-25T07:08:38Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -126,7 +126,7 @@
     "avgDebt2Q": 55850000.0,
     "impliedCostOfDebtPct": 1.8513876454789615,
     "fiscalDateEndingBalanceSheet": "2026-03-31",
-    "updatedAt": "2026-08-24T07:28:48Z",
+    "updatedAt": "2026-08-25T07:08:38Z",
     "dataQualityFlags": []
   },
   "DKS": {
@@ -158,7 +158,7 @@
     "avgDebt2Q": 7768034500.0,
     "impliedCostOfDebtPct": 0.896829178603674,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-24T07:28:48Z",
+    "updatedAt": "2026-08-25T07:08:38Z",
     "dataQualityFlags": []
   },
   "ZUMZ": {
@@ -190,7 +190,7 @@
     "avgDebt2Q": 201581000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-05-31",
-    "updatedAt": "2026-08-24T07:28:48Z",
+    "updatedAt": "2026-08-25T07:08:38Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -224,7 +224,7 @@
     "avgDebt2Q": 126494000.0,
     "impliedCostOfDebtPct": 0.5810552279159485,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-24T07:28:48Z",
+    "updatedAt": "2026-08-25T07:08:38Z",
     "dataQualityFlags": []
   },
   "BBWI": {
@@ -244,22 +244,20 @@
     "cashPerShare": 4.06822714598982,
     "debtPerShare": 23.38238358420734,
     "netCashPerShare": -19.31415643821752,
-    "interestExpenseTtm": 0,
-    "interestExpenseTtmRaw": 0,
-    "incomeBeforeTaxTtm": 0,
-    "incomeTaxExpenseTtm": 0,
-    "netIncomeTtm": 0,
-    "ebitTtm": 0,
-    "operatingIncomeTtm": 0,
-    "effectiveTaxRateTtm": null,
-    "fiscalDateEndingIncomeTtm": null,
+    "interestExpenseTtm": 274000000,
+    "interestExpenseTtmRaw": 274000000,
+    "incomeBeforeTaxTtm": 902000000,
+    "incomeTaxExpenseTtm": 175000000,
+    "netIncomeTtm": 727000000,
+    "ebitTtm": 1175000000,
+    "operatingIncomeTtm": 1148000000,
+    "effectiveTaxRateTtm": 0.19401330376940132,
+    "fiscalDateEndingIncomeTtm": "2026-04-30",
     "avgDebt2Q": 4833500000.0,
-    "impliedCostOfDebtPct": null,
+    "impliedCostOfDebtPct": 5.668770042412331,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-24T07:28:48Z",
-    "dataQualityFlags": [
-      "missing_interest_expense_ttm"
-    ]
+    "updatedAt": "2026-08-25T07:08:38Z",
+    "dataQualityFlags": []
   },
   "FNKO": {
     "name": "Funko Inc",
@@ -290,7 +288,7 @@
     "avgDebt2Q": null,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": null,
-    "updatedAt": "2026-08-23T07:01:15Z",
+    "updatedAt": "2026-08-25T07:08:38Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
