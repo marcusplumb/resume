@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T12:46:06Z",
+  "updatedAt": "2026-08-25T13:35:37Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31034,
@@ -79,22 +79,6 @@
     },
     "MARA": {
       "priceCents": 1118,
-      "currency": "USD"
-    },
-    "NEGG": {
-      "priceCents": 1819,
-      "currency": "USD"
-    },
-    "NFLX": {
-      "priceCents": 8001,
-      "currency": "USD"
-    },
-    "OKE": {
-      "priceCents": 9302,
-      "currency": "USD"
-    },
-    "PANW": {
-      "priceCents": 35090,
       "currency": "USD"
     }
   }
