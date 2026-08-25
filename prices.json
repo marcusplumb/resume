@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T23:48:29Z",
+  "updatedAt": "2026-08-25T00:01:03Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31034,
@@ -75,6 +75,26 @@
     },
     "DKS": {
       "priceCents": 17933,
+      "currency": "USD"
+    },
+    "RIOT": {
+      "priceCents": 2000,
+      "currency": "USD"
+    },
+    "S": {
+      "priceCents": 2082,
+      "currency": "USD"
+    },
+    "SOFI": {
+      "priceCents": 1824,
+      "currency": "USD"
+    },
+    "SPY": {
+      "priceCents": 76347,
+      "currency": "USD"
+    },
+    "TRGP": {
+      "priceCents": 29426,
       "currency": "USD"
     }
   }
