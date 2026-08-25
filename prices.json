@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T09:46:47Z",
+  "updatedAt": "2026-08-25T10:13:28Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31034,
@@ -47,38 +47,6 @@
     },
     "CLSK": {
       "priceCents": 1193,
-      "currency": "USD"
-    },
-    "CMCSA": {
-      "priceCents": 2702,
-      "currency": "USD"
-    },
-    "CNXN": {
-      "priceCents": 7671,
-      "currency": "USD"
-    },
-    "CRCT": {
-      "priceCents": 565,
-      "currency": "USD"
-    },
-    "CRWD": {
-      "priceCents": 19068,
-      "currency": "USD"
-    },
-    "CTRA": {
-      "priceCents": 3256,
-      "currency": "USD"
-    },
-    "DIS": {
-      "priceCents": 11061,
-      "currency": "USD"
-    },
-    "DKS": {
-      "priceCents": 17933,
-      "currency": "USD"
-    },
-    "KMI": {
-      "priceCents": 3100,
       "currency": "USD"
     }
   }
