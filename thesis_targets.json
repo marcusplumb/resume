@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-08-25T01:47:49Z",
+    "updatedAt": "2026-08-25T03:08:14Z",
     "centralEstimate": 38.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 34.81,
@@ -16,7 +16,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-08-25T01:47:49Z",
+    "updatedAt": "2026-08-25T03:08:14Z",
     "centralEstimate": 9.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 7.65,
@@ -31,7 +31,7 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-08-25T01:47:49Z",
+    "updatedAt": "2026-08-25T03:08:14Z",
     "centralEstimate": 46.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 38.87,
@@ -46,7 +46,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-08-25T01:47:49Z",
+    "updatedAt": "2026-08-25T03:08:14Z",
     "centralEstimate": 16.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 18.21,
@@ -61,7 +61,7 @@
   },
   "HUT": {
     "ticker": "HUT",
-    "updatedAt": "2026-08-25T01:47:49Z",
+    "updatedAt": "2026-08-25T03:08:14Z",
     "centralEstimate": 15.0,
     "source": "multiples_midpoint",
     "spot": 79.56,
@@ -73,7 +73,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-08-25T01:47:49Z",
+    "updatedAt": "2026-08-25T03:08:14Z",
     "centralEstimate": 148.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 280.79,
@@ -87,7 +87,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-08-25T01:47:49Z",
+    "updatedAt": "2026-08-25T03:08:14Z",
     "centralEstimate": 45.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 79.59,
@@ -102,7 +102,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-08-25T01:47:49Z",
+    "updatedAt": "2026-08-25T03:08:14Z",
     "centralEstimate": 13.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 18.24,
