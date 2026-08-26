@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-26T20:13:59Z",
+  "updatedAt": "2026-08-26T23:32:16Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 30990,
+      "priceCents": 31345,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7794,
+      "priceCents": 7646,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3456,
+      "priceCents": 3416,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 26106,
+      "priceCents": 26028,
       "currency": "USD"
     },
     "AVB": {
@@ -26,19 +26,19 @@
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3937,
+      "priceCents": 3910,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1758,
+      "priceCents": 1890,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8738,
+      "priceCents": 8744,
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 351,
+      "priceCents": 336,
       "currency": "USD"
     },
     "CIFR": {
@@ -74,27 +74,23 @@
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 12967,
+      "priceCents": 12966,
       "currency": "USD"
     },
-    "KMI": {
-      "priceCents": 3202,
+    "S": {
+      "priceCents": 2051,
       "currency": "USD"
     },
-    "LC": {
-      "priceCents": 1921,
+    "SOFI": {
+      "priceCents": 1884,
       "currency": "USD"
     },
-    "LNG": {
-      "priceCents": 28409,
+    "SPY": {
+      "priceCents": 76608,
       "currency": "USD"
     },
-    "MAA": {
-      "priceCents": 13157,
-      "currency": "USD"
-    },
-    "MARA": {
-      "priceCents": 1122,
+    "TRGP": {
+      "priceCents": 29403,
       "currency": "USD"
     }
   }
