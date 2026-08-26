@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T10:00:50Z",
+  "updatedAt": "2026-08-26T10:38:12Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30990,
@@ -75,10 +75,6 @@
     },
     "DKS": {
       "priceCents": 12431,
-      "currency": "USD"
-    },
-    "SPY": {
-      "priceCents": 76591,
       "currency": "USD"
     },
     "TRGP": {
