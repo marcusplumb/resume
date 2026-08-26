@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T15:56:02Z",
+  "updatedAt": "2026-08-26T16:40:59Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30990,
@@ -77,6 +77,10 @@
       "priceCents": 12431,
       "currency": "USD"
     },
+    "HUT": {
+      "priceCents": 8550,
+      "currency": "USD"
+    },
     "INVH": {
       "priceCents": 3021,
       "currency": "USD"
@@ -87,6 +91,10 @@
     },
     "LC": {
       "priceCents": 1921,
+      "currency": "USD"
+    },
+    "LNG": {
+      "priceCents": 27880,
       "currency": "USD"
     }
   }
