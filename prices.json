@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T18:22:03Z",
+  "updatedAt": "2026-08-26T20:13:59Z",
   "symbols": {
     "AAPL": {
       "priceCents": 30990,
@@ -34,7 +34,7 @@
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8529,
+      "priceCents": 8738,
       "currency": "USD"
     },
     "BITF": {
@@ -42,23 +42,59 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1631,
+      "priceCents": 1602,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1275,
+      "priceCents": 1218,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2710,
+      "priceCents": 2720,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 7938,
+      "priceCents": 7939,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 587,
+      "priceCents": 581,
+      "currency": "USD"
+    },
+    "CRWD": {
+      "priceCents": 18918,
+      "currency": "USD"
+    },
+    "CTRA": {
+      "priceCents": 3256,
+      "currency": "USD"
+    },
+    "DIS": {
+      "priceCents": 10963,
+      "currency": "USD"
+    },
+    "DKS": {
+      "priceCents": 12967,
+      "currency": "USD"
+    },
+    "KMI": {
+      "priceCents": 3202,
+      "currency": "USD"
+    },
+    "LC": {
+      "priceCents": 1921,
+      "currency": "USD"
+    },
+    "LNG": {
+      "priceCents": 28409,
+      "currency": "USD"
+    },
+    "MAA": {
+      "priceCents": 13157,
+      "currency": "USD"
+    },
+    "MARA": {
+      "priceCents": 1122,
       "currency": "USD"
     }
   }
