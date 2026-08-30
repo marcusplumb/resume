@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T10:44:08Z",
+  "updatedAt": "2026-08-30T15:00:51Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31970,
@@ -77,6 +77,10 @@
       "priceCents": 13509,
       "currency": "USD"
     },
+    "PANW": {
+      "priceCents": 37159,
+      "currency": "USD"
+    },
     "PLCE": {
       "priceCents": 247,
       "currency": "USD"
@@ -91,10 +95,6 @@
     },
     "S": {
       "priceCents": 2154,
-      "currency": "USD"
-    },
-    "SOFI": {
-      "priceCents": 1806,
       "currency": "USD"
     }
   }
