@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T15:00:51Z",
+  "updatedAt": "2026-08-30T18:29:59Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31970,
@@ -77,24 +77,24 @@
       "priceCents": 13509,
       "currency": "USD"
     },
-    "PANW": {
-      "priceCents": 37159,
+    "SOFI": {
+      "priceCents": 1806,
       "currency": "USD"
     },
-    "PLCE": {
-      "priceCents": 247,
+    "SPY": {
+      "priceCents": 76935,
       "currency": "USD"
     },
-    "PYPL": {
-      "priceCents": 5366,
+    "TRGP": {
+      "priceCents": 28782,
       "currency": "USD"
     },
-    "RIOT": {
-      "priceCents": 1899,
+    "UPST": {
+      "priceCents": 2908,
       "currency": "USD"
     },
-    "S": {
-      "priceCents": 2154,
+    "WBD": {
+      "priceCents": 2877,
       "currency": "USD"
     }
   }
