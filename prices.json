@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T23:36:25Z",
+  "updatedAt": "2026-08-31T01:33:51Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31970,
@@ -91,10 +91,6 @@
     },
     "UPST": {
       "priceCents": 2908,
-      "currency": "USD"
-    },
-    "WBD": {
-      "priceCents": 2877,
       "currency": "USD"
     }
   }
