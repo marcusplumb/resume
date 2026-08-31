@@ -1335,7 +1335,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 1806
+        "priceCents": 1788
       }
     ],
     "NFLX": [
@@ -6815,7 +6815,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 816
+        "priceCents": 815
       }
     ],
     "AMH": [
@@ -8281,7 +8281,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 3354
+        "priceCents": 3330
       }
     ],
     "SPY": [
@@ -12531,7 +12531,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 2985
+        "priceCents": 3024
       }
     ],
     "BBY": [
@@ -13465,7 +13465,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 8244
+        "priceCents": 8011
       }
     ],
     "CNXN": [
@@ -14399,7 +14399,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 7967
+        "priceCents": 7987
       }
     ],
     "DKS": [
@@ -17823,7 +17823,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 1922
+        "priceCents": 1926
       }
     ],
     "CRCT": [
@@ -18745,7 +18745,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 580
+        "priceCents": 590
       }
     ],
     "FIVE": [
@@ -21288,6 +21288,10 @@
       {
         "date": "2026-08-30",
         "priceCents": 247
+      },
+      {
+        "date": "2026-08-31",
+        "priceCents": 249
       }
     ],
     "AAPL": [
@@ -22205,7 +22209,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 31970
+        "priceCents": 31685
       }
     ],
     "AFRM": [
@@ -23123,7 +23127,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 7776
+        "priceCents": 7445
       }
     ],
     "AMZN": [
@@ -24041,7 +24045,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 26643
+        "priceCents": 25977
       }
     ],
     "AVB": [
@@ -26795,7 +26799,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 1517
+        "priceCents": 1550
       }
     ],
     "CLSK": [
@@ -27713,7 +27717,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 1166
+        "priceCents": 1162
       }
     ],
     "CMCSA": [
@@ -28631,7 +28635,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 2706
+        "priceCents": 2662
       }
     ],
     "CRWD": [
@@ -29549,7 +29553,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 21840
+        "priceCents": 23100
       }
     ],
     "CTRA": [
@@ -31385,7 +31389,7 @@
       },
       {
         "date": "2026-08-31",
-        "priceCents": 10810
+        "priceCents": 10758
       }
     ],
     "EQR": [
@@ -41094,6 +41098,10 @@
       {
         "date": "2026-08-30",
         "priceCents": 5366
+      },
+      {
+        "date": "2026-08-31",
+        "priceCents": 5266
       }
     ],
     "RIOT": [
@@ -41872,6 +41880,10 @@
       {
         "date": "2026-08-30",
         "priceCents": 1899
+      },
+      {
+        "date": "2026-08-31",
+        "priceCents": 1900
       }
     ],
     "S": [
@@ -42654,6 +42666,10 @@
       {
         "date": "2026-08-30",
         "priceCents": 2154
+      },
+      {
+        "date": "2026-08-31",
+        "priceCents": 2210
       }
     ],
     "TRGP": [
