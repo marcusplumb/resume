@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T14:18:34Z",
+  "updatedAt": "2026-09-01T17:50:52Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31685,
@@ -75,10 +75,6 @@
     },
     "DKS": {
       "priceCents": 13510,
-      "currency": "USD"
-    },
-    "INVH": {
-      "priceCents": 2914,
       "currency": "USD"
     },
     "KMI": {
