@@ -28,18 +28,18 @@
     "avgDebt2Q": 4350499999.5,
     "impliedCostOfDebtPct": 0.025284450066117053,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-08-31T13:53:44Z",
+    "updatedAt": "2026-09-01T11:40:45Z",
     "dataQualityFlags": []
   },
   "BBY": {
     "name": "Best Buy Co. Inc",
     "currency": "USD",
-    "marketCap": 17375642000,
+    "marketCap": 16892985000,
     "sharesOutstanding": 210767000,
     "beta": 1.317,
     "revenueTtm": 42201002000,
     "ebitdaTtm": 2652000000,
-    "pe": 13.9,
+    "pe": 13.72,
     "cash": 2255000000,
     "shortTermDebt": 625000000,
     "longTermDebt": 0,
@@ -60,7 +60,7 @@
     "avgDebt2Q": 4129500000.0,
     "impliedCostOfDebtPct": 1.0897203051216855,
     "fiscalDateEndingBalanceSheet": "2026-07-31",
-    "updatedAt": "2026-08-31T13:53:44Z",
+    "updatedAt": "2026-09-01T11:40:45Z",
     "dataQualityFlags": []
   },
   "CNXN": {
@@ -92,7 +92,7 @@
     "avgDebt2Q": 7463000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-06-30",
-    "updatedAt": "2026-08-31T13:53:44Z",
+    "updatedAt": "2026-09-01T11:40:45Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
@@ -132,12 +132,12 @@
   "DKS": {
     "name": "Dick\u2019s Sporting Goods Inc",
     "currency": "USD",
-    "marketCap": 12090897000,
+    "marketCap": 12091793000,
     "sharesOutstanding": 65932000,
     "beta": 1.186,
     "revenueTtm": 21145145000,
     "ebitdaTtm": 2083518000,
-    "pe": 14.54,
+    "pe": 14.9,
     "cash": 913736000,
     "shortTermDebt": 970819000,
     "longTermDebt": 0,
@@ -158,18 +158,18 @@
     "avgDebt2Q": 7876288500.0,
     "impliedCostOfDebtPct": 0.9064421649867193,
     "fiscalDateEndingBalanceSheet": "2026-07-31",
-    "updatedAt": "2026-08-31T13:53:44Z",
+    "updatedAt": "2026-09-01T11:40:45Z",
     "dataQualityFlags": []
   },
   "ZUMZ": {
     "name": "Zumiez Inc",
     "currency": "USD",
-    "marketCap": 306737000,
+    "marketCap": 302013000,
     "sharesOutstanding": 16872200,
     "beta": 1.016,
     "revenueTtm": 938062000,
     "ebitdaTtm": 47753000,
-    "pe": 23.61,
+    "pe": 24.19,
     "cash": 66918000,
     "shortTermDebt": 55824000,
     "longTermDebt": 0,
@@ -190,7 +190,7 @@
     "avgDebt2Q": 201581000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-05-31",
-    "updatedAt": "2026-08-31T13:53:44Z",
+    "updatedAt": "2026-09-01T11:40:45Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
