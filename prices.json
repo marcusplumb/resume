@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T06:22:52Z",
+  "updatedAt": "2026-09-03T11:26:02Z",
   "symbols": {
     "AAPL": {
       "priceCents": 32496,
@@ -67,34 +67,6 @@
     },
     "CTRA": {
       "priceCents": 3256,
-      "currency": "USD"
-    },
-    "DIS": {
-      "priceCents": 10798,
-      "currency": "USD"
-    },
-    "DKS": {
-      "priceCents": 13734,
-      "currency": "USD"
-    },
-    "NEGG": {
-      "priceCents": 1700,
-      "currency": "USD"
-    },
-    "NFLX": {
-      "priceCents": 8273,
-      "currency": "USD"
-    },
-    "OKE": {
-      "priceCents": 9601,
-      "currency": "USD"
-    },
-    "PANW": {
-      "priceCents": 32848,
-      "currency": "USD"
-    },
-    "PLCE": {
-      "priceCents": 263,
       "currency": "USD"
     }
   }
