@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T05:38:55Z",
+  "updatedAt": "2026-09-04T09:54:40Z",
   "symbols": {
     "AAPL": {
       "priceCents": 32821,
@@ -77,24 +77,20 @@
       "priceCents": 13977,
       "currency": "USD"
     },
-    "INVH": {
-      "priceCents": 2845,
+    "SOFI": {
+      "priceCents": 1851,
       "currency": "USD"
     },
-    "KMI": {
-      "priceCents": 3160,
+    "SPY": {
+      "priceCents": 77317,
       "currency": "USD"
     },
-    "LC": {
-      "priceCents": 1921,
+    "TRGP": {
+      "priceCents": 29354,
       "currency": "USD"
     },
-    "LNG": {
-      "priceCents": 29085,
-      "currency": "USD"
-    },
-    "MAA": {
-      "priceCents": 12856,
+    "UPST": {
+      "priceCents": 2852,
       "currency": "USD"
     }
   }
