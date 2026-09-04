@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-04T19:30:54Z",
+  "updatedAt": "2026-09-04T21:41:49Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 32821,
+      "priceCents": 31997,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7430,
+      "priceCents": 7235,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3271,
+      "priceCents": 3247,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 25890,
+      "priceCents": 25851,
       "currency": "USD"
     },
     "AVB": {
@@ -26,15 +26,15 @@
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2907,
+      "priceCents": 2945,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1897,
+      "priceCents": 1951,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8749,
+      "priceCents": 9028,
       "currency": "USD"
     },
     "BITF": {
@@ -42,27 +42,27 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1737,
+      "priceCents": 1774,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1258,
+      "priceCents": 1269,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2665,
+      "priceCents": 2649,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 8353,
+      "priceCents": 8435,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 585,
+      "priceCents": 554,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 21497,
+      "priceCents": 21310,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,31 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10716,
+      "priceCents": 10530,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 13977,
+      "priceCents": 13916,
       "currency": "USD"
     },
-    "PYPL": {
-      "priceCents": 5682,
+    "TRGP": {
+      "priceCents": 29008,
       "currency": "USD"
     },
-    "RIOT": {
-      "priceCents": 2114,
+    "UPST": {
+      "priceCents": 2805,
       "currency": "USD"
     },
-    "S": {
-      "priceCents": 1980,
+    "WBD": {
+      "priceCents": 2825,
       "currency": "USD"
     },
-    "SOFI": {
-      "priceCents": 1851,
+    "WMB": {
+      "priceCents": 7419,
       "currency": "USD"
     },
-    "SPY": {
-      "priceCents": 77317,
+    "ZS": {
+      "priceCents": 16980,
       "currency": "USD"
     }
   }
