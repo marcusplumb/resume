@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T09:16:04Z",
+  "updatedAt": "2026-09-05T12:44:31Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31997,
@@ -77,14 +77,6 @@
       "priceCents": 13915,
       "currency": "USD"
     },
-    "INVH": {
-      "priceCents": 2839,
-      "currency": "USD"
-    },
-    "KMI": {
-      "priceCents": 3140,
-      "currency": "USD"
-    },
     "LC": {
       "priceCents": 1921,
       "currency": "USD"
@@ -95,6 +87,14 @@
     },
     "MAA": {
       "priceCents": 12832,
+      "currency": "USD"
+    },
+    "MARA": {
+      "priceCents": 1131,
+      "currency": "USD"
+    },
+    "NEGG": {
+      "priceCents": 1532,
       "currency": "USD"
     }
   }
