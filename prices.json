@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T05:00:12Z",
+  "updatedAt": "2026-09-06T09:11:30Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31997,
@@ -75,10 +75,6 @@
     },
     "DKS": {
       "priceCents": 13915,
-      "currency": "USD"
-    },
-    "HUT": {
-      "priceCents": 9354,
       "currency": "USD"
     },
     "INVH": {
