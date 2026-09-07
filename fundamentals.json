@@ -28,7 +28,7 @@
     "avgDebt2Q": 4350499999.5,
     "impliedCostOfDebtPct": 0.025284450066117053,
     "fiscalDateEndingBalanceSheet": "2026-04-30",
-    "updatedAt": "2026-09-06T10:59:11Z",
+    "updatedAt": "2026-09-07T12:35:38Z",
     "dataQualityFlags": []
   },
   "BBY": {
@@ -60,7 +60,7 @@
     "avgDebt2Q": 4129500000.0,
     "impliedCostOfDebtPct": 1.0897203051216855,
     "fiscalDateEndingBalanceSheet": "2026-07-31",
-    "updatedAt": "2026-09-06T10:59:11Z",
+    "updatedAt": "2026-09-07T12:35:38Z",
     "dataQualityFlags": []
   },
   "CNXN": {
@@ -138,28 +138,30 @@
     "revenueTtm": 21145145000,
     "ebitdaTtm": 2083461000,
     "pe": 15.36,
-    "cash": 913736000,
-    "shortTermDebt": 970819000,
+    "cash": 0,
+    "shortTermDebt": 0,
     "longTermDebt": 0,
-    "totalDebt": 7963151000,
-    "netCash": -7049415000,
-    "cashPerShare": 13.980904584123875,
-    "debtPerShare": 121.84269233123202,
-    "netCashPerShare": -107.86178774710815,
-    "interestExpenseTtm": 71394000,
-    "interestExpenseTtmRaw": 71394000,
-    "incomeBeforeTaxTtm": 1169123000,
-    "incomeTaxExpenseTtm": 330292000,
-    "netIncomeTtm": 838831999,
-    "ebitTtm": 1042822000,
-    "operatingIncomeTtm": 1437095999,
-    "effectiveTaxRateTtm": 0.2825126184327911,
-    "fiscalDateEndingIncomeTtm": "2026-07-31",
-    "avgDebt2Q": 7876288500.0,
-    "impliedCostOfDebtPct": 0.9064421649867193,
-    "fiscalDateEndingBalanceSheet": "2026-07-31",
-    "updatedAt": "2026-09-06T10:59:11Z",
-    "dataQualityFlags": []
+    "totalDebt": 0,
+    "netCash": 0,
+    "cashPerShare": 0.0,
+    "debtPerShare": 0.0,
+    "netCashPerShare": 0.0,
+    "interestExpenseTtm": 0,
+    "interestExpenseTtmRaw": 0,
+    "incomeBeforeTaxTtm": 0,
+    "incomeTaxExpenseTtm": 0,
+    "netIncomeTtm": 0,
+    "ebitTtm": 0,
+    "operatingIncomeTtm": 0,
+    "effectiveTaxRateTtm": null,
+    "fiscalDateEndingIncomeTtm": null,
+    "avgDebt2Q": null,
+    "impliedCostOfDebtPct": null,
+    "fiscalDateEndingBalanceSheet": null,
+    "updatedAt": "2026-09-07T12:35:38Z",
+    "dataQualityFlags": [
+      "missing_interest_expense_ttm"
+    ]
   },
   "ZUMZ": {
     "name": "Zumiez Inc",
@@ -190,7 +192,7 @@
     "avgDebt2Q": 201581000.0,
     "impliedCostOfDebtPct": null,
     "fiscalDateEndingBalanceSheet": "2026-05-31",
-    "updatedAt": "2026-09-06T10:59:11Z",
+    "updatedAt": "2026-09-07T12:35:38Z",
     "dataQualityFlags": [
       "missing_interest_expense_ttm"
     ]
