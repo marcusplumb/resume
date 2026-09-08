@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-08T19:57:55Z",
+  "updatedAt": "2026-09-08T22:19:28Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 31997,
+      "priceCents": 31622,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7235,
+      "priceCents": 7208,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3247,
+      "priceCents": 3233,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 25851,
+      "priceCents": 25697,
       "currency": "USD"
     },
     "AVB": {
@@ -22,19 +22,19 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 770,
+      "priceCents": 787,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2943,
+      "priceCents": 2914,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1951,
+      "priceCents": 1891,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 9027,
+      "priceCents": 8928,
       "currency": "USD"
     },
     "BITF": {
@@ -42,27 +42,27 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1774,
+      "priceCents": 1851,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1269,
+      "priceCents": 1348,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2649,
+      "priceCents": 2633,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 8435,
+      "priceCents": 8364,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 554,
+      "priceCents": 545,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 21310,
+      "priceCents": 21002,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,31 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10531,
+      "priceCents": 10509,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 13915,
+      "priceCents": 13234,
       "currency": "USD"
     },
-    "ESS": {
-      "priceCents": 27861,
+    "RIOT": {
+      "priceCents": 2226,
       "currency": "USD"
     },
-    "FIVE": {
-      "priceCents": 25220,
+    "S": {
+      "priceCents": 1942,
       "currency": "USD"
     },
-    "FNKO": {
-      "priceCents": 568,
+    "SOFI": {
+      "priceCents": 1801,
       "currency": "USD"
     },
-    "FTNT": {
-      "priceCents": 15629,
+    "SPY": {
+      "priceCents": 76600,
       "currency": "USD"
     },
-    "GME": {
-      "priceCents": 1916,
+    "TRGP": {
+      "priceCents": 29437,
       "currency": "USD"
     }
   }
