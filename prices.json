@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T17:23:25Z",
+  "updatedAt": "2026-09-08T19:57:55Z",
   "symbols": {
     "AAPL": {
       "priceCents": 31997,
@@ -77,16 +77,24 @@
       "priceCents": 13915,
       "currency": "USD"
     },
-    "PANW": {
-      "priceCents": 33326,
+    "ESS": {
+      "priceCents": 27861,
       "currency": "USD"
     },
-    "PLCE": {
-      "priceCents": 281,
+    "FIVE": {
+      "priceCents": 25220,
       "currency": "USD"
     },
-    "PYPL": {
-      "priceCents": 5496,
+    "FNKO": {
+      "priceCents": 568,
+      "currency": "USD"
+    },
+    "FTNT": {
+      "priceCents": 15629,
+      "currency": "USD"
+    },
+    "GME": {
+      "priceCents": 1916,
       "currency": "USD"
     }
   }
