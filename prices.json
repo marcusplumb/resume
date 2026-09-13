@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T21:36:31Z",
+  "updatedAt": "2026-09-13T23:26:50Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33227,
@@ -77,24 +77,20 @@
       "priceCents": 13503,
       "currency": "USD"
     },
-    "NFLX": {
-      "priceCents": 7740,
+    "HOOD": {
+      "priceCents": 11257,
       "currency": "USD"
     },
-    "OKE": {
-      "priceCents": 9662,
+    "HUT": {
+      "priceCents": 9860,
       "currency": "USD"
     },
-    "PANW": {
-      "priceCents": 33065,
+    "INVH": {
+      "priceCents": 2754,
       "currency": "USD"
     },
-    "PLCE": {
-      "priceCents": 243,
-      "currency": "USD"
-    },
-    "PYPL": {
-      "priceCents": 5372,
+    "KMI": {
+      "priceCents": 3086,
       "currency": "USD"
     }
   }
