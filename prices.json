@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T21:26:28Z",
+  "updatedAt": "2026-09-15T23:33:48Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33134,
@@ -10,7 +10,7 @@
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3164,
+      "priceCents": 3162,
       "currency": "USD"
     },
     "AMZN": {
@@ -22,23 +22,23 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 781,
+      "priceCents": 780,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2577,
+      "priceCents": 2574,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1671,
+      "priceCents": 1672,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 9321,
+      "priceCents": 9324,
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 345,
+      "priceCents": 328,
       "currency": "USD"
     },
     "CIFR": {
@@ -51,50 +51,6 @@
     },
     "CMCSA": {
       "priceCents": 2442,
-      "currency": "USD"
-    },
-    "CNXN": {
-      "priceCents": 8520,
-      "currency": "USD"
-    },
-    "CRCT": {
-      "priceCents": 565,
-      "currency": "USD"
-    },
-    "CRWD": {
-      "priceCents": 24249,
-      "currency": "USD"
-    },
-    "CTRA": {
-      "priceCents": 3256,
-      "currency": "USD"
-    },
-    "DIS": {
-      "priceCents": 10640,
-      "currency": "USD"
-    },
-    "DKS": {
-      "priceCents": 12373,
-      "currency": "USD"
-    },
-    "HOOD": {
-      "priceCents": 11045,
-      "currency": "USD"
-    },
-    "HUT": {
-      "priceCents": 8709,
-      "currency": "USD"
-    },
-    "INVH": {
-      "priceCents": 2762,
-      "currency": "USD"
-    },
-    "KMI": {
-      "priceCents": 3078,
-      "currency": "USD"
-    },
-    "LC": {
-      "priceCents": 1921,
       "currency": "USD"
     }
   }
