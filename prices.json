@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-16T19:35:59Z",
+  "updatedAt": "2026-09-16T22:17:14Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 33134,
+      "priceCents": 33241,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7209,
+      "priceCents": 7158,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3162,
+      "priceCents": 3140,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 24842,
+      "priceCents": 24596,
       "currency": "USD"
     },
     "AVB": {
@@ -22,19 +22,19 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 780,
+      "priceCents": 764,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2574,
+      "priceCents": 2640,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1672,
+      "priceCents": 1675,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 9324,
+      "priceCents": 9243,
       "currency": "USD"
     },
     "BITF": {
@@ -42,27 +42,27 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1509,
+      "priceCents": 1672,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1262,
+      "priceCents": 1279,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2442,
+      "priceCents": 2373,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 8520,
+      "priceCents": 8712,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 565,
+      "priceCents": 559,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 24249,
+      "priceCents": 24136,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,27 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10642,
+      "priceCents": 10696,
       "currency": "USD"
     },
     "DKS": {
       "priceCents": 12372,
       "currency": "USD"
     },
-    "HOOD": {
-      "priceCents": 11045,
+    "PLCE": {
+      "priceCents": 190,
       "currency": "USD"
     },
-    "HUT": {
-      "priceCents": 8709,
+    "PYPL": {
+      "priceCents": 5271,
       "currency": "USD"
     },
-    "INVH": {
-      "priceCents": 2764,
+    "RIOT": {
+      "priceCents": 2035,
       "currency": "USD"
     },
-    "KMI": {
-      "priceCents": 3077,
+    "S": {
+      "priceCents": 2318,
+      "currency": "USD"
+    },
+    "SOFI": {
+      "priceCents": 1684,
       "currency": "USD"
     }
   }
