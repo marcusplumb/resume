@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-18T17:59:02Z",
+  "updatedAt": "2026-09-18T20:26:31Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 33700,
+      "priceCents": 33613,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7028,
+      "priceCents": 7121,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3128,
+      "priceCents": 3102,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 25119,
+      "priceCents": 25371,
       "currency": "USD"
     },
     "AVB": {
@@ -22,19 +22,19 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 794,
+      "priceCents": 800,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2547,
+      "priceCents": 2438,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1719,
+      "priceCents": 1742,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 9456,
+      "priceCents": 9282,
       "currency": "USD"
     },
     "BITF": {
@@ -42,27 +42,27 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1694,
+      "priceCents": 1834,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1335,
+      "priceCents": 1447,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2291,
+      "priceCents": 2274,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 8646,
+      "priceCents": 8668,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 571,
+      "priceCents": 564,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 24570,
+      "priceCents": 23765,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,31 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10535,
+      "priceCents": 10265,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 12392,
+      "priceCents": 12110,
       "currency": "USD"
     },
-    "S": {
-      "priceCents": 2319,
+    "HUT": {
+      "priceCents": 9874,
       "currency": "USD"
     },
-    "SOFI": {
-      "priceCents": 1673,
+    "INVH": {
+      "priceCents": 2687,
       "currency": "USD"
     },
-    "SPY": {
-      "priceCents": 76260,
+    "KMI": {
+      "priceCents": 3184,
       "currency": "USD"
     },
-    "TRGP": {
-      "priceCents": 28507,
+    "LC": {
+      "priceCents": 1921,
       "currency": "USD"
     },
-    "UPST": {
-      "priceCents": 2477,
+    "LNG": {
+      "priceCents": 26834,
       "currency": "USD"
     }
   }
