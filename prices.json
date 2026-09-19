@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T00:37:44Z",
+  "updatedAt": "2026-09-19T04:58:59Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33613,
@@ -37,52 +37,44 @@
       "priceCents": 9285,
       "currency": "USD"
     },
-    "HOOD": {
-      "priceCents": 11982,
+    "BITF": {
+      "priceCents": 401,
       "currency": "USD"
     },
-    "HUT": {
-      "priceCents": 9874,
+    "CIFR": {
+      "priceCents": 1834,
       "currency": "USD"
     },
-    "INVH": {
-      "priceCents": 2691,
+    "CLSK": {
+      "priceCents": 1447,
       "currency": "USD"
     },
-    "KMI": {
-      "priceCents": 3184,
+    "CMCSA": {
+      "priceCents": 2274,
       "currency": "USD"
     },
-    "LC": {
-      "priceCents": 1921,
+    "CNXN": {
+      "priceCents": 8668,
       "currency": "USD"
     },
-    "LNG": {
-      "priceCents": 26834,
+    "CRCT": {
+      "priceCents": 564,
       "currency": "USD"
     },
-    "MAA": {
-      "priceCents": 11893,
+    "CRWD": {
+      "priceCents": 23765,
       "currency": "USD"
     },
-    "MARA": {
-      "priceCents": 1324,
+    "CTRA": {
+      "priceCents": 3256,
       "currency": "USD"
     },
-    "NEGG": {
-      "priceCents": 1365,
+    "DIS": {
+      "priceCents": 10267,
       "currency": "USD"
     },
-    "NFLX": {
-      "priceCents": 7179,
-      "currency": "USD"
-    },
-    "OKE": {
-      "priceCents": 9346,
-      "currency": "USD"
-    },
-    "PANW": {
-      "priceCents": 36358,
+    "DKS": {
+      "priceCents": 12115,
       "currency": "USD"
     },
     "PLCE": {
@@ -91,6 +83,18 @@
     },
     "PYPL": {
       "priceCents": 5241,
+      "currency": "USD"
+    },
+    "RIOT": {
+      "priceCents": 2375,
+      "currency": "USD"
+    },
+    "S": {
+      "priceCents": 2251,
+      "currency": "USD"
+    },
+    "SOFI": {
+      "priceCents": 1696,
       "currency": "USD"
     }
   }
