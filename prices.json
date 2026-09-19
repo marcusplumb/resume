@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T20:58:19Z",
+  "updatedAt": "2026-09-19T22:38:37Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33613,
@@ -87,14 +87,6 @@
     },
     "MAA": {
       "priceCents": 11893,
-      "currency": "USD"
-    },
-    "MARA": {
-      "priceCents": 1324,
-      "currency": "USD"
-    },
-    "NEGG": {
-      "priceCents": 1365,
       "currency": "USD"
     }
   }
