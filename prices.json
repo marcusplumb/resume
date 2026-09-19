@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T04:58:59Z",
+  "updatedAt": "2026-09-19T09:11:23Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33613,
@@ -91,10 +91,6 @@
     },
     "S": {
       "priceCents": 2251,
-      "currency": "USD"
-    },
-    "SOFI": {
-      "priceCents": 1696,
       "currency": "USD"
     }
   }
