@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T00:47:04Z",
+  "updatedAt": "2026-09-22T05:25:52Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33898,
@@ -39,6 +39,62 @@
     },
     "BITF": {
       "priceCents": 407,
+      "currency": "USD"
+    },
+    "CIFR": {
+      "priceCents": 1890,
+      "currency": "USD"
+    },
+    "CLSK": {
+      "priceCents": 1476,
+      "currency": "USD"
+    },
+    "CMCSA": {
+      "priceCents": 2293,
+      "currency": "USD"
+    },
+    "CNXN": {
+      "priceCents": 8590,
+      "currency": "USD"
+    },
+    "CRCT": {
+      "priceCents": 565,
+      "currency": "USD"
+    },
+    "CRWD": {
+      "priceCents": 24935,
+      "currency": "USD"
+    },
+    "CTRA": {
+      "priceCents": 3256,
+      "currency": "USD"
+    },
+    "DIS": {
+      "priceCents": 10423,
+      "currency": "USD"
+    },
+    "DKS": {
+      "priceCents": 12363,
+      "currency": "USD"
+    },
+    "PLCE": {
+      "priceCents": 218,
+      "currency": "USD"
+    },
+    "PYPL": {
+      "priceCents": 5262,
+      "currency": "USD"
+    },
+    "RIOT": {
+      "priceCents": 2418,
+      "currency": "USD"
+    },
+    "S": {
+      "priceCents": 2380,
+      "currency": "USD"
+    },
+    "SOFI": {
+      "priceCents": 1697,
       "currency": "USD"
     }
   }
