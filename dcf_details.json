@@ -1,13 +1,13 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-09-21T23:13:24Z",
+    "updatedAt": "2026-09-22T04:45:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 31.23,
+        "spot": 31.24,
         "shares": 359180000.0,
         "discountRatePct": 9.905000000000001,
         "costOfEquityPct": 9.905000000000001,
@@ -105,7 +105,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 31.23,
+        "spot": 31.24,
         "shares": 359180000.0,
         "discountRatePct": 9.905000000000001,
         "costOfEquityPct": 9.905000000000001,
@@ -203,7 +203,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 31.23,
+        "spot": 31.24,
         "shares": 359180000.0,
         "discountRatePct": 9.905000000000001,
         "costOfEquityPct": 9.905000000000001,
@@ -302,7 +302,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-09-21T23:13:24Z",
+    "updatedAt": "2026-09-22T04:45:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -645,13 +645,13 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-09-21T23:13:24Z",
+    "updatedAt": "2026-09-22T04:45:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
         "label": "Base",
         "cashFlowModel": "FCFE",
-        "spot": 24.72,
+        "spot": 24.75,
         "shares": 12319300.0,
         "discountRatePct": 10.93,
         "costOfEquityPct": 10.93,
@@ -763,7 +763,7 @@
       "bull": {
         "label": "Bull",
         "cashFlowModel": "FCFE",
-        "spot": 24.72,
+        "spot": 24.75,
         "shares": 12319300.0,
         "discountRatePct": 10.93,
         "costOfEquityPct": 10.93,
@@ -875,7 +875,7 @@
       "bear": {
         "label": "Bear",
         "cashFlowModel": "FCFE",
-        "spot": 24.72,
+        "spot": 24.75,
         "shares": 12319300.0,
         "discountRatePct": 10.93,
         "costOfEquityPct": 10.93,
@@ -988,7 +988,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-09-21T23:13:24Z",
+    "updatedAt": "2026-09-22T04:45:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1376,7 +1376,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-09-21T23:13:24Z",
+    "updatedAt": "2026-09-22T04:45:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "bull": {
@@ -1488,7 +1488,7 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-09-21T23:13:24Z",
+    "updatedAt": "2026-09-22T04:45:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -1831,7 +1831,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-09-21T23:13:24Z",
+    "updatedAt": "2026-09-22T04:45:53Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
