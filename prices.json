@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T01:44:45Z",
+  "updatedAt": "2026-09-23T06:41:11Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33975,
@@ -77,12 +77,24 @@
       "priceCents": 13394,
       "currency": "USD"
     },
-    "LC": {
-      "priceCents": 1921,
-      "currency": "USD"
-    },
     "LNG": {
       "priceCents": 27296,
+      "currency": "USD"
+    },
+    "MAA": {
+      "priceCents": 11915,
+      "currency": "USD"
+    },
+    "MARA": {
+      "priceCents": 1363,
+      "currency": "USD"
+    },
+    "NEGG": {
+      "priceCents": 1471,
+      "currency": "USD"
+    },
+    "NFLX": {
+      "priceCents": 7216,
       "currency": "USD"
     }
   }
