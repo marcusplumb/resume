@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T12:08:05Z",
+  "updatedAt": "2026-09-23T16:50:07Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33975,
@@ -77,14 +77,6 @@
       "priceCents": 13394,
       "currency": "USD"
     },
-    "S": {
-      "priceCents": 2385,
-      "currency": "USD"
-    },
-    "SOFI": {
-      "priceCents": 1716,
-      "currency": "USD"
-    },
     "SPY": {
       "priceCents": 77338,
       "currency": "USD"
@@ -95,6 +87,14 @@
     },
     "UPST": {
       "priceCents": 2597,
+      "currency": "USD"
+    },
+    "WBD": {
+      "priceCents": 3083,
+      "currency": "USD"
+    },
+    "WMB": {
+      "priceCents": 7098,
       "currency": "USD"
     }
   }
