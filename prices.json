@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T05:26:08Z",
+  "updatedAt": "2026-09-24T10:16:10Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33702,
@@ -75,10 +75,6 @@
     },
     "DKS": {
       "priceCents": 13236,
-      "currency": "USD"
-    },
-    "LC": {
-      "priceCents": 1921,
       "currency": "USD"
     },
     "LNG": {
