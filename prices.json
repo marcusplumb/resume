@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-29T20:10:33Z",
+  "updatedAt": "2026-09-29T23:40:24Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 33840,
+      "priceCents": 32940,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 6721,
+      "priceCents": 6930,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3056,
+      "priceCents": 3068,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 24615,
+      "priceCents": 24667,
       "currency": "USD"
     },
     "AVB": {
@@ -22,47 +22,47 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 880,
+      "priceCents": 872,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2536,
+      "priceCents": 2545,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1619,
+      "priceCents": 1599,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8991,
+      "priceCents": 8875,
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 360,
+      "priceCents": 358,
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1674,
+      "priceCents": 1651,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1334,
+      "priceCents": 1331,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2179,
+      "priceCents": 2160,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 8970,
+      "priceCents": 8949,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 633,
+      "priceCents": 641,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 25925,
+      "priceCents": 26274,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,31 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10559,
+      "priceCents": 10541,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 13416,
+      "priceCents": 13470,
       "currency": "USD"
     },
-    "PYPL": {
-      "priceCents": 5428,
+    "MAA": {
+      "priceCents": 11843,
       "currency": "USD"
     },
-    "RIOT": {
-      "priceCents": 2162,
+    "MARA": {
+      "priceCents": 1199,
       "currency": "USD"
     },
-    "S": {
-      "priceCents": 2274,
+    "NEGG": {
+      "priceCents": 1323,
       "currency": "USD"
     },
-    "SOFI": {
-      "priceCents": 1591,
+    "NFLX": {
+      "priceCents": 7030,
       "currency": "USD"
     },
-    "SPY": {
-      "priceCents": 76430,
+    "OKE": {
+      "priceCents": 8686,
       "currency": "USD"
     }
   }
