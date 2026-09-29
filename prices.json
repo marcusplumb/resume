@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T23:31:54Z",
+  "updatedAt": "2026-09-29T02:40:48Z",
   "symbols": {
     "AAPL": {
       "priceCents": 33840,
@@ -75,6 +75,26 @@
     },
     "DKS": {
       "priceCents": 13416,
+      "currency": "USD"
+    },
+    "NEGG": {
+      "priceCents": 1304,
+      "currency": "USD"
+    },
+    "NFLX": {
+      "priceCents": 6923,
+      "currency": "USD"
+    },
+    "OKE": {
+      "priceCents": 8862,
+      "currency": "USD"
+    },
+    "PANW": {
+      "priceCents": 39209,
+      "currency": "USD"
+    },
+    "PLCE": {
+      "priceCents": 211,
       "currency": "USD"
     }
   }
