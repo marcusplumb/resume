@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-09-30T00:21:10Z",
+    "updatedAt": "2026-09-30T06:37:54Z",
     "centralEstimate": 34.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 30.68,
@@ -16,7 +16,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-09-30T00:21:10Z",
+    "updatedAt": "2026-09-30T06:37:54Z",
     "centralEstimate": 10.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 8.72,
@@ -31,7 +31,7 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-09-30T00:21:10Z",
+    "updatedAt": "2026-09-30T06:37:54Z",
     "centralEstimate": 49.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 25.45,
@@ -46,7 +46,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-09-30T00:21:10Z",
+    "updatedAt": "2026-09-30T06:37:54Z",
     "centralEstimate": 12.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 23.96,
@@ -61,7 +61,7 @@
   },
   "HUT": {
     "ticker": "HUT",
-    "updatedAt": "2026-09-30T00:21:10Z",
+    "updatedAt": "2026-09-30T06:37:54Z",
     "centralEstimate": 18.0,
     "source": "multiples_midpoint",
     "spot": 96.82,
@@ -73,20 +73,20 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-09-30T00:21:10Z",
-    "centralEstimate": 137.0,
+    "updatedAt": "2026-09-30T06:37:54Z",
+    "centralEstimate": 136.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
-    "spot": 269.65,
+    "spot": 267.29,
     "dcfModel": "FCFE",
-    "compsLow": 138.56,
-    "compsHigh": 312.13,
-    "netCashPerShare": -119.63,
-    "cashPerShare": 8.58,
+    "compsLow": 137.35,
+    "compsHigh": 309.4,
+    "netCashPerShare": -118.58,
+    "cashPerShare": 8.51,
     "dcfBull": 48.97
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-09-30T00:21:10Z",
+    "updatedAt": "2026-09-30T06:37:54Z",
     "centralEstimate": 41.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 70.3,
@@ -101,7 +101,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-09-30T00:21:10Z",
+    "updatedAt": "2026-09-30T06:37:54Z",
     "centralEstimate": 12.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 15.91,
