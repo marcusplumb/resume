@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-01T16:19:58Z",
+  "updatedAt": "2026-10-01T21:04:49Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 33302,
+      "priceCents": 33032,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 6923,
+      "priceCents": 7043,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3039,
+      "priceCents": 3054,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 24915,
+      "priceCents": 24823,
       "currency": "USD"
     },
     "AVB": {
@@ -22,19 +22,19 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 904,
+      "priceCents": 918,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2507,
+      "priceCents": 2546,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1592,
+      "priceCents": 1640,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8824,
+      "priceCents": 8772,
       "currency": "USD"
     },
     "BITF": {
@@ -42,11 +42,59 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1582,
+      "priceCents": 1546,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1288,
+      "priceCents": 1252,
+      "currency": "USD"
+    },
+    "CMCSA": {
+      "priceCents": 2170,
+      "currency": "USD"
+    },
+    "CNXN": {
+      "priceCents": 9257,
+      "currency": "USD"
+    },
+    "CRCT": {
+      "priceCents": 652,
+      "currency": "USD"
+    },
+    "CRWD": {
+      "priceCents": 26609,
+      "currency": "USD"
+    },
+    "CTRA": {
+      "priceCents": 3256,
+      "currency": "USD"
+    },
+    "DIS": {
+      "priceCents": 10136,
+      "currency": "USD"
+    },
+    "DKS": {
+      "priceCents": 13291,
+      "currency": "USD"
+    },
+    "LC": {
+      "priceCents": 1921,
+      "currency": "USD"
+    },
+    "LNG": {
+      "priceCents": 27246,
+      "currency": "USD"
+    },
+    "MAA": {
+      "priceCents": 11639,
+      "currency": "USD"
+    },
+    "MARA": {
+      "priceCents": 1121,
+      "currency": "USD"
+    },
+    "NEGG": {
+      "priceCents": 1233,
       "currency": "USD"
     }
   }
