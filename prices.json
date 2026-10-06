@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-05T12:39:38Z",
+  "updatedAt": "2026-10-06T01:28:08Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 33369,
+      "priceCents": 33289,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7077,
+      "priceCents": 7475,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3026,
+      "priceCents": 3008,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 25152,
+      "priceCents": 25140,
       "currency": "USD"
     },
     "AVB": {
@@ -22,31 +22,31 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 930,
+      "priceCents": 908,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2556,
+      "priceCents": 2600,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1606,
+      "priceCents": 1746,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8797,
+      "priceCents": 8739,
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 362,
+      "priceCents": 345,
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1571,
+      "priceCents": 1548,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1274,
+      "priceCents": 1248,
       "currency": "USD"
     },
     "CMCSA": {
@@ -54,15 +54,15 @@
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 9238,
+      "priceCents": 9240,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 652,
+      "priceCents": 647,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 27004,
+      "priceCents": 27267,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,27 +70,15 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10219,
+      "priceCents": 10361,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 13608,
+      "priceCents": 13713,
       "currency": "USD"
     },
-    "NEGG": {
-      "priceCents": 1149,
-      "currency": "USD"
-    },
-    "NFLX": {
-      "priceCents": 6706,
-      "currency": "USD"
-    },
-    "OKE": {
-      "priceCents": 8788,
-      "currency": "USD"
-    },
-    "PANW": {
-      "priceCents": 40324,
+    "INVH": {
+      "priceCents": 2606,
       "currency": "USD"
     }
   }
