@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-09T17:05:24Z",
+  "updatedAt": "2026-10-09T21:35:52Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 34042,
+      "priceCents": 33664,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7715,
+      "priceCents": 8070,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3049,
+      "priceCents": 3084,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 25406,
+      "priceCents": 26243,
       "currency": "USD"
     },
     "AVB": {
@@ -22,19 +22,19 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 863,
+      "priceCents": 890,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2590,
+      "priceCents": 2551,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1771,
+      "priceCents": 1734,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8840,
+      "priceCents": 8701,
       "currency": "USD"
     },
     "BITF": {
@@ -42,27 +42,27 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1350,
+      "priceCents": 1352,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1063,
+      "priceCents": 1050,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2121,
+      "priceCents": 2066,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 9089,
+      "priceCents": 9281,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 640,
+      "priceCents": 639,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 26301,
+      "priceCents": 27504,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,11 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10702,
+      "priceCents": 10807,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 13463,
+      "priceCents": 13665,
+      "currency": "USD"
+    },
+    "NFLX": {
+      "priceCents": 7030,
+      "currency": "USD"
+    },
+    "OKE": {
+      "priceCents": 8980,
+      "currency": "USD"
+    },
+    "PANW": {
+      "priceCents": 41878,
+      "currency": "USD"
+    },
+    "PLCE": {
+      "priceCents": 142,
+      "currency": "USD"
+    },
+    "PYPL": {
+      "priceCents": 5553,
       "currency": "USD"
     }
   }
