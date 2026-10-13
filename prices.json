@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T20:42:06Z",
+  "updatedAt": "2026-10-13T23:53:09Z",
   "symbols": {
     "AAPL": {
       "priceCents": 34127,
@@ -22,11 +22,11 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 848,
+      "priceCents": 847,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2504,
+      "priceCents": 2503,
       "currency": "USD"
     },
     "BBWI": {
@@ -38,7 +38,7 @@
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 295,
+      "priceCents": 287,
       "currency": "USD"
     },
     "CIFR": {
@@ -74,27 +74,27 @@
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 13756,
+      "priceCents": 13755,
       "currency": "USD"
     },
-    "HOOD": {
-      "priceCents": 11052,
+    "SOFI": {
+      "priceCents": 1524,
       "currency": "USD"
     },
-    "HUT": {
-      "priceCents": 8361,
+    "SPY": {
+      "priceCents": 77801,
       "currency": "USD"
     },
-    "INVH": {
-      "priceCents": 2661,
+    "TRGP": {
+      "priceCents": 29304,
       "currency": "USD"
     },
-    "KMI": {
-      "priceCents": 3344,
+    "UPST": {
+      "priceCents": 2383,
       "currency": "USD"
     },
-    "LC": {
-      "priceCents": 1921,
+    "WBD": {
+      "priceCents": 3095,
       "currency": "USD"
     }
   }
