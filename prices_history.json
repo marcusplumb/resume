@@ -5861,7 +5861,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 8524
+        "priceCents": 8361
       }
     ],
     "BB": [
@@ -7499,7 +7499,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 845
+        "priceCents": 848
       }
     ],
     "AMH": [
@@ -9137,7 +9137,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 3069
+        "priceCents": 3063
       }
     ],
     "SPY": [
@@ -13707,7 +13707,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 2558
+        "priceCents": 2504
       }
     ],
     "BBY": [
@@ -14813,7 +14813,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 8699
+        "priceCents": 8796
       }
     ],
     "CNXN": [
@@ -15919,7 +15919,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 9461
+        "priceCents": 9522
       }
     ],
     "DKS": [
@@ -17025,7 +17025,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 13737
+        "priceCents": 13756
       }
     ],
     "NEGG": [
@@ -19815,7 +19815,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 1741
+        "priceCents": 1800
       }
     ],
     "CRCT": [
@@ -20909,7 +20909,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 648
+        "priceCents": 655
       }
     ],
     "FIVE": [
@@ -24685,7 +24685,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 34097
+        "priceCents": 34127
       }
     ],
     "AFRM": [
@@ -25775,7 +25775,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 7863
+        "priceCents": 7789
       }
     ],
     "AMZN": [
@@ -26865,7 +26865,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 25953
+        "priceCents": 25858
       }
     ],
     "AVB": [
@@ -30135,7 +30135,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 1300
+        "priceCents": 1134
       }
     ],
     "CLSK": [
@@ -31225,7 +31225,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 1030
+        "priceCents": 1015
       }
     ],
     "CMCSA": [
@@ -32315,7 +32315,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 2068
+        "priceCents": 2088
       }
     ],
     "CRWD": [
@@ -33405,7 +33405,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 26301
+        "priceCents": 26121
       }
     ],
     "CTRA": [
@@ -35585,7 +35585,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 10849
+        "priceCents": 10858
       }
     ],
     "EQR": [
@@ -39117,7 +39117,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 10922
+        "priceCents": 11052
       }
     ],
     "INVH": [
@@ -40063,7 +40063,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 2670
+        "priceCents": 2661
       }
     ],
     "KMI": [
@@ -41021,7 +41021,7 @@
       },
       {
         "date": "2026-10-13",
-        "priceCents": 3308
+        "priceCents": 3344
       }
     ],
     "LC": [
@@ -41979,6 +41979,10 @@
       },
       {
         "date": "2026-10-12",
+        "priceCents": 1921
+      },
+      {
+        "date": "2026-10-13",
         "priceCents": 1921
       }
     ],
