@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-14T17:55:26Z",
+  "updatedAt": "2026-10-14T21:04:14Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 34127,
+      "priceCents": 34296,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7789,
+      "priceCents": 7051,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3063,
+      "priceCents": 3064,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 25858,
+      "priceCents": 25408,
       "currency": "USD"
     },
     "AVB": {
@@ -22,19 +22,19 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 847,
+      "priceCents": 822,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2503,
+      "priceCents": 2521,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1800,
+      "priceCents": 1894,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8796,
+      "priceCents": 8909,
       "currency": "USD"
     },
     "BITF": {
@@ -42,27 +42,27 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 1134,
+      "priceCents": 994,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 1015,
+      "priceCents": 922,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2088,
+      "priceCents": 2105,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 9522,
+      "priceCents": 9168,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 655,
+      "priceCents": 649,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 26121,
+      "priceCents": 24929,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,31 +70,7 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10858,
-      "currency": "USD"
-    },
-    "DKS": {
-      "priceCents": 13755,
-      "currency": "USD"
-    },
-    "FIVE": {
-      "priceCents": 21335,
-      "currency": "USD"
-    },
-    "FNKO": {
-      "priceCents": 652,
-      "currency": "USD"
-    },
-    "FTNT": {
-      "priceCents": 19076,
-      "currency": "USD"
-    },
-    "GME": {
-      "priceCents": 2722,
-      "currency": "USD"
-    },
-    "HOOD": {
-      "priceCents": 11052,
+      "priceCents": 10900,
       "currency": "USD"
     }
   }
