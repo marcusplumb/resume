@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-15T19:55:27Z",
+  "updatedAt": "2026-10-15T22:45:16Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 34296,
+      "priceCents": 34200,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7051,
+      "priceCents": 7592,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3064,
+      "priceCents": 3097,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 25408,
+      "priceCents": 25476,
       "currency": "USD"
     },
     "AVB": {
@@ -22,47 +22,47 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 823,
+      "priceCents": 870,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2518,
+      "priceCents": 2610,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1895,
+      "priceCents": 2044,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 8910,
+      "priceCents": 9417,
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 255,
+      "priceCents": 257,
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 994,
+      "priceCents": 1004,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 922,
+      "priceCents": 935,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2105,
+      "priceCents": 2177,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 9168,
+      "priceCents": 9082,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 649,
+      "priceCents": 670,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 24929,
+      "priceCents": 24457,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,31 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 10899,
+      "priceCents": 11068,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 13696,
+      "priceCents": 14084,
       "currency": "USD"
     },
-    "MARA": {
-      "priceCents": 823,
+    "HUT": {
+      "priceCents": 7609,
       "currency": "USD"
     },
-    "NEGG": {
-      "priceCents": 1061,
+    "INVH": {
+      "priceCents": 2680,
       "currency": "USD"
     },
-    "NFLX": {
-      "priceCents": 7057,
+    "KMI": {
+      "priceCents": 3282,
       "currency": "USD"
     },
-    "OKE": {
-      "priceCents": 9197,
+    "LC": {
+      "priceCents": 1921,
       "currency": "USD"
     },
-    "PANW": {
-      "priceCents": 37504,
+    "LNG": {
+      "priceCents": 27915,
       "currency": "USD"
     }
   }
