@@ -1,7 +1,7 @@
 {
   "AMH": {
     "ticker": "AMH",
-    "updatedAt": "2026-10-15T19:04:04Z",
+    "updatedAt": "2026-10-15T22:11:58Z",
     "centralEstimate": 34.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 30.64,
@@ -16,7 +16,7 @@
   },
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-10-15T19:04:04Z",
+    "updatedAt": "2026-10-15T22:11:58Z",
     "centralEstimate": 10.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 8.23,
@@ -31,7 +31,7 @@
   },
   "BBW": {
     "ticker": "BBW",
-    "updatedAt": "2026-10-15T19:04:04Z",
+    "updatedAt": "2026-10-15T22:11:58Z",
     "centralEstimate": 42.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 25.18,
@@ -46,7 +46,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-10-15T19:04:04Z",
+    "updatedAt": "2026-10-15T22:11:58Z",
     "centralEstimate": 13.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 27.22,
@@ -61,7 +61,7 @@
   },
   "HUT": {
     "ticker": "HUT",
-    "updatedAt": "2026-10-15T19:04:04Z",
+    "updatedAt": "2026-10-15T22:11:58Z",
     "centralEstimate": 14.0,
     "source": "multiples_midpoint",
     "spot": 74.87,
@@ -73,7 +73,7 @@
   },
   "LNG": {
     "ticker": "LNG",
-    "updatedAt": "2026-10-15T19:04:04Z",
+    "updatedAt": "2026-10-15T22:11:58Z",
     "centralEstimate": 142.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 279.69,
@@ -86,13 +86,13 @@
   },
   "NFLX": {
     "ticker": "NFLX",
-    "updatedAt": "2026-10-15T19:04:04Z",
+    "updatedAt": "2026-10-15T22:11:58Z",
     "centralEstimate": 41.5,
     "source": "blend(multiples_midpoint, dcf_bull)",
-    "spot": 70.61,
+    "spot": 70.57,
     "dcfModel": "FCFE",
-    "compsLow": 25.09,
-    "compsHigh": 66.65,
+    "compsLow": 25.07,
+    "compsHigh": 66.61,
     "netCashPerShare": -1.17,
     "cashPerShare": 2.65,
     "dcfBase": 29.58,
@@ -101,7 +101,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-10-15T19:04:04Z",
+    "updatedAt": "2026-10-15T22:11:58Z",
     "centralEstimate": 12.0,
     "source": "blend(multiples_midpoint, dcf_bull)",
     "spot": 15.24,
