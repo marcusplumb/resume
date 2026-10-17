@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T18:33:58Z",
+  "updatedAt": "2026-10-17T20:52:40Z",
   "symbols": {
     "AAPL": {
       "priceCents": 34346,
@@ -75,26 +75,6 @@
     },
     "DKS": {
       "priceCents": 14435,
-      "currency": "USD"
-    },
-    "S": {
-      "priceCents": 2158,
-      "currency": "USD"
-    },
-    "SOFI": {
-      "priceCents": 1455,
-      "currency": "USD"
-    },
-    "SPY": {
-      "priceCents": 76325,
-      "currency": "USD"
-    },
-    "TRGP": {
-      "priceCents": 29490,
-      "currency": "USD"
-    },
-    "UPST": {
-      "priceCents": 2356,
       "currency": "USD"
     }
   }
