@@ -1,7 +1,7 @@
 {
   "BB": {
     "ticker": "BB",
-    "updatedAt": "2026-10-21T15:09:03Z",
+    "updatedAt": "2026-10-21T20:04:47Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -344,7 +344,7 @@
   },
   "GME": {
     "ticker": "GME",
-    "updatedAt": "2026-10-21T15:09:03Z",
+    "updatedAt": "2026-10-21T20:04:47Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
@@ -732,7 +732,7 @@
   },
   "SOFI": {
     "ticker": "SOFI",
-    "updatedAt": "2026-10-21T15:09:03Z",
+    "updatedAt": "2026-10-21T20:04:47Z",
     "cashFlowModel": "FCFE",
     "cases": {
       "base": {
