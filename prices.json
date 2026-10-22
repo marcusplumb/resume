@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-22T19:10:50Z",
+  "updatedAt": "2026-10-22T22:16:23Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 34399,
+      "priceCents": 34822,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7351,
+      "priceCents": 7240,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3094,
+      "priceCents": 3192,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 26237,
+      "priceCents": 25038,
       "currency": "USD"
     },
     "AVB": {
@@ -22,15 +22,15 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 941,
+      "priceCents": 859,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2336,
+      "priceCents": 2444,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 2042,
+      "priceCents": 2158,
       "currency": "USD"
     },
     "BBY": {
@@ -42,31 +42,59 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 913,
+      "priceCents": 832,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 875,
+      "priceCents": 815,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2208,
+      "priceCents": 2284,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 8773,
+      "priceCents": 8851,
+      "currency": "USD"
+    },
+    "CRCT": {
+      "priceCents": 641,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 23934,
+      "priceCents": 23794,
       "currency": "USD"
     },
     "CTRA": {
       "priceCents": 3256,
       "currency": "USD"
     },
+    "DIS": {
+      "priceCents": 11312,
+      "currency": "USD"
+    },
     "DKS": {
-      "priceCents": 14197,
+      "priceCents": 14882,
+      "currency": "USD"
+    },
+    "HUT": {
+      "priceCents": 6397,
+      "currency": "USD"
+    },
+    "INVH": {
+      "priceCents": 2754,
+      "currency": "USD"
+    },
+    "KMI": {
+      "priceCents": 3372,
+      "currency": "USD"
+    },
+    "LC": {
+      "priceCents": 1921,
+      "currency": "USD"
+    },
+    "LNG": {
+      "priceCents": 28730,
       "currency": "USD"
     }
   }
