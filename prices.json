@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T15:08:02Z",
+  "updatedAt": "2026-10-22T19:10:50Z",
   "symbols": {
     "AAPL": {
       "priceCents": 34399,
@@ -57,10 +57,6 @@
       "priceCents": 8773,
       "currency": "USD"
     },
-    "CRCT": {
-      "priceCents": 633,
-      "currency": "USD"
-    },
     "CRWD": {
       "priceCents": 23934,
       "currency": "USD"
@@ -69,32 +65,8 @@
       "priceCents": 3256,
       "currency": "USD"
     },
-    "DIS": {
-      "priceCents": 11183,
-      "currency": "USD"
-    },
     "DKS": {
       "priceCents": 14197,
-      "currency": "USD"
-    },
-    "LC": {
-      "priceCents": 1921,
-      "currency": "USD"
-    },
-    "LNG": {
-      "priceCents": 28422,
-      "currency": "USD"
-    },
-    "MAA": {
-      "priceCents": 11768,
-      "currency": "USD"
-    },
-    "MARA": {
-      "priceCents": 779,
-      "currency": "USD"
-    },
-    "NEGG": {
-      "priceCents": 1056,
       "currency": "USD"
     }
   }
