@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T00:44:49Z",
+  "updatedAt": "2026-10-26T05:20:31Z",
   "symbols": {
     "AAPL": {
       "priceCents": 34772,
@@ -77,6 +77,10 @@
       "priceCents": 14467,
       "currency": "USD"
     },
+    "LNG": {
+      "priceCents": 29867,
+      "currency": "USD"
+    },
     "MAA": {
       "priceCents": 11978,
       "currency": "USD"
@@ -91,10 +95,6 @@
     },
     "NFLX": {
       "priceCents": 6585,
-      "currency": "USD"
-    },
-    "OKE": {
-      "priceCents": 9583,
       "currency": "USD"
     }
   }
