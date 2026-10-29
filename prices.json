@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-29T19:12:23Z",
+  "updatedAt": "2026-10-29T23:15:55Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 34383,
+      "priceCents": 34891,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 7332,
+      "priceCents": 7484,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3120,
+      "priceCents": 3156,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 25460,
+      "priceCents": 24379,
       "currency": "USD"
     },
     "AVB": {
@@ -22,79 +22,27 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 940,
+      "priceCents": 919,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2517,
+      "priceCents": 2748,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 2164,
+      "priceCents": 2278,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 9696,
+      "priceCents": 10039,
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 243,
+      "priceCents": 231,
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 887,
-      "currency": "USD"
-    },
-    "CLSK": {
-      "priceCents": 858,
-      "currency": "USD"
-    },
-    "CMCSA": {
-      "priceCents": 2157,
-      "currency": "USD"
-    },
-    "CNXN": {
-      "priceCents": 8650,
-      "currency": "USD"
-    },
-    "CRCT": {
-      "priceCents": 607,
-      "currency": "USD"
-    },
-    "CRWD": {
-      "priceCents": 26666,
-      "currency": "USD"
-    },
-    "CTRA": {
-      "priceCents": 3256,
-      "currency": "USD"
-    },
-    "DIS": {
-      "priceCents": 10904,
-      "currency": "USD"
-    },
-    "DKS": {
-      "priceCents": 13617,
-      "currency": "USD"
-    },
-    "KMI": {
-      "priceCents": 3356,
-      "currency": "USD"
-    },
-    "LC": {
-      "priceCents": 1921,
-      "currency": "USD"
-    },
-    "LNG": {
-      "priceCents": 29777,
-      "currency": "USD"
-    },
-    "MAA": {
-      "priceCents": 11675,
-      "currency": "USD"
-    },
-    "MARA": {
-      "priceCents": 735,
+      "priceCents": 810,
       "currency": "USD"
     }
   }
