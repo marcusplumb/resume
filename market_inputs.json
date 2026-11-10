@@ -2,8 +2,8 @@
   "riskFree": {
     "source": "FRED",
     "series": "DGS5",
-    "valuePct": 4.64,
-    "updatedAt": "2026-11-10T17:42:48Z",
+    "valuePct": 4.67,
+    "updatedAt": "2026-11-10T23:12:37Z",
     "tenor": "5Y"
   },
   "equityRiskPremiumPct": 5.0,
