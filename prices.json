@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T08:49:36Z",
+  "updatedAt": "2026-11-11T16:39:08Z",
   "symbols": {
     "AAPL": {
       "priceCents": 34851,
@@ -77,10 +77,6 @@
       "priceCents": 15000,
       "currency": "USD"
     },
-    "PYPL": {
-      "priceCents": 5878,
-      "currency": "USD"
-    },
     "RIOT": {
       "priceCents": 1808,
       "currency": "USD"
@@ -95,6 +91,10 @@
     },
     "SPY": {
       "priceCents": 74992,
+      "currency": "USD"
+    },
+    "TRGP": {
+      "priceCents": 28132,
       "currency": "USD"
     }
   }
