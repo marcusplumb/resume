@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T22:19:41Z",
+  "updatedAt": "2026-11-11T01:58:30Z",
   "symbols": {
     "AAPL": {
       "priceCents": 34851,
@@ -26,11 +26,11 @@
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 3004,
+      "priceCents": 3009,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 2166,
+      "priceCents": 2165,
       "currency": "USD"
     },
     "BBY": {
@@ -38,7 +38,7 @@
       "currency": "USD"
     },
     "BITF": {
-      "priceCents": 196,
+      "priceCents": 191,
       "currency": "USD"
     },
     "CIFR": {
@@ -70,31 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 11920,
+      "priceCents": 11921,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 15005,
+      "priceCents": 15000,
+      "currency": "USD"
+    },
+    "INVH": {
+      "priceCents": 2709,
+      "currency": "USD"
+    },
+    "KMI": {
+      "priceCents": 3119,
+      "currency": "USD"
+    },
+    "LC": {
+      "priceCents": 1921,
       "currency": "USD"
     },
     "LNG": {
-      "priceCents": 29345,
+      "priceCents": 29349,
       "currency": "USD"
     },
     "MAA": {
-      "priceCents": 11888,
-      "currency": "USD"
-    },
-    "MARA": {
-      "priceCents": 734,
-      "currency": "USD"
-    },
-    "NEGG": {
-      "priceCents": 861,
-      "currency": "USD"
-    },
-    "NFLX": {
-      "priceCents": 6326,
+      "priceCents": 11886,
       "currency": "USD"
     }
   }
