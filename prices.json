@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T11:48:28Z",
+  "updatedAt": "2026-11-12T19:10:04Z",
   "symbols": {
     "AAPL": {
       "priceCents": 35563,
@@ -77,10 +77,6 @@
       "priceCents": 14958,
       "currency": "USD"
     },
-    "KMI": {
-      "priceCents": 3159,
-      "currency": "USD"
-    },
     "LC": {
       "priceCents": 1921,
       "currency": "USD"
@@ -95,6 +91,10 @@
     },
     "MARA": {
       "priceCents": 766,
+      "currency": "USD"
+    },
+    "NEGG": {
+      "priceCents": 848,
       "currency": "USD"
     }
   }
