@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-24T11:37:29Z",
+  "updatedAt": "2026-11-24T21:28:54Z",
   "symbols": {
     "AAPL": {
-      "priceCents": 34908,
+      "priceCents": 35407,
       "currency": "USD"
     },
     "AFRM": {
-      "priceCents": 5841,
+      "priceCents": 5944,
       "currency": "USD"
     },
     "AMH": {
-      "priceCents": 3210,
+      "priceCents": 3280,
       "currency": "USD"
     },
     "AMZN": {
-      "priceCents": 25539,
+      "priceCents": 25229,
       "currency": "USD"
     },
     "AVB": {
@@ -22,19 +22,19 @@
       "currency": "USD"
     },
     "BB": {
-      "priceCents": 837,
+      "priceCents": 842,
       "currency": "USD"
     },
     "BBW": {
-      "priceCents": 2732,
+      "priceCents": 2822,
       "currency": "USD"
     },
     "BBWI": {
-      "priceCents": 1939,
+      "priceCents": 1955,
       "currency": "USD"
     },
     "BBY": {
-      "priceCents": 9700,
+      "priceCents": 9962,
       "currency": "USD"
     },
     "BITF": {
@@ -42,27 +42,27 @@
       "currency": "USD"
     },
     "CIFR": {
-      "priceCents": 620,
+      "priceCents": 552,
       "currency": "USD"
     },
     "CLSK": {
-      "priceCents": 553,
+      "priceCents": 512,
       "currency": "USD"
     },
     "CMCSA": {
-      "priceCents": 2472,
+      "priceCents": 2538,
       "currency": "USD"
     },
     "CNXN": {
-      "priceCents": 8301,
+      "priceCents": 8159,
       "currency": "USD"
     },
     "CRCT": {
-      "priceCents": 874,
+      "priceCents": 875,
       "currency": "USD"
     },
     "CRWD": {
-      "priceCents": 20897,
+      "priceCents": 21086,
       "currency": "USD"
     },
     "CTRA": {
@@ -70,31 +70,31 @@
       "currency": "USD"
     },
     "DIS": {
-      "priceCents": 12027,
+      "priceCents": 12251,
       "currency": "USD"
     },
     "DKS": {
-      "priceCents": 13367,
+      "priceCents": 15319,
       "currency": "USD"
     },
-    "LNG": {
-      "priceCents": 29546,
+    "ESS": {
+      "priceCents": 27561,
       "currency": "USD"
     },
-    "MAA": {
-      "priceCents": 11319,
+    "FIVE": {
+      "priceCents": 22542,
       "currency": "USD"
     },
-    "MARA": {
-      "priceCents": 558,
+    "FNKO": {
+      "priceCents": 591,
       "currency": "USD"
     },
-    "NEGG": {
-      "priceCents": 889,
+    "FTNT": {
+      "priceCents": 13250,
       "currency": "USD"
     },
-    "NFLX": {
-      "priceCents": 5810,
+    "GME": {
+      "priceCents": 2751,
       "currency": "USD"
     }
   }
